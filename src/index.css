@@ -1,13 +1,125 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "react-slideshow-image/dist/styles.css";
+
+.App {
+  text-align: center;
+  direction: rtl;
+}
+@font-face {
+  font-family: "regular";
+  src: url("./components/assets/IRAN\ Sans\ Regular.ttf");
+}
+@font-face {
+  font-family: "navbar";
+  src: url("./components/assets/Yekan.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: regular;
+  font-size: 18px;
+  background: #e6e8ec;
 }
+/* ****************************** */
+
+/* *************navbar*************** */
+.navbarFont {
+  font-family: navbar;
+  background-color: #334456;
+  color: white !important;
+  font-size: 20px;
+  padding: 20px;
+}
+#navbarLogo {
+  border-radius: 50%;
+  width: 75px;
+  height: 70px;
+}
+/* *************end of navbar*************** */
+
+/* *************footer*************** */
+.socials {
+  border: solid 1px;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* *************end of footer*************** */
+
+/* *******************about********************** */
+#aboutImg {
+  width: 100%;
+  height: 60vh;
+  filter: brightness(40%);
+}
+#aboutText {
+  position: absolute;
+  top: 10vh;
+  right: 5vw;
+}
+#aboutImgContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#aboutData {
+  max-width: 80%;
+  margin: 0 auto;
+}
+hr {
+  width: 30%;
+  margin: 10pt 35%;
+  border-top: 3px solid #f48120;
+}
+#aboutData > h2 {
+  padding-top: 20px;
+}
+.serviceContain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 20pt auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .serviceContain {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.services {
+  margin: 0 1rem 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #d2d5dc;
+  border-radius: 8px;
+  height: 100%;
+}
+.serviceImg {
+  width: 100%;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+.serviceImg:hover {
+  transform: scale(1.05);
+}
+#contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.flex {
+  display: flex;
+  margin: 20pt;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.flex > div {
+  margin: 0 1rem 1rem 0.5rem;
+  text-align: center;
+}
+/* *******************end of about********************** */
+.parts{
+  text-align:start;
+}
+
