@@ -15,6 +15,7 @@ function App() {
             <Route path="/profile/:id/*" element={<Profile />} />
             <Route path="/login" element={<Login setter={setUser} />} />*/}
             <Route path="/login" element={<Login/>} /> 
+            <Route path="/signup" element={<Login/>} /> 
             <Route path="/aboutUs" element={<AboutUs/>} /> 
             <Route path="/" exact element={<First />} />
             {/* <Route path="*" element={<NotFound />} /> */}

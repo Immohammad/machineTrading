@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <MDBFooter
       className="bg-dark text-center text-white"
-      style={{ marginTop: "30pt" }}
+      style={{ marginTop: "30pt" ,   fontFamily: 'regular'}}
     >
       <MDBContainer className="p-4 pb-0">
         <section className="mb-4">
@@ -54,7 +54,7 @@ export default function Footer() {
         className="text-center p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        تمامی حقوق متعلق به تریدرزلند می‌باشد.
+        تمامی حقوق این وب‌سایت متعلق به ماشین‌تریدینگ می‌باشد.
       </div>
     </MDBFooter>
   );

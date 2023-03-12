@@ -11,26 +11,25 @@ const Navbars = () => {
     <Navbar sticky="top" expand="sm" collapseOnSelect className="navbarFont">
       <Navbar.Brand className="navbarFont">
         <img src={logo} id="navbarLogo" />{" "}
-        {/* <span style={{ color: "#E31229" , paddingRight:'10px'}}>تریدرزلند</span> */}
       </Navbar.Brand>
 
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav>
-          {/* <NavDropdown
-            title="حسین گوز"
+          <NavDropdown
+            title="حساب کاربری"
             id="nav-dropdown"
             className="navbarFont"
           >
-            <NavDropdown.Item as={Link} to="/dashboard">
-              حساب کاربری
+            <NavDropdown.Item as={Link} to="/login">
+              ثبت نام
             </NavDropdown.Item>
-            <NavDropdown.Item>خروج</NavDropdown.Item>
-          </NavDropdown> */}
+            <NavDropdown.Item>ورود</NavDropdown.Item>
+          </NavDropdown>
 
-          <Nav.Link as={Link} to="/login" className="navbarFont">
+          {/* <Nav.Link as={Link} to="/login" className="navbarFont">
             پروفایل
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link as={Link} to="/" className="navbarFont">
             صفحۀ اصلی
           </Nav.Link>

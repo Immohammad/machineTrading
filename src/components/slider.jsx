@@ -1,9 +1,9 @@
 import React from "react";
 import { Zoom } from "react-slideshow-image";
-import image1 from "./assets/186728_101.jpg";
-import image2 from "./assets/186729_621.jpg";
-import image3 from "./assets/186732_748.jpg";
-import image4 from "./assets/truck.jpg";
+import image1 from "./assets/slider/predict.webp";
+import image2 from "./assets/slider/coin.jpg";
+import image3 from "./assets/slider/gas.jpg";
+import image4 from "./assets/slider/agreement.jpg";
 
 const images = [image1, image2, image3, image4];
 
