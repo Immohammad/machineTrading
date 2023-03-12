@@ -85,7 +85,7 @@ function App() {
 
               <div className="d-flex flex-row align-items-center mb-4">
                 <MDBIcon fas icon="envelope me-3" size="lg" />
-                <MDBInput placeholder="ایمیل" id="form2" type="email" />
+                <MDBInput placeholder="ایمیل یا تلفن همراه" id="form2" type="email" />
               </div>
 
               <div className="d-flex flex-row align-items-center mb-4">
