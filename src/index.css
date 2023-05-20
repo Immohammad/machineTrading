@@ -2,11 +2,17 @@
 
 @font-face {
   font-family: "regular";
-  src: url("./components/assets/fonts/IRAN\ Sans\ Regular.ttf");
+  src: url("./components/assets/fonts/IRANSansRegular.ttf");
 }
 @font-face {
   font-family: "navbar";
   src: url("./components/assets/fonts/Yekan.ttf");
+}
+
+:root {
+  --ourBlue: #334456;
+  --ourRed: #E31228;
+  --ourGreen: #8CC73C;
 }
 
 .App {
@@ -26,10 +32,9 @@ div{
 /* *************navbar*************** */
 .navbarFont {
   font-family: navbar;
-  background-color: #334456;
+  background-color: var(--ourBlue);
   color: white !important;
   font-size: 20px;
-  /* padding: 20px; */
 }
 #navbarLogo {
   border-radius: 50%;
@@ -97,7 +102,6 @@ hr {
 .services {
   margin: 0rem 1rem 0.5rem;
   margin-bottom: 1rem;
-  /* background-color: #d2d5dc; */
   border-radius: 8px;
   height: 100%;
 }
@@ -126,7 +130,11 @@ hr {
   text-align: center;
 }
 /* *******************end of about********************** */
-.parts{
-  text-align:start;
+.parts >*{
+  margin: 0 auto;
+}
+.parts >h3{
+  color: #334456;
+  position: relative;
 }
 

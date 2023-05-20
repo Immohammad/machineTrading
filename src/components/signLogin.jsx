@@ -69,9 +69,9 @@ function App() {
               lg="6"
               className="order-2 order-lg-1 d-flex flex-column align-items-center"
             >
-              <p classNAme="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">
+              {/* <p classNAme="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">
                 ثبت نام
-              </p>
+              </p> */}
 
               <div className="d-flex flex-row align-items-center mb-4 ">
                 <MDBIcon fas icon="user me-3" size="lg" />
