@@ -7,6 +7,7 @@ function Bubble() {
   const [dollar, setDollar] = useState();
   const [gold, setGold] = useState();
   const [sekke, setSekke] = useState();
+  const [result, setResult] = useState();
   // const {
   //   register,
   //   handleSubmit,
@@ -17,7 +18,7 @@ function Bubble() {
     event.preventDefault();
     console.log(6);
     // let result = (data.type * 0.9 * data.dollar * data.gold) / 31.1 + 50000;
-    let result = (type * 0.9 * dollar * gold) / 31.1 + 50000;
+    setResult((type * 0.9 * dollar * gold) / 31.1 + 50000);
     setBubblePercentage((sekke - result) / result);
     console.log(bubblePercentage);
   };
@@ -51,9 +52,11 @@ function Bubble() {
           {/* {errors.sekke && <span>This field is required</span>} */}
         </label>
 
-        <input type="submit" value="محاسبه"/>
+        <input type="submit" value="محاسبه" id="submitSekke"/>
+      {result && <p style={{paddingTop:'30px'}}>ارزش ذاتی سکه برابر {result} است</p>}
+      {bubblePercentage && <p style={{paddingTop:'30px'}}>سکه {bubblePercentage} درصد حباب دارد.</p>}
+      {/* <p style={{paddingTop:'30px'}}>{bubblePercentage}</p> */}
       </form>
-      <p>{bubblePercentage}</p>
     </div>
   );
 }
