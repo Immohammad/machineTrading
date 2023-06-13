@@ -38,7 +38,7 @@ function AboutUs() {
     {
       id: 4,
       email: "eve.holt@reqres.in",
-      name: "علیرضا افروزی",
+      name: "علی شریفی",
       avatar: alireza,
     },
     {
