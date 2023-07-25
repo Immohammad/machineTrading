@@ -140,20 +140,19 @@ hr {
 
 /* *******************form********************** */
 form{
+  /* text-align: center; */
   display: block;
-  text-align: center;
   background-color: white;
   color: black;
   padding: 30px;
-  /* padding-right: 30px;
-  padding-bottom: 20px; */
+  margin: 30px;
   font-weight: bold;
   border-radius: 10px;
   border-style: outset;
 }
 label{
-  display: block;
   /* text-align: right; */
+  display: block;
   margin: 15px;
   width: 100%;
 }

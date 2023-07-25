@@ -53,8 +53,8 @@ function Bubble() {
         </label>
 
         <input type="submit" value="محاسبه" id="submitSekke"/>
-      {result && <p style={{paddingTop:'30px'}}>ارزش ذاتی سکه برابر {result} است</p>}
-      {bubblePercentage && <p style={{paddingTop:'30px'}}>سکه {bubblePercentage} درصد حباب دارد.</p>}
+      {result && <p style={{paddingTop:'30px'}}>ارزش ذاتی سکه برابر {parseInt(result,10)} است</p>}
+      {bubblePercentage && <p style={{paddingTop:'30px'}}>سکه {bubblePercentage.toFixed(2)} درصد حباب دارد.</p>}
       {/* <p style={{paddingTop:'30px'}}>{bubblePercentage}</p> */}
       </form>
     </div>

@@ -14,6 +14,7 @@ import alireza from "./assets/team/alireza.jpg";
 import mehdi from "./assets/team/mehdi.jpg";
 import reza from "./assets/team/reza.jpg";
 import adel from "./assets/team/adel.jpg";
+import afroozi from "./assets/team/afroozi.jpg";
 
 function AboutUs() {
   const cards = [
@@ -58,6 +59,12 @@ function AboutUs() {
       email: "charles.morris@reqres.in",
       name: "عادل ریوندی",
       avatar: adel,
+    },
+    {
+      id: 8,
+      email: "afroozi@reqres.in",
+      name: "علیرضا افروزی",
+      avatar: afroozi,
     },
   ];
 
