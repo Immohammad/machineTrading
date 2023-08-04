@@ -27,6 +27,26 @@ body {
 div{
   text-align:center;
 }
+.loginButtons {
+  max-width: fit-content;
+  width: 50%;
+  background-color: var(--ourGreen);
+  font-size: 25px;
+  cursor: pointer;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  display: inline;
+}
+.loginButtons:hover {
+  background-color: var(--ourGreen);
+  box-shadow: 0px 15px 20px var(--ourGreen);
+  transform: translateY(-7px);
+}
 /* ****************************** */
 
 /* *************navbar*************** */
@@ -40,6 +60,7 @@ div{
   border-radius: 50%;
   width: 75px;
   height: 70px;
+  margin-left: 40px;
 }
 #nav-dropdown {
   color: white !important;
@@ -138,23 +159,24 @@ hr {
   position: relative;
 }
 
-/* *******************form********************** */
-form{
-  /* text-align: center; */
+/* *******************bubble********************** */
+#bubbleForm{
+  text-align: center;
   display: block;
   background-color: white;
   color: black;
-  padding: 30px;
+  padding: 40px;
   margin: 30px;
   font-weight: bold;
   border-radius: 10px;
   border-style: outset;
+  width: fit-content;
 }
-label{
-  /* text-align: right; */
+#bubbleForm >label{
   display: block;
+  text-align: right;
   margin: 15px;
-  width: 100%;
+  /* width: 100%; */
 }
 #submitSekke{
   max-width: 50%;
@@ -171,3 +193,54 @@ label{
   transition: all 0.3s ease 0s;
   display: inline;
 }
+.bubbleInput{
+  margin: 10px;
+}
+/* *******************end of bubble********************** */
+
+/* *******************login********************** */
+#formLogin {
+  /* height: 80vh; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* width: 80%; */
+  place-items: center;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  #formLogin {
+      grid-template-columns: 1fr;
+  }
+}
+
+#loginImage {
+  width: 100%;
+}
+
+#formLogin form {
+  text-align: center;
+}
+
+#formLogin input {
+  border-radius: 15px;
+  margin: 10px;
+  padding: 5px;
+  height: 35px;
+  width: 250px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+#formLogin input[type=text], input[type=password] {
+  background: #EBEDEC;
+  border: 1px solid #B0B0B0;
+}
+
+/* #formLogin input[type=submit] {
+  background-color: var(--ourGreen);
+  border: none;
+  color: white;
+} */
+/* *******************end of login********************** */

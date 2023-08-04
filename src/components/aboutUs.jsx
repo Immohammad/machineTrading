@@ -76,7 +76,7 @@ function AboutUs() {
           بسپرس به هوش مصنوعی <br />{" "}
           <span style={{ fontWeight: "normal", fontSize: "20px" }}>
             {" "}
-            همین الان نصب کن
+            همین الان شروع کن
           </span>
         </h1>
       </div>

@@ -2,60 +2,101 @@ import { React, useState } from "react";
 import { useForm } from "react-hook-form";
 
 function Bubble() {
-  const [bubblePercentage, setBubblePercentage] = useState(0);
   const [type, setType] = useState(1);
+
   const [dollar, setDollar] = useState();
+  const [dollarComma, setDollarComma] = useState();
+
   const [gold, setGold] = useState();
+  const [goldComma, setGoldComma] = useState();
+
   const [sekke, setSekke] = useState();
+  const [sekkeComma, setSekkeComma] = useState();
+
   const [result, setResult] = useState();
-  // const {
-  //   register,
-  //   handleSubmit,
-  //   formState: { errors } ,
-  // } = useForm();
+
+  const [bubblePercentage, setBubblePercentage] = useState();
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(6);
-    // let result = (data.type * 0.9 * data.dollar * data.gold) / 31.1 + 50000;
-    setResult((type * 0.9 * dollar * gold) / 31.1 + 50000);
-    setBubblePercentage((sekke - result) / result);
-    console.log(bubblePercentage);
+    const newResult = (type * 0.9 * dollar * gold) / 31.1 + 50000;
+    const newBubblePercentage = ((sekke - newResult) * 100) / newResult;
+    setResult(newResult);
+    setBubblePercentage(newBubblePercentage);
   };
 
+  const handleChange = (event, setter, setterComma) => {
+    const rawInput = event.target.value.replace(/\D/g, ""); // Remove non-numeric characters
+    setter(rawInput);
+
+    const formatted = rawInput.replace(/\B(?=(\d{3})+(?!\d))/g, ","); // Add commas every three digits
+    setterComma(formatted);
+  };
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <form onSubmit={handleSubmit} id="bubbleForm">
         <select value={type} onChange={(event) => setType(event.target.value)}>
           <option value="1">سکه گرمی</option>
           <option value="2.033">ربع سکه</option>
           <option value="4.066">نیم سکه</option>
           <option value="8.133">تمام سکه</option>
+          <option value="8.133">سکه امامی</option>
         </select>
         <label>
-          قیمت دلار:
-          <input type="number" value={dollar} onChange={(event) => setDollar(event.target.value)} required/>
-          {/* {errors.dollar && <span>This field is required</span>} */}
-        </label>
-        <label>
-          قیمت انس طلای جهانی:
-          <input type="number" value={gold} onChange={(event) => setGold(event.target.value)} required />
-          {/* {errors.gold && <span>This field is required</span>} */}
-        </label>
-        <label>
-          قیمت روز سکه:
+          قیمت دلار (تومان):
+          <br />
           <input
-            type="number"
-            value={sekke} onChange={(event) => setSekke(event.target.value)}
-            // ref={register({ required: true })}
+            type="text"
+            className="bubbleInput"
+            value={dollarComma}
+            onChange={(event) => handleChange(event, setDollar, setDollarComma)}
+            required
           />
-          {/* {errors.sekke && <span>This field is required</span>} */}
+        </label>
+        <label>
+          قیمت انس طلای جهانی (تومان):
+          <br />
+          <input
+            type="text"
+            className="bubbleInput"
+            value={goldComma}
+            onChange={(event) => handleChange(event, setGold, setGoldComma)}
+            required
+          />
+        </label>
+        <label>
+          قیمت روز سکه (تومان):
+          <br />
+          <input
+            type="text"
+            className="bubbleInput"
+            value={sekkeComma}
+            onChange={(event) => handleChange(event, setSekke, setSekkeComma)}
+            required
+          />
         </label>
 
-        <input type="submit" value="محاسبه" id="submitSekke"/>
-      {result && <p style={{paddingTop:'30px'}}>ارزش ذاتی سکه برابر {parseInt(result,10)} است</p>}
-      {bubblePercentage && <p style={{paddingTop:'30px'}}>سکه {bubblePercentage.toFixed(2)} درصد حباب دارد.</p>}
-      {/* <p style={{paddingTop:'30px'}}>{bubblePercentage}</p> */}
+        <input type="submit" value="محاسبه" id="submitSekke" />
+        <br />
+        {result && (
+          <p style={{ paddingTop: "30px" }}>
+            ارزش ذاتی سکه برابر {parseInt(result, 10).toLocaleString()} تومان
+            است
+          </p>
+        )}
+        {bubblePercentage && (
+          <p style={{ paddingTop: "30px" }}>
+            سکه {bubblePercentage.toFixed(2)} درصد حباب دارد.
+          </p>
+        )}
+        {/* <p st
+        yle={{paddingTop:'30px'}}>{bubblePercentage}</p> */}
       </form>
     </div>
   );

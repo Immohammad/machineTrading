@@ -16,7 +16,7 @@ const Navbars = () => {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav>
-          <NavDropdown
+          {/* <NavDropdown
             title="حساب کاربری"
             id="nav-dropdown"
             className="navbarFont"
@@ -25,11 +25,21 @@ const Navbars = () => {
               ثبت نام
             </NavDropdown.Item>
             <NavDropdown.Item>ورود</NavDropdown.Item>
-          </NavDropdown>
+          </NavDropdown> */}
 
           {/* <Nav.Link as={Link} to="/login" className="navbarFont">
             پروفایل
           </Nav.Link> */}
+          {localStorage.getItem('token') ? (
+            <Nav.Link as={Link} to="/dashboard" className="navbarFont">
+              حساب کاربری
+            </Nav.Link>
+          ) : (
+            <Nav.Link as={Link} to="/login" className="navbarFont">
+              ورود
+            </Nav.Link>
+          )}
+
           <Nav.Link as={Link} to="/" className="navbarFont">
             صفحۀ اصلی
           </Nav.Link>
@@ -38,7 +48,7 @@ const Navbars = () => {
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="https://www.youtube.com/@traders_land_ir4581"
+            to="https://www.youtube.com/@traders_land_ir"
             className="navbarFont"
             target="_blank"
             rel="noopener noreferrer"

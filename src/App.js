@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbars from './components/navbars';
-import Login from './components/signLogin';
+import Signup from './components/signLogin';
+import Login from './components/login';
 import First from './components/firstPage';
 import AboutUs from './components/aboutUs';
+import Dashboard from './components/dashboard';
 
 function App() {
   return (
@@ -11,14 +13,14 @@ function App() {
       <Router>
           <Navbars />
           <Routes>
-            {/* <Route path="/dashboard/*" element={<Dashboard />} />
-            <Route path="/profile/:id/*" element={<Profile />} />
-            <Route path="/login" element={<Login setter={setUser} />} />*/}
+            {/*<Route path="/profile/:id/*" element={<Profile />} />
+            <Route path="/login" element={<Login setter={setUser} />} />
+             <Route path="/signup" element={<Signup/>} />  */}
+            {/* <Route path="*" element={<NotFound />} /> */}
+            <Route path="/dashboard/*" element={<Dashboard />} />
             <Route path="/login" element={<Login/>} /> 
-            <Route path="/signup" element={<Login/>} /> 
             <Route path="/aboutUs" element={<AboutUs/>} /> 
             <Route path="/" exact element={<First />} />
-            {/* <Route path="*" element={<NotFound />} /> */}
           </Routes>
         </Router>
     </div>
