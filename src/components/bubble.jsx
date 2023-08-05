@@ -92,7 +92,7 @@ function Bubble() {
         )}
         {bubblePercentage && (
           <p style={{ paddingTop: "30px" }}>
-            سکه {bubblePercentage.toFixed(2)} درصد حباب دارد.
+            سکه {bubblePercentage.toFixed(2)} درصد ({parseInt((sekke-result), 10).toLocaleString()} تومان) حباب دارد.
           </p>
         )}
         {/* <p st
