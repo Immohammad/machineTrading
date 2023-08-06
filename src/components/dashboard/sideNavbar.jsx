@@ -51,7 +51,7 @@ function SideNavbar() {
             // className={(navData) => (navData.isActive ? "activeClicked" : "")}
             className='disabled-item'
           >
-            <CDBSidebarMenuItem icon="chart-line">بنیادی</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem icon="book">بنیادی</CDBSidebarMenuItem>
           </NavLink>
         </CDBSidebarMenu>
       </CDBSidebarContent>

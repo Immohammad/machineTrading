@@ -11,8 +11,8 @@
 
 :root {
   --ourBlue: #334456;
-  --ourRed: #E31228;
-  --ourGreen: #8CC73C;
+  --ourRed: #e31228;
+  --ourGreen: #8cc73c;
 }
 
 .App {
@@ -24,8 +24,8 @@ body {
   font-size: 18px;
   background: #e6e8ec;
 }
-div{
-  text-align:center;
+div {
+  text-align: center;
 }
 .loginButtons {
   max-width: fit-content;
@@ -151,16 +151,16 @@ hr {
   text-align: center;
 }
 /* *******************end of about********************** */
-.parts >*{
+.parts > * {
   margin: 0 auto;
 }
-.parts >h3{
+.parts > h3 {
   color: #334456;
   position: relative;
 }
 
 /* *******************bubble********************** */
-#bubbleForm{
+#bubbleForm {
   text-align: center;
   display: block;
   background-color: white;
@@ -172,13 +172,13 @@ hr {
   border-style: outset;
   width: fit-content;
 }
-#bubbleForm >label{
+#bubbleForm > label {
   display: block;
   text-align: right;
   margin: 15px;
   /* width: 100%; */
 }
-#submitSekke{
+#submitSekke {
   max-width: 50%;
   width: 50%;
   background-color: #027ea1;
@@ -193,7 +193,7 @@ hr {
   transition: all 0.3s ease 0s;
   display: inline;
 }
-.bubbleInput{
+.bubbleInput {
   margin: 10px;
 }
 /* *******************end of bubble********************** */
@@ -210,7 +210,7 @@ hr {
 
 @media only screen and (max-width: 900px) {
   #formLogin {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -233,9 +233,10 @@ hr {
   font-size: 18px;
 }
 
-#formLogin input[type=text], input[type=password] {
-  background: #EBEDEC;
-  border: 1px solid #B0B0B0;
+#formLogin input[type="text"],
+input[type="password"] {
+  background: #ebedec;
+  border: 1px solid #b0b0b0;
 }
 
 /* #formLogin input[type=submit] {
@@ -270,25 +271,58 @@ hr {
   /* background-color: var(--ourGreen); */
   height: 90vh;
   overflow: scroll initial;
-}
-.content {
-  padding: 15px;
-  flex-grow: 1;
+  position: fixed; /*Fixes the position */
+  top: 95px; /* Height of the navbar */
+  right: 0;
 }
 
-.activeClicked *{
+.activeClicked * {
   color: black;
   pointer-events: none;
   cursor: pointer;
   border-radius: 5px;
 }
-.activeClicked{
+.activeClicked {
   opacity: 1;
   font-weight: bold;
 }
 .disabled-item {
-  pointer-events: none;  /*prevent any mouse interaction */
+  pointer-events: none; /*prevent any mouse interaction */
   opacity: 0.5; /*make it semi-transparent */
-  cursor: not-allowed;  /*show a not-allowed cursor when hovered */
+  cursor: not-allowed; /*show a not-allowed cursor when hovered */
 }
+
+.content {
+  padding: 60px;
+  /* padding-right: 1000px; */
+  /* margin: 90px; */
+  /* flex-grow: 1; */
+  text-align: center;
+  overflow-x: auto;  /*Allows scrolling on small screens */
+}
+.content > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#boardTable {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  border-radius: 2px;
+  border: 1px solid black;
+}
+tr {
+  border: 5px solid black;
+}
+tr:hover {
+  background-color: #f5f5f5; /* Highlight row on hover */
+}
+th,
+td {
+  padding: 10px; /* Padding inside cells */
+}
+
+th {
+  background-color: #f2f2f2; /* Background color for headers */
+}
+
 /* *******************end of dashboard********************** */

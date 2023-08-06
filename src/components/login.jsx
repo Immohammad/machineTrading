@@ -16,7 +16,7 @@ function Login() {
       .then(function (response) {
         localStorage.setItem("token", response.data.token);
         localStorage.setItem("userName", userName);
-        window.location = "/";
+        window.location = "/dashboard";
       })
       .catch(function () {
         // NotificationManager.warning("نام کاربری یا رمز عبور نادرست است");
