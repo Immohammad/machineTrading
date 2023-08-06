@@ -244,3 +244,51 @@ hr {
   color: white;
 } */
 /* *******************end of login********************** */
+
+/* *******************dashboard********************** */
+
+/* .sidebar {
+  width: 200px;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  background-color: #f0f0f0;
+} */
+.dashApp {
+  display: flex;
+}
+#profileSidebar {
+  /* background-color: var(--ourGreen); */
+  height: 90vh;
+  overflow: scroll initial;
+}
+.content {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+.activeClicked *{
+  color: black;
+  pointer-events: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.activeClicked{
+  opacity: 1;
+  font-weight: bold;
+}
+.disabled-item {
+  pointer-events: none;  /*prevent any mouse interaction */
+  opacity: 0.5; /*make it semi-transparent */
+  cursor: not-allowed;  /*show a not-allowed cursor when hovered */
+}
+/* *******************end of dashboard********************** */

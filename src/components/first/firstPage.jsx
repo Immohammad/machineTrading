@@ -1,7 +1,7 @@
 import React from "react";
-import Slider from "./slider";
+import Slider from "../slider";
 import "react-slideshow-image/dist/styles.css";
-import Footer from "./footer";
+import Footer from "../footer";
 import FearAndGreed from "./fearAndGreed";
 import Bubble from "./bubble";
 
