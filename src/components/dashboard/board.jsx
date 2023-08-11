@@ -8,13 +8,55 @@ function Tablo() {
   const sortedData = Object.fromEntries(filteredData);
 
   const [stocks, setStocks] = useState(sortedData);
+
+  const [search, setSearch] = useState();
+  function handleSearch(event) {
+    event.preventDefault();
+    if (!search) {
+      setStocks(sortedData);
+    } else {
+      setStocks(
+        Object.fromEntries(
+          Object.entries(sortedData).filter(([key, value]) =>
+            key.includes(search)
+          )
+        )
+      );
+    }
+  }
+
   useEffect(() => {
     console.log(data);
   }, []);
 
   return (
     <div>
-      <p>تاریخ امتیازدهی: 1402/05/18</p>
+      <p>تاریخ امتیازدهی: 1402/05/17</p>
+      <form
+        // className="form-inline my-2 my-lg-0"
+        // id="searchForm"
+        onSubmit={handleSearch}
+        style={{ display: "inline"}}
+      >
+        <input
+          // className="form-control mr-sm-2"
+          value={search}
+          onChange={(event) => setSearch(event.target.value)}
+          type="search"
+          style={{
+            borderRadius: "7px",
+            display: "inline",
+             margin:'15px'
+          }}
+          placeholder="جستجوی نام سهم"
+        />
+        <button
+          type="submit"
+          style={{ backgroundColor: "white", borderRadius: "7px" }}
+        >
+          جستجو
+        </button>
+      </form>
       <table id="boardTable">
         <thead>
           <tr>
@@ -47,7 +89,7 @@ function Tablo() {
                     ? { backgroundColor: "#9b870c" }
                     : value.sum >= -75
                     ? { backgroundColor: "orange" }
-                    : {backgroundColor: "red"}
+                    : { backgroundColor: "red" }
                 }
               >
                 <td>{index + 1}</td>
