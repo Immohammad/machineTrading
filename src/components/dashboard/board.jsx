@@ -14,6 +14,7 @@ function Tablo() {
 
   return (
     <div>
+      <p>تاریخ امتیازدهی: 1402/05/18</p>
       <table id="boardTable">
         <thead>
           <tr>
@@ -22,8 +23,8 @@ function Tablo() {
             <th>حجم مشکوک</th>
             <th>پول هوشمند</th>
             <th>پول حقیقی</th>
-            <th>قیمت پایانی به آخرین</th>
-            <th>تجمع</th>
+            {/* <th>قیمت پایانی به آخرین</th> */}
+            {/* <th>تجمع</th> */}
             <th>قدرت خرید</th>
             <th>مجموع</th>
           </tr>
@@ -31,14 +32,31 @@ function Tablo() {
         <tbody>
           {stocks &&
             Object.entries(stocks).map(([key, value], index) => (
-              <tr key={key} style={(value>50)?{color:'red'}:{}}>
+              <tr
+                key={key}
+                style={
+                  value.sum >= 75
+                    ? { backgroundColor: "#0B6623" }
+                    : value.sum >= 50
+                    ? { backgroundColor: "#8cc73c" }
+                    : value.sum >= 25
+                    ? { backgroundColor: "#87CEEB" }
+                    : value.sum >= -25
+                    ? { backgroundColor: "#808080" }
+                    : value.sum >= -50
+                    ? { backgroundColor: "#9b870c" }
+                    : value.sum >= -75
+                    ? { backgroundColor: "orange" }
+                    : {backgroundColor: "red"}
+                }
+              >
                 <td>{index + 1}</td>
                 <td>{key}</td>
                 <td>{value.suspicios_volume}</td>
                 <td>{value.intel_money}</td>
                 <td>{value.real_money}</td>
-                <td>{value.final_last}</td>
-                <td>{value.accumulation}</td>
+                {/* <td>{value.final_last}</td> */}
+                {/* <td>{value.accumulation}</td> */}
                 <td>{value.buy_power}</td>
                 <td>{value.sum}</td>
               </tr>
