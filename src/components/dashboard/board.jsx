@@ -31,7 +31,7 @@ function Tablo() {
 
   return (
     <div>
-      <p>تاریخ امتیازدهی: 1402/05/17</p>
+      <p>تاریخ امتیازدهی: 1402/05/24</p>
       <form
         // className="form-inline my-2 my-lg-0"
         // id="searchForm"
