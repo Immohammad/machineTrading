@@ -4,7 +4,7 @@ import { Chart } from "react-google-charts";
 function getData() {
   return [
     ["Label", "Value"],
-    [" ", 26],
+    [" ", 14],
   ];
 }
 
