@@ -60,7 +60,7 @@ function Bubble() {
           />
         </label>
         <label>
-          قیمت انس طلای جهانی (تومان):
+          قیمت انس طلای جهانی (دلار):
           <br />
           <input
             type="text"
