@@ -1,74 +1,83 @@
 export const data = {
     "خساپا": {
-        "suspicios_volume": 3,
+        "suspicios_volume": 0,
         "intel_money": 0,
         "real_money": 0,
-        "final_last": -3,
-        "accumulation": 10,
+        "final_last": 3,
+        "accumulation": -10,
         "buy_power": -10,
-        "sum": 0
+        "sum": -17
     },
     "فملی": {
-        "suspicios_volume": 3,
-        "intel_money": 0,
+        "suspicios_volume": 1,
+        "intel_money": -20,
         "real_money": -6,
-        "final_last": -3,
+        "final_last": 0,
         "accumulation": 10,
-        "buy_power": -25,
-        "sum": -21
+        "buy_power": -20,
+        "sum": -35
+    },
+    "پترول": {
+        "suspicios_volume": 1,
+        "intel_money": 0,
+        "real_money": 0,
+        "final_last": 0,
+        "accumulation": -10,
+        "buy_power": -5,
+        "sum": -14
+    },
+    "خودرو": {
+        "suspicios_volume": 0,
+        "intel_money": 0,
+        "real_money": 0,
+        "final_last": 3,
+        "accumulation": -6,
+        "buy_power": -10,
+        "sum": -13
     },
     "فولاد": {
         "suspicios_volume": 1,
         "intel_money": 0,
-        "real_money": 0,
+        "real_money": -6,
         "final_last": 0,
         "accumulation": 6,
         "buy_power": -20,
-        "sum": -13
+        "sum": -19
     },
     "شبندر": {
-        "suspicios_volume": 1,
-        "intel_money": -20,
+        "suspicios_volume": 0,
+        "intel_money": 0,
         "real_money": 0,
-        "final_last": 0,
-        "accumulation": 10,
-        "buy_power": -15,
-        "sum": -24
-    },
-    "پترول": {
-        "suspicios_volume": 3,
-        "intel_money": 0,
-        "real_money": 2,
-        "final_last": -3,
-        "accumulation": -3,
-        "buy_power": -15,
-        "sum": -16
-    },
-    "شستا": {
-        "suspicios_volume": 3,
-        "intel_money": 0,
-        "real_money": 2,
-        "final_last": -3,
-        "accumulation": 10,
-        "buy_power": -15,
-        "sum": -3
+        "final_last": 3,
+        "accumulation": -10,
+        "buy_power": -10,
+        "sum": -17
     },
     "فخوز": {
-        "suspicios_volume": 3,
-        "intel_money": 0,
+        "suspicios_volume": 0,
+        "intel_money": -20,
         "real_money": 0,
-        "final_last": -3,
-        "accumulation": 10,
-        "buy_power": -5,
-        "sum": 5
+        "final_last": 3,
+        "accumulation": -10,
+        "buy_power": -15,
+        "sum": -42
     },
     "وغدیر": {
-        "suspicios_volume": -1,
+        "suspicios_volume": 0,
         "intel_money": 0,
-        "real_money": 2,
+        "real_money": -6,
+        "final_last": 3,
+        "accumulation": 10,
+        "buy_power": -15,
+        "sum": -8
+    },
+    "شستا": {
+        "suspicios_volume": 1,
+        "intel_money": 0,
+        "real_money": 0,
         "final_last": 0,
-        "accumulation": 0,
-        "buy_power": 5,
-        "sum": 6
+        "accumulation": 10,
+        "buy_power": -15,
+        "sum": -4
     }
 }
