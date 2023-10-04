@@ -87,19 +87,19 @@ function AboutUs() {
         <div className="serviceContain">
           <div className="services">
             <img src={ai1} alt="service1" className="serviceImg" />
-            <p><b>هوش مصنوعی</b><br /> تحلیل بازار با دانش هوش مصنوعی</p>
+            <p><b>هوش مصنوعی</b><br /> پیش‌بینی روند آیندۀ نمودار سهم توسط هوش مصنوعی و یادگیری ماشین</p>
           </div>
           <div className="services">
             <img src={board} alt="service2" className="serviceImg" />
-            <p><b>تابلوخوانی</b><br /> تحلیل بازار با تابلوخوانی</p>
+            <p><b>تابلوخوانی</b><br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین پارامترهای تابلوخوانی توسط هوش مصنوعی</p>
           </div>
           <div className="services">
             <img src={technical1} alt="service3" className="serviceImg" />
-            <p><b>تحلیل تکنیکال</b><br /> تحلیل بازار با تحلیل تکنیکال</p>
+            <p><b>تحلیل تکنیکال</b><br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین شاخصه‌های تحلیل تکنیکال با الگوریتم </p>
           </div>
           <div className="services">
             <img src={base} alt="service3" className="serviceImg" />
-            <p><b>تحلیل بنیادی</b><br /> تحلیل بازار با تحلیل بنیادی</p>
+            <p><b>تحلیل بنیادی</b><br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین شاخصه‌های تحلیل بنیادی با هوش مصنوعی + سامانۀ کدال پلاس</p>
           </div>
         </div>
         <h2>تیم ما</h2>

@@ -131,6 +131,7 @@ hr {
   transition: all 0.4s ease;
   overflow: hidden;
   max-height: 260px;
+  margin: 10px;
 }
 .serviceImg:hover {
   transform: scale(1.05);
@@ -312,6 +313,7 @@ input[type="password"] {
   margin-right: auto;
   margin-left: auto;
   color: white;
+  width: 80%;
   /* border-collapse: collapse; */
 }
 #boardTable tr {

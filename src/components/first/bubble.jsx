@@ -45,8 +45,8 @@ function Bubble() {
           <option value="1">سکه گرمی</option>
           <option value="2.033">ربع سکه</option>
           <option value="4.066">نیم سکه</option>
-          <option value="8.133">تمام سکه</option>
-          <option value="8.133">سکه امامی</option>
+          <option value="8.133">تمام سکه و سکه امامی</option>
+          {/* <option value="8.133">سکه امامی</option> */}
         </select>
         <label>
           قیمت دلار (تومان):
