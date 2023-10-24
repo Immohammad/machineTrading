@@ -2,12 +2,12 @@ import logo from "./assets/logo.png";
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { MDBFooter, MDBContainer, MDBIcon } from "mdb-react-ui-kit";
-// import { toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 export default function Footer() {
   //i used mdbreact library for creating this footer.
   const handleClick = () => {
-    // toast("هنوز شبکه اجتماعی نزدیم :)");
+    toast("هنوز شبکه اجتماعی نزدیم :)");
   };
   return (
     <MDBFooter

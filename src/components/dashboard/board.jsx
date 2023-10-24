@@ -4,6 +4,7 @@ import axios from "axios";
 import moment from "jalali-moment";
 import { DatePicker } from "zaman";
 import loading from "../assets/loading.gif";
+import { toast } from "react-toastify";
 // import DatePicker from 'react-datepicker'
 // import 'react-datepicker/dist/react-datepicker.css'
 // import { DatePicker } from "@kasraghoreyshi/datepicker";
@@ -19,11 +20,12 @@ function Tablo() {
   // const sortedData = Object.fromEntries(filteredData);
 
   const [stocks, setStocks] = useState();
-  // let wholeBoard;
   const [wholeBoard, setWholeBoard] = useState(null);
 
   const [search, setSearch] = useState('');
   const [requestedDate, setRequestedDate] = useState(moment(new Date()).subtract(3, 'month').format("jYYYY-jMM-jDD"));
+
+  const token = localStorage.getItem('token')
 
   useEffect(() => {
     // console.log(dataStatic);
@@ -31,22 +33,21 @@ function Tablo() {
     axios
       .get(`http://45.129.36.165:3000/api/board/getAll?date=${boardDate}`, {
         headers: {
-          authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTc2NDY4MjF9.LjWeNrOnzlZ6qZefM91kgjtzz_hKc4KIrK9RW3y6TcQ",
+          authorization: token,
         }
       })
       .then((response) => {
         // const sorted = response.data.slice().sort((a, b) => b.sum - a.sum);
         // wholeBoard = response.data
         setWholeBoard(response.data)
-        // console.log(wholeBoard.find(item => item.stockTitle === "سکارون"))
         setStocks(response.data)
         console.log(response.data)
         console.log(boardDate)
       })
       .catch((error) => {
+        toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
         console.log("xz")
         console.log(boardDate)
-        // NotificationManager.warning("بارگیری دانشکده‌ها با خطا مواجه شد");
       });
   }, []);
 
@@ -74,12 +75,11 @@ function Tablo() {
   // );
 
   function handleDate(event) {
-    // event.preventDefault();
     setRequestedDate(moment(event.value).subtract(3, 'month').format("jYYYY-jMM-jDD"))
     axios
       .get(`http://45.129.36.165:3000/api/board/getAll?date=${requestedDate}`, {
         headers: {
-          authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTc2NDY4MjF9.LjWeNrOnzlZ6qZefM91kgjtzz_hKc4KIrK9RW3y6TcQ",
+          authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTgxNzg2NTF9.z7mYgj_WbW8sIZHFg_3pKH_V5yaV5DvrT9BEAIjOK3E",
         }
       })
       .then((response) => {
@@ -89,9 +89,9 @@ function Tablo() {
         console.log(requestedDate)
       })
       .catch((error) => {
+        toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
         console.log("xz")
         console.log(requestedDate)
-        // NotificationManager.warning("بارگیری دانشکده‌ها با خطا مواجه شد");
       });
   }
 
@@ -116,13 +116,10 @@ function Tablo() {
       {/* <DatePicker onChange={(event) =>console.log(event.value)} autoUpdate={true}/> */}
       <p>تاریخ امتیازدهی: {requestedDate}</p>
       <form
-        // className="form-inline my-2 my-lg-0"
-        // id="searchForm"
         onSubmit={handleSearch}
         style={{ display: "inline" }}
       >
         <input
-          // className="form-control mr-sm-2"
           value={search}
           onChange={(event) => setSearch(event.target.value)}
           // onChange={handleSearch}

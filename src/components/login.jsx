@@ -1,33 +1,72 @@
 import React, { useState } from "react";
 import axios from "axios";
 import loginImage from "./assets/logo.png";
+import { toast } from "react-toastify";
 
 function Login() {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
-  function handleSubmit(event) {
+
+  const [fullname, setFullname] = useState("");
+  const [phonenumber, setPhonenumber] = useState("");
+  const [referrerCode, setReferrerCode] = useState("");
+
+  const showSignupForm = () => {
+    document.getElementById("loginForm").style.display = "none";
+    document.getElementById("signupForm").style.display = "block";
+  };
+
+  const showLoginForm = () => {
+    document.getElementById("signupForm").style.display = "none";
+    document.getElementById("loginForm").style.display = "block";
+  };
+
+  function handleLogin(event) {
     event.preventDefault();
     const currentUser = {
-        email: userName,
-        password: password,
-      };
-      axios
-      .post("https://api-machinetrading.onrender.com/login", currentUser)
+      email: userName,
+      password: password,
+    };
+    axios
+      .post("http://45.129.36.165:3000/login", currentUser)
       .then(function (response) {
         localStorage.setItem("token", response.data.token);
         localStorage.setItem("userName", userName);
         window.location = "/dashboard";
       })
       .catch(function () {
-        // NotificationManager.warning("نام کاربری یا رمز عبور نادرست است");
+        toast("نام کاربری یا رمز عبور نادرست است");
       });
   }
+
+  function handleRegister(event) {
+    event.preventDefault();
+    const newUser = {
+      email: userName,
+      password: password,
+      fullname: fullname,
+      phonenumber: phonenumber,
+      referrerCode: referrerCode,
+    };
+    axios
+      .post("http://45.129.36.165:3000/register", newUser)
+      .then(function (response) {
+        toast("ثبت نام با موفقیت انجام شد")
+        setTimeout(() => {
+          handleLogin(event);
+        }, 1000);
+      })
+      .catch(function (error) {
+        toast("مشکلی پیش آمد");
+        console.log(error)
+      });
+  }
+
   return (
     <div id="formLogin">
       <div style={{ margin: "0 auto" }}>
-        {/* <img src={loginImage} alt="Login" id="loginImage"/> */}
-        <form onSubmit={handleSubmit}>
-          <h4 style={{ margin: "30px" }}>نام کاربری و رمز عبور را وارد کنید</h4>
+        <form onSubmit={handleLogin} id="loginForm">
+          <h5 style={{ margin: "30px" }}>سلام. نام کاربری و رمز عبور خود را وارد کنید</h5>
           <input
             type="text"
             value={userName}
@@ -44,13 +83,73 @@ function Login() {
             required
           />
           <br />
-          <br />
           <input
             type="submit"
             value="ورود به حساب کاربری"
             className="loginButtons"
           />
-          {/* <p>Forget password? <span style={{color:"#FAAF40"}}>Create new</span></p> */}
+          <p>در صورتی که تا کنون ثبت نام نکرده‌اید ابتدا  <span className="changeLoginButtons" onClick={showSignupForm}>ثبت نام کنید.</span></p>
+        </form>
+
+        {/* Signup form that is shown when user wants */}
+        <form onSubmit={handleRegister} id="signupForm" style={{ display: "none" }}>
+          <label>
+            نام کاربری
+            <input
+              type="text"
+              value={userName}
+              onChange={(event) => setUserName(event.target.value)}
+              required
+            />
+          </label>
+          <br />
+          <label>
+            رمز ورود
+            <input
+              type="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              required
+            />
+          </label>
+          <br />
+          <label>
+            نام و نام خانوادگی
+            <input
+              type="text"
+              value={fullname}
+              onChange={(event) => setFullname(event.target.value)}
+              required
+            />
+          </label>
+          <br />
+          <label>
+            شماره موبایل
+            <input
+              type="text"
+              value={phonenumber}
+              onChange={(event) => setPhonenumber(event.target.value)}
+              required
+            />
+          </label>
+          <br />
+          <label>
+            کد معرف
+            <input
+              type="text"
+              value={referrerCode}
+              onChange={(event) => setReferrerCode(event.target.value)}
+              required
+            />
+          </label>
+          <br />
+          <input
+            type="submit"
+            value="ثبت نام"
+            className="loginButtons"
+          />
+          <br />
+          <p>در صورتی که قبلا ثبت نام کرده‌اید <span className="changeLoginButtons" onClick={showLoginForm}>وارد شوید.</span></p>
         </form>
       </div>
       <img src={loginImage} alt="Login" style={{ width: "30vw" }} />

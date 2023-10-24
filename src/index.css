@@ -33,14 +33,15 @@ div {
   background-color: var(--ourGreen);
   font-size: 25px;
   cursor: pointer;
-  letter-spacing: 2.5px;
-  font-weight: 500;
+  letter-spacing: 2px;
+  font-weight: 400;
   color: white;
   border: none;
-  border-radius: 45px;
+  border-radius: 35px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   display: inline;
+  /* padding: 70px; */
 }
 .loginButtons:hover {
   background-color: var(--ourGreen);
@@ -244,6 +245,13 @@ input[type="password"] {
   border: 1px solid #b0b0b0;
 }
 
+.changeLoginButtons{
+  color: white;
+  background-color: var(--ourBlue);
+  border-radius: 7px;
+  padding: 5px;
+  cursor: pointer;
+}
 /* #formLogin input[type=submit] {
   background-color: var(--ourGreen);
   border: none;

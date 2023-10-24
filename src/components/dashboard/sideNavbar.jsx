@@ -10,6 +10,11 @@ import { NavLink } from "react-router-dom";
 import { FaBeer } from 'react-icons/fa';
 
 function SideNavbar() {
+  function handleLogout() {
+    localStorage.removeItem("token");
+    localStorage.removeItem("userName");
+    // window.location = "/";
+  }
   return (
     <CDBSidebar id="profileSidebar">
       <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>} />
@@ -52,6 +57,15 @@ function SideNavbar() {
             className='disabled-item'
           >
             <CDBSidebarMenuItem icon="book">بنیادی</CDBSidebarMenuItem>
+          </NavLink>
+          <NavLink
+            exact
+            to="/"
+            // className={(navData) => (navData.isActive ? "activeClicked" : "")}
+            // className='activeClicked'
+            onClick={handleLogout}
+          >
+            <CDBSidebarMenuItem icon="columns">خروج</CDBSidebarMenuItem>
           </NavLink>
         </CDBSidebarMenu>
       </CDBSidebarContent>
