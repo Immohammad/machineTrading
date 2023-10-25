@@ -36,7 +36,7 @@ const Navbars = () => {
             </Nav.Link>
           ) : (
             <Nav.Link as={Link} to="/login" className="navbarFont">
-              ورود
+              ورود یا ثبت نام
             </Nav.Link>
           )}
 

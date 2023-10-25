@@ -24,6 +24,11 @@ body {
   font-size: 18px;
   background: #e6e8ec;
 }
+*{
+  font-size: 19px;
+  font-family: regular;
+font-weight: normal;
+}
 div {
   text-align: center;
 }
@@ -59,7 +64,7 @@ div {
   font-family: navbar;
   background-color: var(--ourBlue);
   color: white !important;
-  font-size: 20px;
+  font-size: 20px !important;
 }
 #navbarLogo {
   border-radius: 50%;

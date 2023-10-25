@@ -1,8 +1,0 @@
-[[redirects]]
-from = "http://machinetrading.ir/*"
-to = "https://machinetrading.ir/:splat"
-status = 301
-
-from = "/*"
-to = "/index.html"
-status = 200
