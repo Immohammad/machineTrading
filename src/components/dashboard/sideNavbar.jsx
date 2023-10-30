@@ -16,7 +16,7 @@ function SideNavbar() {
     // window.location = "/";
   }
   return (
-    <CDBSidebar id="profileSidebar">
+    <CDBSidebar id="profileSidebar" toggled>
       <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>} />
       <CDBSidebarContent className="sidebar-content">
         <CDBSidebarMenu>
@@ -33,7 +33,7 @@ function SideNavbar() {
           //   };
           // }}
           >
-            <CDBSidebarMenuItem icon="square">تابلوخوانی</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem icon="clipboard-list">تابلوخوانی</CDBSidebarMenuItem>
           </NavLink>
           <NavLink
             exact
@@ -65,7 +65,7 @@ function SideNavbar() {
             // className='activeClicked'
             onClick={handleLogout}
           >
-            <CDBSidebarMenuItem icon="columns">خروج</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem icon="power-off">خروج</CDBSidebarMenuItem>
           </NavLink>
         </CDBSidebarMenu>
       </CDBSidebarContent>

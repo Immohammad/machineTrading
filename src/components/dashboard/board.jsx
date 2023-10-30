@@ -79,7 +79,7 @@ function Tablo() {
     axios
       .get(`http://45.129.36.165:3000/api/board/getAll?date=${requestedDate}`, {
         headers: {
-          authorization: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTgxNzg2NTF9.z7mYgj_WbW8sIZHFg_3pKH_V5yaV5DvrT9BEAIjOK3E",
+          authorization: token,
         }
       })
       .then((response) => {
