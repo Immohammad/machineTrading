@@ -66,7 +66,10 @@ function Login() {
     <div id="formLogin">
       <div style={{ margin: "0 auto" }}>
         <form onSubmit={handleLogin} id="loginForm">
-          <h5 style={{ margin: "30px" }}>سلام. نام کاربری و رمز عبور خود را وارد کنید</h5>
+          <h4 style={{ margin: "30px", color: "#334456" }}>ورود</h4>
+          <label>
+            نام کاربری
+          </label>
           <input
             type="text"
             value={userName}
@@ -75,6 +78,9 @@ function Login() {
             required
           />
           <br />
+          <label>
+            رمز ورود
+          </label>
           <input
             type="password"
             value={password}
@@ -88,68 +94,61 @@ function Login() {
             value="ورود به حساب کاربری"
             className="loginButtons"
           />
-          <p>در صورتی که تا کنون ثبت نام نکرده‌اید ابتدا  <span className="changeLoginButtons" onClick={showSignupForm}>ثبت نام کنید.</span></p>
+          <p style={{ marginTop: "20px" }}>در صورتی که تا کنون ثبت نام نکرده‌اید ابتدا  <span className="changeLoginButtons" onClick={showSignupForm}>ثبت نام کنید.</span></p>
         </form>
 
         {/* Signup form that is shown when user wants */}
         <form onSubmit={handleRegister} id="signupForm" style={{ display: "none" }}>
+          <h4 style={{ margin: "30px", color: "#334456" }}>ثبت نام</h4>
           <label>
             نام کاربری
-            <input
-              type="text"
-              value={userName}
-              onChange={(event) => setUserName(event.target.value)}
-              required
-            />
           </label>
-          <br />
+          <input
+            type="text"
+            value={userName}
+            onChange={(event) => setUserName(event.target.value)}
+            required
+          />
           <label>
             رمز ورود
-            <input
-              type="password"
-              value={password}
-              onChange={(event) => setPassword(event.target.value)}
-              required
-            />
           </label>
-          <br />
+          <input
+            type="password"
+            value={password}
+            onChange={(event) => setPassword(event.target.value)}
+            required
+          />
           <label>
-            نام و نام خانوادگی
-            <input
-              type="text"
-              value={fullname}
-              onChange={(event) => setFullname(event.target.value)}
-              required
-            />
-          </label>
-          <br />
+            نام و نام خانوادگی</label>
+          <input
+            type="text"
+            value={fullname}
+            onChange={(event) => setFullname(event.target.value)}
+            required
+          />
           <label>
-            شماره موبایل
-            <input
-              type="text"
-              value={phonenumber}
-              onChange={(event) => setPhonenumber(event.target.value)}
-              required
-            />
-          </label>
-          <br />
+            شماره موبایل</label>
+          <input
+            type="text"
+            value={phonenumber}
+            onChange={(event) => setPhonenumber(event.target.value)}
+            required
+          />
+
           <label>
-            کد معرف
-            <input
-              type="text"
-              value={referrerCode}
-              onChange={(event) => setReferrerCode(event.target.value)}
-              required
-            />
-          </label>
-          <br />
+            کد معرف</label>
+          <input
+            type="text"
+            value={referrerCode}
+            onChange={(event) => setReferrerCode(event.target.value)}
+            required
+          />
           <input
             type="submit"
             value="ثبت نام"
             className="loginButtons"
           />
-          <br />
-          <p>در صورتی که قبلا ثبت نام کرده‌اید <span className="changeLoginButtons" onClick={showLoginForm}>وارد شوید.</span></p>
+          <p style={{ marginTop: "20px" }}>در صورتی که قبلا ثبت نام کرده‌اید <span className="changeLoginButtons" onClick={showLoginForm}>وارد شوید.</span></p>
         </form>
       </div>
       <img src={loginImage} alt="Login" style={{ width: "30vw" }} />

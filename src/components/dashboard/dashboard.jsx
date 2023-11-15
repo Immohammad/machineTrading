@@ -5,6 +5,7 @@ import Technical from "./technical";
 import Fundamental from "./fundamental";
 import SideNavbar from "./sideNavbar";
 import Predict from "./predict";
+import InitialDashboard from "./initialDashboard";
 
 function Dashboard() {
   return (
@@ -12,6 +13,7 @@ function Dashboard() {
       <SideNavbar />
       <div className="container justify-content-center content">
         <Routes>
+          <Route path="" exact element={<InitialDashboard />} />
           <Route path="board" element={<Board />} />
           <Route path="predict" element={<Predict />} />
           <Route path="technical" element={<Technical />} />

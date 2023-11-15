@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { data as dataStatic } from "./tabloData";
 import axios from "axios";
 import moment from "jalali-moment";
 import { DatePicker } from "zaman";
 import loading from "../assets/loading.gif";
 import { toast } from "react-toastify";
+// import { data as dataStatic } from "./tabloData";
 // import DatePicker from 'react-datepicker'
 // import 'react-datepicker/dist/react-datepicker.css'
 // import { DatePicker } from "@kasraghoreyshi/datepicker";
@@ -122,7 +122,6 @@ function Tablo() {
         <input
           value={search}
           onChange={(event) => setSearch(event.target.value)}
-          // onChange={handleSearch}
           type="search"
           style={{
             borderRadius: "7px",
@@ -138,61 +137,78 @@ function Tablo() {
           جستجو
         </button>
       </form>
-      <table id="boardTable">
-        <thead>
-          <tr>
-            <th>رتبه</th>
-            <th>سهم</th>
-            <th>حجم مشکوک</th>
-            <th>پول هوشمند</th>
-            <th>پول حقیقی</th>
-            {/* <th>قیمت پایانی به آخرین</th> */}
-            {/* <th>تجمع</th> */}
-            <th>قدرت خرید</th>
-            <th>مجموع</th>
-          </tr>
-        </thead>
-        <tbody>
+      <div style={{ display: "inline" }}>
+        <label style={{ margin: "30px" }}>
+          فیلتر بر اساس صنعت:{" "}
+          <select
+            value=""
+            // onChange={(event) => setManager(event.target.value)}
+            style={{ display: "inline" }}
+          >
+            <option value="">همه</option>
+            <option value="Professor">خودرویی</option>
+            <option value="Student">چند رشته ای صنعتی</option>
+            <option value="Company">مواد غذایی</option>
+          </select>
+        </label>
+      </div>
 
-          {stocks ?
-            (stocks.map((item, index) => (
-              <tr
-                key={index}
-                style={
-                  item.sum >= 75
-                    ? { backgroundColor: "#0B6623" }
-                    : item.sum >= 50
-                      ? { backgroundColor: "#8cc73c" }
-                      : item.sum >= 25
-                        ? { backgroundColor: "#87CEEB" }
-                        : item.sum >= -25
-                          ? { backgroundColor: "#808080" }
-                          : item.sum >= -50
-                            ? { backgroundColor: "#9b870c" }
-                            : item.sum >= -75
-                              ? { backgroundColor: "orange" }
-                              : { backgroundColor: "red" }
-                }
-              >
-                <td>{index + 1}</td>
-                <td>{item.stockTitle}</td>
-                <td>{item.suspicios_volume}</td>
-                <td>{item.intel_money}</td>
-                <td>{item.real_money}</td>
-                {/* <td>{value.final_last}</td> */}
-                {/* <td>{value.accumulation}</td> */}
-                <td>{item.buy_power}</td>
-                <td>{item.sum}</td>
-              </tr>
-            ))) : (
-              <tr>
-                <td colSpan={6}><img src={loading} className="loadingGif" /></td>
-              </tr>
-            )
-          }
+      <div className="tablesContainer">
+        <table className="boardTable">
+          <thead>
+            <tr>
+              <th>رتبه</th>
+              <th>سهم</th>
+              <th>حجم مشکوک</th>
+              <th>پول هوشمند</th>
+              <th>پول حقیقی</th>
+              {/* <th>قیمت پایانی به آخرین</th> */}
+              {/* <th>تجمع</th> */}
+              <th>قدرت خرید</th>
+              <th>مجموع</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            {stocks ?
+              (stocks.map((item, index) => (
+                <tr
+                  key={index}
+                  style={
+                    item.sum >= 75
+                      ? { backgroundColor: "#0B6623" }
+                      : item.sum >= 50
+                        ? { backgroundColor: "#8cc73c" }
+                        : item.sum >= 25
+                          ? { backgroundColor: "#87CEEB" }
+                          : item.sum >= -25
+                            ? { backgroundColor: "#808080" }
+                            : item.sum >= -50
+                              ? { backgroundColor: "#9b870c" }
+                              : item.sum >= -75
+                                ? { backgroundColor: "orange" }
+                                : { backgroundColor: "red" }
+                  }
+                >
+                  <td style={{ fontWeight: "bold" }}>{index + 1}</td>
+                  <td style={{ fontWeight: "bold" }}>{item.stockTitle}</td>
+                  <td>{item.suspicios_volume}</td>
+                  <td>{item.intel_money}</td>
+                  <td>{item.real_money}</td>
+                  {/* <td>{value.final_last}</td> */}
+                  {/* <td>{value.accumulation}</td> */}
+                  <td>{item.buy_power}</td>
+                  <td style={{ fontWeight: "bold" }}>{item.sum}</td>
+                </tr>
+              ))) : (
+                <tr>
+                  <td colSpan={6}><img src={loading} className="loadingGif" /></td>
+                </tr>
+              )
+            }
 
 
-          {/* {stocks &&
+            {/* {stocks &&
             Object.entries(stocks).map(([key, value], index) => (
               <tr
                 key={key}
@@ -222,8 +238,9 @@ function Tablo() {
               </tr>
             ))} */}
 
-        </tbody>
-      </table>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

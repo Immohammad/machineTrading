@@ -6,7 +6,7 @@ import {
   CDBSidebarMenu,
   CDBSidebarMenuItem,
 } from "cdbreact";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { FaBeer } from 'react-icons/fa';
 
 function SideNavbar() {
@@ -15,6 +15,7 @@ function SideNavbar() {
     localStorage.removeItem("userName");
     // window.location = "/";
   }
+  const location = useLocation();
   return (
     <CDBSidebar id="profileSidebar" toggled>
       <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>} />
@@ -22,16 +23,17 @@ function SideNavbar() {
         <CDBSidebarMenu>
           <NavLink
             exact
+            to="/dashboard"
+            className={`${location.pathname === '/dashboard' ? 'activeClicked' : ''}`}
+          >
+            <CDBSidebarMenuItem icon="home">داشبورد</CDBSidebarMenuItem>
+          </NavLink>
+          <NavLink
+            exact
             to="/dashboard/board"
             className={(navData) =>
               navData.isActive ? "activeClicked" : ""
             }
-          // style={({ isActive, isPending }) => {
-          //   return {
-          //     fontWeight: isActive ? "bold" : "",
-          //     color: isPending ? "blue" : "white",
-          //   };
-          // }}
           >
             <CDBSidebarMenuItem icon="clipboard-list">تابلوخوانی</CDBSidebarMenuItem>
           </NavLink>
@@ -47,7 +49,7 @@ function SideNavbar() {
             to="/dashboard/technical"
             // className={(navData) => (navData.isActive ? "activeClicked" : "")}
             className='disabled-item'
-            >
+          >
             <CDBSidebarMenuItem icon="ruler">تکنیکال</CDBSidebarMenuItem>
           </NavLink>
           <NavLink

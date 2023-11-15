@@ -69,9 +69,17 @@ div {
 /* *************navbar*************** */
 .navbarFont {
   font-family: navbar;
+  font-size: 20px !important;
   background-color: var(--ourBlue);
   color: white !important;
+}
+
+.navbarFontActive {
+  font-family: navbar;
   font-size: 20px !important;
+  background-color: white;
+  color: var(--ourBlue) !important;
+  border-radius: 10px;
 }
 
 #navbarLogo {
@@ -122,7 +130,7 @@ div {
   margin: 0 auto;
 }
 
-hr {
+#aboutData hr {
   width: 30%;
   margin: 10pt 35%;
   border-top: 3px solid #f48120;
@@ -186,6 +194,8 @@ hr {
 }
 
 /* *******************end of about********************** */
+
+/* *******************first page********************** */
 .parts>* {
   margin: 0 auto;
 }
@@ -194,6 +204,8 @@ hr {
   color: #334456;
   position: relative;
 }
+
+/* *******************end of first page********************** */
 
 /* *******************bubble********************** */
 #bubbleForm {
@@ -240,7 +252,6 @@ hr {
 
 /* *******************login********************** */
 #formLogin {
-  /* height: 80vh; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* width: 80%; */
@@ -258,16 +269,22 @@ hr {
   width: 100%;
 }
 
-#formLogin form {
-  text-align: center;
+#formLogin label {
+  text-align: start;
+  display: block;
+  width: 100%;
 }
+
+/* #formLogin input[type="submit"]{
+  text-align: center;
+} */
 
 #formLogin input {
   border-radius: 15px;
   margin: 10px;
   padding: 5px;
   height: 35px;
-  width: 250px;
+  width: 100%;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -287,31 +304,9 @@ input[type="password"] {
   cursor: pointer;
 }
 
-/* #formLogin input[type=submit] {
-  background-color: var(--ourGreen);
-  border: none;
-  color: white;
-} */
 /* *******************end of login********************** */
 
 /* *******************dashboard********************** */
-
-/* .sidebar {
-  width: 200px;
-  padding: 15px;
-  border-right: 1px solid #ddd;
-}
-
-.sidebar a {
-  display: block;
-  padding: 5px;
-  text-decoration: none;
-  color: #333;
-}
-
-.sidebar a:hover {
-  background-color: #f0f0f0;
-} */
 .dashApp {
   display: flex;
 }
@@ -345,17 +340,12 @@ input[type="password"] {
   opacity: 0.5;
   /*make it semi-transparent */
   cursor: not-allowed;
-  /*show a not-allowed cursor when hovered */
 }
 
 .content {
   padding: 60px;
-  /* padding-right: 1000px; */
-  /* margin: 90px; */
-  /* flex-grow: 1; */
   text-align: center;
   overflow-x: auto;
-  /*Allows scrolling on small screens */
 }
 
 .content>* {
@@ -363,33 +353,94 @@ input[type="password"] {
   margin-right: auto;
 }
 
-#boardTable {
+/* *******************initial dashboard********************** */
+#dashboardProfile {
+  background-color: gray;
+  width: 100%;
+  color: white;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  border-radius: 8px;
+}
+
+/* #dashboardProfile td {
+  border: 1px solid black
+} */
+
+.servicesDashboard {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 10px;
+}
+
+.servicesDashboard>button {
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+}
+
+.servicesDashboard>button:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 800px) {
+  .servicesDashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* *******************initial dashboard********************** */
+
+/* *******************board********************** */
+.tablesContainer {
+  height: 70vh;
+  overflow-y: auto;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.boardTable {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   border: 1px solid black;
-  margin-right: auto;
-  margin-left: auto;
   color: white;
-  width: 80%;
-  /* border-collapse: collapse; */
+  width: 100%;
 }
 
-#boardTable tr {
+.boardTable thead {
+  position: sticky;
+  top: -5px;
+  border: 1px solid black
+}
+
+.boardTable th {
+  position: sticky;
+  top: 0
+}
+
+.boardTable tr {
   border: 1px solid black;
 }
 
-#boardTable tr:hover {
-  background-color: #f5f5f5;
+.boardTable tr:hover {
+  background-color: #dbd8d8;
 }
 
-#boardTable th,
-#boardTable td {
+.boardTable th,
+.boardTable td {
   padding: 10px;
 }
 
-#boardTable th {
+.boardTable th {
   background-color: #f2f2f2;
   color: #000;
+  font-weight: bold;
 }
+
+/* *******************end of board********************** */
 
 /* *******************end of dashboard********************** */
