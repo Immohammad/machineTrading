@@ -4,7 +4,7 @@ import { Chart } from "react-google-charts";
 function getData() {
   return [
     ["Label", "Value"],
-    [" ", 22],
+    ["شاخص ترس و طمع", 22],
   ];
 }
 
@@ -21,24 +21,26 @@ const options = {
 function FearAndGreed() {
   const [data, setData] = useState(getData);
 
-//   useEffect(() => {
-//     const id = setInterval(() => {
-//       setData(getData());
-//     }, 3000);
+  //   useEffect(() => {
+  //     const id = setInterval(() => {
+  //       setData(getData());
+  //     }, 3000);
 
-//     return () => {
-//       clearInterval(id);
-//     };
-//   });
+  //     return () => {
+  //       clearInterval(id);
+  //     };
+  //   });
 
   return (
-    <Chart
-      chartType="Gauge"
-      width='400px'
-      height="400px"
-      data={data}
-      options={options}
-    />
+    <div style={{ marginRight: 'auto', marginLeft: 'auto' }}>
+      <Chart
+        chartType="Gauge"
+        width='400px'
+        height="400px"
+        data={data}
+        options={options}
+      />
+    </div>
   );
 }
 

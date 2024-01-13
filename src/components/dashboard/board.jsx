@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BASE_URL from '../variables.js';
+
 import moment from "jalali-moment";
 import { DatePicker } from "zaman";
 import loading from "../assets/loading.gif";
@@ -11,7 +13,6 @@ import { toast } from "react-toastify";
 // import "@kasraghoreyshi/calendar/styles.css";
 // import "@kasraghoreyshi/datepicker/styles.css";
 
-
 function Tablo() {
   // const filteredData = Object.entries(dataStatic).filter(
   //   ([key]) => !/\d/.test(key)
@@ -22,34 +23,77 @@ function Tablo() {
   const [stocks, setStocks] = useState();
   const [wholeBoard, setWholeBoard] = useState(null);
 
-  const [search, setSearch] = useState('');
-  const [requestedDate, setRequestedDate] = useState(moment(new Date()).subtract(3, 'month').format("jYYYY-jMM-jDD"));
+  const [search, setSearch] = useState("");
+  const [requestedDate, setRequestedDate] = useState(
+    moment(new Date()).subtract(3, "month").format("jYYYY-jMM-jDD")
+  );
 
-  const token = localStorage.getItem('token')
+  const token = localStorage.getItem("token");
 
   useEffect(() => {
     // console.log(dataStatic);
-    const boardDate = moment(new Date()).subtract(3, 'month').format("jYYYY-jMM-jDD");
+    const boardDate = moment(new Date())
+      .subtract(3, "month")
+      .format("jYYYY-jMM-jDD");
     axios
-      .get(`http://45.129.36.165:3000/api/board/getAll?date=${boardDate}`, {
+      .get(`${BASE_URL}/api/board/getAll?date=${boardDate}`, {
         headers: {
           authorization: token,
-        }
+        },
       })
       .then((response) => {
         // const sorted = response.data.slice().sort((a, b) => b.sum - a.sum);
         // wholeBoard = response.data
-        setWholeBoard(response.data)
-        setStocks(response.data)
-        console.log(response.data)
-        console.log(boardDate)
+        // console.log(response.data)
+        setWholeBoard(response.data);
+        setStocks(response.data);
+        console.log(boardDate);
       })
       .catch((error) => {
-        toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
-        console.log("xz")
-        console.log(boardDate)
+        if (error.response.status == 401) {
+          localStorage.removeItem("userName");
+          localStorage.removeItem("token");
+          toast("به دلیل گذشت زمان باید دوباره وارد حساب خود شوید.");
+          setTimeout(() => {
+            window.location = "/";
+          }, 1000);
+        } else {
+          toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
+          console.log(boardDate);
+        }
       });
   }, []);
+
+  function handleDate(event) {
+    setRequestedDate(
+      moment(event.value).subtract(3, "month").format("jYYYY-jMM-jDD")
+    );
+    axios
+      .get(`${BASE_URL}/api/board/getAll?date=${requestedDate}`, {
+        headers: {
+          authorization: token,
+        },
+      })
+      .then((response) => {
+        setWholeBoard(response.data);
+        setStocks(response.data);
+        console.log(response.data);
+        console.log(requestedDate);
+      })
+      .catch((error) => {
+        if (error.response.status == 401) {
+          localStorage.removeItem("userName");
+          localStorage.removeItem("token");
+          toast("به دلیل گذشت زمان باید دوباره وارد حساب خود شوید.");
+          setTimeout(() => {
+            window.location = "/";
+          }, 1000);
+        } else {
+          toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
+          console.log(requestedDate);
+        }
+      });
+  }
 
   function handleSearch(event) {
     event.preventDefault();
@@ -60,39 +104,11 @@ function Tablo() {
     } else {
       // console.log('no')
       // console.log(foundItems)
-      const foundItems = wholeBoard.filter(item => item.stockTitle.includes(search));
-      setStocks(
-        foundItems
+      const foundItems = wholeBoard.filter((item) =>
+        item.stockTitle.includes(search)
       );
+      setStocks(foundItems);
     }
-  }
-  // setStocks(
-  //   Object.fromEntries(
-  //     Object.entries(sortedData).filter(([key, value]) =>
-  //       key.includes(search)
-  //     )
-  //   )
-  // );
-
-  function handleDate(event) {
-    setRequestedDate(moment(event.value).subtract(3, 'month').format("jYYYY-jMM-jDD"))
-    axios
-      .get(`http://45.129.36.165:3000/api/board/getAll?date=${requestedDate}`, {
-        headers: {
-          authorization: token,
-        }
-      })
-      .then((response) => {
-        setWholeBoard(response.data)
-        setStocks(response.data)
-        console.log(response.data)
-        console.log(requestedDate)
-      })
-      .catch((error) => {
-        toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
-        console.log("xz")
-        console.log(requestedDate)
-      });
   }
 
   return (
@@ -107,18 +123,14 @@ function Tablo() {
       {/* <DatePicker onChange={(event) =>console.log(event.value)}/> */}
       <DatePicker
         onChange={(event) => {
-          console.log(moment(event.value).format("jYYYY-jMM-jDD"))
-          handleDate(event)
-        }
-        }
+          console.log(moment(event.value).format("jYYYY-jMM-jDD"));
+          handleDate(event);
+        }}
         defaultValue={new Date()}
       />
       {/* <DatePicker onChange={(event) =>console.log(event.value)} autoUpdate={true}/> */}
       <p>تاریخ امتیازدهی: {requestedDate}</p>
-      <form
-        onSubmit={handleSearch}
-        style={{ display: "inline" }}
-      >
+      <form onSubmit={handleSearch} style={{ display: "inline" }}>
         <input
           value={search}
           onChange={(event) => setSearch(event.target.value)}
@@ -162,32 +174,29 @@ function Tablo() {
               <th>حجم مشکوک</th>
               <th>پول هوشمند</th>
               <th>پول حقیقی</th>
-              {/* <th>قیمت پایانی به آخرین</th> */}
-              {/* <th>تجمع</th> */}
               <th>قدرت خرید</th>
               <th>مجموع</th>
             </tr>
           </thead>
           <tbody>
-
-            {stocks ?
-              (stocks.map((item, index) => (
+            {stocks ? (
+              stocks.map((item, index) => (
                 <tr
                   key={index}
                   style={
                     item.sum >= 75
                       ? { backgroundColor: "#0B6623" }
                       : item.sum >= 50
-                        ? { backgroundColor: "#8cc73c" }
-                        : item.sum >= 25
-                          ? { backgroundColor: "#87CEEB" }
-                          : item.sum >= -25
-                            ? { backgroundColor: "#808080" }
-                            : item.sum >= -50
-                              ? { backgroundColor: "#9b870c" }
-                              : item.sum >= -75
-                                ? { backgroundColor: "orange" }
-                                : { backgroundColor: "red" }
+                      ? { backgroundColor: "#8cc73c" }
+                      : item.sum >= 25
+                      ? { backgroundColor: "#87CEEB" }
+                      : item.sum >= -25
+                      ? { backgroundColor: "#808080" }
+                      : item.sum >= -50
+                      ? { backgroundColor: "#9b870c" }
+                      : item.sum >= -75
+                      ? { backgroundColor: "orange" }
+                      : { backgroundColor: "red" }
                   }
                 >
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
@@ -195,49 +204,17 @@ function Tablo() {
                   <td>{item.suspicios_volume}</td>
                   <td>{item.intel_money}</td>
                   <td>{item.real_money}</td>
-                  {/* <td>{value.final_last}</td> */}
-                  {/* <td>{value.accumulation}</td> */}
                   <td>{item.buy_power}</td>
                   <td style={{ fontWeight: "bold" }}>{item.sum}</td>
                 </tr>
-              ))) : (
-                <tr>
-                  <td colSpan={6}><img src={loading} className="loadingGif" /></td>
-                </tr>
-              )
-            }
-
-
-            {/* {stocks &&
-            Object.entries(stocks).map(([key, value], index) => (
-              <tr
-                key={key}
-                style={
-                  value.sum >= 75
-                    ? { backgroundColor: "#0B6623" }
-                    : value.sum >= 50
-                      ? { backgroundColor: "#8cc73c" }
-                      : value.sum >= 25
-                        ? { backgroundColor: "#87CEEB" }
-                        : value.sum >= -25
-                          ? { backgroundColor: "#808080" }
-                          : value.sum >= -50
-                            ? { backgroundColor: "#9b870c" }
-                            : value.sum >= -75
-                              ? { backgroundColor: "orange" }
-                              : { backgroundColor: "red" }
-                }
-              >
-                <td>{index + 1}</td>
-                <td>{key}</td>
-                <td>{value.suspicios_volume}</td>
-                <td>{value.intel_money}</td>
-                <td>{value.real_money}</td>
-                <td>{value.buy_power}</td>
-                <td>{value.sum}</td>
+              ))
+            ) : (
+              <tr>
+                <td colSpan={6}>
+                  <img src={loading} className="loadingGif" />
+                </td>
               </tr>
-            ))} */}
-
+            )}
           </tbody>
         </table>
       </div>

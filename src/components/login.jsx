@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import BASE_URL from './variables.js';
+
 import loginImage from "./assets/logo.png";
 import { toast } from "react-toastify";
 
@@ -24,11 +26,11 @@ function Login() {
   function handleLogin(event) {
     event.preventDefault();
     const currentUser = {
-      email: userName,
+      username: userName,
       password: password,
     };
     axios
-      .post("http://45.129.36.165:3000/login", currentUser)
+      .post(`${BASE_URL}/login`, currentUser)
       .then(function (response) {
         localStorage.setItem("token", response.data.token);
         localStorage.setItem("userName", userName);
@@ -49,7 +51,7 @@ function Login() {
       referrerCode: referrerCode,
     };
     axios
-      .post("http://45.129.36.165:3000/register", newUser)
+      .post(`${BASE_URL}/register`, newUser)
       .then(function (response) {
         toast("ثبت نام با موفقیت انجام شد")
         setTimeout(() => {

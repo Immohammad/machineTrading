@@ -18,12 +18,12 @@ import afroozi from "./assets/team/afroozi.jpg";
 
 function AboutUs() {
   const cards = [
-    {
-      id: 1,
-      email: "vmoghtadaiee@gmail.com",
-      name: "وحیده مقتدایی",
-      avatar: vahide,
-    },
+    // {
+    //   id: 1,
+    //   email: "vmoghtadaiee@gmail.com",
+    //   name: "وحیده مقتدایی",
+    //   avatar: vahide,
+    // },
     {
       id: 2,
       email: "khodadi_j@yahoo.com",
@@ -35,12 +35,6 @@ function AboutUs() {
       email: "mo.movahedinia@gmail.com",
       name: "محمد موحدی نیا",
       avatar: mmd,
-    },
-    {
-      id: 4,
-      email: "eve.holt@reqres.in",
-      name: "علی شریفی",
-      avatar: alireza,
     },
     {
       id: 5,

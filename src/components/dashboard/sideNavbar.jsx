@@ -10,12 +10,15 @@ import { NavLink, useLocation } from "react-router-dom";
 import { FaBeer } from 'react-icons/fa';
 
 function SideNavbar() {
+
   function handleLogout() {
-    localStorage.removeItem("token");
     localStorage.removeItem("userName");
+    localStorage.removeItem("token");
     // window.location = "/";
   }
+
   const location = useLocation();
+
   return (
     <CDBSidebar id="profileSidebar" toggled>
       <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>} />
@@ -64,7 +67,6 @@ function SideNavbar() {
             exact
             to="/"
             // className={(navData) => (navData.isActive ? "activeClicked" : "")}
-            // className='activeClicked'
             onClick={handleLogout}
           >
             <CDBSidebarMenuItem icon="power-off">خروج</CDBSidebarMenuItem>

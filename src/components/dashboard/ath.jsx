@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import BASE_URL from '../variables.js';
+
 // import moment from "jalali-moment";
 // import { DatePicker } from "zaman";
 import loading from "../assets/loading.gif";
@@ -18,7 +20,7 @@ function Ath() {
   useEffect(() => {
     // const AthDate = moment(new Date()).subtract(3, 'month').format("jYYYY-jMM-jDD");
     axios
-      .get(`http://45.129.36.165:3000/api/ath/getAll`, {
+      .get(`${BASE_URL}/api/ath/getAll`, {
         headers: {
           authorization: token,
         }
@@ -31,8 +33,17 @@ function Ath() {
         // console.log(AthDate)
       })
       .catch((error) => {
-        toast("مشکلی پیش آمد");
-        console.log("xz")
+        if (error.response.status == 401) {
+          localStorage.removeItem("userName");
+          localStorage.removeItem("token");
+          toast("به دلیل گذشت زمان باید دوباره وارد حساب خود شوید.");
+          setTimeout(() => {
+            window.location = "/";
+          }, 1000);
+        } else {
+          toast("مشکلی پیش آمد");
+          console.log(error)
+        }
       });
   }, []);
 
