@@ -277,7 +277,10 @@ div {
   color: white;
   font-weight: bold;
 }
-
+#athAndBubble {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
 .servicesInFirstPage {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -285,7 +288,6 @@ div {
   padding: 30px;
   margin: 50px;
   width: 90%;
-  background-image: linear-gradient(to right, #e31228, white);
   border-radius: 8px;
   transition: transform 0.5s ease-in-out;
 }
@@ -293,11 +295,14 @@ div {
   .servicesInFirstPage {
     grid-template-columns: 1fr;
   }
+  #athAndBubble {
+    grid-template-columns: 1fr;
+  }
 }
 .servicesInFirstPage:hover {
   transform: scale(1.05);
 }
-.servicesInFirstPage h3{
+.servicesInFirstPage h3 {
   text-align: right;
 }
 .servicesInFirstPage p {

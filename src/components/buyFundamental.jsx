@@ -2,7 +2,7 @@ import React from 'react'
 
 function BuyFundamental() {
   return (
-    <div>خرید بنیادی</div>
+    <div style={{fontSize:'40px'}}>خرید بنیادی</div>
   )
 }
 

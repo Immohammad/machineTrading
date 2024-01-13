@@ -2,7 +2,7 @@ import React from 'react'
 
 function BuyPredict() {
   return (
-    <div>خرید پیش‌بینی</div>
+    <div style={{fontSize:'40px'}}>خرید پیش‌بینی</div>
   )
 }
 

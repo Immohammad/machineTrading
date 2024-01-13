@@ -7,10 +7,9 @@ import {
   CDBSidebarMenuItem,
 } from "cdbreact";
 import { NavLink, useLocation } from "react-router-dom";
-import { FaBeer } from 'react-icons/fa';
+import { FaBeer } from "react-icons/fa";
 
 function SideNavbar() {
-
   function handleLogout() {
     localStorage.removeItem("userName");
     localStorage.removeItem("token");
@@ -27,42 +26,59 @@ function SideNavbar() {
           <NavLink
             exact
             to="/dashboard"
-            className={`${location.pathname === '/dashboard' ? 'activeClicked' : ''}`}
+            className={`${
+              location.pathname === "/dashboard" ? "activeClicked" : ""
+            }`}
           >
             <CDBSidebarMenuItem icon="home">داشبورد</CDBSidebarMenuItem>
-          </NavLink>
-          <NavLink
-            exact
-            to="/dashboard/board"
-            className={(navData) =>
-              navData.isActive ? "activeClicked" : ""
-            }
-          >
-            <CDBSidebarMenuItem icon="clipboard-list">تابلوخوانی</CDBSidebarMenuItem>
           </NavLink>
           <NavLink
             exact
             to="/dashboard/predict"
             className={(navData) => (navData.isActive ? "activeClicked" : "")}
           >
-            <CDBSidebarMenuItem icon="chart-line">پیش‌بینی نمودار</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem icon="chart-line">
+              پیش‌بینی نمودار
+            </CDBSidebarMenuItem>
           </NavLink>
+
           <NavLink
             exact
-            to="/dashboard/technical"
-            // className={(navData) => (navData.isActive ? "activeClicked" : "")}
-            className='disabled-item'
+            to="/dashboard/board"
+            className={(navData) => (navData.isActive ? "activeClicked" : "")}
           >
-            <CDBSidebarMenuItem icon="ruler">تکنیکال</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem icon="clipboard-list">
+              تابلوخوانی
+            </CDBSidebarMenuItem>
           </NavLink>
+
           <NavLink
             exact
             to="/dashboard/fundamental"
             // className={(navData) => (navData.isActive ? "activeClicked" : "")}
-            className='disabled-item'
+            className="disabled-item"
           >
             <CDBSidebarMenuItem icon="book">بنیادی</CDBSidebarMenuItem>
           </NavLink>
+
+          <NavLink
+            exact
+            to="/dashboard/technical"
+            // className={(navData) => (navData.isActive ? "activeClicked" : "")}
+            className="disabled-item"
+          >
+            <CDBSidebarMenuItem icon="ruler">تکنیکال</CDBSidebarMenuItem>
+          </NavLink>
+
+          <NavLink
+            exact
+            to="/dashboard/fundamental"
+            // className={(navData) => (navData.isActive ? "activeClicked" : "")}
+            className="disabled-item"
+          >
+            <CDBSidebarMenuItem icon="book">سهام من</CDBSidebarMenuItem>
+          </NavLink>
+
           <NavLink
             exact
             to="/"

@@ -41,6 +41,7 @@ function Bubble() {
       }}
     >
       <form onSubmit={handleSubmit} id="bubbleForm">
+      <h3 style={{padding:'15px', paddingTop:'0'}}>حباب سکه</h3>
         <select value={type} onChange={(event) => setType(event.target.value)}>
           <option value="1">سکه گرمی</option>
           <option value="2.033">ربع سکه</option>

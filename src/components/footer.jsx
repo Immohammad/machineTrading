@@ -12,20 +12,14 @@ export default function Footer() {
   return (
     <MDBFooter
       className="bg-dark text-center text-white"
-      style={{ marginTop: "30pt" ,   fontFamily: 'regular'}}
+      style={{ marginTop: "30pt", fontFamily: "regular" }}
     >
       <MDBContainer className="p-4 pb-0">
         <section className="mb-4">
           <img src={logo} width="110px" style={{ marginLeft: "25px" }} />
           <MDBIcon
-            fab
-            icon="twitter"
-            className="socials"
-            onClick={handleClick}
-          />
-          <MDBIcon
-            fab
-            icon="google"
+            fas
+            icon="at"
             className="socials"
             onClick={handleClick}
           />
@@ -37,13 +31,13 @@ export default function Footer() {
           />
           <MDBIcon
             fab
-            icon="linkedin-in"
+            icon="telegram"
             className="socials"
             onClick={handleClick}
           />
           <MDBIcon
             fab
-            icon="telegram"
+            icon="linkedin-in"
             className="socials"
             onClick={handleClick}
           />

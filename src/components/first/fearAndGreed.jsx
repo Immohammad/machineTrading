@@ -9,13 +9,13 @@ function getData() {
 }
 
 const options = {
-  width: 400,
-  height: 400,
+  width: 350,
+  height: 350,
   redFrom: 80,
   redTo: 100,
   yellowFrom: 60,
   yellowTo: 80,
-  minorTicks: 5,
+  minorTicks: 4,
 };
 
 function FearAndGreed() {
@@ -35,8 +35,8 @@ function FearAndGreed() {
     <div style={{ marginRight: 'auto', marginLeft: 'auto' }}>
       <Chart
         chartType="Gauge"
-        width='400px'
-        height="400px"
+        width='350px'
+        height="350px"
         data={data}
         options={options}
       />

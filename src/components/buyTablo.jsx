@@ -2,7 +2,7 @@ import React from 'react'
 
 function BuyTablo() {
   return (
-    <div>خرید تابلوخوانی</div>
+    <div style={{fontSize:'40px'}}>خرید تابلوخوانی</div>
   )
 }
 

@@ -5,6 +5,10 @@ import Login from "./components/login";
 import First from "./components/first/firstPage";
 import AboutUs from "./components/aboutUs";
 import Dashboard from "./components/dashboard/dashboard";
+import Tablo from "./components/buyTablo";
+import Technical from "./components/buyTechnical";
+import Fundamental from "./components/buyFundamental";
+import Predict from "./components/buyPredict";
 import NotFound from "./components/notFound";
 
 import { ToastContainer } from "react-toastify";
@@ -28,6 +32,12 @@ function App() {
           />
           <Route path="/login" element={<Login />} />
           <Route path="/aboutUs" element={<AboutUs />} />
+
+          <Route path="/boardMore" element={<Tablo />} />
+          <Route path="/technicalMore" element={<Technical />} />
+          <Route path="/fundamentalMore" element={<Fundamental />} />
+          <Route path="/predictMore" element={<Predict />} />
+
           <Route path="/" exact element={<First />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
