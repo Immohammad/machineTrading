@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import BASE_URL from '../variables.js';
+import BASE_URL from "../variables.js";
 
 import moment from "jalali-moment";
 import { DatePicker } from "zaman";
 import loading from "../assets/loading.gif";
 import { toast } from "react-toastify";
+import BoardFilter from "./boardFilter.jsx";
 // import { data as dataStatic } from "./tabloData";
 // import DatePicker from 'react-datepicker'
 // import 'react-datepicker/dist/react-datepicker.css'
@@ -25,16 +26,16 @@ function Tablo() {
 
   const [search, setSearch] = useState("");
   const [requestedDate, setRequestedDate] = useState(
-    moment(new Date()).subtract(3, "month").format("jYYYY-jMM-jDD")
+    moment(new Date()).format("jYYYY-jMM-jDD")
   );
+  // moment(new Date()).subtract(3, "month").format("jYYYY-jMM-jDD")
 
   const token = localStorage.getItem("token");
 
   useEffect(() => {
     // console.log(dataStatic);
-    const boardDate = moment(new Date())
-      .subtract(3, "month")
-      .format("jYYYY-jMM-jDD");
+    // .subtract(3, "month")
+    const boardDate = moment(new Date()).format("jYYYY-jMM-jDD");
     axios
       .get(`${BASE_URL}/api/board/getAll?date=${boardDate}`, {
         headers: {
@@ -65,9 +66,8 @@ function Tablo() {
   }, []);
 
   function handleDate(event) {
-    setRequestedDate(
-      moment(event.value).subtract(3, "month").format("jYYYY-jMM-jDD")
-    );
+    // .subtract(3, "month")
+    setRequestedDate(moment(event.value).format("jYYYY-jMM-jDD"));
     axios
       .get(`${BASE_URL}/api/board/getAll?date=${requestedDate}`, {
         headers: {
@@ -121,6 +121,7 @@ function Tablo() {
       adapter={moment}
       /> */}
       {/* <DatePicker onChange={(event) =>console.log(event.value)}/> */}
+      <p style={{ display: "inline", fontWeight: "bold" }}>تاریخ امتیازدهی: </p>
       <DatePicker
         onChange={(event) => {
           console.log(moment(event.value).format("jYYYY-jMM-jDD"));
@@ -129,8 +130,19 @@ function Tablo() {
         defaultValue={new Date()}
       />
       {/* <DatePicker onChange={(event) =>console.log(event.value)} autoUpdate={true}/> */}
-      <p>تاریخ امتیازدهی: {requestedDate}</p>
+
       <form onSubmit={handleSearch} style={{ display: "inline" }}>
+        <button
+          type="submit"
+          style={{
+            backgroundColor: "white",
+            borderRadius: "7px",
+            margin: "15px",
+            marginLeft: "2px",
+          }}
+        >
+          جستجو
+        </button>
         <input
           value={search}
           onChange={(event) => setSearch(event.target.value)}
@@ -138,33 +150,13 @@ function Tablo() {
           style={{
             borderRadius: "7px",
             display: "inline",
-            margin: "15px",
           }}
           placeholder="جستجوی نام سهم"
         />
-        <button
-          type="submit"
-          style={{ backgroundColor: "white", borderRadius: "7px" }}
-        >
-          جستجو
-        </button>
       </form>
-      <div style={{ display: "inline" }}>
-        <label style={{ margin: "30px" }}>
-          فیلتر بر اساس صنعت:{" "}
-          <select
-            value=""
-            // onChange={(event) => setManager(event.target.value)}
-            style={{ display: "inline" }}
-          >
-            <option value="">همه</option>
-            <option value="Professor">خودرویی</option>
-            <option value="Student">چند رشته ای صنعتی</option>
-            <option value="Company">مواد غذایی</option>
-          </select>
-        </label>
-      </div>
-
+      <BoardFilter />
+      
+      <hr />
       <div className="tablesContainer">
         <table className="boardTable">
           <thead>
@@ -174,7 +166,8 @@ function Tablo() {
               <th>حجم مشکوک</th>
               <th>پول هوشمند</th>
               <th>پول حقیقی</th>
-              <th>قدرت خرید</th>
+              <th>پایانی به آخرین</th>
+              <th>قدرت خریدار</th>
               <th>مجموع</th>
             </tr>
           </thead>
@@ -204,6 +197,7 @@ function Tablo() {
                   <td>{item.suspicios_volume}</td>
                   <td>{item.intel_money}</td>
                   <td>{item.real_money}</td>
+                  <td>{item.final_last}</td>
                   <td>{item.buy_power}</td>
                   <td style={{ fontWeight: "bold" }}>{item.sum}</td>
                 </tr>

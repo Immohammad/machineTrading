@@ -333,15 +333,6 @@ div {
   }
 }*/
 
-.boardTable th,
-.boardTable td {
-  padding: 10px;
-}
-
-.boardTable tr {
-  border: 1px solid black;
-}
-
 /* *******************end of first page********************** */
 
 /* *******************bubble********************** */
@@ -539,20 +530,21 @@ input[type="password"] {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  /* border: 1px solid var(--ourBlue); */
 }
 
 .boardTable {
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-  border: 1px solid black;
   color: white;
   width: 100%;
+  /* overflow: hidden; */
 }
 
 .boardTable thead {
   position: sticky;
   top: -3px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .boardTable th {
@@ -576,6 +568,27 @@ input[type="password"] {
   background-color: #dbd8d8;
 }
 
+#boardFilter {
+  background-color: white;
+  padding: 20px;
+  text-align: right;
+}
+#boardFilter > div {
+  display: inline;
+}
+#boardFilter label {
+  margin: 20px;
+  font-weight: bold;
+}
+#boardFilter select {
+  width: 70px;
+  /* display: inline; */
+}
+#boardFilter > button {
+  margin: 20px;
+  background-color: white;
+  border-radius: 7px;
+}
 /* *******************end of board********************** */
 
 /* *******************end of dashboard********************** */

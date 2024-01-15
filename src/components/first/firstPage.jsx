@@ -8,6 +8,7 @@ import tabloPreview from "../assets/tabloPreview.PNG";
 import predictPreview from "../assets/predictPreview.png";
 import fundamentalPreview from "../assets/fundamentalPreview.PNG";
 import technicalPreview from "../assets/technicalPreview.jpg";
+import athPreview from "../assets/athPreview.PNG";
 import { useNavigate } from "react-router-dom";
 
 function FirstPage() {
@@ -74,7 +75,7 @@ function FirstPage() {
                 ثبت نام رایگان
               </button>
             </div>
-            <img src={predictPreview} alt="تصویری از خدمت" />
+            <img src={athPreview} alt="تصویری از خدمت" />
           </div>
           <div className="parts">
             <Bubble />

@@ -131,7 +131,7 @@ function Login() {
           <label>
             شماره موبایل</label>
           <input
-            type="text"
+            type="tel"
             value={phonenumber}
             onChange={(event) => setPhonenumber(event.target.value)}
             required
