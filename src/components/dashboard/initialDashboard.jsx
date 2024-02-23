@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Ath from "./ath";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,12 +10,21 @@ import {
   faLock,
 } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
+import BASE_URL from "../variables.js";
+import { toast } from "react-toastify";
 
 function InitialDashboard() {
   const navigate = useNavigate();
-  const [showPopup, setShowPopup] = useState(false);
 
+  const [showPopup, setShowPopup] = useState(false);
   const [serviceLeadTobuy, setServiceLeadTobuy] = useState("");
+
+  const [name, setName] = useState("");
+  const [userType, setUserType] = useState();
+  const [email, setEmail] = useState("");
+
+  const token = localStorage.getItem("token");
 
   const accessToService = (hasAccess, service) => {
     if (hasAccess) {
@@ -36,6 +45,29 @@ function InitialDashboard() {
   //   } else {
   //   }
   // };
+  useEffect(() => {
+    axios
+      .get(`${BASE_URL}/getUserDetail`, {
+        headers: {
+          authorization: token,
+        },
+      })
+      .then((response) => {
+        setName(
+          `${
+            response.data.isCompany
+              ? response.data.companyName
+              : response.data.firstName + " " + response.data.lastName
+          }`
+        );
+        setUserType(`${response.data.isCompany ? "حقوقی" : "حقیقی"}`);
+        setEmail(response.data.email);
+      })
+      .catch((error) => {
+        toast("مشکلی پیش آمد");
+        console.log(error);
+      });
+  }, []);
 
   return (
     <div style={{ width: "80%" }}>
@@ -43,16 +75,16 @@ function InitialDashboard() {
       <table id="dashboardProfile">
         <tbody>
           <tr>
-            <td>نام و نام خانوادگی : هوشنگ نصیرنژاد</td>
+            <td>{name}</td>
             <td
               style={{
                 borderRight: "1px solid black",
                 borderLeft: "1px solid black",
               }}
             >
-              ایمیل : mo.movahedinia@gmail.com
+              کاربر {userType}
             </td>
-            <td>شماره موبایل : 09115001000</td>
+            <td>ایمیل : {email}</td>
           </tr>
         </tbody>
       </table>
@@ -74,14 +106,12 @@ function InitialDashboard() {
           <FontAwesomeIcon icon={faClipboardList} beatFade />
         </button>
         <button
-          onClick={() => accessToService(false, "fundamental")}
+          onClick={() => accessToService(true, "fundamental")}
           style={{ backgroundColor: "white", color: "#334456" }}
         >
           تحلیل بنیادی
           <br />
           <FontAwesomeIcon icon={faBook} />
-          <br />
-          <FontAwesomeIcon icon={faLock} />
         </button>
         <button
           onClick={() => accessToService(false, "technical")}

@@ -55,8 +55,8 @@ function SideNavbar() {
           <NavLink
             exact
             to="/dashboard/fundamental"
-            // className={(navData) => (navData.isActive ? "activeClicked" : "")}
-            className="disabled-item"
+            className={(navData) => (navData.isActive ? "activeClicked" : "")}
+            // className="disabled-item"
           >
             <CDBSidebarMenuItem icon="book">بنیادی</CDBSidebarMenuItem>
           </NavLink>
