@@ -591,4 +591,18 @@ input[type="password"] {
 }
 /* *******************end of board********************** */
 
+/* *******************fundamental********************** */
+#fundamentalTable {
+  color: black;
+}
+#fundamentalButtons {
+  margin: 10px;
+}
+#fundamentalButtons button {
+  padding: 10px;
+  background-color: orange;
+  border: none;
+}
+/* *******************end of fundamental********************** */
+
 /* *******************end of dashboard********************** */
