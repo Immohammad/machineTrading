@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import BASE_URL from "../variables.js";
+import { toast } from "react-toastify";
 
 const Filter = (props) => {
   const [suspicios, setSuspicios] = useState(0);
@@ -7,8 +9,11 @@ const Filter = (props) => {
   const [real, setReal] = useState(0);
   const [final, setFinal] = useState(0);
   const [buyerPower, setBuyerPower] = useState(0);
+  const [industry, setIndustry] = useState("");
 
   const [filtering, setFiltering] = useState(false);
+  const [allIndustries, setAllIndustries] = useState();
+  const token = localStorage.getItem("token");
 
   const handleFilter = () => {
     setFiltering(true);
@@ -36,25 +41,24 @@ const Filter = (props) => {
     //   });
   };
 
+  useEffect(() => {
+    axios
+      .get(`${BASE_URL}/api/board/categories`, {
+        headers: {
+          authorization: token,
+        },
+      })
+      .then((response) => {
+        setAllIndustries(response.data);
+      })
+      .catch((error) => {
+        toast("مشکلی در بارگذاری فیلتر صنایع پیش آمد");
+      });
+  }, []);
+
   return (
     <div id="boardFilter">
       <h5 style={{ display: "inline" }}>فیلتر بر اساس :</h5>
-
-      <div>
-        <label>
-          صنعت:{" "}
-          <select
-            value=""
-            // onChange={(event) => setIntel(event.target.value)}
-            style={{ width: "140px" }}
-          >
-            <option value="">...</option>
-            <option value="Professor">خودرویی</option>
-            <option value="Student">چند رشته ای صنعتی</option>
-            <option value="Company">مواد غذایی</option>
-          </select>
-        </label>
-      </div>
 
       <div>
         <label>
@@ -141,9 +145,29 @@ const Filter = (props) => {
         </label>
       </div>
 
+      <div>
+        <label>
+          صنعت:{" "}
+          <select
+            value={industry}
+            onChange={(event) => setIndustry(event.target.value)}
+            style={{ width: "300px" }}
+          >
+            <option value={""}>...</option>
+            {allIndustries &&
+              allIndustries.map((option, index) => (
+                <option key={index} value={option}>
+                  {option}
+                </option>
+              ))}
+          </select>
+        </label>
+      </div>
+
       <button disabled={filtering} onClick={handleFilter}>
         اعمال فیلترها
       </button>
+      <button onClick={handleFilter}>پاکسازی فیلترها</button>
     </div>
   );
 };

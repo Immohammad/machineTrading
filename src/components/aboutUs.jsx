@@ -70,7 +70,7 @@ function AboutUs() {
           بسپرس به هوش مصنوعی <br />{" "}
           <span style={{ fontWeight: "normal", fontSize: "20px" }}>
             {" "}
-            همین الان شروع کن
+            همین الان ثبت نام کن
           </span>
         </h1>
       </div>

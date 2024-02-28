@@ -155,7 +155,7 @@ function Tablo() {
         />
       </form>
       <BoardFilter />
-      
+
       <hr />
       <div className="tablesContainer">
         <table className="boardTable">
@@ -192,7 +192,7 @@ function Tablo() {
                       : { backgroundColor: "red" }
                   }
                 >
-                  <td style={{ fontWeight: "bold" }}>{index + 1}</td>
+                  <td style={{ fontWeight: "bold" }}>{item.index}</td>
                   <td style={{ fontWeight: "bold" }}>{item.stockTitle}</td>
                   <td>{item.suspicios_volume}</td>
                   <td>{item.intel_money}</td>

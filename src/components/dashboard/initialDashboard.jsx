@@ -111,7 +111,7 @@ function InitialDashboard() {
         >
           تحلیل بنیادی
           <br />
-          <FontAwesomeIcon icon={faBook} />
+          <FontAwesomeIcon icon={faBook} beatFade/>
         </button>
         <button
           onClick={() => accessToService(false, "technical")}
