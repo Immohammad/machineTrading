@@ -15,16 +15,9 @@ import BoardFilter from "./boardFilter.jsx";
 // import "@kasraghoreyshi/datepicker/styles.css";
 
 function Tablo() {
-  // const filteredData = Object.entries(dataStatic).filter(
-  //   ([key]) => !/\d/.test(key)
-  // );
-  // filteredData.sort(([, value1], [, value2]) => value2.sum - value1.sum);
-  // const sortedData = Object.fromEntries(filteredData);
-
-  const [stocks, setStocks] = useState();
+  // const [stocks, setStocks] = useState();
   const [wholeBoard, setWholeBoard] = useState(null);
 
-  const [search, setSearch] = useState("");
   const [requestedDate, setRequestedDate] = useState(
     moment(new Date()).format("jYYYY-jMM-jDD")
   );
@@ -43,11 +36,9 @@ function Tablo() {
         },
       })
       .then((response) => {
-        // const sorted = response.data.slice().sort((a, b) => b.sum - a.sum);
-        // wholeBoard = response.data
         // console.log(response.data)
+        // setStocks(response.data);
         setWholeBoard(response.data);
-        setStocks(response.data);
         console.log(boardDate);
       })
       .catch((error) => {
@@ -76,9 +67,9 @@ function Tablo() {
       })
       .then((response) => {
         setWholeBoard(response.data);
-        setStocks(response.data);
-        console.log(response.data);
-        console.log(requestedDate);
+        // setStocks(response.data);
+        // console.log(response.data);
+        // console.log(requestedDate);
       })
       .catch((error) => {
         if (error.response.status == 401) {
@@ -95,21 +86,18 @@ function Tablo() {
       });
   }
 
-  function handleSearch(event) {
-    event.preventDefault();
+  // function handleSearch(event) {
+  //   event.preventDefault();
 
-    if (!search) {
-      setStocks(wholeBoard);
-      // console.log(wholeBoard)
-    } else {
-      // console.log('no')
-      // console.log(foundItems)
-      const foundItems = wholeBoard.filter((item) =>
-        item.stockTitle.includes(search)
-      );
-      setStocks(foundItems);
-    }
-  }
+  //     if (!search) {
+  //       setStocks(wholeBoard);
+  //     } else {
+  //       const foundItems = wholeBoard.filter((item) =>
+  //         item.stockTitle.includes(search)
+  //       );
+  //       setStocks(foundItems);
+  //     }
+  // }
 
   return (
     <div>
@@ -131,7 +119,7 @@ function Tablo() {
       />
       {/* <DatePicker onChange={(event) =>console.log(event.value)} autoUpdate={true}/> */}
 
-      <form onSubmit={handleSearch} style={{ display: "inline" }}>
+      {/* <form onSubmit={handleSearch} style={{ display: "inline" }}>
         <button
           type="submit"
           style={{
@@ -153,8 +141,8 @@ function Tablo() {
           }}
           placeholder="جستجوی نام سهم"
         />
-      </form>
-      <BoardFilter />
+      </form> */}
+      <BoardFilter setter={setWholeBoard} date={requestedDate} />
 
       <hr />
       <div className="tablesContainer">
@@ -172,8 +160,8 @@ function Tablo() {
             </tr>
           </thead>
           <tbody>
-            {stocks ? (
-              stocks.map((item, index) => (
+            {wholeBoard ? (
+              wholeBoard.map((item, index) => (
                 <tr
                   key={index}
                   style={
@@ -203,7 +191,7 @@ function Tablo() {
                 </tr>
               ))
             ) : (
-              <tr>
+              <tr style={{ border: "none" }}>
                 <td colSpan={6}>
                   <img src={loading} className="loadingGif" />
                 </td>

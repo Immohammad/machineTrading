@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import BASE_URL from '../variables.js';
+import BASE_URL from "../variables.js";
 
 // import moment from "jalali-moment";
 // import { DatePicker } from "zaman";
@@ -8,14 +8,15 @@ import loading from "../assets/loading.gif";
 import { toast } from "react-toastify";
 
 function Ath() {
-
   const [stocks, setStocks] = useState();
   const [wholeAth, setWholeAth] = useState(null);
 
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState("");
+  const [allIndustries, setAllIndustries] = useState();
+  const [industry, setIndustry] = useState("");
   // const [requestedDate, setRequestedDate] = useState(moment(new Date()).subtract(3, 'month').format("jYYYY-jMM-jDD"));
 
-  const token = localStorage.getItem('token')
+  const token = localStorage.getItem("token");
 
   useEffect(() => {
     // const AthDate = moment(new Date()).subtract(3, 'month').format("jYYYY-jMM-jDD");
@@ -23,13 +24,15 @@ function Ath() {
       .get(`${BASE_URL}/api/ath/getAll`, {
         headers: {
           authorization: token,
-        }
+        },
       })
       .then((response) => {
-        const sorted = response.data.slice().sort((a, b) => b.to_ath - a.to_ath);
-        setWholeAth(sorted)
-        setStocks(sorted)
-        console.log(sorted)
+        const sorted = response.data
+          .slice()
+          .sort((a, b) => b.to_ath - a.to_ath);
+        setWholeAth(sorted);
+        setStocks(sorted);
+        console.log(sorted);
         // console.log(AthDate)
       })
       .catch((error) => {
@@ -42,8 +45,20 @@ function Ath() {
           }, 1000);
         } else {
           toast("مشکلی پیش آمد");
-          console.log(error)
+          console.log(error);
         }
+      });
+    axios
+      .get(`${BASE_URL}/api/board/categories`, {
+        headers: {
+          authorization: token,
+        },
+      })
+      .then((response) => {
+        setAllIndustries(response.data);
+      })
+      .catch((error) => {
+        toast("مشکلی در بارگذاری فیلتر صنایع پیش آمد");
       });
   }, []);
 
@@ -53,33 +68,12 @@ function Ath() {
     if (!search) {
       setStocks(wholeAth);
     } else {
-      const foundItems = wholeAth.filter(item => item.stockTitle.includes(search));
-      setStocks(
-        foundItems
+      const foundItems = wholeAth.filter((item) =>
+        item.stockTitle.includes(search)
       );
+      setStocks(foundItems);
     }
   }
-
-  // function handleDate(event) {
-  //   setRequestedDate(moment(event.value).subtract(3, 'month').format("jYYYY-jMM-jDD"))
-  //   axios
-  //     .get(`http://45.129.36.165:3000/api/board/getAll?date=${requestedDate}`, {
-  //       headers: {
-  //         authorization: token,
-  //       }
-  //     })
-  //     .then((response) => {
-  //       setWholeAth(response.data)
-  //       setStocks(response.data)
-  //       console.log(response.data)
-  //       console.log(requestedDate)
-  //     })
-  //     .catch((error) => {
-  //       toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
-  //       console.log("xz")
-  //       console.log(requestedDate)
-  //     });
-  // }
 
   return (
     <div>
@@ -92,10 +86,7 @@ function Ath() {
         defaultValue={new Date()}
       /> */}
       {/* <p>تاریخ امتیازدهی: {requestedDate}</p> */}
-      <form
-        onSubmit={handleSearch}
-        style={{ display: "inline" }}
-      >
+      <form onSubmit={handleSearch} style={{ display: "inline" }}>
         <input
           value={search}
           onChange={(event) => setSearch(event.target.value)}
@@ -114,23 +105,27 @@ function Ath() {
           جستجو
         </button>
       </form>
+
       <div style={{ display: "inline" }}>
-        <label style={{ margin: "30px" }}>
+        <label style={{ margin: "30px", fontWeight: "bold" }}>
           فیلتر بر اساس صنعت:{" "}
           <select
-            value=""
-            // onChange={(event) => setManager(event.target.value)}
-            style={{ display: "inline" }}
+            value={industry}
+            onChange={(event) => setIndustry(event.target.value)}
+            // style={{ width: "300px" }}
           >
-            <option value="">همه</option>
-            <option value="Professor">خودرویی</option>
-            <option value="Student">چند رشته ای صنعتی</option>
-            <option value="Company">مواد غذایی</option>
+            <option value={""}>...</option>
+            {allIndustries &&
+              allIndustries.map((option, index) => (
+                <option key={index} value={option}>
+                  {option}
+                </option>
+              ))}
           </select>
         </label>
       </div>
 
-      <div className="tablesContainer" style={{height:'60vh'}}>
+      <div className="tablesContainer" style={{ height: "60vh" }}>
         <table className="boardTable">
           <thead>
             <tr>
@@ -138,25 +133,25 @@ function Ath() {
               <th>سهم</th>
               <th>قیمت (تومان)</th>
               <th>سقف تاریخی (تومان)</th>
-              <th>فاصله از کف تاریخی %</th>
+              <th>فاصله تا کف تاریخی %</th>
               <th>افت از سقف تاریخی %</th>
               <th>فاصله تا سقف تاریخی %</th>
             </tr>
           </thead>
 
           <tbody>
-            {stocks ?
-              (stocks.map((item, index) => (
+            {stocks ? (
+              stocks.map((item, index) => (
                 <tr
                   key={index}
                   style={
                     item.to_ath >= 100
                       ? { color: "#0B6623" }
                       : item.to_ath >= 50
-                        ? { color: "#8cc73c" }
-                        : item.to_ath >= 0
-                          ? { color: "#87CEEB" }
-                          : { color: "red" }
+                      ? { color: "#8cc73c" }
+                      : item.to_ath >= 0
+                      ? { color: "#87CEEB" }
+                      : { color: "red" }
                   }
                 >
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
@@ -165,15 +160,18 @@ function Ath() {
                   <td>{(item.ath_price / 10).toFixed(0)}</td>
                   <td>{item.to_atl.toFixed(0)}</td>
                   <td>{item.from_ath.toFixed(0)}</td>
-                  <td style={{ fontWeight: "bold" }}>{item.to_ath.toFixed(0)}</td>
+                  <td style={{ fontWeight: "bold" }}>
+                    {item.to_ath.toFixed(0)}
+                  </td>
                 </tr>
-              ))) : (
-                <tr>
-                  <td colSpan={6}><img src={loading} className="loadingGif" /></td>
-                </tr>
-              )
-            }
-
+              ))
+            ) : (
+              <tr style={{ border: "none" }}>
+                <td colSpan={6}>
+                  <img src={loading} className="loadingGif" />
+                </td>
+              </tr>
+            )}
           </tbody>
         </table>
       </div>

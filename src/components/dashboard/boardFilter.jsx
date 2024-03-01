@@ -4,41 +4,49 @@ import BASE_URL from "../variables.js";
 import { toast } from "react-toastify";
 
 const Filter = (props) => {
-  const [suspicios, setSuspicios] = useState(0);
-  const [intel, setIntel] = useState(0);
-  const [real, setReal] = useState(0);
-  const [final, setFinal] = useState(0);
-  const [buyerPower, setBuyerPower] = useState(0);
-  const [industry, setIndustry] = useState("");
+  const [suspicios, setSuspicios] = useState([]);
+  const [intel, setIntel] = useState([]);
+  const [real, setReal] = useState([]);
+  const [final, setFinal] = useState([]);
+  const [buyerPower, setBuyerPower] = useState([]);
+  const [industry, setIndustry] = useState([]);
+  const [stockName, setStockName] = useState("");
 
   const [filtering, setFiltering] = useState(false);
   const [allIndustries, setAllIndustries] = useState();
   const token = localStorage.getItem("token");
 
   const handleFilter = () => {
-    setFiltering(true);
-    // const userFilter = {
-    //   workFieldsId: area,
-    //   projectState: parseInt(real),
-    //   managerRole: intel,
-    //   needState: parseInt(suspicios),
-    // };
-    // axios
-    //   .post(
-    //     "https://bsite.net/RezaKlhor/Project/GetProjectsByFilter",
-    //     userFilter
-    //   )
-    //   .then(function (response) {
-    //     props.setter(response.data);
-    //     setFiltering(false);
-    //   })
-    //   .catch(function (error) {
-    //     setFiltering(false);
-    //     if (error.response.status == 404) {
-    //       props.setter(null);
-    //     } else return;
-    //     // NotificationManager.warning("فیلتر با خطا مواجه شد");
-    //   });
+    // setFiltering(true);
+    console.log(final)
+    axios
+      .get(
+        `${BASE_URL}/api/board/getAll?date=${props.date}&nameArg=${stockName}&categoryArg=[${industry}]&finalLastArg=[${final}]&realMoneyArg=[${real}]&susArg=[${suspicios}]&intelMoneyArg=[${intel}]&buyPowerArg=[${buyerPower}]`,
+        {
+          headers: {
+            authorization: token,
+          },
+        }
+      )
+      .then((response) => {
+        props.setter(response.data);
+        console.log(suspicios)
+        setFiltering(false);
+      })
+      .catch((error) => {
+        setFiltering(false);
+        toast("مشکلی پیش آمد");
+      });
+  };
+
+  const handleReset = () => {
+    setSuspicios([]);
+    setIntel([]);
+    setReal([]);
+    setFinal([]);
+    setBuyerPower([]);
+    setIndustry([]);
+    setStockName("");
   };
 
   useEffect(() => {
@@ -62,85 +70,91 @@ const Filter = (props) => {
 
       <div>
         <label>
-          حجم مشکوک{" "}
+          نام سهم:{" "}
+          <input
+            value={stockName}
+            onChange={(event) => setStockName(event.target.value)}
+            type="search"
+            style={{
+              borderRadius: "7px",
+              display: "inline",
+            }}
+            placeholder=" ..."
+          />
+        </label>
+      </div>
+
+      <div>
+        <label>
+          حجم مشکوک:{" "}
           <select
             value={suspicios}
             onChange={(event) => setSuspicios(event.target.value)}
           >
-            <option value={0}>...</option>
-            <option value={1}>عالی</option>
-            <option value={2}>خوب</option>
-            <option value={3}>متوسط</option>
-            <option value={4}>ضعیف</option>
-            <option value={5}>افتضاح</option>
+            <option value={[]}>...</option>
+            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
+            <option value={["متوسط"]}>متوسط</option>
+            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
 
       <div>
         <label>
-          پول هوشمند{" "}
+          پول هوشمند:{" "}
           <select
             value={intel}
             onChange={(event) => setIntel(event.target.value)}
           >
-            <option value={0}>...</option>
-            <option value={1}>عالی</option>
-            <option value={2}>خوب</option>
-            <option value={3}>متوسط</option>
-            <option value={4}>ضعیف</option>
-            <option value={5}>افتضاح</option>
+            <option value={[]}>...</option>
+            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
+            <option value={["متوسط"]}>متوسط</option>
+            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
 
       <div>
         <label>
-          پول حقیقی{" "}
+          پول حقیقی:{" "}
           <select
             value={real}
             onChange={(event) => setReal(event.target.value)}
           >
-            <option value={0}>...</option>
-            <option value={1}>عالی</option>
-            <option value={2}>خوب</option>
-            <option value={3}>متوسط</option>
-            <option value={4}>ضعیف</option>
-            <option value={5}>افتضاح</option>
+            <option value={[]}>...</option>
+            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
+            <option value={["متوسط"]}>متوسط</option>
+            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
 
       <div>
         <label>
-          پایانی به آخرین{" "}
+          پایانی به آخرین:{" "}
           <select
             value={final}
             onChange={(event) => setFinal(event.target.value)}
           >
-            <option value={0}>...</option>
-            <option value={1}>عالی</option>
-            <option value={2}>خوب</option>
-            <option value={3}>متوسط</option>
-            <option value={4}>ضعیف</option>
-            <option value={5}>افتضاح</option>
+            <option value={[]}>...</option>
+            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
+            <option value={["متوسط"]}>متوسط</option>
+            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
 
       <div>
         <label>
-          قدرت خریدار{" "}
+          قدرت خریدار:{" "}
           <select
             value={buyerPower}
             onChange={(event) => setBuyerPower(event.target.value)}
           >
-            <option value={0}>...</option>
-            <option value={1}>عالی</option>
-            <option value={2}>خوب</option>
-            <option value={3}>متوسط</option>
-            <option value={4}>ضعیف</option>
-            <option value={5}>افتضاح</option>
+            <option value={[]}>...</option>
+            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
+            <option value={["متوسط"]}>متوسط</option>
+            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
@@ -167,7 +181,7 @@ const Filter = (props) => {
       <button disabled={filtering} onClick={handleFilter}>
         اعمال فیلترها
       </button>
-      <button onClick={handleFilter}>پاکسازی فیلترها</button>
+      <button onClick={handleReset}>پاکسازی فیلترها</button>
     </div>
   );
 };
