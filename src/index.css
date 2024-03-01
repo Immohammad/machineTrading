@@ -604,6 +604,12 @@ input[type="password"] {
   background-color: orange;
   border: none;
 }
+#fundamentalHelp p {
+  display: inline;
+  margin: 5px;
+  color: gray;
+  font-size: medium;
+}
 /* *******************end of fundamental********************** */
 
 /* *******************end of dashboard********************** */

@@ -4,21 +4,22 @@ import BASE_URL from "../variables.js";
 import { toast } from "react-toastify";
 
 const Filter = (props) => {
-  const [suspicios, setSuspicios] = useState([]);
-  const [intel, setIntel] = useState([]);
-  const [real, setReal] = useState([]);
-  const [final, setFinal] = useState([]);
-  const [buyerPower, setBuyerPower] = useState([]);
-  const [industry, setIndustry] = useState([]);
+  const [suspicios, setSuspicios] = useState("");
+  const [intel, setIntel] = useState("");
+  const [real, setReal] = useState("");
+  const [final, setFinal] = useState("");
+  const [buyerPower, setBuyerPower] = useState("");
+  const [industry, setIndustry] = useState("");
   const [stockName, setStockName] = useState("");
 
   const [filtering, setFiltering] = useState(false);
+  const [reseting, setReseting] = useState(false);
   const [allIndustries, setAllIndustries] = useState();
   const token = localStorage.getItem("token");
 
   const handleFilter = () => {
-    // setFiltering(true);
-    console.log(final)
+    setFiltering(true);
+    console.log(final);
     axios
       .get(
         `${BASE_URL}/api/board/getAll?date=${props.date}&nameArg=${stockName}&categoryArg=[${industry}]&finalLastArg=[${final}]&realMoneyArg=[${real}]&susArg=[${suspicios}]&intelMoneyArg=[${intel}]&buyPowerArg=[${buyerPower}]`,
@@ -30,7 +31,9 @@ const Filter = (props) => {
       )
       .then((response) => {
         props.setter(response.data);
-        console.log(suspicios)
+        if (response.data.length == 0) {
+          toast("سهمی با این فیلتر وجود ندارد");
+        }
         setFiltering(false);
       })
       .catch((error) => {
@@ -40,13 +43,33 @@ const Filter = (props) => {
   };
 
   const handleReset = () => {
-    setSuspicios([]);
-    setIntel([]);
-    setReal([]);
-    setFinal([]);
-    setBuyerPower([]);
-    setIndustry([]);
+    setReseting(true);
+    setFiltering(true);
+
+    setSuspicios("");
+    setIntel("");
+    setReal("");
+    setFinal("");
+    setBuyerPower("");
+    setIndustry("");
     setStockName("");
+
+    axios
+      .get(`${BASE_URL}/api/board/getAll?date=${props.date}`, {
+        headers: {
+          authorization: token,
+        },
+      })
+      .then((response) => {
+        props.setter(response.data);
+        setReseting(false);
+        setFiltering(false);
+      })
+      .catch((error) => {
+        setReseting(false);
+        setFiltering(false);
+        toast("مشکلی پیش آمد");
+      });
   };
 
   useEffect(() => {
@@ -91,10 +114,10 @@ const Filter = (props) => {
             value={suspicios}
             onChange={(event) => setSuspicios(event.target.value)}
           >
-            <option value={[]}>...</option>
-            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
-            <option value={["متوسط"]}>متوسط</option>
-            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
+            <option value={""}>...</option>
+            <option value={'"خوب","خیلی خوب"'}>خوب یا خیلی خوب</option>
+            <option value={'"متوسط"'}>متوسط</option>
+            <option value={'"بد","خیلی بد"'}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
@@ -106,10 +129,10 @@ const Filter = (props) => {
             value={intel}
             onChange={(event) => setIntel(event.target.value)}
           >
-            <option value={[]}>...</option>
-            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
-            <option value={["متوسط"]}>متوسط</option>
-            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
+            <option value={""}>...</option>
+            <option value={'"خوب","خیلی خوب"'}>خوب یا خیلی خوب</option>
+            <option value={'"متوسط"'}>متوسط</option>
+            <option value={'"بد","خیلی بد"'}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
@@ -121,10 +144,10 @@ const Filter = (props) => {
             value={real}
             onChange={(event) => setReal(event.target.value)}
           >
-            <option value={[]}>...</option>
-            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
-            <option value={["متوسط"]}>متوسط</option>
-            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
+            <option value={""}>...</option>
+            <option value={'"خوب","خیلی خوب"'}>خوب یا خیلی خوب</option>
+            <option value={'"متوسط"'}>متوسط</option>
+            <option value={'"بد","خیلی بد"'}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
@@ -136,10 +159,10 @@ const Filter = (props) => {
             value={final}
             onChange={(event) => setFinal(event.target.value)}
           >
-            <option value={[]}>...</option>
-            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
-            <option value={["متوسط"]}>متوسط</option>
-            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
+            <option value={""}>...</option>
+            <option value={'"خوب","خیلی خوب"'}>خوب یا خیلی خوب</option>
+            <option value={'"متوسط"'}>متوسط</option>
+            <option value={'"بد","خیلی بد"'}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
@@ -151,10 +174,10 @@ const Filter = (props) => {
             value={buyerPower}
             onChange={(event) => setBuyerPower(event.target.value)}
           >
-            <option value={[]}>...</option>
-            <option value={["خوب", "خیلی خوب"]}>خوب یا خیلی خوب</option>
-            <option value={["متوسط"]}>متوسط</option>
-            <option value={["بد", "خیلی بد"]}>بد یا خیلی بد</option>
+            <option value={""}>...</option>
+            <option value={'"خوب","خیلی خوب"'}>خوب یا خیلی خوب</option>
+            <option value={'"متوسط"'}>متوسط</option>
+            <option value={'"بد","خیلی بد"'}>بد یا خیلی بد</option>
           </select>
         </label>
       </div>
@@ -170,7 +193,7 @@ const Filter = (props) => {
             <option value={""}>...</option>
             {allIndustries &&
               allIndustries.map((option, index) => (
-                <option key={index} value={option}>
+                <option key={index} value={`"${option}"`}>
                   {option}
                 </option>
               ))}
@@ -181,7 +204,9 @@ const Filter = (props) => {
       <button disabled={filtering} onClick={handleFilter}>
         اعمال فیلترها
       </button>
-      <button onClick={handleReset}>پاکسازی فیلترها</button>
+      <button disabled={reseting} onClick={handleReset}>
+        پاکسازی فیلترها
+      </button>
     </div>
   );
 };

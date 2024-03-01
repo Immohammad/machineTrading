@@ -10,6 +10,7 @@ import {
   faAngleLeft,
   faForwardStep,
   faBackwardStep,
+  faSquare,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Fundamental() {
@@ -59,6 +60,36 @@ function Fundamental() {
 
   return (
     <div>
+      <div id="fundamentalHelp">
+        <div>
+          <FontAwesomeIcon
+            icon={faBell}
+            style={{ color: "gold", display: "inline" }}
+          />
+          <p>اهمیت زیاد</p>
+          <FontAwesomeIcon icon={faBell} style={{ color: "silver" }} />
+          <p>اهمیت متوسط</p>
+          <FontAwesomeIcon icon={faBell} style={{ color: "chocolate" }} />
+          <p>اهمیت کم</p>
+        </div>
+        <div>
+          <FontAwesomeIcon
+            icon={faSquare}
+            style={{ color: "green", display: "inline" }}
+          />
+          <p>بهتر از گزارش مشابه دوره قبلی</p>
+          <FontAwesomeIcon
+            icon={faSquare}
+            style={{ color: "gray", display: "inline" }}
+          />
+          <p>بدون تغییر نسبت به گزارش مشابه دوره قبلی</p>
+          <FontAwesomeIcon
+            icon={faSquare}
+            style={{ color: "red", display: "inline" }}
+          />
+          <p>ضعیف‌تر از گزارش مشابه دوره قبلی</p>
+        </div>
+      </div>
       <div className="tablesContainer">
         <table className="boardTable" id="fundamentalTable">
           <thead>
@@ -66,7 +97,10 @@ function Fundamental() {
               <th>تاریخ گزارش</th>
               <th>سهم</th>
               <th>نوع گزارش</th>
+              <th>دوره (ماه)</th>
               <th>اهمیت خبر</th>
+              <th>وضعیت حسابرسی</th>
+              <th>تلفیقی</th>
               <th>مقدار در گزارش قبلی</th>
               <th>مقدار در گزارش فعلی</th>
             </tr>
@@ -91,14 +125,38 @@ function Fundamental() {
                       <td style={{ fontWeight: "bold" }}>{dates.symbol}</td>
 
                       <td>{item.title}</td>
+                      <td>{item.fiscal_period}</td>
                       <td>
                         <FontAwesomeIcon
                           icon={faBell}
-                          style={{ color: `${item.importance}` }}
+                          style={{
+                            color: `${
+                              item.importance == 2
+                                ? "gold"
+                                : item.importance == 1
+                                ? "silver"
+                                : "chocolate"
+                            }`,
+                          }}
                         />
                       </td>
+                      <td>{item.is_audited ? "√" : "×"}</td>
+                      <td>{item.is_combined ? "بله" : "خیر"}</td>
                       <td>{item.value_prev}</td>
-                      <td style={{ color: `${item.color}` }}>{item.value}</td>
+                      <td
+                        style={{
+                          backgroundColor: `${
+                            item.color == 1
+                              ? "green"
+                              : item.importance == 0
+                              ? "gray"
+                              : "red"
+                          }`,
+                          color: "white",
+                        }}
+                      >
+                        {item.value}
+                      </td>
                     </tr>
                   ))}
                 </React.Fragment>
