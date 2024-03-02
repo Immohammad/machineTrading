@@ -581,10 +581,6 @@ input[type="password"] {
   margin: 20px;
   font-weight: bold;
 }
-#boardFilter select {
-  /* width: 90px; */
-  /* display: inline; */
-}
 #boardFilter > button {
   margin: 20px;
   background-color: white;
@@ -604,11 +600,25 @@ input[type="password"] {
   background-color: orange;
   border: none;
 }
+/* #fundamentalHelp *{
+  text-align: right;
+} */
 #fundamentalHelp p {
   display: inline;
   margin: 5px;
+  margin-left: 15px;
   color: gray;
   font-size: medium;
+}
+#fundamentalHelp div {
+  display: inline;
+  text-align: right;
+  margin: 5px;
+}
+#fundamentalHelp{
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 /* *******************end of fundamental********************** */
 

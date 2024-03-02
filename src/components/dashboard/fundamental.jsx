@@ -11,6 +11,8 @@ import {
   faForwardStep,
   faBackwardStep,
   faSquare,
+  faClipboardCheck,
+  faCircleXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Fundamental() {
@@ -61,28 +63,32 @@ function Fundamental() {
   return (
     <div>
       <div id="fundamentalHelp">
-        <div>
+        <div style={{ display: "block" }}>
           <FontAwesomeIcon
             icon={faBell}
             style={{ color: "gold", display: "inline" }}
           />
           <p>اهمیت زیاد</p>
+
           <FontAwesomeIcon icon={faBell} style={{ color: "silver" }} />
           <p>اهمیت متوسط</p>
+
           <FontAwesomeIcon icon={faBell} style={{ color: "chocolate" }} />
           <p>اهمیت کم</p>
         </div>
-        <div>
+        <div style={{ display: "block" }}>
           <FontAwesomeIcon
             icon={faSquare}
             style={{ color: "green", display: "inline" }}
           />
           <p>بهتر از گزارش مشابه دوره قبلی</p>
+
           <FontAwesomeIcon
             icon={faSquare}
             style={{ color: "gray", display: "inline" }}
           />
           <p>بدون تغییر نسبت به گزارش مشابه دوره قبلی</p>
+
           <FontAwesomeIcon
             icon={faSquare}
             style={{ color: "red", display: "inline" }}
@@ -140,7 +146,13 @@ function Fundamental() {
                           }}
                         />
                       </td>
-                      <td>{item.is_audited ? "√" : "×"}</td>
+                      <td>
+                        {item.is_audited ? (
+                          <FontAwesomeIcon icon={faClipboardCheck} />
+                        ) : (
+                          <FontAwesomeIcon icon={faCircleXmark} />
+                        )}
+                      </td>
                       <td>{item.is_combined ? "بله" : "خیر"}</td>
                       <td>{item.value_prev}</td>
                       <td

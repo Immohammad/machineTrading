@@ -10,20 +10,21 @@ import ai1 from "./assets/services/aides.jpg";
 import vahide from "./assets/team/vahide.jpg";
 import hossein from "./assets/team/hossein.jpg";
 import mmd from "./assets/team/mmd.jpg";
-import alireza from "./assets/team/alireza.jpg";
 import mehdi from "./assets/team/mehdi.jpg";
 import reza from "./assets/team/reza.jpg";
 import adel from "./assets/team/adel.jpg";
 import afroozi from "./assets/team/afroozi.jpg";
+import farahani from "./assets/team/farahani.jpg";
+import shideh from "./assets/team/shideh.jpg";
 
 function AboutUs() {
   const cards = [
-    // {
-    //   id: 1,
-    //   email: "vmoghtadaiee@gmail.com",
-    //   name: "وحیده مقتدایی",
-    //   avatar: vahide,
-    // },
+    {
+      id: 1,
+      email: "h_farahani@sbu.ac.ir",
+      name: "دکتر هادی فراهانی",
+      avatar: farahani,
+    },
     {
       id: 2,
       email: "khodadi_j@yahoo.com",
@@ -37,28 +38,35 @@ function AboutUs() {
       avatar: mmd,
     },
     {
-      id: 5,
-      email: "charles.morris@reqres.in",
-      name: "مهدی مسلمی",
-      avatar: mehdi,
+      id: 4,
+      email: "afroozi@reqres.in",
+      name: "علیرضا افروزی",
+      avatar: afroozi,
     },
     {
-      id: 6,
+      id: 5,
       email: "reza.kalhor19@gmail.com",
       name: "رضا کلهری",
       avatar: reza,
     },
+
+    {
+      id: 6,
+      email: "moslemi@gmail.com",
+      name: "مهدی مسلمی",
+      avatar: mehdi,
+    },
     {
       id: 7,
-      email: "charles.morris@reqres.in",
+      email: "rivandy@gmail.com",
       name: "عادل ریوندی",
       avatar: adel,
     },
     {
       id: 8,
-      email: "afroozi@reqres.in",
-      name: "علیرضا افروزی",
-      avatar: afroozi,
+      email: "sharifbakhtiar@gmail.com",
+      name: "شیده شریف بختیار",
+      avatar: shideh,
     },
   ];
 
@@ -81,19 +89,35 @@ function AboutUs() {
         <div className="serviceContain">
           <div className="services">
             <img src={ai1} alt="service1" className="serviceImg" />
-            <p><b>هوش مصنوعی</b><br /> پیش‌بینی روند آیندۀ نمودار سهم توسط هوش مصنوعی و یادگیری ماشین</p>
+            <p>
+              <b>هوش مصنوعی</b>
+              <br /> پیش‌بینی روند آیندۀ نمودار سهم توسط هوش مصنوعی و یادگیری
+              ماشین
+            </p>
           </div>
           <div className="services">
             <img src={board} alt="service2" className="serviceImg" />
-            <p><b>تابلوخوانی</b><br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین پارامترهای تابلوخوانی توسط هوش مصنوعی</p>
+            <p>
+              <b>تابلوخوانی</b>
+              <br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین پارامترهای
+              تابلوخوانی توسط هوش مصنوعی
+            </p>
           </div>
           <div className="services">
             <img src={technical1} alt="service3" className="serviceImg" />
-            <p><b>تحلیل تکنیکال</b><br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین شاخصه‌های تحلیل تکنیکال با الگوریتم </p>
+            <p>
+              <b>تحلیل تکنیکال</b>
+              <br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین شاخصه‌های
+              تحلیل تکنیکال با الگوریتم{" "}
+            </p>
           </div>
           <div className="services">
             <img src={base} alt="service3" className="serviceImg" />
-            <p><b>تحلیل بنیادی</b><br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین شاخصه‌های تحلیل بنیادی با هوش مصنوعی + سامانۀ کدال پلاس</p>
+            <p>
+              <b>تحلیل بنیادی</b>
+              <br /> امتیازدهی سهام بازار سرمایه بر اساس پرکاربردترین شاخصه‌های
+              تحلیل بنیادی با هوش مصنوعی + سامانۀ کدال پلاس
+            </p>
           </div>
         </div>
         <h2>تیم ما</h2>
@@ -124,11 +148,11 @@ function AboutUs() {
         <div className="row" style={{ margin: "20pt auto" }}>
           <div className="col-sm-12 col-md-6" style={{ textAlign: "right" }}>
             <p>
-              آدرس: <br /> تهران، ولنجک، بلوار دانشجو
+              آدرس: <br /> تهران
             </p>
             <p>
-              تلفن: <br /> 0218574693 <br />
-              0218574683
+              تلفن: <br /> 0919 593 7200 <br />
+              0911 591 3969
             </p>
           </div>
           <iframe

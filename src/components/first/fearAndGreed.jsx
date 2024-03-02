@@ -4,7 +4,7 @@ import { Chart } from "react-google-charts";
 function getData() {
   return [
     ["Label", "Value"],
-    ["شاخص ترس و طمع", 22],
+    ["شاخص ترس و طمع", 12],
   ];
 }
 
@@ -32,10 +32,10 @@ function FearAndGreed() {
   //   });
 
   return (
-    <div style={{ marginRight: 'auto', marginLeft: 'auto' }}>
+    <div style={{ marginRight: "auto", marginLeft: "auto" }}>
       <Chart
         chartType="Gauge"
-        width='350px'
+        width="350px"
         height="350px"
         data={data}
         options={options}

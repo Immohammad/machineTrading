@@ -116,6 +116,7 @@ function Tablo() {
           handleDate(event);
         }}
         defaultValue={new Date()}
+        weekend={[1,2]}
       />
       {/* <DatePicker onChange={(event) =>console.log(event.value)} autoUpdate={true}/> */}
 

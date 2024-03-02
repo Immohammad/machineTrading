@@ -8,7 +8,7 @@ import loading from "../assets/loading.gif";
 import { toast } from "react-toastify";
 
 function Ath() {
-  const [stocks, setStocks] = useState();
+  // const [stocks, setStocks] = useState();
   const [wholeAth, setWholeAth] = useState(null);
 
   const [search, setSearch] = useState("");
@@ -27,13 +27,7 @@ function Ath() {
         },
       })
       .then((response) => {
-        const sorted = response.data
-          .slice()
-          .sort((a, b) => b.to_ath - a.to_ath);
-        setWholeAth(sorted);
-        setStocks(sorted);
-        console.log(sorted);
-        // console.log(AthDate)
+        setWholeAth(response.data);
       })
       .catch((error) => {
         if (error.response.status == 401) {
@@ -62,31 +56,48 @@ function Ath() {
       });
   }, []);
 
+  const handleFilter = (event) => {
+    // setFiltering(true);
+    // console.log(final);
+    event.preventDefault();
+    axios
+      .get(
+        `${BASE_URL}/api/ath/getAll?categoryArg=[${industry}]&nameArg=${search}`,
+        {
+          headers: {
+            authorization: token,
+          },
+        }
+      )
+      .then((response) => {
+        setWholeAth(response.data);
+        if (response.data.length == 0) {
+          toast("سهمی با این فیلتر وجود ندارد");
+        }
+        // setFiltering(false);
+      })
+      .catch((error) => {
+        // setFiltering(false);
+        toast("مشکلی پیش آمد");
+      });
+  };
+
   function handleSearch(event) {
     event.preventDefault();
 
-    if (!search) {
-      setStocks(wholeAth);
-    } else {
-      const foundItems = wholeAth.filter((item) =>
-        item.stockTitle.includes(search)
-      );
-      setStocks(foundItems);
-    }
+    // if (!search) {
+    //   setStocks(wholeAth);
+    // } else {
+    //   const foundItems = wholeAth.filter((item) =>
+    //     item.stockTitle.includes(search)
+    //   );
+    //   setStocks(foundItems);
+    // }
   }
 
   return (
     <div>
-      {/* <DatePicker
-        onChange={(event) => {
-          console.log(moment(event.value).format("jYYYY-jMM-jDD"))
-          handleDate(event)
-        }
-        }
-        defaultValue={new Date()}
-      /> */}
-      {/* <p>تاریخ امتیازدهی: {requestedDate}</p> */}
-      <form onSubmit={handleSearch} style={{ display: "inline" }}>
+      <form onSubmit={handleFilter} style={{ display: "inline" }}>
         <input
           value={search}
           onChange={(event) => setSearch(event.target.value)}
@@ -98,13 +109,7 @@ function Ath() {
           }}
           placeholder="جستجوی نام سهم"
         />
-        <button
-          type="submit"
-          style={{ backgroundColor: "white", borderRadius: "7px" }}
-        >
-          جستجو
-        </button>
-      </form>
+        
 
       <div style={{ display: "inline" }}>
         <label style={{ margin: "30px", fontWeight: "bold" }}>
@@ -117,14 +122,20 @@ function Ath() {
             <option value={""}>...</option>
             {allIndustries &&
               allIndustries.map((option, index) => (
-                <option key={index} value={option}>
+                <option key={index} value={`"${option}"`}>
                   {option}
                 </option>
               ))}
           </select>
         </label>
       </div>
-
+<button
+          type="submit"
+          style={{ backgroundColor: "white", borderRadius: "7px" }}
+        >
+          جستجو
+        </button>
+      </form>
       <div className="tablesContainer" style={{ height: "60vh" }}>
         <table className="boardTable">
           <thead>
@@ -140,8 +151,8 @@ function Ath() {
           </thead>
 
           <tbody>
-            {stocks ? (
-              stocks.map((item, index) => (
+            {wholeAth ? (
+              wholeAth.map((item, index) => (
                 <tr
                   key={index}
                   style={
@@ -154,7 +165,7 @@ function Ath() {
                       : { color: "red" }
                   }
                 >
-                  <td style={{ fontWeight: "bold" }}>{index + 1}</td>
+                  <td style={{ fontWeight: "bold" }}>{item.index}</td>
                   <td style={{ fontWeight: "bold" }}>{item.stockTitle}</td>
                   <td>{(item.price / 10).toFixed(0)}</td>
                   <td>{(item.ath_price / 10).toFixed(0)}</td>
