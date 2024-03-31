@@ -137,7 +137,7 @@ function Ath() {
         </button>
       </form>
       <div className="tablesContainer" style={{ height: "60vh" }}>
-        <table className="boardTable">
+        <table className="commonTable">
           <thead>
             <tr>
               <th>رتبه</th>

@@ -91,7 +91,7 @@ function InitialDashboard() {
       <div className="servicesDashboard">
         <button
           onClick={() => accessToService(true, "predict")}
-          style={{ backgroundColor: "#e31228" }}
+          style={{ backgroundColor: "#334456" }}
         >
           پیش‌بینی نمودار
           <br />
@@ -99,7 +99,7 @@ function InitialDashboard() {
         </button>
         <button
           onClick={() => accessToService(true, "board")}
-          style={{ backgroundColor: "#8cc73c" }}
+          style={{ backgroundColor: "#e31228" }}
         >
           تابلوخوانی
           <br />
@@ -107,15 +107,15 @@ function InitialDashboard() {
         </button>
         <button
           onClick={() => accessToService(true, "fundamental")}
-          style={{ backgroundColor: "white", color: "#334456" }}
+          style={{ backgroundColor: "#00755E" }}
         >
           تحلیل بنیادی
           <br />
-          <FontAwesomeIcon icon={faBook} beatFade/>
+          <FontAwesomeIcon icon={faBook} beatFade />
         </button>
         <button
           onClick={() => accessToService(false, "technical")}
-          style={{ backgroundColor: "#334456" }}
+          style={{ backgroundColor: "white", color: "#334456" }}
         >
           تحلیل تکنیکال
           <br />
@@ -127,7 +127,7 @@ function InitialDashboard() {
           onClick={() => accessToService(false, "predict")}
           style={{
             background:
-              "linear-gradient(to right, #e31228, #8cc73c, #334456, white)",
+              "linear-gradient(to right, #e31228, #00755E, #334456, white)",
           }}
         >
           پکیج کامل

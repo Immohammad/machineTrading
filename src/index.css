@@ -210,6 +210,9 @@ div {
   border-radius: 8px;
   height: 100%;
 }
+.services b {
+  color: #0077b6;
+}
 
 .serviceImg {
   width: 100%;
@@ -524,7 +527,7 @@ input[type="password"] {
 
 /* *******************initial dashboard********************** */
 
-/* *******************board********************** */
+/* *******************common table********************** */
 .tablesContainer {
   height: 70vh;
   overflow-y: auto;
@@ -536,38 +539,61 @@ input[type="password"] {
   /* border: 1px solid var(--ourBlue); */
 }
 
-.boardTable {
+.commonTable {
   color: white;
   width: 100%;
   /* overflow: hidden; */
 }
 
-.boardTable thead {
+.commonTable thead {
   position: sticky;
   top: -3px;
   /* border: 1px solid black; */
 }
 
-.boardTable th {
+.commonTable th {
   position: sticky;
   top: -3px;
   background-color: #f2f2f2;
   color: #000;
   font-weight: bold;
+  font-size: 19px;
 }
 
-.boardTable th,
-.boardTable td {
+.commonTable th,
+.commonTable td {
   padding: 10px;
 }
 
-.boardTable tr {
+.commonTable tr {
   border: 1px solid black;
 }
-
-.boardTable tr:hover {
-  background-color: #dbd8d8;
+tr:nth-child(even) {
+  background-color: #dcdcdc; /* Change the background color to your desired color */
 }
+.commonTable tr:hover {
+  background-color: gray;
+}
+/* *******************end of common table*************** */
+
+/* *******************predict********************** */
+#predictTable th {
+  background-color: #334456;
+  color: white;
+}
+#predictTable {
+  color: black;
+}
+/* *******************end of predict********************** */
+
+/* *******************board********************** */
+#boardTable th {
+  background-color: #e31228;
+  color: white;
+}
+/* *******************end of board********************** */
+
+/* *******************board filter********************** */
 
 #boardFilter {
   background-color: white;
@@ -586,11 +612,15 @@ input[type="password"] {
   background-color: white;
   border-radius: 7px;
 }
-/* *******************end of board********************** */
+/* *******************end of board filter********************** */
 
 /* *******************fundamental********************** */
 #fundamentalTable {
   color: black;
+}
+#fundamentalTable th {
+  background-color: #00755e;
+  color: white;
 }
 #fundamentalButtons {
   margin: 10px;
@@ -600,9 +630,7 @@ input[type="password"] {
   background-color: orange;
   border: none;
 }
-/* #fundamentalHelp *{
-  text-align: right;
-} */
+
 #fundamentalHelp p {
   display: inline;
   margin: 5px;
@@ -615,7 +643,7 @@ input[type="password"] {
   text-align: right;
   margin: 5px;
 }
-#fundamentalHelp{
+#fundamentalHelp {
   width: 80%;
   margin-right: auto;
   margin-left: auto;

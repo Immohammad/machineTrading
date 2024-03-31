@@ -21,50 +21,51 @@ function AboutUs() {
   const cards = [
     {
       id: 1,
-      email: "h_farahani@sbu.ac.ir",
+      position:
+        "عضو هیات علمی دانشگاه شهید بهشتی و ناظر بر الگوریتم‌های هوش مصنوعی",
       name: "دکتر هادی فراهانی",
       avatar: farahani,
     },
     {
       id: 2,
-      email: "khodadi_j@yahoo.com",
+      position: "فارغ‌التحصیل علوم کامپیوتر و مدل‌یاب",
       name: "حسین خدادی",
       avatar: hossein,
     },
     {
       id: 3,
-      email: "mo.movahedinia@gmail.com",
+      position: "فارغ‌التحصیل مهندسی کامپیوتر و برنامه‌نویس سایت",
       name: "محمد موحدی نیا",
       avatar: mmd,
     },
     {
       id: 4,
-      email: "afroozi@reqres.in",
+      position: "فارغ‌التحصیل علوم کامپیوتر و برنامه‌نویس هوش مصنوعی",
       name: "علیرضا افروزی",
       avatar: afroozi,
     },
     {
       id: 5,
-      email: "reza.kalhor19@gmail.com",
+      position: "فارغ‌التحصیل مهندسی کامپیوتر و برنامه‌نویس سایت",
       name: "رضا کلهری",
       avatar: reza,
     },
 
     {
       id: 6,
-      email: "moslemi@gmail.com",
+      position: "فارغ‌التحصیل مدیریت مالی و تحلیل‌گر بازار سرمایه",
       name: "مهدی مسلمی",
       avatar: mehdi,
     },
     {
       id: 7,
-      email: "rivandy@gmail.com",
+      position: "فارغ‌التحصیل مدیریت مالی و تحلیل‌گر بازار سرمایه",
       name: "عادل ریوندی",
       avatar: adel,
     },
     {
       id: 8,
-      email: "sharifbakhtiar@gmail.com",
+      position: "فارغ‌التحصیل هوش مصنوعی و برنامه‌نویس هوش مصنوعی",
       name: "شیده شریف بختیار",
       avatar: shideh,
     },
@@ -135,8 +136,10 @@ function AboutUs() {
                     boxShadow: "5px 5px 5px #ccc",
                   }}
                 />
-                <p>{unit.name}</p>
-                <p>{unit.email}</p>
+                <div style={{ margin: "10px" }}>
+                  <p style={{ margin: "0px" , color:'#0077b6', fontWeight:'bold'}}>{unit.name}</p>
+                  <p>{unit.position}</p>
+                </div>
               </div>
             ))
           ) : (
@@ -151,8 +154,8 @@ function AboutUs() {
               آدرس: <br /> تهران
             </p>
             <p>
-              تلفن: <br /> 0919 593 7200 <br />
-              0911 591 3969
+              تلفن: <br /> 09195937200 <br />
+              09115913969
             </p>
           </div>
           <iframe

@@ -116,7 +116,6 @@ function Tablo() {
           handleDate(event);
         }}
         defaultValue={new Date()}
-        weekend={[1,2]}
       />
       {/* <DatePicker onChange={(event) =>console.log(event.value)} autoUpdate={true}/> */}
 
@@ -147,9 +146,9 @@ function Tablo() {
 
       <hr />
       <div className="tablesContainer">
-        <table className="boardTable">
+        <table className="commonTable" id="boardTable">
           <thead>
-            <tr>
+            <tr style={{ backgroundColor: "red" }}>
               <th>رتبه</th>
               <th>سهم</th>
               <th>حجم مشکوک</th>

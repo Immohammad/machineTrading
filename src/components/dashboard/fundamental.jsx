@@ -13,6 +13,7 @@ import {
   faSquare,
   faClipboardCheck,
   faCircleXmark,
+  faDownload
 } from "@fortawesome/free-solid-svg-icons";
 
 function Fundamental() {
@@ -97,18 +98,19 @@ function Fundamental() {
         </div>
       </div>
       <div className="tablesContainer">
-        <table className="boardTable" id="fundamentalTable">
+        <table className="commonTable" id="fundamentalTable">
           <thead>
             <tr>
               <th>تاریخ گزارش</th>
               <th>سهم</th>
               <th>نوع گزارش</th>
-              <th>دوره (ماه)</th>
               <th>اهمیت خبر</th>
+              <th>دوره (ماه)</th>
               <th>وضعیت حسابرسی</th>
               <th>تلفیقی</th>
               <th>مقدار در گزارش قبلی</th>
               <th>مقدار در گزارش فعلی</th>
+              <th>دانلود گزارش</th>
             </tr>
           </thead>
           <tbody>
@@ -120,7 +122,7 @@ function Fundamental() {
                       {indexReport == 0 ? (
                         <td
                           style={{
-                            fontWeight: "bold",
+                            fontWeight: "bold",backgroundColor:'white'
                           }}
                           rowspan={dates.fundamental.length}
                         >
@@ -131,7 +133,7 @@ function Fundamental() {
                       <td style={{ fontWeight: "bold" }}>{dates.symbol}</td>
 
                       <td>{item.title}</td>
-                      <td>{item.fiscal_period}</td>
+                      
                       <td>
                         <FontAwesomeIcon
                           icon={faBell}
@@ -146,6 +148,7 @@ function Fundamental() {
                           }}
                         />
                       </td>
+                      <td>{item.fiscal_period}</td>
                       <td>
                         {item.is_audited ? (
                           <FontAwesomeIcon icon={faClipboardCheck} />
@@ -155,6 +158,7 @@ function Fundamental() {
                       </td>
                       <td>{item.is_combined ? "بله" : "خیر"}</td>
                       <td>{item.value_prev}</td>
+                      
                       <td
                         style={{
                           backgroundColor: `${
@@ -169,6 +173,7 @@ function Fundamental() {
                       >
                         {item.value}
                       </td>
+                      <td><FontAwesomeIcon icon={faDownload} style={{color:'#0077b6'}}/></td>
                     </tr>
                   ))}
                 </React.Fragment>
