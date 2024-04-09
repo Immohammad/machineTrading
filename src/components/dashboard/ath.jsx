@@ -136,8 +136,8 @@ function Ath() {
           جستجو
         </button>
       </form>
-      <div className="tablesContainer" style={{ height: "60vh" }}>
-        <table className="commonTable">
+      <div className="tablesContainer" style={{ height: "500px" }}>
+        <table className="commonTable" id="athTable">
           <thead>
             <tr>
               <th>رتبه</th>

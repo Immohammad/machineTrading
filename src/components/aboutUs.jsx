@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 import ai from "./assets/services/ai.jpg";
 import base from "./assets/services/base.jpg";
@@ -18,6 +19,7 @@ import farahani from "./assets/team/farahani.jpg";
 import shideh from "./assets/team/shideh.jpg";
 
 function AboutUs() {
+  const navigate = useNavigate();
   const cards = [
     {
       id: 1,
@@ -74,20 +76,53 @@ function AboutUs() {
   return (
     <div>
       <div id="aboutImgContainer">
-        <img src={ai} alt="truck" id="aboutImg" />
-        <h1 id="aboutText">
-          بسپرس به هوش مصنوعی <br />{" "}
-          <span style={{ fontWeight: "normal", fontSize: "20px" }}>
-            {" "}
-            همین الان ثبت نام کن
-          </span>
-        </h1>
+        <img src={ai} alt="image" id="aboutImg" />
+        <div id="aboutText">
+          <h1>با ماشین‌تریدینگ پیش‌بینی و تحلیل بورس رو</h1>
+          <button
+            style={{
+              // fontWeight: "bold",
+              color: "white",
+              backgroundColor: "#0077b6",
+              borderRadius: "7px",
+              border: "none",
+              padding: "10px",
+            }}
+            onClick={() => navigate(`/login`)}
+          >
+            بسپرس به هوش مصنوعی
+          </button>
+        </div>
       </div>
       <div id="aboutData">
         {/*kolli */}
-        <h2>خدمات ما</h2>
-        <hr />
-        <div className="serviceContain">
+        {/* <h2>خدمات ما</h2> */}
+        <hr className="half" />
+        <div>
+          <p style={{ textAlign: "justify", color: "#334456" }}>
+            ماشین‌تریدینگ یک دستیار معاملاتی است که توسط جمعی از فارغ‌التحصیلان
+            و اساتید دانشگاه شهید بهشتی راه‌اندازی شد تا هوش مصنوعی را برای
+            اولین بار به کمک معامله‌گران بازار بورس ایران در معاملاتشان آورد.
+            سامانه هر آنچه که یک تحلیل‌گر بازار سرمایه برای بررسی سهام انجام
+            می‌دهد را در اختیار کاربر قرار می‌دهد. برای معامله در بورس ایران
+            نیاز است یک معامله‌گر حرفه‌ای تابلوی سهم را مورد بررسی قرار دهد،
+            آخرین گزارش‌های نمادها را در کدال مشاهده نماید، نمودار سهم را از نظر
+            تکنیکالی بررسی کند و با استراتژی‌های گوناگون روند آیندۀ قیمت را
+            پیش‌بینی کند تا سهام دارای پتانسیل رشد را کشف کرده و اقدام به خرید
+            نماید. حال آنکه انجام همۀ این‌ها با هم از یک دست یک یا چند تحلیل‌گر
+            خارج است. ماشین‌تریدینگ با قدرت‌گیری از الگوریتم‌های مورد نیاز و هوش
+            مصنوعی این تحلیل‌ها را به سرعت انجام داده و اطلاعات برجستۀ مورد نیاز
+            را در استخراج می‌کند. از طرفی در کنار این تحلیل‌ها با استفاده از
+            یادگیری ماشین روند آینده سهم یعنی صعودی، نزولی یا رنج‌بودن نماد در
+            بازه‌های کوتاه‌مدت، میان‌مدت و بلندمدت پیش‌بینی شده است و نماد‌هایی
+            که با احتمال بیشتری برای رخداد دارند به نمایش در می‌آیند. در کنار
+            این خدمات اصلی خدماتی چون معرفی سهام جاماندۀ بازار، شاخص ترس و طمع،
+            حباب صندوق‌ها، حباب سکه و ... نیز ارائه شده‌اند که برخی از آن‌ها
+            برای اولین بار در بورس ایران هستند که با ثبت نام در سایت به رایگان
+            می‌توان از آن‌ها بهره برد.
+          </p>
+        </div>
+        {/* <div className="serviceContain">
           <div className="services">
             <img src={ai1} alt="service1" className="serviceImg" />
             <p>
@@ -120,9 +155,9 @@ function AboutUs() {
               تحلیل بنیادی با هوش مصنوعی + سامانۀ کدال پلاس
             </p>
           </div>
-        </div>
+        </div> */}
         <h2>تیم ما</h2>
-        <hr />
+        <hr className="half" />
         <div className="row">
           {cards ? (
             cards.map((unit) => (
@@ -137,7 +172,15 @@ function AboutUs() {
                   }}
                 />
                 <div style={{ margin: "10px" }}>
-                  <p style={{ margin: "0px" , color:'#0077b6', fontWeight:'bold'}}>{unit.name}</p>
+                  <p
+                    style={{
+                      margin: "0px",
+                      color: "#0077b6",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    {unit.name}
+                  </p>
                   <p>{unit.position}</p>
                 </div>
               </div>
@@ -147,7 +190,7 @@ function AboutUs() {
           )}
         </div>
         <h2>ارتباط با ما</h2>
-        <hr />
+        <hr className="half" />
         <div className="row" style={{ margin: "20pt auto" }}>
           <div className="col-sm-12 col-md-6" style={{ textAlign: "right" }}>
             <p>

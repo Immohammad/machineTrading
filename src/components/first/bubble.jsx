@@ -33,15 +33,9 @@ function Bubble() {
     setterComma(formatted);
   };
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div id="bubbleContainer">
       <form onSubmit={handleSubmit} id="bubbleForm">
-      <h3 style={{padding:'15px', paddingTop:'0'}}>حباب سکه</h3>
+        <h3 style={{ padding: "15px", paddingTop: "0" }}>حباب سکه</h3>
         <select value={type} onChange={(event) => setType(event.target.value)}>
           <option value="1">سکه گرمی</option>
           <option value="2.033">ربع سکه</option>
@@ -93,7 +87,8 @@ function Bubble() {
         )}
         {bubblePercentage && (
           <p style={{ paddingTop: "30px" }}>
-            سکه {bubblePercentage.toFixed(2)} درصد ({parseInt((sekke-result), 10).toLocaleString()} تومان) حباب دارد.
+            سکه {bubblePercentage.toFixed(2)} درصد (
+            {parseInt(sekke - result, 10).toLocaleString()} تومان) حباب دارد.
           </p>
         )}
         {/* <p st

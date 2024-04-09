@@ -19,12 +19,13 @@
 .App {
   text-align: center;
   direction: rtl;
+  background-color: #f2f2f5;
 }
 
 body {
   font-family: regular;
   font-size: 18px;
-  background: #e6e8ec;
+  /* background: red; */
 }
 
 * {
@@ -149,7 +150,8 @@ div {
   margin: 5px;
   padding: 8px;
   border-radius: 5px;
-  cursor: pointer;
+  /* cursor: pointer; */
+  color: white;
 }
 
 /* *************end of footer*************** */
@@ -166,7 +168,9 @@ div {
   top: 10vh;
   right: 5vw;
 }
-
+#aboutText button{
+  margin: 20px;
+}
 #aboutImgContainer {
   position: relative;
   text-align: center;
@@ -178,14 +182,16 @@ div {
   margin: 0 auto;
 }
 
-#aboutData hr {
-  width: 30%;
-  margin: 10pt 35%;
-  border-top: 3px solid #f48120;
+hr.half {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  border-top: 3px solid var(--ourBlue);
 }
 
-#aboutData > h2 {
+h2 {
   padding-top: 20px;
+  color: var(--ourBlue);
 }
 
 .serviceContain {
@@ -247,6 +253,16 @@ div {
 /* *******************end of about********************** */
 
 /* *******************first page********************** */
+#firstPageSlider {
+  background-image: url("./components/assets/slider/sliderBackground.jpg");
+  background-size: 100% 100%;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  /* background-blend-mode: color; */
+  margin-bottom: 40px;
+}
+
 .parts > * {
   margin: 0 auto;
 }
@@ -325,7 +341,6 @@ div {
 .servicesInFirstPage img {
   width: 100%;
   padding: 20px;
-  /* animation: beat 2s infinite; */
 }
 /* @keyframes beat {
   0%, 100% {
@@ -339,10 +354,19 @@ div {
 /* *******************end of first page********************** */
 
 /* *******************bubble********************** */
+#bubbleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #bubbleForm {
+  background-image: url("./components/assets/bubble1.jpg");
+  background-size: 100% 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-blend-mode: color;
   text-align: center;
   display: block;
-  background-color: white;
+  /* background-color: white; */
   color: black;
   padding: 40px;
   margin: 30px;
@@ -529,7 +553,7 @@ input[type="password"] {
 
 /* *******************common table********************** */
 .tablesContainer {
-  height: 70vh;
+  height: 550px;
   overflow-y: auto;
   width: 80%;
   margin-right: auto;
@@ -575,6 +599,13 @@ tr:nth-child(even) {
   background-color: gray;
 }
 /* *******************end of common table*************** */
+
+/* *******************ath********************** */
+#athTable th {
+  background-color: purple;
+  color: white;
+}
+/* *******************end of ath********************** */
 
 /* *******************predict********************** */
 #predictTable th {

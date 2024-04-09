@@ -20,16 +20,16 @@ const zoomOutProperties = {
 
 export default function Slide() {
   return (
-    <div className="slide-container">
+    <div className="slide-container" id="firstPageSlider">
       <Zoom {...zoomOutProperties}>
         {images.map((each, index) => (
           <img
             key={index}
             style={{
-              width: "100%",
+              width: "80%",
               maxHeight: "50vh",
               borderRadius: "20px",
-              margin: "10px",
+              // margin: "10px",
             }}
             src={each}
           />

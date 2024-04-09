@@ -17,30 +17,31 @@ export default function Footer() {
       <MDBContainer className="p-4 pb-0">
         <section className="mb-4">
           <img src={logo} width="110px" style={{ marginLeft: "25px" }} />
-          <MDBIcon
-            fas
-            icon="at"
-            className="socials"
-            onClick={handleClick}
-          />
-          <MDBIcon
-            fab
-            icon="instagram"
-            className="socials"
-            onClick={handleClick}
-          />
-          <MDBIcon
-            fab
-            icon="telegram"
-            className="socials"
-            onClick={handleClick}
-          />
-          <MDBIcon
+          <a href={"mailto:machinetradingir@gmail.com"}>
+            <MDBIcon fas icon="at" className="socials" />
+          </a>
+          <a
+            href={"https://t.me/Machinetrading_ir"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MDBIcon fab icon="telegram" className="socials" />
+          </a>
+          <a
+            href={
+              "https://www.instagram.com/machine_trading_ir?utm_source=qr&igsh=MXg1a2VhbXZuOGdkNA=="
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MDBIcon fab icon="instagram" className="socials" />
+          </a>
+          {/* <MDBIcon
             fab
             icon="linkedin-in"
             className="socials"
             onClick={handleClick}
-          />
+          /> */}
         </section>
       </MDBContainer>
 

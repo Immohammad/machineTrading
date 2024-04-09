@@ -15,15 +15,16 @@ function FirstPage() {
   const navigate = useNavigate();
   return (
     <div>
+      <Slider />
       <div
         style={{
           maxWidth: "80%",
           margin: "0 auto",
         }}
       >
-        <Slider />
         <div className="parts">
-          <h3 style={{ textAlign: "right" }}>نبض بازار</h3>
+          <h3 style={{ textAlign: "center", margin: "20px" }}>نبض بازار</h3>
+          <hr className="half" />
           <div id="marketPulse">
             <table id="marketPulseTable">
               <tbody>
@@ -53,11 +54,14 @@ function FirstPage() {
           </div>
         </div>
         {/* ////////////////////////////////////////////// */}
+        <h3 style={{ textAlign: "center", margin: "20px" }}>خدمات ما</h3>
+        <hr className="half" />
         <div id="athAndBubble">
           <div
             className="servicesInFirstPage"
             style={{
               backgroundImage: "linear-gradient(to right, purple, white)",
+              gridTemplateColumns: '1fr 2fr'
             }}
           >
             <div>
@@ -86,18 +90,19 @@ function FirstPage() {
         <div
           className="servicesInFirstPage"
           style={{
-            backgroundImage: "linear-gradient(to right, #e31228, white)",
+            backgroundImage: "linear-gradient(to right, #334456, white)",
           }}
         >
           <div>
             <h3>پیش‌بینی نمودار سهام</h3>
             <hr />
             <p>
-              با استفاده از یادگیری ماشین و الگوریتم‌های هوش مصنوعی روند آیندۀ
-              نمودار سهم طی هفته آتی و در مقیاس بلندمدت‌تر یکماهه پیشبینی شده
+              با استفاده از یادگیری ماشین و الگوریتم‌های هوش مصنوعی، روند قیمت
+              سهم طی هفتۀ آتی و همچنین در بلندمدت پیشبینی شده و بسته‌های
+              نوسانگیری نیز فراهم آورده شده است.
             </p>
             <button
-              style={{ backgroundColor: "red" }}
+              style={{ backgroundColor: "#334456" }}
               onClick={() => navigate("/predictMore")}
             >
               اطلاعات بیشتر ...
@@ -109,21 +114,21 @@ function FirstPage() {
         <div
           className="servicesInFirstPage"
           style={{
-            backgroundImage: "linear-gradient(to right, #8cc73c, white)",
+            backgroundImage: "linear-gradient(to right, #e31228, white)",
           }}
         >
           <div>
             <h3>تابلوخوانی تمام نمادهای بازار</h3>
             <hr />
             <p>
-              با فیلترنویسی تمام پارامترهای تاثیرگذار در در بحث تابلوخوانی مورد
-              نظر قرار گرفته اند تا در کسری از ثانیه تحلیل تابلوی تمام نمادهای
-              بازار انجام شود و از آنجا که همۀ کاربران از میزان اهمیت هر کدام از
-              سیگنال‌های تابلو آگاه نیستند، سهام بازار از این منظر نمره‌دهی و
-              رتبه‌بندی شده‌اند.
+              با استفاده از الگوریتم‌ها تمام پارامترهای تاثیرگذار در بحث
+              تابلوخوانی مورد نظر قرار گرفته‌اند تا در کسری از ثانیه تحلیل
+              تابلوی تمام نمادهای بازار انجام شود و از آنجا که همۀ کاربران از
+              میزان اهمیت هر کدام از سیگنال‌های تابلو آگاه نیستند، سهام بازار از
+              این منظر نمره‌دهی و رتبه‌بندی شده‌اند.
             </p>
             <button
-              style={{ backgroundColor: "#8cc73c" }}
+              style={{ backgroundColor: "#e31228" }}
               onClick={() => navigate("/boardMore")}
             >
               اطلاعات بیشتر ...
@@ -135,7 +140,7 @@ function FirstPage() {
         <div
           className="servicesInFirstPage"
           style={{
-            backgroundImage: "linear-gradient(to right, black, white)",
+            backgroundImage: "linear-gradient(to right, #00755e, white)",
           }}
         >
           <div>
@@ -143,11 +148,11 @@ function FirstPage() {
             <hr />
             <p>
               اخبار و گزارشات ماهانه و فصلی شرکت‌های مختلف بورسی با توجه به
-              گذشته نماد و سود قابل‌بینی بررسی شده‌اند و خوبی یا بدی گزارش در یک
-              نگاه نشان داده شده‌اند.
+              گذشتۀ نماد و سود قابل‌پیشبینی بررسی شده‌اند و خوبی یا بدی گزارش و
+              برجسته‌ترین نکات آن در یک نگاه به نمایش درآمده‌اند.
             </p>
             <button
-              style={{ backgroundColor: "black" }}
+              style={{ backgroundColor: "#00755e" }}
               onClick={() => navigate("/fundamentalMore")}
             >
               اطلاعات بیشتر ...
@@ -159,7 +164,7 @@ function FirstPage() {
         <div
           className="servicesInFirstPage"
           style={{
-            backgroundImage: "linear-gradient(to right, #334456, white)",
+            backgroundImage: "linear-gradient(to right, gray, white)",
           }}
         >
           <div>
@@ -174,7 +179,7 @@ function FirstPage() {
               از پارامترها نمادهای بازار رتبه‌بندی شوند.
             </p>
             <button
-              style={{ backgroundColor: "#334456" }}
+              style={{ backgroundColor: "black" }}
               onClick={() => navigate("/technicalMore")}
             >
               اطلاعات بیشتر ...
