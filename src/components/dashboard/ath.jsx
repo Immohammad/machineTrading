@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import BASE_URL from "../variables.js";
 
-// import moment from "jalali-moment";
-// import { DatePicker } from "zaman";
 import loading from "../assets/loading.gif";
 import { toast } from "react-toastify";
 
@@ -14,7 +12,8 @@ function Ath() {
   const [search, setSearch] = useState("");
   const [allIndustries, setAllIndustries] = useState();
   const [industry, setIndustry] = useState("");
-  // const [requestedDate, setRequestedDate] = useState(moment(new Date()).subtract(3, 'month').format("jYYYY-jMM-jDD"));
+
+  const [filtering, setFiltering] = useState(false);
 
   const token = localStorage.getItem("token");
 
@@ -57,8 +56,7 @@ function Ath() {
   }, []);
 
   const handleFilter = (event) => {
-    // setFiltering(true);
-    // console.log(final);
+    setFiltering(true);
     event.preventDefault();
     axios
       .get(
@@ -74,26 +72,13 @@ function Ath() {
         if (response.data.length == 0) {
           toast("سهمی با این فیلتر وجود ندارد");
         }
-        // setFiltering(false);
+        setFiltering(false);
       })
       .catch((error) => {
-        // setFiltering(false);
+        setFiltering(false);
         toast("مشکلی پیش آمد");
       });
   };
-
-  function handleSearch(event) {
-    event.preventDefault();
-
-    // if (!search) {
-    //   setStocks(wholeAth);
-    // } else {
-    //   const foundItems = wholeAth.filter((item) =>
-    //     item.stockTitle.includes(search)
-    //   );
-    //   setStocks(foundItems);
-    // }
-  }
 
   return (
     <div>
@@ -109,29 +94,29 @@ function Ath() {
           }}
           placeholder="جستجوی نام سهم"
         />
-        
 
-      <div style={{ display: "inline" }}>
-        <label style={{ margin: "30px", fontWeight: "bold" }}>
-          فیلتر بر اساس صنعت:{" "}
-          <select
-            value={industry}
-            onChange={(event) => setIndustry(event.target.value)}
-            // style={{ width: "300px" }}
-          >
-            <option value={""}>...</option>
-            {allIndustries &&
-              allIndustries.map((option, index) => (
-                <option key={index} value={`"${option}"`}>
-                  {option}
-                </option>
-              ))}
-          </select>
-        </label>
-      </div>
-<button
+        <div style={{ display: "inline" }}>
+          <label style={{ margin: "30px", fontWeight: "bold" }}>
+            فیلتر بر اساس صنعت:{" "}
+            <select
+              value={industry}
+              onChange={(event) => setIndustry(event.target.value)}
+              // style={{ width: "300px" }}
+            >
+              <option value={""}>...</option>
+              {allIndustries &&
+                allIndustries.map((option, index) => (
+                  <option key={index} value={`"${option}"`}>
+                    {option}
+                  </option>
+                ))}
+            </select>
+          </label>
+        </div>
+        <button
           type="submit"
           style={{ backgroundColor: "white", borderRadius: "7px" }}
+          disabled={filtering}
         >
           جستجو
         </button>

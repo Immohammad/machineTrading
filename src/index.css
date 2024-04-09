@@ -9,6 +9,10 @@
   font-family: "navbar";
   src: url("./components/assets/fonts/Yekan.ttf");
 }
+@font-face {
+  font-family: "englishText";
+  src: url("./components/assets/fonts/InterVariable.ttf");
+}
 
 :root {
   --ourBlue: #334456;
@@ -23,14 +27,12 @@
 }
 
 body {
-  font-family: regular;
   font-size: 18px;
-  /* background: red; */
 }
 
 * {
   font-size: 19px;
-  font-family: regular;
+  font-family: regular, englishText;
   font-weight: normal;
 }
 
@@ -168,7 +170,7 @@ div {
   top: 10vh;
   right: 5vw;
 }
-#aboutText button{
+#aboutText button {
   margin: 20px;
 }
 #aboutImgContainer {
@@ -587,6 +589,7 @@ input[type="password"] {
 .commonTable th,
 .commonTable td {
   padding: 10px;
+  direction: initial;
 }
 
 .commonTable tr {

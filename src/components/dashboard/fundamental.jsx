@@ -13,7 +13,7 @@ import {
   faSquare,
   faClipboardCheck,
   faCircleXmark,
-  faDownload
+  faDownload,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Fundamental() {
@@ -33,14 +33,22 @@ function Fundamental() {
         },
       })
       .then((response) => {
-        console.log(response.data.stocks[0].fundamental.length);
+        // console.log(response.data.stocks[0].fundamental.length);
         setTotalCount(response.data.totalCount);
         setReports(response.data.stocks);
         setLoading(false);
       })
       .catch((error) => {
-        toast("مشکلی پیش آمد");
-        console.log(error);
+        if (error.response.status == 401) {
+          localStorage.removeItem("userName");
+          localStorage.removeItem("token");
+          toast("به دلیل گذشت زمان باید دوباره وارد حساب خود شوید.");
+          setTimeout(() => {
+            window.location = "/";
+          }, 1000);
+        } else {
+          toast("مشکلی پیش آمد");
+        }
       });
   }, [currentPage]);
 
@@ -122,7 +130,8 @@ function Fundamental() {
                       {indexReport == 0 ? (
                         <td
                           style={{
-                            fontWeight: "bold",backgroundColor:'white'
+                            fontWeight: "bold",
+                            backgroundColor: "white",
                           }}
                           rowspan={dates.fundamental.length}
                         >
@@ -133,7 +142,7 @@ function Fundamental() {
                       <td style={{ fontWeight: "bold" }}>{dates.symbol}</td>
 
                       <td>{item.title}</td>
-                      
+
                       <td>
                         <FontAwesomeIcon
                           icon={faBell}
@@ -158,7 +167,7 @@ function Fundamental() {
                       </td>
                       <td>{item.is_combined ? "بله" : "خیر"}</td>
                       <td>{item.value_prev}</td>
-                      
+
                       <td
                         style={{
                           backgroundColor: `${
@@ -173,7 +182,12 @@ function Fundamental() {
                       >
                         {item.value}
                       </td>
-                      <td><FontAwesomeIcon icon={faDownload} style={{color:'#0077b6'}}/></td>
+                      <td>
+                        <FontAwesomeIcon
+                          icon={faDownload}
+                          style={{ color: "#0077b6" }}
+                        />
+                      </td>
                     </tr>
                   ))}
                 </React.Fragment>

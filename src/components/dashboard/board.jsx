@@ -69,7 +69,6 @@ function Tablo() {
         setWholeBoard(response.data);
         // setStocks(response.data);
         // console.log(response.data);
-        // console.log(requestedDate);
       })
       .catch((error) => {
         if (error.response.status == 401) {

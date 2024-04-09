@@ -88,7 +88,7 @@ function AboutUs() {
               border: "none",
               padding: "10px",
             }}
-            onClick={() => navigate(`/login`)}
+            onClick={() => navigate(`/dashboard`)}
           >
             بسپرس به هوش مصنوعی
           </button>

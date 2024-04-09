@@ -1,20 +1,26 @@
-// import React from 'react'
-// import { Route, redirect, Navigate } from "react-router-dom";
-
-// function Protect({ component: Component, ...restProps }) {
-//     const isAuth = localStorage.getItem('token');
-//     return (
-//         <Route {...restProps} render={(props) => {
-//             return isAuth ? <Component {...props} /> : <Navigate to='/login' />
-//         }} />
-//     )
-// }
-
-// export default Protect
-import {Outlet, Navigate} from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { Outlet, Navigate } from "react-router-dom";
+import axios from "axios";
+import BASE_URL from "./variables";
 
 export const Protect = ({ children, path }) => {
-    const isAuth = localStorage.getItem('token'); // your logic here
+    const token = localStorage.getItem("token");
+  const [isAuth, setIsAuth] = useState(localStorage.getItem('token'));
 
-    return isAuth ? children : <Navigate to="/login" />;
-}
+  useEffect(() => {
+    axios
+      .get(`${BASE_URL}/valid`, {
+        headers: {
+          authorization: token,
+        },
+      })
+      .then(() => {
+        setIsAuth(true);
+      })
+      .catch(() => {
+        setIsAuth(false);
+      });
+  }, []);
+
+  return isAuth ? children : <Navigate to="/login" />;
+};
