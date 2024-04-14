@@ -15,26 +15,29 @@ import {
   faCircleXmark,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
+import FundamentalFilter from "./fundamentalFilter.jsx";
 
 function Fundamental() {
   const [reports, setReports] = useState();
-  const [totalCount, setTotalCount] = useState();
+  // const [totalCount, setTotalCount] = useState();
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(true);
 
   const token = localStorage.getItem("token");
 
   useEffect(() => {
-    // console.log(reports)
     axios
-      .get(`${BASE_URL}/api/cp/getpaginated?pageIndex=${currentPage}`, {
-        headers: {
-          authorization: token,
-        },
-      })
+      .get(
+        `${BASE_URL}/api/cp/getpaginated?categoryArg=["خودرو و ساخت قطعات"]`,
+        {
+          headers: {
+            authorization: token,
+          },
+        }
+      )
       .then((response) => {
         // console.log(response.data.stocks[0].fundamental.length);
-        setTotalCount(response.data.totalCount);
+        // setTotalCount(response.data.totalCount);
         setReports(response.data.stocks);
         setLoading(false);
       })
@@ -66,11 +69,13 @@ function Fundamental() {
   }
   function goToLastPage() {
     setLoading(true);
-    setCurrentPage(totalCount);
+    // setCurrentPage(totalCount);
   }
 
   return (
     <div>
+      <FundamentalFilter setter={setReports} />
+      <hr />
       <div id="fundamentalHelp">
         <div style={{ display: "block" }}>
           <FontAwesomeIcon
@@ -112,7 +117,7 @@ function Fundamental() {
               <th>تاریخ گزارش</th>
               <th>سهم</th>
               <th>نوع گزارش</th>
-              <th>اهمیت خبر</th>
+              <th>اهمیت</th>
               <th>دوره (ماه)</th>
               <th>وضعیت حسابرسی</th>
               <th>تلفیقی</th>
@@ -122,7 +127,7 @@ function Fundamental() {
             </tr>
           </thead>
           <tbody>
-            {reports && !loading ? (
+            {reports ? (
               reports.map((dates, index) => (
                 <React.Fragment key={index}>
                   {dates.fundamental.map((item, indexReport) => (
@@ -166,23 +171,30 @@ function Fundamental() {
                         )}
                       </td>
                       <td>{item.is_combined ? "بله" : "خیر"}</td>
-                      <td>{item.value_prev}</td>
+                      <td>
+                        {item.value_prev !== null
+                          ? item.value_prev.toLocaleString()
+                          : ""}
+                      </td>
 
                       <td
                         style={{
                           backgroundColor: `${
                             item.color == 1
                               ? "green"
-                              : item.importance == 0
+                              : item.color == 0
                               ? "gray"
                               : "red"
                           }`,
                           color: "white",
                         }}
                       >
-                        {item.value}
+                        {item.value !== null ? item.value.toLocaleString() : ""}
                       </td>
-                      <td>
+                      <td
+                        style={{ cursor: "pointer" }}
+                        onClick={() => toast("دریافت گزارش در دسترس نیست")}
+                      >
                         <FontAwesomeIcon
                           icon={faDownload}
                           style={{ color: "#0077b6" }}
@@ -203,7 +215,7 @@ function Fundamental() {
         </table>
       </div>
 
-      <div id="fundamentalButtons">
+      {/* <div id="fundamentalButtons">
         <button onClick={goToFirstPage} disabled={currentPage == 1}>
           <FontAwesomeIcon icon={faForwardStep} />
         </button>
@@ -231,7 +243,7 @@ function Fundamental() {
         <button onClick={goToLastPage} disabled={currentPage == totalCount}>
           <FontAwesomeIcon icon={faBackwardStep} />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }

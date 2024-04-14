@@ -46,7 +46,7 @@ function Predict() {
     {
       symbol: "شستا",
       code: "2400322364771558",
-    }
+    },
   ];
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -80,6 +80,11 @@ function Predict() {
 
   return (
     <div>
+      <div>
+        <button>پیش‌بینی هفتگی</button>
+        <button>پیش‌بینی ماهانه</button>
+        <button>بستۀ نوسانگیر</button>
+      </div>
       <div className="tablesContainer">
         <table className="commonTable" id="predictTable">
           <thead>

@@ -18,28 +18,53 @@ function Tablo() {
   // const [stocks, setStocks] = useState();
   const [wholeBoard, setWholeBoard] = useState(null);
 
-  const [requestedDate, setRequestedDate] = useState(
-    moment(new Date()).format("jYYYY-jMM-jDD")
-  );
-  // moment(new Date()).subtract(3, "month").format("jYYYY-jMM-jDD")
+  // const [requestedDate, setRequestedDate] = useState(
+  //   moment(new Date()).format("jYYYY-jMM-jDD")
+  // );
+  const [requestedDate, setRequestedDate] = useState();
+  const [showDate, setShowDate] = useState('');
 
   const token = localStorage.getItem("token");
 
   useEffect(() => {
-    // console.log(dataStatic);
-    // .subtract(3, "month")
-    const boardDate = moment(new Date()).format("jYYYY-jMM-jDD");
+    // const boardDate = moment(new Date()).format("jYYYY-jMM-jDD");
+
     axios
-      .get(`${BASE_URL}/api/board/getAll?date=${boardDate}`, {
+      .get(`${BASE_URL}/api/board/lastDate`, {
         headers: {
           authorization: token,
         },
       })
       .then((response) => {
-        // console.log(response.data)
-        // setStocks(response.data);
-        setWholeBoard(response.data);
-        console.log(boardDate);
+        // setRequestedDate(response.data.date.replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3"));
+        const formattedDate = response.data.date.replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3");
+        setRequestedDate(formattedDate)
+        setShowDate(`${response.data.date.slice(0, 4)}/${response.data.date.slice(4, 6)}/${response.data.date.slice(6, 8)}`)
+        console.log(formattedDate);
+        axios
+          .get(`${BASE_URL}/api/board/getAll?date=${formattedDate}`, {
+            headers: {
+              authorization: token,
+            },
+          })
+          .then((response) => {
+            setWholeBoard(response.data);
+            // console.log(boardDate);
+          })
+          .catch((error) => {
+            if (error.response.status == 401) {
+              localStorage.removeItem("userName");
+              localStorage.removeItem("token");
+              toast("به دلیل گذشت زمان باید دوباره وارد حساب خود شوید.");
+              setTimeout(() => {
+                window.location = "/";
+              }, 1000);
+            } else {
+              toast("مشکلی پیش آمد1. ");
+              // toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
+              // console.log(boardDate);
+            }
+          });
       })
       .catch((error) => {
         if (error.response.status == 401) {
@@ -50,8 +75,9 @@ function Tablo() {
             window.location = "/";
           }, 1000);
         } else {
-          toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
-          console.log(boardDate);
+          toast("مشکلی پیش آمد2. ");
+          // toast("در تاریخ انتخاب شده بازار تعطیل می باشد. ");
+          // console.log(boardDate);
         }
       });
   }, []);
@@ -67,8 +93,6 @@ function Tablo() {
       })
       .then((response) => {
         setWholeBoard(response.data);
-        // setStocks(response.data);
-        // console.log(response.data);
       })
       .catch((error) => {
         if (error.response.status == 401) {
@@ -85,19 +109,6 @@ function Tablo() {
       });
   }
 
-  // function handleSearch(event) {
-  //   event.preventDefault();
-
-  //     if (!search) {
-  //       setStocks(wholeBoard);
-  //     } else {
-  //       const foundItems = wholeBoard.filter((item) =>
-  //         item.stockTitle.includes(search)
-  //       );
-  //       setStocks(foundItems);
-  //     }
-  // }
-
   return (
     <div>
       {/* <DatePicker
@@ -108,39 +119,15 @@ function Tablo() {
       adapter={moment}
       /> */}
       {/* <DatePicker onChange={(event) =>console.log(event.value)}/> */}
-      <p style={{ display: "inline", fontWeight: "bold" }}>تاریخ امتیازدهی: </p>
-      <DatePicker
+      <p style={{ display: "inline", fontWeight: "bold", backgroundColor:'white', padding:'10px', borderRadius:'5px' }}>تاریخ امتیازدهی: {showDate}</p>
+      {/* <DatePicker
         onChange={(event) => {
           console.log(moment(event.value).format("jYYYY-jMM-jDD"));
           handleDate(event);
         }}
         defaultValue={new Date()}
-      />
-      {/* <DatePicker onChange={(event) =>console.log(event.value)} autoUpdate={true}/> */}
+      /> */}
 
-      {/* <form onSubmit={handleSearch} style={{ display: "inline" }}>
-        <button
-          type="submit"
-          style={{
-            backgroundColor: "white",
-            borderRadius: "7px",
-            margin: "15px",
-            marginLeft: "2px",
-          }}
-        >
-          جستجو
-        </button>
-        <input
-          value={search}
-          onChange={(event) => setSearch(event.target.value)}
-          type="search"
-          style={{
-            borderRadius: "7px",
-            display: "inline",
-          }}
-          placeholder="جستجوی نام سهم"
-        />
-      </form> */}
       <BoardFilter setter={setWholeBoard} date={requestedDate} />
 
       <hr />
@@ -155,7 +142,7 @@ function Tablo() {
               <th>پول حقیقی</th>
               <th>پایانی به آخرین</th>
               <th>قدرت خریدار</th>
-              <th>مجموع</th>
+              <th>امتیاز</th>
             </tr>
           </thead>
           <tbody>

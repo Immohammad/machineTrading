@@ -599,7 +599,7 @@ tr:nth-child(even) {
   background-color: #dcdcdc; /* Change the background color to your desired color */
 }
 .commonTable tr:hover {
-  background-color: gray;
+  background-color: rgb(154, 186, 246);
 }
 /* *******************end of common table*************** */
 
@@ -633,6 +633,7 @@ tr:nth-child(even) {
   background-color: white;
   padding: 20px;
   text-align: right;
+  border-radius: 7px;
 }
 #boardFilter > div {
   display: inline;

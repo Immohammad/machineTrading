@@ -19,7 +19,6 @@ const Filter = (props) => {
 
   const handleFilter = () => {
     setFiltering(true);
-    // console.log(final);
     axios
       .get(
         `${BASE_URL}/api/board/getAll?date=${props.date}&nameArg=${stockName}&categoryArg=[${industry}]&finalLastArg=[${final}]&realMoneyArg=[${real}]&susArg=[${suspicios}]&intelMoneyArg=[${intel}]&buyPowerArg=[${buyerPower}]`,

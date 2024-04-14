@@ -10,6 +10,7 @@ import fundamentalPreview from "../assets/fundamentalPreview.PNG";
 import technicalPreview from "../assets/technicalPreview.jpg";
 import athPreview from "../assets/athPreview.PNG";
 import { useNavigate } from "react-router-dom";
+import MarketTransactions from "./marketTransactions";
 
 function FirstPage() {
   const navigate = useNavigate();
@@ -26,30 +27,7 @@ function FirstPage() {
           <h3 style={{ textAlign: "center", margin: "20px" }}>نبض بازار</h3>
           <hr className="half" />
           <div id="marketPulse">
-            <table id="marketPulseTable">
-              <tbody>
-                <tr>
-                  <th>ارزش بازار</th>
-                  <th>حجم معاملات</th>
-                  <th>شاخص کل</th>
-                </tr>
-                <tr>
-                  <td style={{ color: "#00ABF0" }}>125B</td>
-                  <td style={{ color: "#00ABF0" }}>5B</td>
-                  <td style={{ color: "#00ABF0" }}>1,254,000</td>
-                </tr>
-                <tr>
-                  <th>نمادهای مثبت</th>
-                  <th>نمادهای منفی</th>
-                  <th>هم وزن</th>
-                </tr>
-                <tr>
-                  <td style={{ color: "green" }}>150</td>
-                  <td style={{ color: "red" }}>170</td>
-                  <td style={{ color: "#00ABF0" }}>723651</td>
-                </tr>
-              </tbody>
-            </table>
+            <MarketTransactions />
             <FearAndGreed />
           </div>
         </div>
@@ -61,7 +39,7 @@ function FirstPage() {
             className="servicesInFirstPage"
             style={{
               backgroundImage: "linear-gradient(to right, purple, white)",
-              gridTemplateColumns: '1fr 2fr'
+              gridTemplateColumns: "1fr 2fr",
             }}
           >
             <div>
