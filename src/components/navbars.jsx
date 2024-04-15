@@ -67,11 +67,11 @@ const Navbars = () => {
             تریدرز کالج
           </a> */}
         </Nav>
-        <div style={{ margin: "20px", border: "2px solid green", borderRadius: "8px", padding: "5px" }}>
+        {/* <div style={{ margin: "20px", border: "2px solid green", borderRadius: "8px", padding: "5px" }}>
           <span style={{ margin: "20px" }}>پیش‌بینی ماشین‌تریدینگ: 2.5%</span>
           <span>|</span>
           <span style={{ margin: "20px" }}>شاخص کل: 2.3%</span>
-        </div>
+        </div> */}
       </Navbar.Collapse>
     </Navbar>
   );

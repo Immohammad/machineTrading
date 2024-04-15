@@ -83,8 +83,7 @@ function FundamentalFilter(props) {
         toast("مشکلی در بارگذاری فیلتر صنایع پیش آمد");
       });
   }, []);
-  console.log("Industry state:", industry);
-  console.log("All industries:", allIndustries);
+  
   return (
     <div id="boardFilter">
       <h5 style={{ display: "inline" }}>فیلتر بر اساس :</h5>
