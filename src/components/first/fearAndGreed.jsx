@@ -4,7 +4,7 @@ import { Chart } from "react-google-charts";
 function getData() {
   return [
     ["Label", "Value"],
-    ["شاخص ترس و طمع", 12],
+    ["شاخص ترس و طمع", 9],
   ];
 }
 
