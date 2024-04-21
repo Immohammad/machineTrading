@@ -1,5807 +1,5807 @@
 const weeklyMonthly = {
-  "22086876724551482": {
-    name: "بموتو",
-    monthly: 0,
-    monthly_confidence: 89.28852659847234,
-    weekly: 1,
-    weekly_confidence: 88.39793595964713,
-  },
-  "47333458678352378": {
-    name: "وخاور",
-    monthly: 0,
-    monthly_confidence: 79.84542741195162,
-    weekly: 0,
-    weekly_confidence: 88.96696622795663,
-  },
-  "69817338460284329": {
-    name: "فروژ",
-    monthly: 1,
-    monthly_confidence: 74.5753899052493,
-    weekly: 1,
-    weekly_confidence: 84.4291356369196,
-  },
-  "23353689102956991": {
-    name: "دکوثر",
-    monthly: 1,
-    monthly_confidence: 96.81188687397734,
-    weekly: 0,
-    weekly_confidence: 66.49413035251668,
-  },
-  "40553302624764543": {
-    name: "وکغدیر",
-    monthly: 0,
-    monthly_confidence: 96.10459911120181,
-    weekly: 1,
-    weekly_confidence: 89.32943424181424,
-  },
-  "20865316761157979": {
-    name: "فاراک",
-    monthly: 1,
-    monthly_confidence: 88.7921386710447,
-    weekly: 0,
-    weekly_confidence: 74.78207932553288,
-  },
-  "44967158778304588": {
-    name: "قثابت",
-    monthly: 0,
-    monthly_confidence: 87.09116393538564,
-    weekly: 1,
-    weekly_confidence: 93.94938670829347,
-  },
-  "57086055330734195": {
-    name: "کرازی",
-    monthly: 1,
-    monthly_confidence: 65.54331216266343,
-    weekly: 0,
-    weekly_confidence: 89.14253348557918,
-  },
-  6043384171800349: {
-    name: "ثشرق",
-    monthly: 0,
-    monthly_confidence: 74.02506055238617,
-    weekly: 0,
-    weekly_confidence: 98.98034271272753,
-  },
-  11622051128546106: {
-    name: "شپاکسا",
-    monthly: 0,
-    monthly_confidence: 75.54159739410899,
-    weekly: 1,
-    weekly_confidence: 82.89744951821085,
-  },
-  "42696242981550091": {
-    name: "کصدف",
-    monthly: 1,
-    monthly_confidence: 69.25361786031532,
-    weekly: 1,
-    weekly_confidence: 72.31353190135286,
-  },
-  12746730665870442: {
-    name: "بهپاک",
-    monthly: 0,
-    monthly_confidence: 71.27517849320068,
-    weekly: 0,
-    weekly_confidence: 78.10076829568608,
-  },
-  "32357363984168442": {
-    name: "جم",
-    monthly: 0,
-    monthly_confidence: 69.36121837682397,
-    weekly: 1,
-    weekly_confidence: 77.87369203566719,
-  },
-  "63917421733088077": {
-    name: "وتجارت",
-    monthly: 1,
-    monthly_confidence: 76.98948573732595,
-    weekly: 1,
-    weekly_confidence: 89.03826545985038,
-  },
-  "45895339414786358": {
-    name: "خرینگ",
-    monthly: 1,
-    monthly_confidence: 90.78518370293996,
-    weekly: 1,
-    weekly_confidence: 89.90111142045575,
-  },
-  "46830341954511303": {
-    name: "وآیند",
-    monthly: 1,
-    monthly_confidence: 85.86575496456514,
-    weekly: 1,
-    weekly_confidence: 94.11332336529541,
-  },
-  "25286509736208688": {
-    name: "فلامی",
-    monthly: 1,
-    monthly_confidence: 85.63562829741143,
-    weekly: 1,
-    weekly_confidence: 67.99652684139681,
-  },
-  "67522512921942106": {
-    name: "پادا",
-    monthly: 0,
-    monthly_confidence: 66.4995025138119,
-    weekly: 1,
-    weekly_confidence: 76.55088568863795,
-  },
-  "70541934393301867": {
-    name: "سلام",
-    monthly: 1,
-    monthly_confidence: 70.93997003033522,
-    weekly: 1,
-    weekly_confidence: 76.27875504609008,
-  },
-  "16056283141617755": {
-    name: "کارین",
-    monthly: 1,
-    monthly_confidence: 98.21895872783865,
-    weekly: 1,
-    weekly_confidence: 98.12035400913075,
-  },
-  "59217041815333317": {
-    name: "خکار",
-    monthly: 0,
-    monthly_confidence: 65.02905180634694,
-    weekly: 1,
-    weekly_confidence: 83.6984738159239,
-  },
-  "60523145697836739": {
-    name: "بورس",
-    monthly: 0,
-    monthly_confidence: 91.38709235134937,
-    weekly: 1,
-    weekly_confidence: 88.84951181599345,
-  },
-  "32525655729432562": {
-    name: "سبهان",
-    monthly: 1,
-    monthly_confidence: 94.57464722330103,
-    weekly: 0,
-    weekly_confidence: 89.86880928666086,
-  },
-  "33406621820337161": {
-    name: "دجابر",
-    monthly: 1,
-    monthly_confidence: 93.43049750300904,
-    weekly: 1,
-    weekly_confidence: 96.10423080089308,
-  },
-  "65249046611427924": {
-    name: "فردا",
-    monthly: 1,
-    monthly_confidence: 94.65826258937885,
-    weekly: 1,
-    weekly_confidence: 86.7071147181354,
-  },
-  "69171897374421261": {
-    name: "فن افزار",
-    monthly: 1,
-    monthly_confidence: 97.10348687357771,
-    weekly: 0,
-    weekly_confidence: 96.69997066606938,
-  },
-  "45174198424472334": {
-    name: "ولساپا",
-    monthly: 1,
-    monthly_confidence: 81.95143480017333,
-    weekly: 1,
-    weekly_confidence: 86.56145154501895,
-  },
-  "56820995669577571": {
-    name: "قلرست",
-    monthly: 0,
-    monthly_confidence: 98.69408760101284,
-    weekly: 1,
-    weekly_confidence: 83.69218634222051,
-  },
-  1358190916156744: {
-    name: "وآذر",
-    monthly: 1,
-    monthly_confidence: 89.06843043970589,
-    weekly: 1,
-    weekly_confidence: 94.35100786798964,
-  },
-  "23936607891892333": {
-    name: "چافست",
-    monthly: 0,
-    monthly_confidence: 74.3378112166066,
-    weekly: 0,
-    weekly_confidence: 66.87465793296691,
-  },
-  "34856765062083074": {
-    name: "بازده",
-    monthly: 0,
-    monthly_confidence: 71.58897440473284,
-    weekly: 1,
-    weekly_confidence: 84.3784823507081,
-  },
-  "35964395659427029": {
-    name: "قشکر",
-    monthly: 1,
-    monthly_confidence: 65.23202313563206,
-    weekly: 1,
-    weekly_confidence: 95.35174742156642,
-  },
-  "44625249840480397": {
-    name: "حآسا",
-    monthly: 1,
-    monthly_confidence: 72.91723615522078,
-    weekly: 0,
-    weekly_confidence: 85.36669741544823,
-  },
-  9761381741308262: {
-    name: "وشمال",
-    monthly: 0,
-    monthly_confidence: 67.19932249509746,
-    weekly: 1,
-    weekly_confidence: 85.81828011747618,
-  },
-  "10795723506538053": {
-    name: "فیروزا",
-    monthly: 1,
-    monthly_confidence: 87.0959945327314,
-    weekly: 0,
-    weekly_confidence: 79.35301387901383,
-  },
-  "33254899395816171": {
-    name: "زر",
-    monthly: 0,
-    monthly_confidence: 89.58685304537546,
-    weekly: 1,
-    weekly_confidence: 80.73176490698813,
-  },
-  "30282299500988269": {
-    name: "آکورد",
-    monthly: 1,
-    monthly_confidence: 98.7496770224014,
-    weekly: 1,
-    weekly_confidence: 71.89424216317639,
-  },
-  "47041908051542008": {
-    name: "هم وزن",
-    monthly: 0,
-    monthly_confidence: 65.15673436123163,
-    weekly: 1,
-    weekly_confidence: 92.63736686719882,
-  },
-  43023243844297350: {
-    name: "چنوپا",
-    monthly: 0,
-    monthly_confidence: 83.04919523286705,
-    weekly: 1,
-    weekly_confidence: 71.63206623312004,
-  },
-  71510396252618330: {
-    name: "دبالک",
-    monthly: 1,
-    monthly_confidence: 66.7616893917023,
-    weekly: 1,
-    weekly_confidence: 91.14556885680057,
-  },
-  57300230097485720: {
-    name: "غگیلا",
-    monthly: 1,
-    monthly_confidence: 91.79100739300245,
-    weekly: 0,
-    weekly_confidence: 84.83424725652466,
-  },
-  "14800142337291217": {
-    name: "فولای",
-    monthly: 1,
-    monthly_confidence: 97.47712621592677,
-    weekly: 1,
-    weekly_confidence: 77.43902831153241,
-  },
-  "43062880954780884": {
-    name: "تپمپی",
-    monthly: 1,
-    monthly_confidence: 92.85346611037367,
-    weekly: 1,
-    weekly_confidence: 73.71948692032093,
-  },
-  18004480270695404: {
-    name: "فمراد",
-    monthly: 1,
-    monthly_confidence: 92.1590302615276,
-    weekly: 1,
-    weekly_confidence: 73.08277210263344,
-  },
-  22941065011246116: {
-    name: "کپرور",
-    monthly: 1,
-    monthly_confidence: 72.82999222716893,
-    weekly: 0,
-    weekly_confidence: 82.5003134252221,
-  },
-  "28854105556435129": {
-    name: "ثزاگرس",
-    monthly: 0,
-    monthly_confidence: 74.74611585143921,
-    weekly: 0,
-    weekly_confidence: 76.37298100578852,
-  },
-  51017863148152520: {
-    name: "فرود",
-    monthly: 1,
-    monthly_confidence: 75.03782371138607,
-    weekly: 1,
-    weekly_confidence: 93.98633116173812,
-  },
-  "23441366113375722": {
-    name: "پارسان",
-    monthly: 0,
-    monthly_confidence: 81.5447132188241,
-    weekly: 1,
-    weekly_confidence: 66.76326387514142,
-  },
-  "70270965300262393": {
-    name: "البرز",
-    monthly: 0,
-    monthly_confidence: 65.26560880181272,
-    weekly: 1,
-    weekly_confidence: 65.77534758811646,
-  },
-  "70474983732269112": {
-    name: "دپارس",
-    monthly: 1,
-    monthly_confidence: 72.15310244415039,
-    weekly: 1,
-    weekly_confidence: 81.4866084191719,
-  },
-  35158826900216508: {
-    name: "غاذر",
-    monthly: 1,
-    monthly_confidence: 90.58122680315758,
-    weekly: 1,
-    weekly_confidence: 72.12960235540471,
-  },
-  "20562694899904339": {
-    name: "شپدیس",
-    monthly: 0,
-    monthly_confidence: 70.835873820214,
-    weekly: 1,
-    weekly_confidence: 75.25246037453668,
-  },
-  4470657233334072: {
-    name: "سخاش",
-    monthly: 1,
-    monthly_confidence: 93.94956844335253,
-    weekly: 1,
-    weekly_confidence: 80.14350522022994,
-  },
-  14230681955555738: {
-    name: "آرام",
-    monthly: 1,
-    monthly_confidence: 85.44007954941617,
-    weekly: 1,
-    weekly_confidence: 84.27420072673354,
-  },
-  "19367527798307032": {
-    name: "فالوم",
-    monthly: 0,
-    monthly_confidence: 74.5465278763088,
-    weekly: 0,
-    weekly_confidence: 86.68510329141776,
-  },
-  "49399017998386087": {
-    name: "فبیرا",
-    monthly: 1,
-    monthly_confidence: 82.87650786327602,
-    weekly: 1,
-    weekly_confidence: 89.96173981708816,
-  },
-  "9698674686691945": {
-    name: "کپارس",
-    monthly: 1,
-    monthly_confidence: 67.38217247149997,
-    weekly: 1,
-    weekly_confidence: 70.25708211412557,
-  },
-  "45608932669358493": {
-    name: "کایتا",
-    monthly: 1,
-    monthly_confidence: 84.7312589742408,
-    weekly: 0,
-    weekly_confidence: 76.34743549893199,
-  },
-  4267564158935326: {
-    name: "قیستو",
-    monthly: 1,
-    monthly_confidence: 86.80424765972965,
-    weekly: 1,
-    weekly_confidence: 95.22205056467328,
-  },
-  "25001509088465005": {
-    name: "کساوه",
-    monthly: 0,
-    monthly_confidence: 87.7418626010781,
-    weekly: 1,
-    weekly_confidence: 88.51739699124911,
-  },
-  51294484197536070: {
-    name: "غشوکو",
-    monthly: 1,
-    monthly_confidence: 76.93297839405339,
-    weekly: 1,
-    weekly_confidence: 73.18236739905741,
-  },
-  5317427172344706: {
-    name: "هجرت",
-    monthly: 0,
-    monthly_confidence: 91.35766550105537,
-    weekly: 1,
-    weekly_confidence: 93.17103128684457,
-  },
-  "71483646978964608": {
-    name: "ذوب",
-    monthly: 0,
-    monthly_confidence: 98.60897068340351,
-    weekly: 1,
-    weekly_confidence: 79.97402623061926,
-  },
-  "32845891587040106": {
-    name: "ثنوسا",
-    monthly: 1,
-    monthly_confidence: 91.80282725876992,
-    weekly: 1,
-    weekly_confidence: 86.17061801132287,
-  },
-  70595828753641750: {
-    name: "پارند",
-    monthly: 1,
-    monthly_confidence: 98.41509124904059,
-    weekly: 1,
-    weekly_confidence: 66.54266304463576,
-  },
-  15949743338644220: {
-    name: "ساروم",
-    monthly: 0,
-    monthly_confidence: 84.3940659069434,
-    weekly: 1,
-    weekly_confidence: 90.42885841715866,
-  },
-  "41781090739318251": {
-    name: "تلیسه",
-    monthly: 1,
-    monthly_confidence: 95.44803417316108,
-    weekly: 1,
-    weekly_confidence: 79.90890339365778,
-  },
-  "66599109405217136": {
-    name: "گکوثر",
-    monthly: 1,
-    monthly_confidence: 81.96360080681248,
-    weekly: 1,
-    weekly_confidence: 98.53648546413149,
-  },
-  318005355896147: {
-    name: "فسا",
-    monthly: 1,
-    monthly_confidence: 88.68975227767937,
-    weekly: 1,
-    weekly_confidence: 78.08974608652161,
-  },
-  12874072841236826: {
-    name: "فسازان",
-    monthly: 0,
-    monthly_confidence: 73.01991892495903,
-    weekly: 1,
-    weekly_confidence: 93.6373956498372,
-  },
-  "63888998422355039": {
-    name: "نوآور",
-    monthly: 1,
-    monthly_confidence: 65.04999092330735,
-    weekly: 1,
-    weekly_confidence: 67.47083069634921,
-  },
-  "41302553376174581": {
-    name: "فجر",
-    monthly: 0,
-    monthly_confidence: 86.9550893090068,
-    weekly: 0,
-    weekly_confidence: 72.46733315343863,
-  },
-  49129081625829210: {
-    name: "نشار",
-    monthly: 1,
-    monthly_confidence: 80.75386278791076,
-    weekly: 0,
-    weekly_confidence: 83.17165723166698,
-  },
-  "21096748051392414": {
-    name: "سغدیر",
-    monthly: 0,
-    monthly_confidence: 88.25488056495466,
-    weekly: 1,
-    weekly_confidence: 84.30256073673834,
-  },
-  "45991797190214892": {
-    name: "وآفر",
-    monthly: 1,
-    monthly_confidence: 71.37079582202587,
-    weekly: 0,
-    weekly_confidence: 81.52401840609521,
-  },
-  "56324206651661881": {
-    name: "فنورد",
-    monthly: 1,
-    monthly_confidence: 81.33157650266665,
-    weekly: 0,
-    weekly_confidence: 88.36084621434276,
-  },
-  7628308021169118: {
-    name: "بکهنوج",
-    monthly: 0,
-    monthly_confidence: 91.04945812849658,
-    weekly: 1,
-    weekly_confidence: 67.95803523500771,
-  },
-  "28291104595448527": {
-    name: "کزغال",
-    monthly: 1,
-    monthly_confidence: 86.20446951326439,
-    weekly: 1,
-    weekly_confidence: 90.09124570488511,
-  },
-  1301069819790264: {
-    name: "تجلی",
-    monthly: 1,
-    monthly_confidence: 92.36004818560556,
-    weekly: 1,
-    weekly_confidence: 90.42662842221941,
-  },
-  3493306453706327: {
-    name: "شوینده",
-    monthly: 0,
-    monthly_confidence: 86.67185971378008,
-    weekly: 1,
-    weekly_confidence: 80.2726802596549,
-  },
-  3722699128879020: {
-    name: "حتاید",
-    monthly: 1,
-    monthly_confidence: 75.06806559535856,
-    weekly: 1,
-    weekly_confidence: 94.06165224096637,
-  },
-  5516102131364383: {
-    name: "غمینو",
-    monthly: 1,
-    monthly_confidence: 86.28756523489017,
-    weekly: 1,
-    weekly_confidence: 67.48020527903752,
-  },
-  5920901446678689: {
-    name: "وتعاون",
-    monthly: 1,
-    monthly_confidence: 73.28012930891879,
-    weekly: 1,
-    weekly_confidence: 73.31910525615497,
-  },
-  6131290133202745: {
-    name: "غمهرا",
-    monthly: 1,
-    monthly_confidence: 93.19201145720963,
-    weekly: 1,
-    weekly_confidence: 83.65060687181989,
-  },
-  7300125658580126: {
-    name: "زکشت",
-    monthly: 1,
-    monthly_confidence: 86.99222732261114,
-    weekly: 0,
-    weekly_confidence: 97.60376888655064,
-  },
-  7745894403636165: {
-    name: "شپنا",
-    monthly: 1,
-    monthly_confidence: 91.23606661163224,
-    weekly: 0,
-    weekly_confidence: 98.9959701124709,
-  },
-  "9141577977527107": {
-    name: "وایرا",
-    monthly: 1,
-    monthly_confidence: 73.4062705575935,
-    weekly: 0,
-    weekly_confidence: 92.44270232509774,
-  },
-  "9536587154100457": {
-    name: "وپاسار",
-    monthly: 1,
-    monthly_confidence: 75.66388594553196,
-    weekly: 1,
-    weekly_confidence: 69.61906450445228,
-  },
-  10120557300120078: {
-    name: "پسهند",
-    monthly: 0,
-    monthly_confidence: 76.64155142856781,
-    weekly: 1,
-    weekly_confidence: 94.97292312983436,
-  },
-  11427939669935844: {
-    name: "اطلس",
-    monthly: 0,
-    monthly_confidence: 73.34728748905395,
-    weekly: 1,
-    weekly_confidence: 85.29099002057927,
-  },
-  12390706505809150: {
-    name: "گوهر",
-    monthly: 1,
-    monthly_confidence: 83.9746127103372,
-    weekly: 0,
-    weekly_confidence: 92.57130932879234,
-  },
-  "12752224677923341": {
-    name: "خریخت",
-    monthly: 0,
-    monthly_confidence: 87.77089183955997,
-    weekly: 0,
-    weekly_confidence: 79.69561155292067,
-  },
-  "12965822877128721": {
-    name: "ثقزوی",
-    monthly: 0,
-    monthly_confidence: 73.11148378687399,
-    weekly: 0,
-    weekly_confidence: 96.58417427820572,
-  },
-  13243992182070788: {
-    name: "درهآور",
-    monthly: 1,
-    monthly_confidence: 68.78479043989267,
-    weekly: 1,
-    weekly_confidence: 80.5298573128815,
-  },
-  13281937213456378: {
-    name: "حسیر",
-    monthly: 1,
-    monthly_confidence: 89.15428229989283,
-    weekly: 0,
-    weekly_confidence: 69.86073088129298,
-  },
-  14061767679814842: {
-    name: "ولقمانح",
-    monthly: 1,
-    monthly_confidence: 73.07496122720761,
-    weekly: 1,
-    weekly_confidence: 86.76257424236019,
-  },
-  14312030900097668: {
-    name: "غگلپا",
-    monthly: 0,
-    monthly_confidence: 86.32756288339202,
-    weekly: 1,
-    weekly_confidence: 97.41788221881643,
-  },
-  15090491830692116: {
-    name: "پارتین",
-    monthly: 1,
-    monthly_confidence: 78.88020913427962,
-    weekly: 1,
-    weekly_confidence: 96.14152356320409,
-  },
-  15726796686853780: {
-    name: "ثعمرا",
-    monthly: 0,
-    monthly_confidence: 71.00231198572753,
-    weekly: 1,
-    weekly_confidence: 87.00039010563988,
-  },
-  "16553062355259729": {
-    name: "بمیلا",
-    monthly: 1,
-    monthly_confidence: 65.82305663284549,
-    weekly: 1,
-    weekly_confidence: 73.95753130211983,
-  },
-  18027801615184692: {
-    name: "کچاد",
-    monthly: 1,
-    monthly_confidence: 86.89358938871683,
-    weekly: 1,
-    weekly_confidence: 66.42698195760475,
-  },
-  "18401147983387689": {
-    name: "غپینو",
-    monthly: 0,
-    monthly_confidence: 71.0477238620368,
-    weekly: 1,
-    weekly_confidence: 70.45867708197189,
-  },
-  "18919451747622263": {
-    name: "ویسرو",
-    monthly: 0,
-    monthly_confidence: 92.76498549116208,
-    weekly: 1,
-    weekly_confidence: 85.18953534123622,
-  },
-  "20560887114747719": {
-    name: "کسرام",
-    monthly: 1,
-    monthly_confidence: 66.86562880050187,
-    weekly: 0,
-    weekly_confidence: 87.42551199874254,
-  },
-  20926459161497908: {
-    name: "ثتران",
-    monthly: 0,
-    monthly_confidence: 97.66079959570739,
-    weekly: 0,
-    weekly_confidence: 65.85023290541437,
-  },
-  "22255783119783047": {
-    name: "درازک",
-    monthly: 0,
-    monthly_confidence: 83.26095053553068,
-    weekly: 1,
-    weekly_confidence: 79.85694633255984,
-  },
-  "22811176775480091": {
-    name: "اخابر",
-    monthly: 1,
-    monthly_confidence: 71.05301263499378,
-    weekly: 1,
-    weekly_confidence: 73.45809426119445,
-  },
-  "22903901709044823": {
-    name: "ختراک",
-    monthly: 1,
-    monthly_confidence: 77.27953742242747,
-    weekly: 1,
-    weekly_confidence: 92.47850443715905,
-  },
-  22956708386610464: {
-    name: "خودکفا",
-    monthly: 0,
-    monthly_confidence: 68.48917820475967,
-    weekly: 1,
-    weekly_confidence: 91.48219293002889,
-  },
-  "23269285154135003": {
-    name: "جوین",
-    monthly: 0,
-    monthly_confidence: 84.74920694426528,
-    weekly: 1,
-    weekly_confidence: 86.76198118923426,
-  },
-  27096851668435724: {
-    name: "جم پیلن",
-    monthly: 0,
-    monthly_confidence: 68.4556213430286,
-    weekly: 1,
-    weekly_confidence: 98.78338545011947,
-  },
-  27218386411183410: {
-    name: "سدور",
-    monthly: 1,
-    monthly_confidence: 71.90666382805306,
-    weekly: 0,
-    weekly_confidence: 82.07521565354371,
-  },
-  "27299841173245405": {
-    name: "داراب",
-    monthly: 1,
-    monthly_confidence: 74.75068808085541,
-    weekly: 1,
-    weekly_confidence: 71.8325027227709,
-  },
-  "28788598290160782": {
-    name: "الماس",
-    monthly: 0,
-    monthly_confidence: 70.52157859616521,
-    weekly: 1,
-    weekly_confidence: 96.12928257588695,
-  },
-  "28845264556937486": {
-    name: "شپلی",
-    monthly: 1,
-    monthly_confidence: 77.56609103642145,
-    weekly: 1,
-    weekly_confidence: 80.91131316941578,
-  },
-  29122854902865456: {
-    name: "کسعدی",
-    monthly: 1,
-    monthly_confidence: 69.15457382787667,
-    weekly: 1,
-    weekly_confidence: 83.33795937094746,
-  },
-  "30852391633490755": {
-    name: "ثفارس",
-    monthly: 1,
-    monthly_confidence: 82.77789023043745,
-    weekly: 1,
-    weekly_confidence: 76.88870105407533,
-  },
-  "31188566503248753": {
-    name: "نیلی",
-    monthly: 0,
-    monthly_confidence: 68.83000955725586,
-    weekly: 1,
-    weekly_confidence: 72.64568746656697,
-  },
-  "31248540252187559": {
-    name: "مروارید",
-    monthly: 1,
-    monthly_confidence: 84.09118196575452,
-    weekly: 1,
-    weekly_confidence: 87.3960961161324,
-  },
-  "31366347648583654": {
-    name: "ارمغان",
-    monthly: 0,
-    monthly_confidence: 78.90667631525723,
-    weekly: 1,
-    weekly_confidence: 73.86775914163778,
-  },
-  "31791737198597563": {
-    name: "غشان",
-    monthly: 0,
-    monthly_confidence: 86.40833225496822,
-    weekly: 0,
-    weekly_confidence: 97.38213672278327,
-  },
-  "33293588228706998": {
-    name: "وپارس",
-    monthly: 1,
-    monthly_confidence: 89.64797973061549,
-    weekly: 1,
-    weekly_confidence: 78.27138501994081,
-  },
-  "34032872653290886": {
-    name: "غپاک",
-    monthly: 0,
-    monthly_confidence: 80.32024629311537,
-    weekly: 1,
-    weekly_confidence: 75.42353700126831,
-  },
-  "34718633636164421": {
-    name: "کمند",
-    monthly: 1,
-    monthly_confidence: 65.68624378264253,
-    weekly: 1,
-    weekly_confidence: 65.58316593157652,
-  },
-  "35669480110084448": {
-    name: "سپاها",
-    monthly: 1,
-    monthly_confidence: 88.1166074137278,
-    weekly: 1,
-    weekly_confidence: 98.93606114782199,
-  },
-  36671655475498480: {
-    name: "قشرین",
-    monthly: 0,
-    monthly_confidence: 89.15371111634158,
-    weekly: 1,
-    weekly_confidence: 68.26286956522792,
-  },
-  "37222720235819361": {
-    name: "بذر",
-    monthly: 1,
-    monthly_confidence: 70.82743830586048,
-    weekly: 1,
-    weekly_confidence: 68.59946521550543,
-  },
-  "39453972158399542": {
-    name: "سپاس",
-    monthly: 1,
-    monthly_confidence: 85.97906414705172,
-    weekly: 0,
-    weekly_confidence: 76.01884118127252,
-  },
-  "40025799067544201": {
-    name: "شرنگی",
-    monthly: 1,
-    monthly_confidence: 97.21212193698797,
-    weekly: 1,
-    weekly_confidence: 85.70684595576148,
-  },
-  "40650252484299134": {
-    name: "ثاژن",
-    monthly: 1,
-    monthly_confidence: 96.51218146317044,
-    weekly: 0,
-    weekly_confidence: 91.10719683913318,
-  },
-  "41858326436945277": {
-    name: "ختراکح",
-    monthly: 1,
-    monthly_confidence: 69.982645505107,
-    weekly: 1,
-    weekly_confidence: 81.10108894186094,
-  },
-  "42670427020727409": {
-    name: "کاج",
-    monthly: 1,
-    monthly_confidence: 75.52860738948416,
-    weekly: 1,
-    weekly_confidence: 93.14175115043311,
-  },
-  "43342306308122676": {
-    name: "قمرو",
-    monthly: 1,
-    monthly_confidence: 89.32474885718582,
-    weekly: 0,
-    weekly_confidence: 94.86942435686306,
-  },
-  43545527030854340: {
-    name: "کویر",
-    monthly: 0,
-    monthly_confidence: 69.66330251259116,
-    weekly: 1,
-    weekly_confidence: 67.91586842193307,
-  },
-  "43552974795606067": {
-    name: "خراسان",
-    monthly: 0,
-    monthly_confidence: 77.23422300817136,
-    weekly: 0,
-    weekly_confidence: 82.83091539963927,
-  },
-  "44153164692325703": {
-    name: "شگل",
-    monthly: 0,
-    monthly_confidence: 66.17495976570571,
-    weekly: 0,
-    weekly_confidence: 70.38275789095908,
-  },
-  "44549439964296944": {
-    name: "کالا",
-    monthly: 0,
-    monthly_confidence: 83.9848086984147,
-    weekly: 1,
-    weekly_confidence: 69.76060759066365,
-  },
-  "44818950263583523": {
-    name: "دی",
-    monthly: 1,
-    monthly_confidence: 90.22988416910174,
-    weekly: 0,
-    weekly_confidence: 69.97667336011058,
-  },
-  "45392752356003555": {
-    name: "صبا",
-    monthly: 1,
-    monthly_confidence: 95.29120638964504,
-    weekly: 1,
-    weekly_confidence: 78.84565391782537,
-  },
-  "45519261544951819": {
-    name: "سپید",
-    monthly: 0,
-    monthly_confidence: 89.97981819723842,
-    weekly: 1,
-    weekly_confidence: 75.98108438395582,
-  },
-  "49502666250908008": {
-    name: "افق",
-    monthly: 1,
-    monthly_confidence: 94.21108018220693,
-    weekly: 1,
-    weekly_confidence: 68.55450875305023,
-  },
-  "49641108336531623": {
-    name: "انرژی",
-    monthly: 1,
-    monthly_confidence: 89.45336903333816,
-    weekly: 1,
-    weekly_confidence: 67.61594365836663,
-  },
-  50587892784913370: {
-    name: "حشکوه",
-    monthly: 1,
-    monthly_confidence: 79.01562099028179,
-    weekly: 1,
-    weekly_confidence: 91.37211662660016,
-  },
-  "50652985928800943": {
-    name: "غیوان",
-    monthly: 0,
-    monthly_confidence: 71.89529776558065,
-    weekly: 1,
-    weekly_confidence: 85.22068690332082,
-  },
-  "52792903131341205": {
-    name: "افرا",
-    monthly: 1,
-    monthly_confidence: 82.44281494258817,
-    weekly: 1,
-    weekly_confidence: 97.12314047839756,
-  },
-  "55201604487356053": {
-    name: "فن آوا",
-    monthly: 1,
-    monthly_confidence: 92.5047112272353,
-    weekly: 1,
-    weekly_confidence: 82.925768096095,
-  },
-  "57722642338781674": {
-    name: "پلاسک",
-    monthly: 1,
-    monthly_confidence: 80.6152658334553,
-    weekly: 1,
-    weekly_confidence: 80.72872063997563,
-  },
-  "60289595205403229": {
-    name: "بهیر",
-    monthly: 1,
-    monthly_confidence: 78.00031744031368,
-    weekly: 1,
-    weekly_confidence: 72.00418056900415,
-  },
-  "60783654574662426": {
-    name: "وهنر",
-    monthly: 0,
-    monthly_confidence: 95.54846953475565,
-    weekly: 0,
-    weekly_confidence: 75.96834973199356,
-  },
-  "62107151670661969": {
-    name: "بکابل",
-    monthly: 1,
-    monthly_confidence: 98.2459309429137,
-    weekly: 1,
-    weekly_confidence: 73.47267465258997,
-  },
-  "15494954332657697": {
-    name: "همای",
-    monthly: 1,
-    monthly_confidence: 93.98034186774076,
-    weekly: 1,
-    weekly_confidence: 96.31293707777493,
-  },
-  "51459202425114449": {
-    name: "تابا",
-    monthly: 1,
-    monthly_confidence: 78.0966763047092,
-    weekly: 1,
-    weekly_confidence: 74.08159654549752,
-  },
-  "53686258677793038": {
-    name: "وارس",
-    monthly: 1,
-    monthly_confidence: 68.56468159185694,
-    weekly: 1,
-    weekly_confidence: 95.14985153294317,
-  },
-  "59470107928175959": {
-    name: "گنگین",
-    monthly: 1,
-    monthly_confidence: 97.63631946421673,
-    weekly: 1,
-    weekly_confidence: 82.58792315399184,
-  },
-  "18599703143458101": {
-    name: "امید",
-    monthly: 1,
-    monthly_confidence: 92.26783947584144,
-    weekly: 1,
-    weekly_confidence: 75.02012047027458,
-  },
-  "58810336532668771": {
-    name: "کایزد",
-    monthly: 0,
-    monthly_confidence: 93.87047066218906,
-    weekly: 1,
-    weekly_confidence: 97.94435270884996,
-  },
-  "40611478183231802": {
-    name: "شدوص",
-    monthly: 1,
-    monthly_confidence: 73.61398648272463,
-    weekly: 1,
-    weekly_confidence: 67.4003067664596,
-  },
-  "70883594945615893": {
-    name: "سآبیک",
-    monthly: 0,
-    monthly_confidence: 71.6188999009868,
-    weekly: 0,
-    weekly_confidence: 69.32116310911567,
-  },
-  "20966291817819448": {
-    name: "فسدید",
-    monthly: 0,
-    monthly_confidence: 91.22661850218782,
-    weekly: 0,
-    weekly_confidence: 78.5695681263826,
-  },
-  27952969918967492: {
-    name: "رکیش",
-    monthly: 0,
-    monthly_confidence: 79.18363102706189,
-    weekly: 1,
-    weekly_confidence: 78.5394784140619,
-  },
-  "50100062518826135": {
-    name: "دامین",
-    monthly: 1,
-    monthly_confidence: 89.08240119588122,
-    weekly: 0,
-    weekly_confidence: 98.01763284571037,
-  },
-  "17939384202383793": {
-    name: "ثغرب",
-    monthly: 1,
-    monthly_confidence: 97.99837099709916,
-    weekly: 1,
-    weekly_confidence: 76.71018359280308,
-  },
-  "24785665268004766": {
-    name: "وپویا",
-    monthly: 0,
-    monthly_confidence: 87.35033573621226,
-    weekly: 1,
-    weekly_confidence: 83.51226711973527,
-  },
-  "30974710508383145": {
-    name: "شسینا",
-    monthly: 1,
-    monthly_confidence: 81.49296400393351,
-    weekly: 1,
-    weekly_confidence: 79.90674410639775,
-  },
-  "58514988269776425": {
-    name: "گنج",
-    monthly: 1,
-    monthly_confidence: 88.28100461959001,
-    weekly: 1,
-    weekly_confidence: 89.2527189082998,
-  },
-  "71068313834275501": {
-    name: "بگیلان",
-    monthly: 1,
-    monthly_confidence: 89.33645220260213,
-    weekly: 1,
-    weekly_confidence: 79.33474163885212,
-  },
-  28328710198554144: {
-    name: "وبوعلی",
-    monthly: 1,
-    monthly_confidence: 92.42510277821128,
-    weekly: 1,
-    weekly_confidence: 90.4041866849925,
-  },
-  "61664227282090067": {
-    name: "سلار",
-    monthly: 1,
-    monthly_confidence: 79.21240867615674,
-    weekly: 0,
-    weekly_confidence: 84.70425971202691,
-  },
-  "12030217243155821": {
-    name: "کوثرح",
-    monthly: 1,
-    monthly_confidence: 81.04071807738949,
-    weekly: 0,
-    weekly_confidence: 95.55140302225028,
-  },
-  "62845384302495432": {
-    name: "هیوا",
-    monthly: 0,
-    monthly_confidence: 76.41879935250648,
-    weekly: 1,
-    weekly_confidence: 92.70068266676905,
-  },
-  "37073830945037165": {
-    name: "آفاق",
-    monthly: 0,
-    monthly_confidence: 86.22747759541052,
-    weekly: 1,
-    weekly_confidence: 96.23103460707615,
-  },
-  "49627523909849331": {
-    name: "کفرآور",
-    monthly: 0,
-    monthly_confidence: 70.95098724257521,
-    weekly: 1,
-    weekly_confidence: 84.20868518169686,
-  },
-  "38294891095078093": {
-    name: "فکمندح",
-    monthly: 1,
-    monthly_confidence: 86.82458595324123,
-    weekly: 1,
-    weekly_confidence: 74.39397513126895,
-  },
-  "22259718159702272": {
-    name: "استقلال",
-    monthly: 1,
-    monthly_confidence: 78.9564577261237,
-    weekly: 1,
-    weekly_confidence: 67.81922856597674,
-  },
-  43443105991896600: {
-    name: "ارزش",
-    monthly: 1,
-    monthly_confidence: 78.93512324250247,
-    weekly: 0,
-    weekly_confidence: 73.40095704153937,
-  },
-  60633055620418060: {
-    name: "فلات",
-    monthly: 0,
-    monthly_confidence: 83.6406897613961,
-    weekly: 1,
-    weekly_confidence: 95.78350081829095,
-  },
-  "18733719742989734": {
-    name: "میدکوح",
-    monthly: 1,
-    monthly_confidence: 78.21875188588281,
-    weekly: 1,
-    weekly_confidence: 86.12717561442199,
-  },
-  "54419429862704331": {
-    name: "فروس",
-    monthly: 1,
-    monthly_confidence: 82.06258352355862,
-    weekly: 1,
-    weekly_confidence: 72.83613192500898,
-  },
-  64341992373049080: {
-    name: "سدبیر",
-    monthly: 1,
-    monthly_confidence: 92.32323161889724,
-    weekly: 1,
-    weekly_confidence: 79.78114511866899,
-  },
-  "26780282166315918": {
-    name: "ثبات",
-    monthly: 1,
-    monthly_confidence: 76.79817002513327,
-    weekly: 1,
-    weekly_confidence: 65.12945891345005,
-  },
-  37204371816016200: {
-    name: "وصندوق",
-    monthly: 1,
-    monthly_confidence: 75.75278561238807,
-    weekly: 1,
-    weekly_confidence: 76.56612726063805,
-  },
-  42387718866026650: {
-    name: "غبشهر",
-    monthly: 0,
-    monthly_confidence: 76.45148199065905,
-    weekly: 0,
-    weekly_confidence: 81.03328557936078,
-  },
-  "46982154647719707": {
-    name: "وصنا",
-    monthly: 1,
-    monthly_confidence: 72.0041696068015,
-    weekly: 1,
-    weekly_confidence: 81.28587233964362,
-  },
-  "62235397452612911": {
-    name: "دارا یکم",
-    monthly: 1,
-    monthly_confidence: 93.845673577831,
-    weekly: 0,
-    weekly_confidence: 81.26707218144178,
-  },
-  831325835570803: {
-    name: "ثنام",
-    monthly: 1,
-    monthly_confidence: 85.26678270035129,
-    weekly: 1,
-    weekly_confidence: 75.4843532224861,
-  },
-  17933573078185644: {
-    name: "آینده",
-    monthly: 1,
-    monthly_confidence: 82.57525273547479,
-    weekly: 1,
-    weekly_confidence: 72.0755716369167,
-  },
-  "44052047028305231": {
-    name: "پشاهن",
-    monthly: 0,
-    monthly_confidence: 76.74883683723344,
-    weekly: 1,
-    weekly_confidence: 69.76040852997392,
-  },
-  "35515916857426389": {
-    name: "قتربت",
-    monthly: 1,
-    monthly_confidence: 75.69002212292668,
-    weekly: 1,
-    weekly_confidence: 65.89260249375282,
-  },
-  7183333492448248: {
-    name: "وپخش",
-    monthly: 1,
-    monthly_confidence: 73.26724359770536,
-    weekly: 1,
-    weekly_confidence: 69.95687183174702,
-  },
-  12777578088653944: {
-    name: "وحکمت",
-    monthly: 1,
-    monthly_confidence: 78.98295006878034,
-    weekly: 1,
-    weekly_confidence: 71.58673775066698,
-  },
-  "41286608288791633": {
-    name: "وبازار",
-    monthly: 1,
-    monthly_confidence: 87.07546311129609,
-    weekly: 1,
-    weekly_confidence: 77.0903206549238,
-  },
-  10171945867136336: {
-    name: "سیتا",
-    monthly: 0,
-    monthly_confidence: 79.92808146063024,
-    weekly: 1,
-    weekly_confidence: 77.84173516662406,
-  },
-  16673205196919832: {
-    name: "شفارا",
-    monthly: 1,
-    monthly_confidence: 81.57365853804804,
-    weekly: 1,
-    weekly_confidence: 83.93475444046878,
-  },
-  18346219759153870: {
-    name: "شصفها",
-    monthly: 1,
-    monthly_confidence: 80.82626622595038,
-    weekly: 1,
-    weekly_confidence: 76.28772837827546,
-  },
-  "31024260997481994": {
-    name: "غگرجی",
-    monthly: 1,
-    monthly_confidence: 67.07951658834665,
-    weekly: 1,
-    weekly_confidence: 83.49916850467886,
-  },
-  "33603212156438463": {
-    name: "دشیمی",
-    monthly: 1,
-    monthly_confidence: 76.07358229094623,
-    weekly: 1,
-    weekly_confidence: 80.9147035142758,
-  },
-  "35346078651339725": {
-    name: "کارامح",
-    monthly: 1,
-    monthly_confidence: 65.18511322317966,
-    weekly: 0,
-    weekly_confidence: 85.69260292563273,
-  },
-  "25357135030606405": {
-    name: "تنوین",
-    monthly: 0,
-    monthly_confidence: 87.93204672134043,
-    weekly: 1,
-    weekly_confidence: 70.02997583601467,
-  },
-  "34557241988629814": {
-    name: "برکت",
-    monthly: 1,
-    monthly_confidence: 90.90642788763368,
-    weekly: 1,
-    weekly_confidence: 65.35795993732165,
-  },
-  7457232989848872: {
-    name: "خمحور",
-    monthly: 1,
-    monthly_confidence: 97.0607457921272,
-    weekly: 1,
-    weekly_confidence: 69.75513351751563,
-  },
-  "49163985123560149": {
-    name: "شفاراح",
-    monthly: 0,
-    monthly_confidence: 66.20516566747106,
-    weekly: 1,
-    weekly_confidence: 95.32485136291866,
-  },
-  "42599305106713939": {
-    name: "زکوثر",
-    monthly: 1,
-    monthly_confidence: 79.34537676359211,
-    weekly: 1,
-    weekly_confidence: 74.72111928931541,
-  },
-  "48753732042176709": {
-    name: "شبریز",
-    monthly: 0,
-    monthly_confidence: 91.96893473057175,
-    weekly: 1,
-    weekly_confidence: 90.12030118918574,
-  },
-  "39610074039667804": {
-    name: "قرن",
-    monthly: 0,
-    monthly_confidence: 95.69900769456181,
-    weekly: 0,
-    weekly_confidence: 66.67285101284871,
-  },
-  5987841496184505: {
-    name: "شگویا",
-    monthly: 1,
-    monthly_confidence: 68.76487148520222,
-    weekly: 0,
-    weekly_confidence: 65.86770935342489,
-  },
-  "34641719089573667": {
-    name: "دتماد",
-    monthly: 1,
-    monthly_confidence: 80.0703417604589,
-    weekly: 1,
-    weekly_confidence: 94.31634478713845,
-  },
-  "66830065858417081": {
-    name: "ولانا",
-    monthly: 1,
-    monthly_confidence: 69.87327753554375,
-    weekly: 1,
-    weekly_confidence: 72.1633053243469,
-  },
-  30650426998863332: {
-    name: "لبوتان",
-    monthly: 1,
-    monthly_confidence: 95.2515721546047,
-    weekly: 0,
-    weekly_confidence: 96.87517336599737,
-  },
-  2400322364771558: {
-    name: "شستا",
-    monthly: 1,
-    monthly_confidence: 84.11037509894352,
-    weekly: 1,
-    weekly_confidence: 71.67467804440946,
-  },
-  "22427604495160869": {
-    name: "تمحرکه",
-    monthly: 1,
-    monthly_confidence: 66.1537295142469,
-    weekly: 1,
-    weekly_confidence: 73.00478471408069,
-  },
-  "45452221088910484": {
-    name: "عقیق",
-    monthly: 0,
-    monthly_confidence: 68.67586326375616,
-    weekly: 1,
-    weekly_confidence: 95.45331414646878,
-  },
-  "65414507129586385": {
-    name: "لخزر",
-    monthly: 0,
-    monthly_confidence: 93.27957388387122,
-    weekly: 0,
-    weekly_confidence: 90.41890038143097,
-  },
-  "50117925085549635": {
-    name: "خلیبل",
-    monthly: 0,
-    monthly_confidence: 89.17012689666295,
-    weekly: 1,
-    weekly_confidence: 87.64174310376656,
-  },
-  "54277068923045214": {
-    name: "فسرب",
-    monthly: 1,
-    monthly_confidence: 84.37216036082253,
-    weekly: 1,
-    weekly_confidence: 80.85165248856205,
-  },
-  "18883380772506226": {
-    name: "ثرود",
-    monthly: 0,
-    monthly_confidence: 90.21461147498458,
-    weekly: 1,
-    weekly_confidence: 68.31818753369544,
-  },
-  "48010225447410247": {
-    name: "وبانک",
-    monthly: 0,
-    monthly_confidence: 68.45923978840902,
-    weekly: 0,
-    weekly_confidence: 73.113575613605,
-  },
-  "56344907495802692": {
-    name: "فاخر",
-    monthly: 1,
-    monthly_confidence: 71.6163091204394,
-    weekly: 1,
-    weekly_confidence: 83.66006539580252,
-  },
-  "71076372178147339": {
-    name: "داریک",
-    monthly: 1,
-    monthly_confidence: 93.65999689839411,
-    weekly: 0,
-    weekly_confidence: 84.23106996401648,
-  },
-  5305844922895340: {
-    name: "داوه",
-    monthly: 1,
-    monthly_confidence: 94.13226938643207,
-    weekly: 0,
-    weekly_confidence: 67.23248925975163,
-  },
-  8977369674477111: {
-    name: "کطبس",
-    monthly: 1,
-    monthly_confidence: 70.46146334441738,
-    weekly: 0,
-    weekly_confidence: 78.67929346938618,
-  },
-  "40411537531154482": {
-    name: "قصفها",
-    monthly: 0,
-    monthly_confidence: 81.71932930729051,
-    weekly: 1,
-    weekly_confidence: 65.06878517851283,
-  },
-  "60350996279289099": {
-    name: "کاوه",
-    monthly: 1,
-    monthly_confidence: 82.7413089784201,
-    weekly: 1,
-    weekly_confidence: 65.3153131223528,
-  },
-  "23086515493897579": {
-    name: "ولغدر",
-    monthly: 1,
-    monthly_confidence: 94.4915898479252,
-    weekly: 0,
-    weekly_confidence: 94.33938383125223,
-  },
-  7503669593172728: {
-    name: "ثاصفا",
-    monthly: 1,
-    monthly_confidence: 86.45571077293755,
-    weekly: 0,
-    weekly_confidence: 79.28103505916543,
-  },
-  15521712617204216: {
-    name: "سفارس",
-    monthly: 1,
-    monthly_confidence: 96.89940486841294,
-    weekly: 1,
-    weekly_confidence: 96.11465881074979,
-  },
-  "39884565732277052": {
-    name: "کیمیاتک",
-    monthly: 1,
-    monthly_confidence: 80.49803120629,
-    weekly: 0,
-    weekly_confidence: 95.31905368005889,
-  },
-  "48287670503317419": {
-    name: "ولبهمن",
-    monthly: 1,
-    monthly_confidence: 93.96705926526326,
-    weekly: 0,
-    weekly_confidence: 80.96452586087453,
-  },
-  "23374429962331387": {
-    name: "کتوسعه",
-    monthly: 1,
-    monthly_confidence: 85.60519706947551,
-    weekly: 0,
-    weekly_confidence: 78.49753702660406,
-  },
-  42075223783409640: {
-    name: "خاذین",
-    monthly: 0,
-    monthly_confidence: 79.08017274319639,
-    weekly: 1,
-    weekly_confidence: 68.17066479850908,
-  },
-  "22839330962768817": {
-    name: "آتیمس",
-    monthly: 0,
-    monthly_confidence: 81.74391051085914,
-    weekly: 1,
-    weekly_confidence: 91.38589233129026,
-  },
-  "29747059672582491": {
-    name: "سهرمز",
-    monthly: 0,
-    monthly_confidence: 70.50994233264326,
-    weekly: 1,
-    weekly_confidence: 67.90306660703817,
-  },
-  "41625340598198551": {
-    name: "بساما",
-    monthly: 1,
-    monthly_confidence: 73.98467096227375,
-    weekly: 1,
-    weekly_confidence: 89.18590481514416,
-  },
-  30215634246748564: {
-    name: "انار",
-    monthly: 1,
-    monthly_confidence: 76.05665693989822,
-    weekly: 1,
-    weekly_confidence: 98.00544044949505,
-  },
-  "30231789123900526": {
-    name: "نمرینو",
-    monthly: 0,
-    monthly_confidence: 68.38480846527393,
-    weekly: 1,
-    weekly_confidence: 92.6415250990325,
-  },
-  2254054929817435: {
-    name: "غدام",
-    monthly: 1,
-    monthly_confidence: 88.58246399594373,
-    weekly: 1,
-    weekly_confidence: 75.51367944850102,
-  },
-  "19298748452450329": {
-    name: "تایرا",
-    monthly: 0,
-    monthly_confidence: 88.28072797991607,
-    weekly: 1,
-    weekly_confidence: 67.06648979292981,
-  },
-  32469128621155736: {
-    name: "مثقال",
-    monthly: 1,
-    monthly_confidence: 75.96210095314657,
-    weekly: 0,
-    weekly_confidence: 67.19412719071467,
-  },
-  "66456062140680461": {
-    name: "ثامان",
-    monthly: 0,
-    monthly_confidence: 79.44143067146562,
-    weekly: 1,
-    weekly_confidence: 95.49698774115268,
-  },
-  "33144542989832366": {
-    name: "زرفام",
-    monthly: 1,
-    monthly_confidence: 95.05146785769371,
-    weekly: 1,
-    weekly_confidence: 82.13099195831475,
-  },
-  "55959112038778737": {
-    name: "سخواف",
-    monthly: 1,
-    monthly_confidence: 98.10228852280784,
-    weekly: 0,
-    weekly_confidence: 68.06571720137737,
-  },
-  "42049553761321495": {
-    name: "کورز",
-    monthly: 1,
-    monthly_confidence: 95.3261424635414,
-    weekly: 1,
-    weekly_confidence: 89.5151693740818,
-  },
-  "45284811973404357": {
-    name: "یارا",
-    monthly: 0,
-    monthly_confidence: 68.088955926012,
-    weekly: 1,
-    weekly_confidence: 94.74021802338899,
-  },
-  "48990026850202503": {
-    name: "خگستر",
-    monthly: 0,
-    monthly_confidence: 82.34409021394293,
-    weekly: 0,
-    weekly_confidence: 89.55423354529663,
-  },
-  "65122215875355555": {
-    name: "شفن",
-    monthly: 0,
-    monthly_confidence: 94.03234712826482,
-    weekly: 1,
-    weekly_confidence: 77.77665285351134,
-  },
-  "67170215467608124": {
-    name: "زنگان",
-    monthly: 1,
-    monthly_confidence: 85.00626764140446,
-    weekly: 1,
-    weekly_confidence: 92.67195827639307,
-  },
-  "40808043719554948": {
-    name: "فولاژ",
-    monthly: 1,
-    monthly_confidence: 92.1689639734903,
-    weekly: 0,
-    weekly_confidence: 74.50631721327477,
-  },
-  "63965059137798192": {
-    name: "فنرژی",
-    monthly: 1,
-    monthly_confidence: 67.002604399552,
-    weekly: 0,
-    weekly_confidence: 81.52146278488974,
-  },
-  "22002589755112021": {
-    name: "رماس",
-    monthly: 1,
-    monthly_confidence: 91.08349112930978,
-    weekly: 1,
-    weekly_confidence: 95.07399894173507,
-  },
-  "50139638026536387": {
-    name: "زرین",
-    monthly: 1,
-    monthly_confidence: 87.37971616899027,
-    weekly: 1,
-    weekly_confidence: 82.57570852250316,
-  },
-  "59461185672081215": {
-    name: "غمایه",
-    monthly: 1,
-    monthly_confidence: 73.51957052580971,
-    weekly: 1,
-    weekly_confidence: 96.26213137972634,
-  },
-  "47756003257788498": {
-    name: "حگهر",
-    monthly: 1,
-    monthly_confidence: 72.22932707188457,
-    weekly: 0,
-    weekly_confidence: 85.51081287506447,
-  },
-  "47232550823972469": {
-    name: "وتوکا",
-    monthly: 0,
-    monthly_confidence: 67.78286579860796,
-    weekly: 0,
-    weekly_confidence: 76.46774650931312,
-  },
-  5599691633622269: {
-    name: "بخاور",
-    monthly: 1,
-    monthly_confidence: 97.24347477461656,
-    weekly: 1,
-    weekly_confidence: 96.62608273609527,
-  },
-  14744445176220774: {
-    name: "ثبهساز",
-    monthly: 1,
-    monthly_confidence: 71.22011362283413,
-    weekly: 1,
-    weekly_confidence: 94.1948387098571,
-  },
-  490987973229371: {
-    name: "آکام",
-    monthly: 1,
-    monthly_confidence: 95.35418506065513,
-    weekly: 1,
-    weekly_confidence: 81.10620594802037,
-  },
-  "62346804681275278": {
-    name: "کگاز",
-    monthly: 1,
-    monthly_confidence: 75.13836479514313,
-    weekly: 0,
-    weekly_confidence: 79.24145136800475,
-  },
-  19040514831923530: {
-    name: "نوری",
-    monthly: 0,
-    monthly_confidence: 66.05597266813362,
-    weekly: 0,
-    weekly_confidence: 84.39116786565455,
-  },
-  28147934478934110: {
-    name: "فغدیر",
-    monthly: 1,
-    monthly_confidence: 85.9950011253264,
-    weekly: 1,
-    weekly_confidence: 84.12525713310025,
-  },
-  23214828924506640: {
-    name: "پکرمان",
-    monthly: 0,
-    monthly_confidence: 88.16401824009861,
-    weekly: 0,
-    weekly_confidence: 70.78919472823262,
-  },
-  "34721884030854211": {
-    name: "سفاسی",
-    monthly: 0,
-    monthly_confidence: 89.81028039463281,
-    weekly: 1,
-    weekly_confidence: 91.93144129072971,
-  },
-  "66252526996639483": {
-    name: "چنوپاح",
-    monthly: 1,
-    monthly_confidence: 97.55396370714044,
-    weekly: 1,
-    weekly_confidence: 78.73820565545141,
-  },
-  26547785441834730: {
-    name: "زشریف",
-    monthly: 1,
-    monthly_confidence: 77.29760116809163,
-    weekly: 1,
-    weekly_confidence: 95.006556478753,
-  },
-  67213778593531096: {
-    name: "وامیر",
-    monthly: 1,
-    monthly_confidence: 79.25939082091807,
-    weekly: 1,
-    weekly_confidence: 71.04950960627461,
-  },
-  17059960254855208: {
-    name: "غبهنوش",
-    monthly: 1,
-    monthly_confidence: 92.62877845405445,
-    weekly: 0,
-    weekly_confidence: 89.47405568418496,
-  },
-  "48287767791629523": {
-    name: "رشد",
-    monthly: 0,
-    monthly_confidence: 68.99664861123858,
-    weekly: 1,
-    weekly_confidence: 81.590390452569,
-  },
-  "68941822863885255": {
-    name: "رافزا",
-    monthly: 1,
-    monthly_confidence: 89.4686250218324,
-    weekly: 1,
-    weekly_confidence: 81.47065643152635,
-  },
-  31039212000825988: {
-    name: "آوند",
-    monthly: 1,
-    monthly_confidence: 94.33355829243182,
-    weekly: 1,
-    weekly_confidence: 69.43826922120313,
-  },
-  "55308018877404137": {
-    name: "سام",
-    monthly: 1,
-    monthly_confidence: 73.47039310268613,
-    weekly: 1,
-    weekly_confidence: 75.82092435047464,
-  },
-  "63704201144621295": {
-    name: "حبندر",
-    monthly: 0,
-    monthly_confidence: 85.72209174024647,
-    weekly: 1,
-    weekly_confidence: 85.49869108985177,
-  },
-  4395741730355818: {
-    name: "استارز",
-    monthly: 1,
-    monthly_confidence: 93.41645176056196,
-    weekly: 1,
-    weekly_confidence: 95.95653565366798,
-  },
-  "48261930411425125": {
-    name: "بمولد",
-    monthly: 1,
-    monthly_confidence: 73.36919571581339,
-    weekly: 1,
-    weekly_confidence: 93.56962718457518,
-  },
-  "71523986304961239": {
-    name: "قشیر",
-    monthly: 1,
-    monthly_confidence: 97.79699829820731,
-    weekly: 0,
-    weekly_confidence: 97.99605461677218,
-  },
-  "32347247706508046": {
-    name: "ساوه",
-    monthly: 0,
-    monthly_confidence: 87.09803539454722,
-    weekly: 1,
-    weekly_confidence: 77.86832002857219,
-  },
-  4369934250728330: {
-    name: "غزر",
-    monthly: 1,
-    monthly_confidence: 84.03490886149021,
-    weekly: 0,
-    weekly_confidence: 71.76162671219166,
-  },
-  "37089148943784077": {
-    name: "خبنیان",
-    monthly: 1,
-    monthly_confidence: 90.14599792237921,
-    weekly: 0,
-    weekly_confidence: 80.26462257958417,
-  },
-  "62221150547292335": {
-    name: "خموتورح",
-    monthly: 0,
-    monthly_confidence: 68.98399750033377,
-    weekly: 1,
-    weekly_confidence: 98.65684353248945,
-  },
-  2855515398698068: {
-    name: "نمرینوح",
-    monthly: 1,
-    monthly_confidence: 81.67025175517674,
-    weekly: 1,
-    weekly_confidence: 69.33078460682762,
-  },
-  "62708526880913292": {
-    name: "ساحل",
-    monthly: 0,
-    monthly_confidence: 77.49827433028285,
-    weekly: 0,
-    weekly_confidence: 65.80471264749744,
-  },
-  "63315013743060811": {
-    name: "ثنور",
-    monthly: 0,
-    monthly_confidence: 89.82466522053764,
-    weekly: 1,
-    weekly_confidence: 98.95420408561601,
-  },
-  "29758477602878557": {
-    name: "تیپیکو",
-    monthly: 1,
-    monthly_confidence: 86.50498258112007,
-    weekly: 1,
-    weekly_confidence: 73.04430400134626,
-  },
-  "23293437377896568": {
-    name: "تاصیکو",
-    monthly: 1,
-    monthly_confidence: 96.46845483459167,
-    weekly: 1,
-    weekly_confidence: 86.53076351654397,
-  },
-  "64973252728260903": {
-    name: "وکبهمن",
-    monthly: 1,
-    monthly_confidence: 95.68361070085219,
-    weekly: 0,
-    weekly_confidence: 76.41900506101305,
-  },
-  "69904617508102874": {
-    name: "کارام",
-    monthly: 1,
-    monthly_confidence: 65.01936781891878,
-    weekly: 1,
-    weekly_confidence: 73.83477815455277,
-  },
-  14079693677610396: {
-    name: "اسیاتک",
-    monthly: 1,
-    monthly_confidence: 74.62150797089805,
-    weekly: 1,
-    weekly_confidence: 92.5863018687311,
-  },
-  18568733593280948: {
-    name: "ثامید",
-    monthly: 0,
-    monthly_confidence: 74.5060544063893,
-    weekly: 0,
-    weekly_confidence: 68.79239060349626,
-  },
-  26882843763780650: {
-    name: "باران",
-    monthly: 0,
-    monthly_confidence: 82.3075222917737,
-    weekly: 0,
-    weekly_confidence: 92.25457784766046,
-  },
-  4942127026063388: {
-    name: "کاما",
-    monthly: 1,
-    monthly_confidence: 70.16372158003367,
-    weekly: 1,
-    weekly_confidence: 93.36895858236079,
-  },
-  7681671915916933: {
-    name: "جهش",
-    monthly: 0,
-    monthly_confidence: 92.85502479298376,
-    weekly: 0,
-    weekly_confidence: 93.62441684315081,
-  },
-  22424135367941584: {
-    name: "فافق",
-    monthly: 0,
-    monthly_confidence: 89.9341251891904,
-    weekly: 1,
-    weekly_confidence: 90.24434221913707,
-  },
-  62558705479545830: {
-    name: "سایرا",
-    monthly: 1,
-    monthly_confidence: 86.48086759553478,
-    weekly: 0,
-    weekly_confidence: 93.09318656744881,
-  },
-  "66682662312253625": {
-    name: "آساس",
-    monthly: 0,
-    monthly_confidence: 79.85273793817339,
-    weekly: 1,
-    weekly_confidence: 80.55418986530817,
-  },
-  "35445515321658835": {
-    name: "فماک",
-    monthly: 1,
-    monthly_confidence: 83.30552115141916,
-    weekly: 1,
-    weekly_confidence: 87.0018216654846,
-  },
-  "70309338813767186": {
-    name: "فکمند",
-    monthly: 0,
-    monthly_confidence: 67.95418622359097,
-    weekly: 1,
-    weekly_confidence: 82.66266176056745,
-  },
-  7920014658832193: {
-    name: "وگردش",
-    monthly: 1,
-    monthly_confidence: 89.2718727971121,
-    weekly: 1,
-    weekly_confidence: 86.14478819704289,
-  },
-  "18865325633315847": {
-    name: "خاتم",
-    monthly: 1,
-    monthly_confidence: 66.29642235318661,
-    weekly: 1,
-    weekly_confidence: 80.76260714979323,
-  },
-  "38547060135156069": {
-    name: "فاذر",
-    monthly: 0,
-    monthly_confidence: 69.62834442340055,
-    weekly: 0,
-    weekly_confidence: 73.73399410752887,
-  },
-  "44846320603450383": {
-    name: "فروسیل",
-    monthly: 1,
-    monthly_confidence: 91.69835876998799,
-    weekly: 1,
-    weekly_confidence: 89.7859952182308,
-  },
-  "39807886630843041": {
-    name: "بمپنا",
-    monthly: 1,
-    monthly_confidence: 76.99655013580667,
-    weekly: 1,
-    weekly_confidence: 65.6638128754803,
-  },
-  "48818952524587858": {
-    name: "پرتو",
-    monthly: 1,
-    monthly_confidence: 98.9423776379178,
-    weekly: 0,
-    weekly_confidence: 75.36436459910227,
-  },
-  "62786156501584862": {
-    name: "پاکشو",
-    monthly: 1,
-    monthly_confidence: 66.6094488317692,
-    weekly: 1,
-    weekly_confidence: 68.45101861922878,
-  },
-  "68517032834363488": {
-    name: "شبصیر",
-    monthly: 1,
-    monthly_confidence: 96.45583023444122,
-    weekly: 0,
-    weekly_confidence: 80.68445362660584,
-  },
-  "22260326095996531": {
-    name: "حتوکا",
-    monthly: 1,
-    monthly_confidence: 67.99728820908533,
-    weekly: 1,
-    weekly_confidence: 69.00410882394121,
-  },
-  "27797446447955609": {
-    name: "نخل",
-    monthly: 1,
-    monthly_confidence: 82.48299046132979,
-    weekly: 0,
-    weekly_confidence: 85.49340159747175,
-  },
-  "29882244560576007": {
-    name: "بزاگرس",
-    monthly: 1,
-    monthly_confidence: 70.79777392890394,
-    weekly: 1,
-    weekly_confidence: 77.58475263913348,
-  },
-  "46700660505281786": {
-    name: "طلا",
-    monthly: 0,
-    monthly_confidence: 93.32927034055739,
-    weekly: 1,
-    weekly_confidence: 67.85033358058065,
-  },
-  31959715133485440: {
-    name: "ولقمان",
-    monthly: 0,
-    monthly_confidence: 71.82298977256086,
-    weekly: 0,
-    weekly_confidence: 89.52971818035401,
-  },
-  3050342257199174: {
-    name: "قنقش",
-    monthly: 1,
-    monthly_confidence: 87.11307765880363,
-    weekly: 0,
-    weekly_confidence: 69.2778280678755,
-  },
-  "66295665969375744": {
-    name: "سبجنو",
-    monthly: 0,
-    monthly_confidence: 85.22598595427246,
-    weekly: 1,
-    weekly_confidence: 73.60547356584314,
-  },
-  "60887982279284651": {
-    name: "ثجنوب",
-    monthly: 1,
-    monthly_confidence: 68.26168225190912,
-    weekly: 1,
-    weekly_confidence: 88.1174260600789,
-  },
-  "71290297158948749": {
-    name: "زقیام",
-    monthly: 1,
-    monthly_confidence: 94.14988448727475,
-    weekly: 1,
-    weekly_confidence: 86.24271515440313,
-  },
-  6847536925606808: {
-    name: "ومعلم",
-    monthly: 1,
-    monthly_confidence: 69.7393345666142,
-    weekly: 0,
-    weekly_confidence: 68.27851472404475,
-  },
-  "28230238564334914": {
-    name: "قجام",
-    monthly: 1,
-    monthly_confidence: 72.73190268788532,
-    weekly: 1,
-    weekly_confidence: 68.34174818678297,
-  },
-  7483280423474368: {
-    name: "خاهن",
-    monthly: 0,
-    monthly_confidence: 95.53513512895374,
-    weekly: 0,
-    weekly_confidence: 72.541813713231,
-  },
-  18303237082155264: {
-    name: "دفرا",
-    monthly: 1,
-    monthly_confidence: 77.39137186940384,
-    weekly: 1,
-    weekly_confidence: 96.19932860335274,
-  },
-  "22087269603540841": {
-    name: "وپست",
-    monthly: 0,
-    monthly_confidence: 79.88170105315446,
-    weekly: 1,
-    weekly_confidence: 92.8170667799134,
-  },
-  26543014712914772: {
-    name: "میهن",
-    monthly: 1,
-    monthly_confidence: 73.91716454297078,
-    weekly: 1,
-    weekly_confidence: 84.94727816528601,
-  },
-  "35700344742885862": {
-    name: "کگل",
-    monthly: 1,
-    monthly_confidence: 65.98049619393089,
-    weekly: 1,
-    weekly_confidence: 96.61944039902488,
-  },
-  7235435095059069: {
-    name: "پکویر",
-    monthly: 0,
-    monthly_confidence: 66.89130336363081,
-    weekly: 1,
-    weekly_confidence: 67.98596657569114,
-  },
-  "25211433301660888": {
-    name: "خپارس",
-    monthly: 0,
-    monthly_confidence: 72.29590052157876,
-    weekly: 0,
-    weekly_confidence: 71.4816873145601,
-  },
-  "69143674941561637": {
-    name: "پترول",
-    monthly: 1,
-    monthly_confidence: 70.10952552271435,
-    weekly: 1,
-    weekly_confidence: 93.98840301153922,
-  },
-  2434703913394836: {
-    name: "غدشت",
-    monthly: 0,
-    monthly_confidence: 90.1427594032071,
-    weekly: 1,
-    weekly_confidence: 91.1114206752567,
-  },
-  "20652241232631918": {
-    name: "نیان",
-    monthly: 0,
-    monthly_confidence: 79.61616552829753,
-    weekly: 0,
-    weekly_confidence: 77.02911304883072,
-  },
-  "37614886280396031": {
-    name: "وساپا",
-    monthly: 1,
-    monthly_confidence: 78.67936209437967,
-    weekly: 1,
-    weekly_confidence: 70.20419618020303,
-  },
-  "36773155987365094": {
-    name: "اعتلا",
-    monthly: 1,
-    monthly_confidence: 73.9276422614406,
-    weekly: 0,
-    weekly_confidence: 93.59194483175725,
-  },
-  "30507152381699953": {
-    name: "ثجوان",
-    monthly: 0,
-    monthly_confidence: 80.97163149823145,
-    weekly: 1,
-    weekly_confidence: 83.07116648845052,
-  },
-  "11403770140000603": {
-    name: "ولملت",
-    monthly: 1,
-    monthly_confidence: 80.89492312882939,
-    weekly: 1,
-    weekly_confidence: 71.68103311599064,
-  },
-  "38555056423456635": {
-    name: "شتوکا",
-    monthly: 0,
-    monthly_confidence: 81.30081214922593,
-    weekly: 1,
-    weekly_confidence: 86.77995184323301,
-  },
-  "50341528161302545": {
-    name: "کمنگنز",
-    monthly: 1,
-    monthly_confidence: 92.16806437062039,
-    weekly: 1,
-    weekly_confidence: 79.29713321816463,
-  },
-  25387056990464790: {
-    name: "وتوکاح",
-    monthly: 1,
-    monthly_confidence: 83.04020466040579,
-    weekly: 1,
-    weekly_confidence: 76.72639809415341,
-  },
-  "30443839313522574": {
-    name: "حرهشا",
-    monthly: 1,
-    monthly_confidence: 68.77651374163784,
-    weekly: 0,
-    weekly_confidence: 68.47826727902822,
-  },
-  15472396110662150: {
-    name: "سکرما",
-    monthly: 1,
-    monthly_confidence: 93.01875310955936,
-    weekly: 0,
-    weekly_confidence: 75.1522322874646,
-  },
-  52455922800537930: {
-    name: "تکنار",
-    monthly: 1,
-    monthly_confidence: 94.89694670353754,
-    weekly: 1,
-    weekly_confidence: 96.20001756220131,
-  },
-  "37389789764168256": {
-    name: "توریل",
-    monthly: 1,
-    monthly_confidence: 75.35992476308022,
-    weekly: 1,
-    weekly_confidence: 76.90404956200035,
-  },
-  "41284516796232939": {
-    name: "سهگمت",
-    monthly: 1,
-    monthly_confidence: 68.27710208816971,
-    weekly: 0,
-    weekly_confidence: 71.82142779100936,
-  },
-  "62177651435283872": {
-    name: "شکلر",
-    monthly: 1,
-    monthly_confidence: 90.30486497753779,
-    weekly: 0,
-    weekly_confidence: 65.85303767118492,
-  },
-  "23049019886587905": {
-    name: "خفولا",
-    monthly: 0,
-    monthly_confidence: 91.01663968167578,
-    weekly: 1,
-    weekly_confidence: 72.94789848273298,
-  },
-  "67206358287598044": {
-    name: "کهمدا",
-    monthly: 1,
-    monthly_confidence: 71.42971906499588,
-    weekly: 0,
-    weekly_confidence: 70.3278529897522,
-  },
-  3863538898378476: {
-    name: "ثمسکن",
-    monthly: 1,
-    monthly_confidence: 89.57228880347002,
-    weekly: 0,
-    weekly_confidence: 69.20561804220054,
-  },
-  "54482686501491508": {
-    name: "زبینا",
-    monthly: 1,
-    monthly_confidence: 85.90476588455125,
-    weekly: 1,
-    weekly_confidence: 78.99515679751983,
-  },
-  "47702059190622416": {
-    name: "ثتوسا",
-    monthly: 1,
-    monthly_confidence: 79.37566420864091,
-    weekly: 1,
-    weekly_confidence: 88.9249765211675,
-  },
-  "50368344235826302": {
-    name: "لازما",
-    monthly: 1,
-    monthly_confidence: 68.37886258246768,
-    weekly: 1,
-    weekly_confidence: 65.0563185463404,
-  },
-  "54676885047867737": {
-    name: "وتوشه",
-    monthly: 1,
-    monthly_confidence: 89.4564212620276,
-    weekly: 0,
-    weekly_confidence: 71.64080497562449,
-  },
-  6116572045021585: {
-    name: "شجم",
-    monthly: 1,
-    monthly_confidence: 66.11639053296534,
-    weekly: 0,
-    weekly_confidence: 87.42776310495597,
-  },
-  "61265100181977543": {
-    name: "مانی",
-    monthly: 1,
-    monthly_confidence: 95.10008248836687,
-    weekly: 1,
-    weekly_confidence: 78.5491557932192,
-  },
-  114312662654155: {
-    name: "وسپهر",
-    monthly: 1,
-    monthly_confidence: 90.46817436737567,
-    weekly: 1,
-    weekly_confidence: 95.01794049071182,
-  },
-  11773403764702778: {
-    name: "وبیمه",
-    monthly: 1,
-    monthly_confidence: 79.2758565491129,
-    weekly: 0,
-    weekly_confidence: 92.00097157016594,
-  },
-  "56550776668133562": {
-    name: "دفارا",
-    monthly: 1,
-    monthly_confidence: 67.81843345705727,
-    weekly: 0,
-    weekly_confidence: 77.52532912831363,
-  },
-  57875847776839336: {
-    name: "فنوال",
-    monthly: 1,
-    monthly_confidence: 82.01748650898983,
-    weekly: 1,
-    weekly_confidence: 65.59197848811283,
-  },
-  22382156782768756: {
-    name: "بکام",
-    monthly: 1,
-    monthly_confidence: 75.01464728752167,
-    weekly: 1,
-    weekly_confidence: 83.75151631062214,
-  },
-  28957320033282870: {
-    name: "چکاپا",
-    monthly: 0,
-    monthly_confidence: 93.9325049514766,
-    weekly: 1,
-    weekly_confidence: 67.1180501784799,
-  },
-  "44296315953738727": {
-    name: "فاهواز",
-    monthly: 1,
-    monthly_confidence: 77.80575049623751,
-    weekly: 0,
-    weekly_confidence: 71.86602789853583,
-  },
-  "57639364758870873": {
-    name: "کپشیر",
-    monthly: 1,
-    monthly_confidence: 89.71627674785029,
-    weekly: 1,
-    weekly_confidence: 93.37818776490685,
-  },
-  "12387472624849835": {
-    name: "داسوه",
-    monthly: 0,
-    monthly_confidence: 66.56836071223883,
-    weekly: 1,
-    weekly_confidence: 88.93525668370796,
-  },
-  "25244329144808274": {
-    name: "فارس",
-    monthly: 1,
-    monthly_confidence: 98.15978940681084,
-    weekly: 0,
-    weekly_confidence: 89.97986350171462,
-  },
-  38084304113529336: {
-    name: "خدیزل",
-    monthly: 1,
-    monthly_confidence: 83.64555178788486,
-    weekly: 0,
-    weekly_confidence: 79.97512767329314,
-  },
-  "45507655586782998": {
-    name: "فجهان",
-    monthly: 0,
-    monthly_confidence: 91.06285390650977,
-    weekly: 0,
-    weekly_confidence: 70.75007976065447,
-  },
-  17232252152159494: {
-    name: "آواپارس",
-    monthly: 0,
-    monthly_confidence: 70.12847324523639,
-    weekly: 0,
-    weekly_confidence: 93.81257488500626,
-  },
-  "53204330224889981": {
-    name: "تبرک",
-    monthly: 1,
-    monthly_confidence: 93.73590861378892,
-    weekly: 1,
-    weekly_confidence: 82.63911685865071,
-  },
-  6506179926371994: {
-    name: "آریان",
-    monthly: 0,
-    monthly_confidence: 71.60436259306324,
-    weekly: 1,
-    weekly_confidence: 80.65353704669286,
-  },
-  35948133957468680: {
-    name: "سرچشمه",
-    monthly: 1,
-    monthly_confidence: 80.00518744683794,
-    weekly: 0,
-    weekly_confidence: 83.39376206854122,
-  },
-  "36899214178084525": {
-    name: "شفا",
-    monthly: 1,
-    monthly_confidence: 83.14830754331122,
-    weekly: 1,
-    weekly_confidence: 90.42808447842226,
-  },
-  "23837844039713715": {
-    name: "کفرا",
-    monthly: 1,
-    monthly_confidence: 91.95922049416795,
-    weekly: 1,
-    weekly_confidence: 69.90914983685475,
-  },
-  "53113471126689455": {
-    name: "چکارن",
-    monthly: 0,
-    monthly_confidence: 96.86724607016268,
-    weekly: 0,
-    weekly_confidence: 73.12848533076841,
-  },
-  "34673681828119297": {
-    name: "فاما",
-    monthly: 1,
-    monthly_confidence: 76.61602499441116,
-    weekly: 1,
-    weekly_confidence: 76.85619963237137,
-  },
-  "43966385447049549": {
-    name: "ودی",
-    monthly: 1,
-    monthly_confidence: 80.60913511717524,
-    weekly: 1,
-    weekly_confidence: 80.44851623257684,
-  },
-  "62603302940123327": {
-    name: "ونیرو",
-    monthly: 0,
-    monthly_confidence: 69.71848651792823,
-    weekly: 1,
-    weekly_confidence: 72.22372175164567,
-  },
-  655060129740445: {
-    name: "اپال",
-    monthly: 1,
-    monthly_confidence: 85.53920685525205,
-    weekly: 1,
-    weekly_confidence: 78.61969394149355,
-  },
-  "35366681030756042": {
-    name: "شبندر",
-    monthly: 0,
-    monthly_confidence: 85.79793513632326,
-    weekly: 1,
-    weekly_confidence: 68.69234825290997,
-  },
-  "50503654866742146": {
-    name: "هامرز",
-    monthly: 0,
-    monthly_confidence: 77.44805837399201,
-    weekly: 0,
-    weekly_confidence: 86.70576837382427,
-  },
-  7505990056227818: {
-    name: "ممسنی",
-    monthly: 1,
-    monthly_confidence: 67.00650907095839,
-    weekly: 0,
-    weekly_confidence: 98.59653281671828,
-  },
-  "45050389997905274": {
-    name: "وسینا",
-    monthly: 1,
-    monthly_confidence: 96.01344448662091,
-    weekly: 1,
-    weekly_confidence: 70.78502316702905,
-  },
-  29590002988360984: {
-    name: "سپیدار",
-    monthly: 0,
-    monthly_confidence: 98.92103580871908,
-    weekly: 1,
-    weekly_confidence: 79.17493308424234,
-  },
-  "27405735172634593": {
-    name: "اتکام",
-    monthly: 1,
-    monthly_confidence: 70.47188350271539,
-    weekly: 1,
-    weekly_confidence: 85.8640367375812,
-  },
-  "45728383369147894": {
-    name: "امین یکم",
-    monthly: 0,
-    monthly_confidence: 69.8240475902204,
-    weekly: 1,
-    weekly_confidence: 85.96687636285405,
-  },
-  "68488673556087148": {
-    name: "فپنتا",
-    monthly: 1,
-    monthly_confidence: 75.90901481418148,
-    weekly: 1,
-    weekly_confidence: 89.68594907078136,
-  },
-  "70391097626818082": {
-    name: "گشان",
-    monthly: 0,
-    monthly_confidence: 94.79296722919737,
-    weekly: 0,
-    weekly_confidence: 87.73558440842797,
-  },
-  "28672095850798501": {
-    name: "غسالم",
-    monthly: 1,
-    monthly_confidence: 79.07563852863835,
-    weekly: 1,
-    weekly_confidence: 76.23587398486598,
-  },
-  "52382684379473036": {
-    name: "دکپسول",
-    monthly: 1,
-    monthly_confidence: 97.6967858089583,
-    weekly: 1,
-    weekly_confidence: 83.4199903274299,
-  },
-  "22490169030401337": {
-    name: "وآوا",
-    monthly: 1,
-    monthly_confidence: 76.39293464541261,
-    weekly: 1,
-    weekly_confidence: 98.93354078173644,
-  },
-  1625149423498289: {
-    name: "حسینا",
-    monthly: 1,
-    monthly_confidence: 75.28723081222742,
-    weekly: 1,
-    weekly_confidence: 90.80499535090821,
-  },
-  "22560050433388046": {
-    name: "تاپیکو",
-    monthly: 0,
-    monthly_confidence: 93.45104050710499,
-    weekly: 1,
-    weekly_confidence: 77.95314075570768,
-  },
-  "18063426072758458": {
-    name: "وبهمن",
-    monthly: 1,
-    monthly_confidence: 90.58615099539976,
-    weekly: 1,
-    weekly_confidence: 85.59089413375708,
-  },
-  "21077182490095731": {
-    name: "درین",
-    monthly: 1,
-    monthly_confidence: 79.00510096351331,
-    weekly: 1,
-    weekly_confidence: 78.97040028685835,
-  },
-  917857106093847: {
-    name: "حپارسا",
-    monthly: 0,
-    monthly_confidence: 70.13325878628677,
-    weekly: 1,
-    weekly_confidence: 73.69937213216816,
-  },
-  5128151910501174: {
-    name: "وحافظ",
-    monthly: 1,
-    monthly_confidence: 84.14267523157855,
-    weekly: 1,
-    weekly_confidence: 77.86075163717433,
-  },
-  2589887561569709: {
-    name: "خزامیا",
-    monthly: 1,
-    monthly_confidence: 79.76641899700823,
-    weekly: 1,
-    weekly_confidence: 66.22152409306685,
-  },
-  "49674915481184052": {
-    name: "جهرم",
-    monthly: 1,
-    monthly_confidence: 78.11685933665797,
-    weekly: 1,
-    weekly_confidence: 83.9605330141588,
-  },
-  204092872752957: {
-    name: "شصدف",
-    monthly: 0,
-    monthly_confidence: 70.97890301140369,
-    weekly: 0,
-    weekly_confidence: 78.4226873936731,
-  },
-  "61469668095573716": {
-    name: "ولکار",
-    monthly: 1,
-    monthly_confidence: 77.28163889530542,
-    weekly: 1,
-    weekly_confidence: 91.90519257302724,
-  },
-  32678431934327184: {
-    name: "کلوند",
-    monthly: 1,
-    monthly_confidence: 86.07713753527138,
-    weekly: 1,
-    weekly_confidence: 67.85210067326373,
-  },
-  "44665761767777759": {
-    name: "گکیش",
-    monthly: 1,
-    monthly_confidence: 86.13720245135946,
-    weekly: 0,
-    weekly_confidence: 84.1744012495014,
-  },
-  67690708346979840: {
-    name: "کماسه",
-    monthly: 1,
-    monthly_confidence: 89.74768526231915,
-    weekly: 0,
-    weekly_confidence: 89.98776682726995,
-  },
-  "36844527173896115": {
-    name: "زفجر",
-    monthly: 1,
-    monthly_confidence: 96.75452143483292,
-    weekly: 1,
-    weekly_confidence: 90.54622460908115,
-  },
-  "36235343945196457": {
-    name: "وفردا",
-    monthly: 1,
-    monthly_confidence: 92.69267072841922,
-    weekly: 0,
-    weekly_confidence: 98.24328090967016,
-  },
-  "46178280540110577": {
-    name: "بفجر",
-    monthly: 0,
-    monthly_confidence: 96.20566930977134,
-    weekly: 0,
-    weekly_confidence: 95.31508173508979,
-  },
-  "11964419322927535": {
-    name: "سرود",
-    monthly: 1,
-    monthly_confidence: 77.61338459224882,
-    weekly: 1,
-    weekly_confidence: 86.57391780604773,
-  },
-  "12913156843322499": {
-    name: "نهال",
-    monthly: 1,
-    monthly_confidence: 81.7624922279948,
-    weekly: 0,
-    weekly_confidence: 97.6681816616211,
-  },
-  38437201078089290: {
-    name: "کرماشا",
-    monthly: 1,
-    monthly_confidence: 93.2418151461552,
-    weekly: 0,
-    weekly_confidence: 88.99368823621565,
-  },
-  "70498485598181604": {
-    name: "هرمز",
-    monthly: 1,
-    monthly_confidence: 83.99439267238567,
-    weekly: 0,
-    weekly_confidence: 79.97515988553347,
-  },
-  "40262275031537922": {
-    name: "دروز",
-    monthly: 0,
-    monthly_confidence: 72.71502495751668,
-    weekly: 1,
-    weekly_confidence: 79.9372074034458,
-  },
-  "13227300125161435": {
-    name: "سصوفی",
-    monthly: 1,
-    monthly_confidence: 76.72898697924045,
-    weekly: 0,
-    weekly_confidence: 69.62389794689064,
-  },
-  "15374483986949695": {
-    name: "دهدشت",
-    monthly: 0,
-    monthly_confidence: 89.65497341042618,
-    weekly: 0,
-    weekly_confidence: 97.80732475626469,
-  },
-  "41935584690956944": {
-    name: "پتایر",
-    monthly: 1,
-    monthly_confidence: 85.94708036552245,
-    weekly: 1,
-    weekly_confidence: 71.04413637800201,
-  },
-  778253364357513: {
-    name: "وبملت",
-    monthly: 1,
-    monthly_confidence: 65.42993654732888,
-    weekly: 1,
-    weekly_confidence: 74.07765445182687,
-  },
-  "19828734979381742": {
-    name: "آلا",
-    monthly: 1,
-    monthly_confidence: 94.67279087818686,
-    weekly: 1,
-    weekly_confidence: 69.935253038797,
-  },
-  "43267179898797137": {
-    name: "پاداش",
-    monthly: 1,
-    monthly_confidence: 75.84134504118225,
-    weekly: 1,
-    weekly_confidence: 74.07867228177805,
-  },
-  15259343650667588: {
-    name: "قزوین",
-    monthly: 0,
-    monthly_confidence: 86.59105426499393,
-    weekly: 1,
-    weekly_confidence: 74.08400274174944,
-  },
-  "70289374539527245": {
-    name: "ختوقا",
-    monthly: 1,
-    monthly_confidence: 94.56833326937566,
-    weekly: 1,
-    weekly_confidence: 79.01105309028638,
-  },
-  "17269972595370241": {
-    name: "وآتوس",
-    monthly: 0,
-    monthly_confidence: 91.1546860311779,
-    weekly: 1,
-    weekly_confidence: 84.67975353668865,
-  },
-  65576885779918210: {
-    name: "مدیر",
-    monthly: 1,
-    monthly_confidence: 81.35044522231497,
-    weekly: 1,
-    weekly_confidence: 93.83021342796222,
-  },
-  "55070742656326885": {
-    name: "پایا",
-    monthly: 1,
-    monthly_confidence: 93.0373098091033,
-    weekly: 1,
-    weekly_confidence: 71.75320541066614,
-  },
-  4216536645718658: {
-    name: "برلیان",
-    monthly: 1,
-    monthly_confidence: 85.22839033776641,
-    weekly: 1,
-    weekly_confidence: 91.46357672651355,
-  },
-  "41796741644273824": {
-    name: "وملی",
-    monthly: 0,
-    monthly_confidence: 92.97916730551893,
-    weekly: 1,
-    weekly_confidence: 66.3233978813547,
-  },
-  "63481599728522324": {
-    name: "ثشاهد",
-    monthly: 1,
-    monthly_confidence: 85.77517591815827,
-    weekly: 1,
-    weekly_confidence: 68.78330153991065,
-  },
-  "53647874954005806": {
-    name: "واحصا",
-    monthly: 0,
-    monthly_confidence: 86.38225751053173,
-    weekly: 0,
-    weekly_confidence: 79.33608643959504,
-  },
-  "16405556680571453": {
-    name: "کخاک",
-    monthly: 0,
-    monthly_confidence: 81.42583906583849,
-    weekly: 1,
-    weekly_confidence: 72.15349273497397,
-  },
-  "56429431740318486": {
-    name: "شلرد",
-    monthly: 0,
-    monthly_confidence: 90.79724017347533,
-    weekly: 1,
-    weekly_confidence: 94.5293616159245,
-  },
-  "17834623106317041": {
-    name: "خنصیر",
-    monthly: 1,
-    monthly_confidence: 74.45592292482152,
-    weekly: 1,
-    weekly_confidence: 73.07118960098558,
-  },
-  3149396562827132: {
-    name: "وایران",
-    monthly: 1,
-    monthly_confidence: 70.70560760767941,
-    weekly: 1,
-    weekly_confidence: 79.86409966940701,
-  },
-  4686607974846832: {
-    name: "سفارود",
-    monthly: 0,
-    monthly_confidence: 78.54390472888419,
-    weekly: 0,
-    weekly_confidence: 80.35496759196609,
-  },
-  "9098178887955847": {
-    name: "شهر",
-    monthly: 1,
-    monthly_confidence: 81.27646048759686,
-    weekly: 1,
-    weekly_confidence: 83.49589901165692,
-  },
-  "61332057061846617": {
-    name: "دابور",
-    monthly: 0,
-    monthly_confidence: 98.08846585109552,
-    weekly: 1,
-    weekly_confidence: 97.13497515267346,
-  },
-  64216772923447100: {
-    name: "شتاب",
-    monthly: 1,
-    monthly_confidence: 70.77744287250448,
-    weekly: 0,
-    weekly_confidence: 71.51199761375833,
-  },
-  "30447901674051381": {
-    name: "ومدیر",
-    monthly: 1,
-    monthly_confidence: 74.73083900106738,
-    weekly: 0,
-    weekly_confidence: 79.9630620267612,
-  },
-  7395271748414592: {
-    name: "وخارزم",
-    monthly: 1,
-    monthly_confidence: 84.93836441999612,
-    weekly: 0,
-    weekly_confidence: 85.00939549532526,
-  },
-  "47797676603278665": {
-    name: "بازرگام",
-    monthly: 1,
-    monthly_confidence: 76.19482307519667,
-    weekly: 0,
-    weekly_confidence: 79.0814896506278,
-  },
-  4563413583000719: {
-    name: "ساراب",
-    monthly: 1,
-    monthly_confidence: 84.08965760565324,
-    weekly: 1,
-    weekly_confidence: 68.0030345613021,
-  },
-  "28325731560106431": {
-    name: "کساپا",
-    monthly: 0,
-    monthly_confidence: 78.93561212613774,
-    weekly: 1,
-    weekly_confidence: 93.6920249413087,
-  },
-  "35163287528816137": {
-    name: "اعتبار",
-    monthly: 1,
-    monthly_confidence: 90.83606473068855,
-    weekly: 1,
-    weekly_confidence: 65.91655633781684,
-  },
-  "47563321799863211": {
-    name: "بتهران",
-    monthly: 0,
-    monthly_confidence: 85.11704773789832,
-    weekly: 1,
-    weekly_confidence: 67.86134706013766,
-  },
-  "56130915871324783": {
-    name: "وآتوسح",
-    monthly: 0,
-    monthly_confidence: 94.63047859390065,
-    weekly: 1,
-    weekly_confidence: 72.85265256514063,
-  },
-  "41227201752535311": {
-    name: "سفار",
-    monthly: 0,
-    monthly_confidence: 73.76428045883016,
-    weekly: 0,
-    weekly_confidence: 77.56711078198792,
-  },
-  "45205530868811305": {
-    name: "صایند",
-    monthly: 0,
-    monthly_confidence: 85.84283827488579,
-    weekly: 1,
-    weekly_confidence: 93.3221568144747,
-  },
-  "54509759694064219": {
-    name: "تپکو",
-    monthly: 1,
-    monthly_confidence: 97.70856429731276,
-    weekly: 1,
-    weekly_confidence: 94.77945321554343,
-  },
-  "14073782708315535": {
-    name: "شنفت",
-    monthly: 0,
-    monthly_confidence: 94.49157264494102,
-    weekly: 1,
-    weekly_confidence: 98.42645070941771,
-  },
-  "43283802997035462": {
-    name: "وسبحان",
-    monthly: 0,
-    monthly_confidence: 96.40340071735089,
-    weekly: 0,
-    weekly_confidence: 70.57497867345852,
-  },
-  "54263829393913132": {
-    name: "کمینا",
-    monthly: 1,
-    monthly_confidence: 96.66316542533174,
-    weekly: 1,
-    weekly_confidence: 87.61696126560031,
-  },
-  "15962072736526551": {
-    name: "کاریز",
-    monthly: 1,
-    monthly_confidence: 86.58030166737807,
-    weekly: 1,
-    weekly_confidence: 69.22743584419885,
-  },
-  "37281199178613855": {
-    name: "سیدکو",
-    monthly: 1,
-    monthly_confidence: 90.83056976231676,
-    weekly: 0,
-    weekly_confidence: 89.74815246533834,
-  },
-  "64942549055019553": {
-    name: "سرو",
-    monthly: 1,
-    monthly_confidence: 81.50560835796837,
-    weekly: 0,
-    weekly_confidence: 70.81388911598914,
-  },
-  "29860265627578401": {
-    name: "ما",
-    monthly: 0,
-    monthly_confidence: 69.25880904144954,
-    weekly: 1,
-    weekly_confidence: 74.2590652261896,
-  },
-  "66142616039907394": {
-    name: "دماوند",
-    monthly: 1,
-    monthly_confidence: 83.32146503930544,
-    weekly: 1,
-    weekly_confidence: 89.757466056067,
-  },
-  "25631699615003698": {
-    name: "کهرام",
-    monthly: 0,
-    monthly_confidence: 82.33621121973432,
-    weekly: 1,
-    weekly_confidence: 65.2197298083399,
-  },
-  6110133418282108: {
-    name: "پارس",
-    monthly: 1,
-    monthly_confidence: 66.46735321359284,
-    weekly: 0,
-    weekly_confidence: 91.88970394525981,
-  },
-  "24644999329120295": {
-    name: "وملل",
-    monthly: 1,
-    monthly_confidence: 85.46558095042285,
-    weekly: 1,
-    weekly_confidence: 98.08611162335015,
-  },
-  "37661500521100963": {
-    name: "آبادا",
-    monthly: 0,
-    monthly_confidence: 68.07925469050384,
-    weekly: 1,
-    weekly_confidence: 68.63700083333677,
-  },
-  4159532151694984: {
-    name: "فبستم",
-    monthly: 1,
-    monthly_confidence: 96.91454502140371,
-    weekly: 1,
-    weekly_confidence: 80.21075318321243,
-  },
-  "16777570760181431": {
-    name: "کازرو",
-    monthly: 1,
-    monthly_confidence: 90.30818259509569,
-    weekly: 1,
-    weekly_confidence: 81.39660023010241,
-  },
-  35178706978554988: {
-    name: "شپاس",
-    monthly: 0,
-    monthly_confidence: 72.82265380137162,
-    weekly: 1,
-    weekly_confidence: 98.57861986564136,
-  },
-  "50185721305191887": {
-    name: "ختور",
-    monthly: 1,
-    monthly_confidence: 87.83795841400398,
-    weekly: 1,
-    weekly_confidence: 77.90399501886128,
-  },
-  "62258804563636993": {
-    name: "تکشا",
-    monthly: 1,
-    monthly_confidence: 77.01328786105601,
-    weekly: 0,
-    weekly_confidence: 87.96606821739276,
-  },
-  43622578471330344: {
-    name: "دسبحا",
-    monthly: 0,
-    monthly_confidence: 77.69093205571151,
-    weekly: 1,
-    weekly_confidence: 76.95771674114754,
-  },
-  "48511238766369097": {
-    name: "دانا",
-    monthly: 0,
-    monthly_confidence: 90.74976464887943,
-    weekly: 0,
-    weekly_confidence: 95.72525260041571,
-  },
-  "34144395039913458": {
-    name: "عیار",
-    monthly: 0,
-    monthly_confidence: 71.67664493911192,
-    weekly: 1,
-    weekly_confidence: 70.97703320938378,
-  },
-  "63580313877463104": {
-    name: "پاسا",
-    monthly: 1,
-    monthly_confidence: 88.10629404910924,
-    weekly: 1,
-    weekly_confidence: 98.14942527817458,
-  },
-  36592972482259020: {
-    name: "آسام",
-    monthly: 0,
-    monthly_confidence: 84.50667641909432,
-    weekly: 1,
-    weekly_confidence: 78.71509025696011,
-  },
-  "38713440086361985": {
-    name: "ثهام",
-    monthly: 1,
-    monthly_confidence: 96.13227372883051,
-    weekly: 1,
-    weekly_confidence: 95.29560269766488,
-  },
-  "62952165421099192": {
-    name: "بالبر",
-    monthly: 1,
-    monthly_confidence: 70.5129061738984,
-    weekly: 1,
-    weekly_confidence: 91.26537651169095,
-  },
-  20411759370751096: {
-    name: "کنور",
-    monthly: 0,
-    monthly_confidence: 84.06606423650966,
-    weekly: 1,
-    weekly_confidence: 76.53583373436257,
-  },
-  22275596386264204: {
-    name: "کوثر",
-    monthly: 1,
-    monthly_confidence: 71.03568207450341,
-    weekly: 0,
-    weekly_confidence: 65.05904005148527,
-  },
-  "43951910415124966": {
-    name: "وگستر",
-    monthly: 1,
-    monthly_confidence: 79.11409069569498,
-    weekly: 1,
-    weekly_confidence: 67.3626050734497,
-  },
-  "48623320733330408": {
-    name: "فلوله",
-    monthly: 1,
-    monthly_confidence: 92.41312227391624,
-    weekly: 1,
-    weekly_confidence: 98.75979358759473,
-  },
-  "49188729526980541": {
-    name: "شسپا",
-    monthly: 0,
-    monthly_confidence: 95.49159328976506,
-    weekly: 1,
-    weekly_confidence: 85.8953512031408,
-  },
-  "28551661889797217": {
-    name: "زیتون",
-    monthly: 0,
-    monthly_confidence: 85.42910062327644,
-    weekly: 1,
-    weekly_confidence: 76.75790033564884,
-  },
-  "59848307608894801": {
-    name: "گپارس",
-    monthly: 1,
-    monthly_confidence: 81.97977769955688,
-    weekly: 1,
-    weekly_confidence: 74.03998258750002,
-  },
-  "66021783818850713": {
-    name: "فافزا",
-    monthly: 1,
-    monthly_confidence: 78.61429863442073,
-    weekly: 0,
-    weekly_confidence: 98.997679731424,
-  },
-  "28253678449273505": {
-    name: "حخزر",
-    monthly: 1,
-    monthly_confidence: 93.94858017502209,
-    weekly: 1,
-    weekly_confidence: 78.55628498344647,
-  },
-  45641540066710190: {
-    name: "لکما",
-    monthly: 1,
-    monthly_confidence: 77.62012010350293,
-    weekly: 1,
-    weekly_confidence: 92.15513097695548,
-  },
-  "16369313804633525": {
-    name: "حپترو",
-    monthly: 0,
-    monthly_confidence: 80.38769636353352,
-    weekly: 0,
-    weekly_confidence: 74.75004171110827,
-  },
-  793710053482057: {
-    name: "لپیام",
-    monthly: 0,
-    monthly_confidence: 96.99455711656191,
-    weekly: 1,
-    weekly_confidence: 84.75721496963587,
-  },
-  1438514795814416: {
-    name: "یاقوت",
-    monthly: 1,
-    monthly_confidence: 90.9816502380427,
-    weekly: 1,
-    weekly_confidence: 89.3550017030206,
-  },
-  55862580907068610: {
-    name: "شملی",
-    monthly: 0,
-    monthly_confidence: 78.39584938234074,
-    weekly: 1,
-    weekly_confidence: 86.81339703605876,
-  },
-  "33629260529503413": {
-    name: "بجهرم",
-    monthly: 1,
-    monthly_confidence: 89.66589460761017,
-    weekly: 0,
-    weekly_confidence: 96.86211227958184,
-  },
-  10236455588057352: {
-    name: "انتخاب",
-    monthly: 0,
-    monthly_confidence: 92.62767298936488,
-    weekly: 1,
-    weekly_confidence: 75.2646859552123,
-  },
-  "24085906177899789": {
-    name: "کترام",
-    monthly: 1,
-    monthly_confidence: 67.87779646336006,
-    weekly: 1,
-    weekly_confidence: 93.56038864054788,
-  },
-  56591881518499520: {
-    name: "وسین",
-    monthly: 1,
-    monthly_confidence: 69.62527014898619,
-    weekly: 1,
-    weekly_confidence: 80.14199701411658,
-  },
-  "54369290104873523": {
-    name: "بتک",
-    monthly: 0,
-    monthly_confidence: 86.90595783841538,
-    weekly: 1,
-    weekly_confidence: 89.17236916632527,
-  },
-  1822787329898392: {
-    name: "کلر",
-    monthly: 1,
-    monthly_confidence: 71.5086371905164,
-    weekly: 1,
-    weekly_confidence: 77.40279029797753,
-  },
-  4614779520007780: {
-    name: "کسرا",
-    monthly: 0,
-    monthly_confidence: 68.45897718855787,
-    weekly: 0,
-    weekly_confidence: 72.46256155151755,
-  },
-  3173544097113770: {
-    name: "شستان",
-    monthly: 1,
-    monthly_confidence: 76.72005003950751,
-    weekly: 1,
-    weekly_confidence: 85.32649923550802,
-  },
-  "35796086458096255": {
-    name: "شیران",
-    monthly: 1,
-    monthly_confidence: 70.82900388581228,
-    weekly: 0,
-    weekly_confidence: 71.40510140863528,
-  },
-  "20487994977117557": {
-    name: "غشهد",
-    monthly: 1,
-    monthly_confidence: 74.97133333400512,
-    weekly: 0,
-    weekly_confidence: 79.72992474693419,
-  },
-  "50426013665901691": {
-    name: "حآساح",
-    monthly: 1,
-    monthly_confidence: 81.17744184341139,
-    weekly: 1,
-    weekly_confidence: 74.38331665561324,
-  },
-  "58180284328186631": {
-    name: "خفناور",
-    monthly: 0,
-    monthly_confidence: 95.75422096112669,
-    weekly: 1,
-    weekly_confidence: 84.82010084361474,
-  },
-  "41048299027409941": {
-    name: "رتاپ",
-    monthly: 0,
-    monthly_confidence: 78.29632906841012,
-    weekly: 1,
-    weekly_confidence: 86.90118629488656,
-  },
-  "32257753560585502": {
-    name: "کحافظ",
-    monthly: 1,
-    monthly_confidence: 81.91503530675215,
-    weekly: 0,
-    weekly_confidence: 85.70274353877696,
-  },
-  "38568786927478796": {
-    name: "شیراز",
-    monthly: 1,
-    monthly_confidence: 68.86744805350936,
-    weekly: 1,
-    weekly_confidence: 96.80875558335349,
-  },
-  "65004959184388996": {
-    name: "فایرا",
-    monthly: 0,
-    monthly_confidence: 80.09507269417948,
-    weekly: 0,
-    weekly_confidence: 83.65275110177811,
-  },
-  "70934270174405743": {
-    name: "شخارک",
-    monthly: 0,
-    monthly_confidence: 71.35917693281111,
-    weekly: 1,
-    weekly_confidence: 77.22084102912251,
-  },
-  "31049085025064185": {
-    name: "شتهران",
-    monthly: 1,
-    monthly_confidence: 90.07433665296686,
-    weekly: 1,
-    weekly_confidence: 71.46162330326615,
-  },
-  3407806799514469: {
-    name: "شاروم",
-    monthly: 0,
-    monthly_confidence: 92.06793552777154,
-    weekly: 1,
-    weekly_confidence: 67.43546466866995,
-  },
-  "35331248532537562": {
-    name: "اردستان",
-    monthly: 0,
-    monthly_confidence: 77.29358242168098,
-    weekly: 1,
-    weekly_confidence: 74.18850823919165,
-  },
-  "46741025610365786": {
-    name: "سمگا",
-    monthly: 1,
-    monthly_confidence: 96.10040721257229,
-    weekly: 0,
-    weekly_confidence: 95.55823988776075,
-  },
-  "49270349234092953": {
-    name: "خاور",
-    monthly: 1,
-    monthly_confidence: 81.27319315700888,
-    weekly: 0,
-    weekly_confidence: 92.1755820951677,
-  },
-  "64699417405634265": {
-    name: "نطرین",
-    monthly: 0,
-    monthly_confidence: 75.64101447735037,
-    weekly: 1,
-    weekly_confidence: 74.182641814513,
-  },
-  8175784894140974: {
-    name: "فزر",
-    monthly: 1,
-    monthly_confidence: 89.24022489089495,
-    weekly: 0,
-    weekly_confidence: 86.6272128753758,
-  },
-  "71672399601682259": {
-    name: "ثروتم",
-    monthly: 1,
-    monthly_confidence: 73.55804574944692,
-    weekly: 0,
-    weekly_confidence: 92.06224117948274,
-  },
-  3492952121304423: {
-    name: "غدیس",
-    monthly: 1,
-    monthly_confidence: 71.96436809380666,
-    weekly: 0,
-    weekly_confidence: 95.41308344505391,
-  },
-  "14617104402836487": {
-    name: "سیلام",
-    monthly: 1,
-    monthly_confidence: 91.7722422054253,
-    weekly: 0,
-    weekly_confidence: 67.8453512170154,
-  },
-  "33808206014018431": {
-    name: "سمازن",
-    monthly: 1,
-    monthly_confidence: 84.13708505256491,
-    weekly: 1,
-    weekly_confidence: 98.63553535288872,
-  },
-  4247709727327181: {
-    name: "مفاخر",
-    monthly: 1,
-    monthly_confidence: 75.15582000907341,
-    weekly: 1,
-    weekly_confidence: 84.03552526908092,
-  },
-  "30719054967088301": {
-    name: "تکمبا",
-    monthly: 1,
-    monthly_confidence: 79.33805214369342,
-    weekly: 1,
-    weekly_confidence: 90.47369629717356,
-  },
-  "43781018754867729": {
-    name: "شفارس",
-    monthly: 0,
-    monthly_confidence: 88.87293547531759,
-    weekly: 1,
-    weekly_confidence: 69.79241338524467,
-  },
-  8646067353086740: {
-    name: "بالاس",
-    monthly: 1,
-    monthly_confidence: 92.42333607311475,
-    weekly: 1,
-    weekly_confidence: 83.73628141985886,
-  },
-  31569200988534548: {
-    name: "لبخند",
-    monthly: 0,
-    monthly_confidence: 69.5748452064539,
-    weekly: 1,
-    weekly_confidence: 78.37871521368207,
-  },
-  "48970598895465763": {
-    name: "پویا",
-    monthly: 0,
-    monthly_confidence: 97.9188661273131,
-    weekly: 1,
-    weekly_confidence: 77.44805048572374,
-  },
-  10055255678920880: {
-    name: "وملت",
-    monthly: 1,
-    monthly_confidence: 79.46625031720939,
-    weekly: 1,
-    weekly_confidence: 84.58363359817395,
-  },
-  12901875871456398: {
-    name: "ولراز",
-    monthly: 0,
-    monthly_confidence: 68.14284567873517,
-    weekly: 1,
-    weekly_confidence: 83.04479232119955,
-  },
-  "66721204145017523": {
-    name: "ثمین",
-    monthly: 0,
-    monthly_confidence: 94.27818640708853,
-    weekly: 1,
-    weekly_confidence: 82.90843790061315,
-  },
-  9987529074833218: {
-    name: "آبین",
-    monthly: 0,
-    monthly_confidence: 85.63634023335752,
-    weekly: 0,
-    weekly_confidence: 73.27452179546509,
-  },
-  13235547361447092: {
-    name: "زاگرس",
-    monthly: 0,
-    monthly_confidence: 93.61940490407329,
-    weekly: 0,
-    weekly_confidence: 86.4550696545784,
-  },
-  "16959429956899455": {
-    name: "شاملا",
-    monthly: 0,
-    monthly_confidence: 73.7376186510366,
-    weekly: 1,
-    weekly_confidence: 67.72948973393369,
-  },
-  "41713045190742691": {
-    name: "وسدید",
-    monthly: 1,
-    monthly_confidence: 94.87988027067219,
-    weekly: 1,
-    weekly_confidence: 90.40558470103298,
-  },
-  15282093177363578: {
-    name: "شساخت",
-    monthly: 1,
-    monthly_confidence: 74.94465396035521,
-    weekly: 1,
-    weekly_confidence: 74.45528106143152,
-  },
-  "16567465928886309": {
-    name: "درازی",
-    monthly: 1,
-    monthly_confidence: 96.26732114478001,
-    weekly: 1,
-    weekly_confidence: 92.46437945730833,
-  },
-  "52220424531578944": {
-    name: "سغرب",
-    monthly: 1,
-    monthly_confidence: 84.95164341695143,
-    weekly: 1,
-    weekly_confidence: 65.08075137599465,
-  },
-  "25336820825905643": {
-    name: "ونیکی",
-    monthly: 0,
-    monthly_confidence: 73.50521783843935,
-    weekly: 1,
-    weekly_confidence: 96.56350436038502,
-  },
-  "28374437855144739": {
-    name: "آلتون",
-    monthly: 0,
-    monthly_confidence: 89.55307395423608,
-    weekly: 1,
-    weekly_confidence: 95.23554852405411,
-  },
-  "63915926161403347": {
-    name: "خشرق",
-    monthly: 1,
-    monthly_confidence: 82.4162174378404,
-    weekly: 1,
-    weekly_confidence: 82.85840633093548,
-  },
-  30703140537034664: {
-    name: "کگهر",
-    monthly: 1,
-    monthly_confidence: 72.24813302921171,
-    weekly: 1,
-    weekly_confidence: 81.72908496764586,
-  },
-  10145129193828624: {
-    name: "نگین",
-    monthly: 1,
-    monthly_confidence: 76.01559890409398,
-    weekly: 1,
-    weekly_confidence: 81.33824736925894,
-  },
-  "37284308569715577": {
-    name: "فسبزوار",
-    monthly: 1,
-    monthly_confidence: 82.61588766974731,
-    weekly: 0,
-    weekly_confidence: 85.61795494876395,
-  },
-  "37842793167868642": {
-    name: "غویتا",
-    monthly: 1,
-    monthly_confidence: 96.13588756079105,
-    weekly: 0,
-    weekly_confidence: 70.02074228728785,
-  },
-  "59266699437480384": {
-    name: "ارفع",
-    monthly: 1,
-    monthly_confidence: 86.73500455109274,
-    weekly: 1,
-    weekly_confidence: 90.24155002793334,
-  },
-  "13611044044646901": {
-    name: "ملت",
-    monthly: 1,
-    monthly_confidence: 67.8490856696139,
-    weekly: 1,
-    weekly_confidence: 84.93683743210103,
-  },
-  "51617145873056483": {
-    name: "شتران",
-    monthly: 1,
-    monthly_confidence: 84.2596062300611,
-    weekly: 1,
-    weekly_confidence: 78.7963014340859,
-  },
-  "63499217872110599": {
-    name: "کقزوی",
-    monthly: 1,
-    monthly_confidence: 98.19580391408715,
-    weekly: 1,
-    weekly_confidence: 67.4164946244326,
-  },
-  "64298008532791199": {
-    name: "ساینا",
-    monthly: 1,
-    monthly_confidence: 95.16809133153721,
-    weekly: 1,
-    weekly_confidence: 65.34938978080105,
-  },
-  "27148572013604038": {
-    name: "وفتخار",
-    monthly: 0,
-    monthly_confidence: 67.24149789587652,
-    weekly: 1,
-    weekly_confidence: 87.4976098945633,
-  },
-  "47841327496247362": {
-    name: "واعتبار",
-    monthly: 0,
-    monthly_confidence: 92.79344311707621,
-    weekly: 1,
-    weekly_confidence: 85.55712872081118,
-  },
-  "29247915161590165": {
-    name: "دلقما",
-    monthly: 0,
-    monthly_confidence: 72.20584470451026,
-    weekly: 1,
-    weekly_confidence: 91.84395309059023,
-  },
-  "57761388729898548": {
-    name: "اوصتا",
-    monthly: 1,
-    monthly_confidence: 93.61302460044779,
-    weekly: 0,
-    weekly_confidence: 83.4235618485491,
-  },
-  "27308217070238237": {
-    name: "شکربن",
-    monthly: 0,
-    monthly_confidence: 69.31528399513714,
-    weekly: 0,
-    weekly_confidence: 91.76575091086232,
-  },
-  33527290777160784: {
-    name: "رابین",
-    monthly: 1,
-    monthly_confidence: 67.60347183061388,
-    weekly: 0,
-    weekly_confidence: 89.90783812936701,
-  },
-  "36282416082320053": {
-    name: "والماس",
-    monthly: 1,
-    monthly_confidence: 74.08549194419973,
-    weekly: 0,
-    weekly_confidence: 74.29139577954354,
-  },
-  "55979741213594029": {
-    name: "کباده",
-    monthly: 0,
-    monthly_confidence: 90.14944296998281,
-    weekly: 0,
-    weekly_confidence: 91.3880456379717,
-  },
-  "60451823714332895": {
-    name: "دالبر",
-    monthly: 0,
-    monthly_confidence: 97.88075772036623,
-    weekly: 0,
-    weekly_confidence: 65.59031818867764,
-  },
-  "59866041653103343": {
-    name: "نوین",
-    monthly: 1,
-    monthly_confidence: 71.27222074177216,
-    weekly: 1,
-    weekly_confidence: 81.86007990724949,
-  },
-  1185549032856396: {
-    name: "عبهمن",
-    monthly: 0,
-    monthly_confidence: 92.7953681119827,
-    weekly: 1,
-    weekly_confidence: 97.89251877094026,
-  },
-  "33887145736684266": {
-    name: "آگاس",
-    monthly: 0,
-    monthly_confidence: 83.9145134358184,
-    weekly: 1,
-    weekly_confidence: 96.81503526765222,
-  },
-  45062188442385800: {
-    name: "تفیرو",
-    monthly: 0,
-    monthly_confidence: 97.4010980922574,
-    weekly: 1,
-    weekly_confidence: 66.41254594150816,
-  },
-  4626686276232042: {
-    name: "نفیس",
-    monthly: 0,
-    monthly_confidence: 95.04923745955567,
-    weekly: 1,
-    weekly_confidence: 98.50582529233027,
-  },
-  33410001534682920: {
-    name: "رفاه",
-    monthly: 0,
-    monthly_confidence: 86.81337602209652,
-    weekly: 1,
-    weekly_confidence: 89.8639976082737,
-  },
-  "38179358042686391": {
-    name: "سامان",
-    monthly: 1,
-    monthly_confidence: 71.11910970445358,
-    weekly: 1,
-    weekly_confidence: 67.70624835207643,
-  },
-  "57005100184766878": {
-    name: "شساختح",
-    monthly: 1,
-    monthly_confidence: 65.0669355492283,
-    weekly: 1,
-    weekly_confidence: 93.39770130422258,
-  },
-  15039949673085566: {
-    name: "پردیس",
-    monthly: 0,
-    monthly_confidence: 82.32372238762795,
-    weekly: 0,
-    weekly_confidence: 71.8677134728804,
-  },
-  "54493234408301135": {
-    name: "بنو",
-    monthly: 1,
-    monthly_confidence: 67.93543997974567,
-    weekly: 1,
-    weekly_confidence: 90.29721646832438,
-  },
-  "25215182208950217": {
-    name: "وهور",
-    monthly: 1,
-    monthly_confidence: 88.96672264264485,
-    weekly: 0,
-    weekly_confidence: 88.45272395122342,
-  },
-  31879190587976736: {
-    name: "خوساز",
-    monthly: 0,
-    monthly_confidence: 75.40101575517545,
-    weekly: 1,
-    weekly_confidence: 65.10146868720825,
-  },
-  "51200575796028449": {
-    name: "سحرخیز",
-    monthly: 0,
-    monthly_confidence: 79.0003551856585,
-    weekly: 1,
-    weekly_confidence: 91.78454206215281,
-  },
-  "31913287805282551": {
-    name: "سیناد",
-    monthly: 1,
-    monthly_confidence: 95.3403859514431,
-    weekly: 0,
-    weekly_confidence: 78.55302319996419,
-  },
-  62404730109947970: {
-    name: "غکورش",
-    monthly: 1,
-    monthly_confidence: 83.1025082509872,
-    weekly: 1,
-    weekly_confidence: 83.67347471582501,
-  },
-  17284166795866794: {
-    name: "واحیا",
-    monthly: 1,
-    monthly_confidence: 94.74741246192322,
-    weekly: 0,
-    weekly_confidence: 68.6974743103787,
-  },
-  "30765727085936322": {
-    name: "فجام",
-    monthly: 1,
-    monthly_confidence: 75.21994017739598,
-    weekly: 1,
-    weekly_confidence: 87.59034791976464,
-  },
-  "25514780181345713": {
-    name: "وساخت",
-    monthly: 1,
-    monthly_confidence: 75.2177704468575,
-    weekly: 1,
-    weekly_confidence: 90.84743764984728,
-  },
-  "67988012428906654": {
-    name: "دارو",
-    monthly: 1,
-    monthly_confidence: 66.47883948189107,
-    weekly: 1,
-    weekly_confidence: 85.52081138302538,
-  },
-  55127657985997520: {
-    name: "آریا",
-    monthly: 0,
-    monthly_confidence: 89.41602865506265,
-    weekly: 1,
-    weekly_confidence: 93.78039682420483,
-  },
-  "35543935713999309": {
-    name: "تاتمس",
-    monthly: 0,
-    monthly_confidence: 70.58969070907933,
-    weekly: 1,
-    weekly_confidence: 80.07370559573191,
-  },
-  17226661368470120: {
-    name: "سپر",
-    monthly: 0,
-    monthly_confidence: 89.90516730418076,
-    weekly: 1,
-    weekly_confidence: 84.39366629472576,
-  },
-  7385624172574740: {
-    name: "ورنا",
-    monthly: 1,
-    monthly_confidence: 66.95913365300386,
-    weekly: 0,
-    weekly_confidence: 94.01283742762895,
-  },
-  "23600798892801694": {
-    name: "قچار",
-    monthly: 1,
-    monthly_confidence: 85.98320457141098,
-    weekly: 0,
-    weekly_confidence: 69.57090661899348,
-  },
-  "49953653111442595": {
-    name: "کیسون",
-    monthly: 1,
-    monthly_confidence: 86.87925912298407,
-    weekly: 0,
-    weekly_confidence: 81.07938428242944,
-  },
-  63380098535169030: {
-    name: "قنیشا",
-    monthly: 1,
-    monthly_confidence: 65.17342269931459,
-    weekly: 0,
-    weekly_confidence: 97.97493041665693,
-  },
-  3542690854557886: {
-    name: "کیا",
-    monthly: 1,
-    monthly_confidence: 76.86696001335818,
-    weekly: 0,
-    weekly_confidence: 81.87723821259661,
-  },
-  3955332316338258: {
-    name: "وطوبی",
-    monthly: 0,
-    monthly_confidence: 85.8383702746554,
-    weekly: 0,
-    weekly_confidence: 79.77067461717971,
-  },
-  21426277483799140: {
-    name: "غنیلی",
-    monthly: 0,
-    monthly_confidence: 65.31087159899475,
-    weekly: 1,
-    weekly_confidence: 91.40305268697459,
-  },
-  "23843877872814145": {
-    name: "وامین",
-    monthly: 1,
-    monthly_confidence: 68.06407220306798,
-    weekly: 1,
-    weekly_confidence: 68.1316994642429,
-  },
-  "63935385130969014": {
-    name: "کصدفح",
-    monthly: 1,
-    monthly_confidence: 74.92328582550608,
-    weekly: 1,
-    weekly_confidence: 67.998488553432,
-  },
-  "51106317433079213": {
-    name: "آسیا",
-    monthly: 1,
-    monthly_confidence: 70.0720058541633,
-    weekly: 1,
-    weekly_confidence: 73.40040647383873,
-  },
-  "59921975187856916": {
-    name: "غشاذر",
-    monthly: 0,
-    monthly_confidence: 71.7468510392057,
-    weekly: 1,
-    weekly_confidence: 77.74535792292173,
-  },
-  "62575434414985179": {
-    name: "اوج",
-    monthly: 1,
-    monthly_confidence: 98.33682521977373,
-    weekly: 0,
-    weekly_confidence: 74.60688231497421,
-  },
-  "33854964748757477": {
-    name: "رنیک",
-    monthly: 1,
-    monthly_confidence: 98.28689975250632,
-    weekly: 1,
-    weekly_confidence: 92.58605132003531,
-  },
-  "60094778616664092": {
-    name: "وسپهرح",
-    monthly: 0,
-    monthly_confidence: 79.83598354512858,
-    weekly: 1,
-    weekly_confidence: 82.38279613943958,
-  },
-  19060410060488876: {
-    name: "طلوع",
-    monthly: 1,
-    monthly_confidence: 94.87457924317656,
-    weekly: 1,
-    weekly_confidence: 68.14497938487287,
-  },
-  "32112121249636248": {
-    name: "ثنا",
-    monthly: 1,
-    monthly_confidence: 79.69538028479408,
-    weekly: 0,
-    weekly_confidence: 96.53945359485878,
-  },
-  "55373808401388162": {
-    name: "فتوسا",
-    monthly: 1,
-    monthly_confidence: 67.0887452606746,
-    weekly: 1,
-    weekly_confidence: 84.95015239837623,
-  },
-  "66315581735594751": {
-    name: "توسن",
-    monthly: 1,
-    monthly_confidence: 67.24397751413105,
-    weekly: 1,
-    weekly_confidence: 79.33531739365341,
-  },
-  70219663893822560: {
-    name: "بکاب",
-    monthly: 0,
-    monthly_confidence: 68.26675207649038,
-    weekly: 0,
-    weekly_confidence: 72.85655198694663,
-  },
-  7711282667602555: {
-    name: "شاراک",
-    monthly: 0,
-    monthly_confidence: 74.29723177999864,
-    weekly: 1,
-    weekly_confidence: 90.61948021933604,
-  },
-  "47101579271117172": {
-    name: "گنجینه",
-    monthly: 1,
-    monthly_confidence: 81.70598045193528,
-    weekly: 0,
-    weekly_confidence: 72.25594425350332,
-  },
-  "69847139870135237": {
-    name: "اوان",
-    monthly: 1,
-    monthly_confidence: 69.19268539652938,
-    weekly: 0,
-    weekly_confidence: 83.35914637166826,
-  },
-  "22299894048845903": {
-    name: "غگل",
-    monthly: 1,
-    monthly_confidence: 88.5742667187723,
-    weekly: 0,
-    weekly_confidence: 97.44130841745972,
-  },
-  "66127247173352975": {
-    name: "تشتاد",
-    monthly: 0,
-    monthly_confidence: 86.51745486927815,
-    weekly: 1,
-    weekly_confidence: 77.17297290778393,
-  },
-  "69472361926040823": {
-    name: "ویسا",
-    monthly: 1,
-    monthly_confidence: 83.33172248305625,
-    weekly: 1,
-    weekly_confidence: 66.81496863275666,
-  },
-  17528249960294496: {
-    name: "وتوسم",
-    monthly: 1,
-    monthly_confidence: 79.99181902038764,
-    weekly: 1,
-    weekly_confidence: 69.43427998613376,
-  },
-  "58789178087946067": {
-    name: "داریوش",
-    monthly: 1,
-    monthly_confidence: 78.84735816427846,
-    weekly: 1,
-    weekly_confidence: 85.48567292556655,
-  },
-  17914401175772326: {
-    name: "اهرم",
-    monthly: 1,
-    monthly_confidence: 90.12808609648766,
-    weekly: 1,
-    weekly_confidence: 89.86847976623416,
-  },
-  "38738476064699383": {
-    name: "آرمان",
-    monthly: 1,
-    monthly_confidence: 81.09114450359004,
-    weekly: 1,
-    weekly_confidence: 73.25825302770944,
-  },
-  "59612098290740355": {
-    name: "آباد",
-    monthly: 1,
-    monthly_confidence: 74.78692998782554,
-    weekly: 1,
-    weekly_confidence: 96.4763047604611,
-  },
-  "39436183727126211": {
-    name: "خمحرکه",
-    monthly: 0,
-    monthly_confidence: 93.57576914147961,
-    weekly: 1,
-    weekly_confidence: 82.6098505456256,
-  },
-  "58602432837130018": {
-    name: "شکف",
-    monthly: 1,
-    monthly_confidence: 81.88891706016587,
-    weekly: 1,
-    weekly_confidence: 68.14132606081358,
-  },
-  "12490072956930435": {
-    name: "مدیریت",
-    monthly: 1,
-    monthly_confidence: 66.4878387213425,
-    weekly: 1,
-    weekly_confidence: 72.01510110901222,
-  },
-  "16422980660132735": {
-    name: "لطیف",
-    monthly: 0,
-    monthly_confidence: 86.85555606573716,
-    weekly: 1,
-    weekly_confidence: 94.33688109840405,
-  },
-  "43256212620530446": {
-    name: "کبافق",
-    monthly: 1,
-    monthly_confidence: 86.3621028829741,
-    weekly: 1,
-    weekly_confidence: 78.4407910432258,
-  },
-  3839324986781871: {
-    name: "تپسی",
-    monthly: 1,
-    monthly_confidence: 98.60773292159622,
-    weekly: 1,
-    weekly_confidence: 79.85767746259503,
-  },
-  12329519546621752: {
-    name: "چدن",
-    monthly: 1,
-    monthly_confidence: 71.43393854727768,
-    weekly: 1,
-    weekly_confidence: 77.32605649655625,
-  },
-  "69067576215760005": {
-    name: "کاریس",
-    monthly: 0,
-    monthly_confidence: 83.25483750784511,
-    weekly: 0,
-    weekly_confidence: 97.05307701526965,
-  },
-  4384288570322406: {
-    name: "دلر",
-    monthly: 1,
-    monthly_confidence: 70.57470063453636,
-    weekly: 1,
-    weekly_confidence: 84.24210972670899,
-  },
-  "29974853866926823": {
-    name: "فروی",
-    monthly: 1,
-    monthly_confidence: 67.38381625102981,
-    weekly: 1,
-    weekly_confidence: 75.591902979507,
-  },
-  "38356837895042988": {
-    name: "ضمان",
-    monthly: 1,
-    monthly_confidence: 72.65105244641697,
-    weekly: 0,
-    weekly_confidence: 87.85660506502376,
-  },
-  "62977319271289925": {
-    name: "کی بی سی",
-    monthly: 0,
-    monthly_confidence: 73.80893036089337,
-    weekly: 1,
-    weekly_confidence: 84.29787822546675,
-  },
-  "48241092863917835": {
-    name: "ولپارس",
-    monthly: 1,
-    monthly_confidence: 69.27281056318407,
-    weekly: 0,
-    weekly_confidence: 76.11372544695642,
-  },
-  71744682148776880: {
-    name: "ولصنم",
-    monthly: 1,
-    monthly_confidence: 67.50678287067699,
-    weekly: 0,
-    weekly_confidence: 76.83049698075486,
-  },
-  "10568944722570445": {
-    name: "سصفها",
-    monthly: 1,
-    monthly_confidence: 71.64515962803216,
-    weekly: 0,
-    weekly_confidence: 98.54208511368387,
-  },
-  "48619517949257749": {
-    name: "غنوش",
-    monthly: 1,
-    monthly_confidence: 73.18332801181054,
-    weekly: 1,
-    weekly_confidence: 72.36233503208861,
-  },
-  65266756318187150: {
-    name: "بکامح",
-    monthly: 1,
-    monthly_confidence: 96.67384595563891,
-    weekly: 0,
-    weekly_confidence: 66.016585990445,
-  },
-  "37631109616997982": {
-    name: "قشهد",
-    monthly: 1,
-    monthly_confidence: 69.24983363635124,
-    weekly: 1,
-    weekly_confidence: 81.52359456798251,
-  },
-  "11285885633824855": {
-    name: "دریا",
-    monthly: 1,
-    monthly_confidence: 68.88272093590605,
-    weekly: 0,
-    weekly_confidence: 98.58225877509638,
-  },
-  "33420285433308219": {
-    name: "زپارس",
-    monthly: 1,
-    monthly_confidence: 90.20796179176283,
-    weekly: 1,
-    weekly_confidence: 83.82583149476733,
-  },
-  8915450910866216: {
-    name: "دزهراوی",
-    monthly: 1,
-    monthly_confidence: 81.01178559155514,
-    weekly: 0,
-    weekly_confidence: 74.55955499152114,
-  },
-  15917865009187760: {
-    name: "مادیرا",
-    monthly: 1,
-    monthly_confidence: 84.35616625462046,
-    weekly: 1,
-    weekly_confidence: 83.82487966164489,
-  },
-  "14957056743925737": {
-    name: "خلنت",
-    monthly: 0,
-    monthly_confidence: 92.86963697329593,
-    weekly: 1,
-    weekly_confidence: 65.05010565920236,
-  },
-  "28251956446987982": {
-    name: "شمواد",
-    monthly: 0,
-    monthly_confidence: 78.28231976610932,
-    weekly: 1,
-    weekly_confidence: 82.5943537945982,
-  },
-  "23891830829322971": {
-    name: "بایکا",
-    monthly: 0,
-    monthly_confidence: 98.8442911146202,
-    weekly: 1,
-    weekly_confidence: 73.11689448173384,
-  },
-  "17330546482145553": {
-    name: "خمهر",
-    monthly: 0,
-    monthly_confidence: 86.16613730840275,
-    weekly: 1,
-    weekly_confidence: 80.38556801730766,
-  },
-  "28864540805361867": {
-    name: "فخوز",
-    monthly: 1,
-    monthly_confidence: 91.65413759370375,
-    weekly: 0,
-    weekly_confidence: 98.43896407152991,
-  },
-  "65999092673039059": {
-    name: "مداران",
-    monthly: 1,
-    monthly_confidence: 78.78495595379272,
-    weekly: 1,
-    weekly_confidence: 80.03446677767836,
-  },
-  408934423224097: {
-    name: "فرآور",
-    monthly: 0,
-    monthly_confidence: 74.26497419937904,
-    weekly: 1,
-    weekly_confidence: 66.06072969259907,
-  },
-  "20024911381434086": {
-    name: "دکیمی",
-    monthly: 0,
-    monthly_confidence: 95.34459961568801,
-    weekly: 1,
-    weekly_confidence: 74.48130729034423,
-  },
-  "33783140337377394": {
-    name: "خچرخش",
-    monthly: 1,
-    monthly_confidence: 76.13769735348372,
-    weekly: 1,
-    weekly_confidence: 70.8230215907624,
-  },
-  53334304751609770: {
-    name: "حگردش",
-    monthly: 1,
-    monthly_confidence: 97.66651498846832,
-    weekly: 1,
-    weekly_confidence: 85.06878617777109,
-  },
-  "58873907630765023": {
-    name: "امین",
-    monthly: 0,
-    monthly_confidence: 67.41023933014041,
-    weekly: 1,
-    weekly_confidence: 80.41477080029182,
-  },
-  "66701874099226162": {
-    name: "فاسمین",
-    monthly: 1,
-    monthly_confidence: 75.84338052601633,
-    weekly: 1,
-    weekly_confidence: 80.82202465106998,
-  },
-  "59839275647597021": {
-    name: "وثوق",
-    monthly: 1,
-    monthly_confidence: 73.59259157800031,
-    weekly: 1,
-    weekly_confidence: 74.34185058199965,
-  },
-  17617474823279712: {
-    name: "آ س پ",
-    monthly: 1,
-    monthly_confidence: 91.10707956665694,
-    weekly: 0,
-    weekly_confidence: 79.1157415719038,
-  },
-  "22276798221643766": {
-    name: "تفارس",
-    monthly: 0,
-    monthly_confidence: 94.10040949803657,
-    weekly: 1,
-    weekly_confidence: 87.42527897862794,
-  },
-  "69454539056549106": {
-    name: "بشهاب",
-    monthly: 0,
-    monthly_confidence: 94.4771586453229,
-    weekly: 0,
-    weekly_confidence: 87.94845868885905,
-  },
-  14231831499205396: {
-    name: "سنیر",
-    monthly: 1,
-    monthly_confidence: 94.5448347355195,
-    weekly: 0,
-    weekly_confidence: 73.26685124443631,
-  },
-  47348197320716810: {
-    name: "دسانکو",
-    monthly: 0,
-    monthly_confidence: 65.27594033640757,
-    weekly: 0,
-    weekly_confidence: 68.93543827135213,
-  },
-  "48457557221009333": {
-    name: "وتوسکا",
-    monthly: 0,
-    monthly_confidence: 65.70457439332228,
-    weekly: 1,
-    weekly_confidence: 71.38669178086613,
-  },
-  71758511001096824: {
-    name: "غصینو",
-    monthly: 1,
-    monthly_confidence: 96.93373696534029,
-    weekly: 0,
-    weekly_confidence: 69.10724146227555,
-  },
-  "26014913469567886": {
-    name: "وغدیر",
-    monthly: 0,
-    monthly_confidence: 86.76271361767822,
-    weekly: 0,
-    weekly_confidence: 84.32591629206281,
-  },
-  53419976284977130: {
-    name: "تصمیم",
-    monthly: 0,
-    monthly_confidence: 65.32051362503395,
-    weekly: 0,
-    weekly_confidence: 65.84916491786664,
-  },
-  1241998328504490: {
-    name: "نشان",
-    monthly: 1,
-    monthly_confidence: 68.80959585062243,
-    weekly: 1,
-    weekly_confidence: 96.23767065752149,
-  },
-  "44850033148208596": {
-    name: "غچین",
-    monthly: 1,
-    monthly_confidence: 68.15581711229494,
-    weekly: 1,
-    weekly_confidence: 80.22433442941292,
-  },
-  "51971068201094874": {
-    name: "بپاس",
-    monthly: 0,
-    monthly_confidence: 65.10746103023648,
-    weekly: 0,
-    weekly_confidence: 86.71988640220916,
-  },
-  "41927452991671109": {
-    name: "توان",
-    monthly: 1,
-    monthly_confidence: 82.61602643682853,
-    weekly: 1,
-    weekly_confidence: 68.85954132347157,
-  },
-  "58852293795036597": {
-    name: "ویستا",
-    monthly: 1,
-    monthly_confidence: 82.61351064125085,
-    weekly: 1,
-    weekly_confidence: 91.78252057445401,
-  },
-  "16693610252404739": {
-    name: "ثالوند",
-    monthly: 1,
-    monthly_confidence: 89.7195765671154,
-    weekly: 1,
-    weekly_confidence: 68.35495126882628,
-  },
-  24303422207378456: {
-    name: "غالبر",
-    monthly: 1,
-    monthly_confidence: 74.0612295252114,
-    weekly: 0,
-    weekly_confidence: 81.4872968809074,
-  },
-  "32821908911812078": {
-    name: "خزر",
-    monthly: 1,
-    monthly_confidence: 80.90957930722399,
-    weekly: 1,
-    weekly_confidence: 85.44668664892748,
-  },
-  "72044846109864381": {
-    name: "پارتا",
-    monthly: 1,
-    monthly_confidence: 82.48035927854008,
-    weekly: 0,
-    weekly_confidence: 75.89973639226761,
-  },
-  15124889255100138: {
-    name: "رویش",
-    monthly: 1,
-    monthly_confidence: 76.864204924525,
-    weekly: 1,
-    weekly_confidence: 95.27018919399384,
-  },
-  2318736941376687: {
-    name: "خصدرا",
-    monthly: 1,
-    monthly_confidence: 89.1410278645252,
-    weekly: 0,
-    weekly_confidence: 73.12435149883345,
-  },
-  "12638840758449459": {
-    name: "پخش",
-    monthly: 1,
-    monthly_confidence: 73.59619349190781,
-    weekly: 0,
-    weekly_confidence: 91.37874737235566,
-  },
-  "53251602435454519": {
-    name: "کیان",
-    monthly: 1,
-    monthly_confidence: 88.72746446169064,
-    weekly: 1,
-    weekly_confidence: 81.98619723900356,
-  },
-  "55289848471625247": {
-    name: "پرسپولیس",
-    monthly: 1,
-    monthly_confidence: 94.94248485303825,
-    weekly: 1,
-    weekly_confidence: 82.2025757665613,
-  },
-  "55897939403232751": {
-    name: "لسرما",
-    monthly: 0,
-    monthly_confidence: 79.84096003863064,
-    weekly: 0,
-    weekly_confidence: 96.332955020633,
-  },
-  "56798822689379375": {
-    name: "حاریا",
-    monthly: 1,
-    monthly_confidence: 72.01387757110618,
-    weekly: 0,
-    weekly_confidence: 80.57548103196551,
-  },
-  "57551382352708199": {
-    name: "غگز",
-    monthly: 0,
-    monthly_confidence: 92.16769784139399,
-    weekly: 0,
-    weekly_confidence: 79.84518253273815,
-  },
-  "57944184894703821": {
-    name: "والبر",
-    monthly: 1,
-    monthly_confidence: 98.81681381558926,
-    weekly: 0,
-    weekly_confidence: 97.0633663439779,
-  },
-  "58035444268544991": {
-    name: "سمتاز",
-    monthly: 0,
-    monthly_confidence: 78.80761502324455,
-    weekly: 1,
-    weekly_confidence: 76.24207329870706,
-  },
-  "58931793851445922": {
-    name: "ومعادن",
-    monthly: 1,
-    monthly_confidence: 79.32242840056806,
-    weekly: 1,
-    weekly_confidence: 91.55852131294616,
-  },
-  "59142194115401696": {
-    name: "لوتوس",
-    monthly: 1,
-    monthly_confidence: 88.74779601374297,
-    weekly: 1,
-    weekly_confidence: 69.84690355933917,
-  },
-  "59486059679335017": {
-    name: "وپترو",
-    monthly: 1,
-    monthly_confidence: 81.3353945825182,
-    weekly: 1,
-    weekly_confidence: 85.95638602184847,
-  },
-  "59607545337891226": {
-    name: "پرداخت",
-    monthly: 0,
-    monthly_confidence: 92.52621258503198,
-    weekly: 1,
-    weekly_confidence: 71.84767506685247,
-  },
-  "59800986739603675": {
-    name: "شسم",
-    monthly: 0,
-    monthly_confidence: 95.78047264915836,
-    weekly: 0,
-    weekly_confidence: 67.6720680679228,
-  },
-  "61978776664766359": {
-    name: "غپونه",
-    monthly: 1,
-    monthly_confidence: 75.46698564221452,
-    weekly: 1,
-    weekly_confidence: 98.20149362353963,
-  },
-  "62012736978844991": {
-    name: "دارا",
-    monthly: 1,
-    monthly_confidence: 89.44120967958908,
-    weekly: 0,
-    weekly_confidence: 90.58430959118763,
-  },
-  "64155926828410021": {
-    name: "ساذری",
-    monthly: 1,
-    monthly_confidence: 65.83272706902827,
-    weekly: 1,
-    weekly_confidence: 78.84856206731378,
-  },
-  "64485827086284311": {
-    name: "فجوش",
-    monthly: 1,
-    monthly_confidence: 85.12109571552924,
-    weekly: 1,
-    weekly_confidence: 91.27219134440222,
-  },
-  "65490886290565185": {
-    name: "شزنگ",
-    monthly: 1,
-    monthly_confidence: 81.78324664400134,
-    weekly: 1,
-    weekly_confidence: 71.37000163635116,
-  },
-  "65671173927025645": {
-    name: "کتوکا",
-    monthly: 1,
-    monthly_confidence: 81.50223473385871,
-    weekly: 1,
-    weekly_confidence: 91.46592284430811,
-  },
-  "66036975502302203": {
-    name: "فیروزه",
-    monthly: 1,
-    monthly_confidence: 83.61226424009516,
-    weekly: 0,
-    weekly_confidence: 83.21448704893525,
-  },
-  66450490505950110: {
-    name: "ددام",
-    monthly: 1,
-    monthly_confidence: 89.00599849323471,
-    weekly: 1,
-    weekly_confidence: 72.96900887827015,
-  },
-  "66726992874614788": {
-    name: "دتوزیع",
-    monthly: 1,
-    monthly_confidence: 68.55761659900702,
-    weekly: 1,
-    weekly_confidence: 74.6313598372046,
-  },
-  "67327029014085707": {
-    name: "سخزر",
-    monthly: 1,
-    monthly_confidence: 84.3580561705635,
-    weekly: 1,
-    weekly_confidence: 94.65614210639566,
-  },
-  "68117765376081366": {
-    name: "وتوس",
-    monthly: 1,
-    monthly_confidence: 78.23351355757923,
-    weekly: 1,
-    weekly_confidence: 93.16842537102747,
-  },
-  "68203878405672734": {
-    name: "صنوین",
-    monthly: 1,
-    monthly_confidence: 84.77556122960037,
-    weekly: 0,
-    weekly_confidence: 89.59812374836199,
-  },
-  "69540585676934415": {
-    name: "ددانا",
-    monthly: 1,
-    monthly_confidence: 75.6441730589618,
-    weekly: 0,
-    weekly_confidence: 97.3566066703173,
-  },
-  "70698996132397388": {
-    name: "دیبا",
-    monthly: 1,
-    monthly_confidence: 80.50616921383151,
-    weekly: 1,
-    weekly_confidence: 81.91759929122664,
-  },
-  "71843282162462661": {
-    name: "کارا",
-    monthly: 1,
-    monthly_confidence: 88.62193917360455,
-    weekly: 1,
-    weekly_confidence: 80.3944890779089,
-  },
-  71957984642204570: {
-    name: "شپترو",
-    monthly: 1,
-    monthly_confidence: 74.06599702629626,
-    weekly: 1,
-    weekly_confidence: 81.47065856148043,
-  },
-  2161110547458064: {
-    name: "سپیدما",
-    monthly: 1,
-    monthly_confidence: 76.48903661405033,
-    weekly: 1,
-    weekly_confidence: 77.63733892933202,
-  },
-  "18093681647131179": {
-    name: "دتولید",
-    monthly: 0,
-    monthly_confidence: 79.95044448809455,
-    weekly: 1,
-    weekly_confidence: 69.33484853145603,
-  },
-  "63363116407864462": {
-    name: "لابسا",
-    monthly: 0,
-    monthly_confidence: 85.82818268438719,
-    weekly: 0,
-    weekly_confidence: 94.47689512120671,
-  },
-  "63830424809501048": {
-    name: "اپرداز",
-    monthly: 1,
-    monthly_confidence: 85.87840900843031,
-    weekly: 1,
-    weekly_confidence: 75.0367000869875,
-  },
-  "47302318535715632": {
-    name: "ونوین",
-    monthly: 0,
-    monthly_confidence: 84.56595213097935,
-    weekly: 1,
-    weekly_confidence: 98.75082470591435,
-  },
-  "10114441830266109": {
-    name: "گدنا",
-    monthly: 1,
-    monthly_confidence: 83.21136660558727,
-    weekly: 1,
-    weekly_confidence: 70.04746861054447,
-  },
-  "28431095903407567": {
-    name: "کاسپین",
-    monthly: 0,
-    monthly_confidence: 73.86499632606193,
-    weekly: 0,
-    weekly_confidence: 96.34617116697609,
-  },
-  "57309221039930244": {
-    name: "وصنعت",
-    monthly: 1,
-    monthly_confidence: 84.78306608614605,
-    weekly: 1,
-    weekly_confidence: 67.13708668675905,
-  },
-  "13937270451301973": {
-    name: "وبشهر",
-    monthly: 1,
-    monthly_confidence: 72.25459405653638,
-    weekly: 1,
-    weekly_confidence: 76.97844485458658,
-  },
-  24079409192818584: {
-    name: "پدرخش",
-    monthly: 0,
-    monthly_confidence: 77.1915849642645,
-    weekly: 1,
-    weekly_confidence: 84.3964607873887,
-  },
-  5187018329202415: {
-    name: "لپارس",
-    monthly: 0,
-    monthly_confidence: 75.75960092254162,
-    weekly: 1,
-    weekly_confidence: 92.84153348120402,
-  },
-  "9481703061634967": {
-    name: "پارسیان",
-    monthly: 1,
-    monthly_confidence: 80.11811915979477,
-    weekly: 1,
-    weekly_confidence: 80.06481296340922,
-  },
-  10831074117626896: {
-    name: "قاروم",
-    monthly: 1,
-    monthly_confidence: 81.19882334384563,
-    weekly: 0,
-    weekly_confidence: 96.25122819838472,
-  },
-  28450080638096732: {
-    name: "سیمرغ",
-    monthly: 1,
-    monthly_confidence: 78.75890437711328,
-    weekly: 1,
-    weekly_confidence: 84.98352939349954,
-  },
-  "68909035712962732": {
-    name: "ثباغ",
-    monthly: 1,
-    monthly_confidence: 68.93940727284244,
-    weekly: 1,
-    weekly_confidence: 77.22051059002558,
-  },
-  "61506294208022391": {
-    name: "غشصفا",
-    monthly: 1,
-    monthly_confidence: 89.29679450606532,
-    weekly: 1,
-    weekly_confidence: 76.31732378446873,
-  },
-  4528607775462304: {
-    name: "سفانو",
-    monthly: 1,
-    monthly_confidence: 92.64266150616876,
-    weekly: 1,
-    weekly_confidence: 83.13840106031446,
-  },
-  5427792638736934: {
-    name: "زفکا",
-    monthly: 1,
-    monthly_confidence: 82.40872089982977,
-    weekly: 1,
-    weekly_confidence: 75.97831226068446,
-  },
-  "11258722998911897": {
-    name: "وسکاب",
-    monthly: 1,
-    monthly_confidence: 98.90000347174461,
-    weekly: 0,
-    weekly_confidence: 85.57216590095095,
-  },
-  "30582275818828857": {
-    name: "ناب",
-    monthly: 1,
-    monthly_confidence: 67.2636520941902,
-    weekly: 0,
-    weekly_confidence: 75.02413929266542,
-  },
-  "57273529732791251": {
-    name: "خموتور",
-    monthly: 1,
-    monthly_confidence: 84.98779819504283,
-    weekly: 1,
-    weekly_confidence: 84.70846502939939,
-  },
-  "60079434631497942": {
-    name: "ورازی",
-    monthly: 0,
-    monthly_confidence: 94.76153170404869,
-    weekly: 1,
-    weekly_confidence: 93.49935381250266,
-  },
-  "71856634742001725": {
-    name: "سپ",
-    monthly: 1,
-    monthly_confidence: 76.65200119519018,
-    weekly: 1,
-    weekly_confidence: 75.43098981181998,
-  },
-  "65321970913593427": {
-    name: "سکرد",
-    monthly: 1,
-    monthly_confidence: 90.37176234370942,
-    weekly: 1,
-    weekly_confidence: 93.75886827570737,
-  },
-  "43362635835198978": {
-    name: "های وب",
-    monthly: 1,
-    monthly_confidence: 73.88075156929426,
-    weekly: 1,
-    weekly_confidence: 69.97545799952054,
-  },
-  4507558419857064: {
-    name: "زماهان",
-    monthly: 1,
-    monthly_confidence: 74.42526033527824,
-    weekly: 1,
-    weekly_confidence: 93.13486593500478,
-  },
-  "22950683624908253": {
-    name: "نتوس",
-    monthly: 0,
-    monthly_confidence: 70.50753969548185,
-    weekly: 1,
-    weekly_confidence: 87.86308861154471,
-  },
-  "46752599569017089": {
-    name: "بترانس",
-    monthly: 1,
-    monthly_confidence: 67.72332990705941,
-    weekly: 0,
-    weekly_confidence: 69.65540063614432,
-  },
-  "60247433951600827": {
-    name: "شاوان",
-    monthly: 1,
-    monthly_confidence: 83.90731468693137,
-    weekly: 1,
-    weekly_confidence: 67.72328250186382,
-  },
-  "69446612239102459": {
-    name: "شکام",
-    monthly: 1,
-    monthly_confidence: 73.38874093229545,
-    weekly: 0,
-    weekly_confidence: 78.87326612775469,
-  },
-  "36995197800118822": {
-    name: "سنوین",
-    monthly: 0,
-    monthly_confidence: 86.82639349564441,
-    weekly: 1,
-    weekly_confidence: 98.32702162103716,
-  },
-  "9925324137489171": {
-    name: "دتولیدح",
-    monthly: 1,
-    monthly_confidence: 81.7486632813484,
-    weekly: 0,
-    weekly_confidence: 71.00645045891467,
-  },
-  25559236668122210: {
-    name: "کهربا",
-    monthly: 0,
-    monthly_confidence: 88.29111079981193,
-    weekly: 1,
-    weekly_confidence: 66.5501911335129,
-  },
-  "57600064931636077": {
-    name: "وجامی",
-    monthly: 1,
-    monthly_confidence: 85.21633854064116,
-    weekly: 1,
-    weekly_confidence: 67.39500282246705,
-  },
-  "65018804181564924": {
-    name: "گوهران",
-    monthly: 1,
-    monthly_confidence: 78.70652373700729,
-    weekly: 1,
-    weekly_confidence: 84.17995961618486,
-  },
-  3623921205367364: {
-    name: "کدما",
-    monthly: 1,
-    monthly_confidence: 70.23601050348077,
-    weekly: 0,
-    weekly_confidence: 96.9496203258702,
-  },
-  "50094941173290382": {
-    name: "اکسیژن",
-    monthly: 0,
-    monthly_confidence: 77.92535837062131,
-    weekly: 1,
-    weekly_confidence: 77.49152465555801,
-  },
-  "47026464823464687": {
-    name: "ومهان",
-    monthly: 1,
-    monthly_confidence: 96.41397065933099,
-    weekly: 1,
-    weekly_confidence: 73.12015543035143,
-  },
-  "44013656953678055": {
-    name: "شرانل",
-    monthly: 1,
-    monthly_confidence: 68.63472926441776,
-    weekly: 0,
-    weekly_confidence: 67.89197143947955,
-  },
-  "64843936383937546": {
-    name: "غگلستا",
-    monthly: 1,
-    monthly_confidence: 70.92458931181241,
-    weekly: 0,
-    weekly_confidence: 73.71707689060571,
-  },
-  14398278072324784: {
-    name: "قهکمت",
-    monthly: 0,
-    monthly_confidence: 80.53571176956184,
-    weekly: 0,
-    weekly_confidence: 67.407572463274,
-  },
-  66818022341772870: {
-    name: "اعتماد",
-    monthly: 1,
-    monthly_confidence: 93.24615688287051,
-    weekly: 1,
-    weekly_confidence: 79.2974807044556,
-  },
-  "43716452378323683": {
-    name: "فزرین",
-    monthly: 1,
-    monthly_confidence: 71.21441898934843,
-    weekly: 0,
-    weekly_confidence: 94.79338622382731,
-  },
-  "47377315952751604": {
-    name: "بسویچ",
-    monthly: 1,
-    monthly_confidence: 88.82049374869992,
-    weekly: 1,
-    weekly_confidence: 76.77755332234236,
-  },
-  "50792786683910016": {
-    name: "کرمان",
-    monthly: 1,
-    monthly_confidence: 88.23720672821844,
-    weekly: 1,
-    weekly_confidence: 95.99137658702084,
-  },
-  27668158733246204: {
-    name: "سپرمی",
-    monthly: 1,
-    monthly_confidence: 68.53950797808328,
-    weekly: 1,
-    weekly_confidence: 83.27420060650147,
-  },
-  15930821245168534: {
-    name: "سکارون",
-    monthly: 1,
-    monthly_confidence: 95.74597024418567,
-    weekly: 0,
-    weekly_confidence: 78.57305882093443,
-  },
-  "16040900750729921": {
-    name: "کامیاب",
-    monthly: 0,
-    monthly_confidence: 78.4438329108506,
-    weekly: 1,
-    weekly_confidence: 94.21275316446528,
-  },
-  "24869832924911721": {
-    name: "آسامید",
-    monthly: 1,
-    monthly_confidence: 94.40597642777242,
-    weekly: 1,
-    weekly_confidence: 97.96634936975653,
-  },
-  "26997316501080743": {
-    name: "سشرق",
-    monthly: 1,
-    monthly_confidence: 65.50172430494159,
-    weekly: 0,
-    weekly_confidence: 86.92634362886551,
-  },
-  "21772258644715569": {
-    name: "شغدیر",
-    monthly: 0,
-    monthly_confidence: 69.56024387901884,
-    weekly: 1,
-    weekly_confidence: 75.96942033248129,
-  },
-  "56574323121551263": {
-    name: "شکبیر",
-    monthly: 1,
-    monthly_confidence: 89.27065924419516,
-    weekly: 0,
-    weekly_confidence: 73.32592390203281,
-  },
-  "32784604551756178": {
-    name: "پیزد",
-    monthly: 0,
-    monthly_confidence: 81.6301492450073,
-    weekly: 0,
-    weekly_confidence: 79.84588946255498,
-  },
-  33541897671561960: {
-    name: "واتی",
-    monthly: 1,
-    monthly_confidence: 87.7127636396161,
-    weekly: 0,
-    weekly_confidence: 79.73064729673791,
-  },
-  "10654052153538617": {
-    name: "کابگن",
-    monthly: 1,
-    monthly_confidence: 81.984249154384,
-    weekly: 1,
-    weekly_confidence: 72.68617495843533,
-  },
-  "66772024744156373": {
-    name: "فباهنر",
-    monthly: 1,
-    monthly_confidence: 85.14912445719897,
-    weekly: 1,
-    weekly_confidence: 65.3102909267174,
-  },
-  "68635710163497089": {
-    name: "همراه",
-    monthly: 1,
-    monthly_confidence: 68.70994864216122,
-    weekly: 1,
-    weekly_confidence: 67.27304831056304,
-  },
-  611986653700161: {
-    name: "سبزوا",
-    monthly: 1,
-    monthly_confidence: 97.67317033030625,
-    weekly: 1,
-    weekly_confidence: 81.51392290395977,
-  },
-  8725363201030474: {
-    name: "فگستر",
-    monthly: 1,
-    monthly_confidence: 66.1735824972566,
-    weekly: 1,
-    weekly_confidence: 66.18266820796417,
-  },
-  "33611155027418901": {
-    name: "غشهداب",
-    monthly: 1,
-    monthly_confidence: 92.92697493225029,
-    weekly: 0,
-    weekly_confidence: 76.18746192663643,
-  },
-  "45518744711972166": {
-    name: "غپآذر",
-    monthly: 0,
-    monthly_confidence: 71.9172783077173,
-    weekly: 1,
-    weekly_confidence: 87.13456977236116,
-  },
-  "59598536122397373": {
-    name: "سخند",
-    monthly: 0,
-    monthly_confidence: 98.77008393439108,
-    weekly: 1,
-    weekly_confidence: 96.59460711064243,
-  },
-  6478064539164167: {
-    name: "ریشمک",
-    monthly: 0,
-    monthly_confidence: 94.39058425342051,
-    weekly: 1,
-    weekly_confidence: 96.63747645891287,
-  },
-  "22667016906590506": {
-    name: "شبهرن",
-    monthly: 1,
-    monthly_confidence: 86.57530675950534,
-    weekly: 1,
-    weekly_confidence: 66.75654073317234,
-  },
-  "65023851436340574": {
-    name: "کاردان",
-    monthly: 1,
-    monthly_confidence: 82.12521323016017,
-    weekly: 1,
-    weekly_confidence: 83.24257908275062,
-  },
-  15451317146134956: {
-    name: "افق ملت",
-    monthly: 1,
-    monthly_confidence: 80.0892323260239,
-    weekly: 1,
-    weekly_confidence: 69.74774121928476,
-  },
-  "21432551703060846": {
-    name: "حآفرین",
-    monthly: 1,
-    monthly_confidence: 92.59019070687287,
-    weekly: 0,
-    weekly_confidence: 66.68229375720018,
-  },
-  "22308305646551497": {
-    name: "تپولا",
-    monthly: 1,
-    monthly_confidence: 92.23128641839338,
-    weekly: 1,
-    weekly_confidence: 79.23111378566577,
-  },
-  "50247622569476338": {
-    name: "بوعلی",
-    monthly: 1,
-    monthly_confidence: 94.08681608180937,
-    weekly: 0,
-    weekly_confidence: 71.33858420196145,
-  },
-  "57728534324022361": {
-    name: "گنجین",
-    monthly: 0,
-    monthly_confidence: 94.15887213508321,
-    weekly: 1,
-    weekly_confidence: 89.28766351751169,
-  },
-  "10843114830116591": {
-    name: "نبروج",
-    monthly: 1,
-    monthly_confidence: 91.26172887792501,
-    weekly: 1,
-    weekly_confidence: 86.85229975818332,
-  },
-  "64463015242763957": {
-    name: "صباح",
-    monthly: 1,
-    monthly_confidence: 97.97181586086731,
-    weekly: 1,
-    weekly_confidence: 75.60241851000245,
-  },
-  8977441217024425: {
-    name: "فسپا",
-    monthly: 1,
-    monthly_confidence: 84.77068207188438,
-    weekly: 0,
-    weekly_confidence: 77.92842153233674,
-  },
-  "58741071099161284": {
-    name: "فرابورس",
-    monthly: 1,
-    monthly_confidence: 68.72905032645534,
-    weekly: 1,
-    weekly_confidence: 83.20208810939789,
-  },
-  "11129387075131725": {
-    name: "تملت",
-    monthly: 0,
-    monthly_confidence: 93.52240522809547,
-    weekly: 0,
-    weekly_confidence: 85.78295165091905,
-  },
-  "12303918642491681": {
-    name: "زنجان",
-    monthly: 1,
-    monthly_confidence: 89.68664073137833,
-    weekly: 1,
-    weekly_confidence: 92.8196284841216,
-  },
-  "67675656072510693": {
-    name: "پالایش",
-    monthly: 1,
-    monthly_confidence: 69.91251913683446,
-    weekly: 1,
-    weekly_confidence: 80.90755285447024,
-  },
-  49054891736433700: {
-    name: "دعبید",
-    monthly: 1,
-    monthly_confidence: 89.12875314479481,
-    weekly: 1,
-    weekly_confidence: 68.37964021789253,
-  },
-  "61102694810476197": {
-    name: "شپارس",
-    monthly: 1,
-    monthly_confidence: 98.70222239946524,
-    weekly: 1,
-    weekly_confidence: 80.10604781856179,
-  },
-  5866848234665627: {
-    name: "دسبحان",
-    monthly: 0,
-    monthly_confidence: 98.36750022842777,
-    weekly: 1,
-    weekly_confidence: 81.20028002632495,
-  },
-  "61298636307861167": {
-    name: "وبرق",
-    monthly: 1,
-    monthly_confidence: 80.85163453479136,
-    weekly: 1,
-    weekly_confidence: 81.78623869055674,
-  },
-  31078457170311964: {
-    name: "ولشرق",
-    monthly: 0,
-    monthly_confidence: 78.18779859599974,
-    weekly: 1,
-    weekly_confidence: 90.1205888409649,
-  },
-  3654864906585643: {
-    name: "تکنو",
-    monthly: 1,
-    monthly_confidence: 93.73312369512536,
-    weekly: 1,
-    weekly_confidence: 85.49256167481958,
-  },
-  27000326841257664: {
-    name: "سدشت",
-    monthly: 1,
-    monthly_confidence: 94.89759067290527,
-    weekly: 1,
-    weekly_confidence: 91.62428692584976,
-  },
-  "55254206302462116": {
-    name: "آپ",
-    monthly: 0,
-    monthly_confidence: 95.77613858196915,
-    weekly: 1,
-    weekly_confidence: 76.03567996273163,
-  },
-  34540569618314880: {
-    name: "قاسم",
-    monthly: 0,
-    monthly_confidence: 88.09080010374556,
-    weekly: 1,
-    weekly_confidence: 73.75837209272264,
-  },
-  42690477960659940: {
-    name: "کشرق",
-    monthly: 1,
-    monthly_confidence: 74.31908275823127,
-    weekly: 0,
-    weekly_confidence: 80.8717447969169,
-  },
-  "47749661205825616": {
-    name: "سیستم",
-    monthly: 1,
-    monthly_confidence: 76.1259645683332,
-    weekly: 1,
-    weekly_confidence: 65.5802053818565,
-  },
-  "33441514568901717": {
-    name: "میدکو",
-    monthly: 0,
-    monthly_confidence: 67.35236900158917,
-    weekly: 1,
-    weekly_confidence: 97.10383237700208,
-  },
-  "43913530989262989": {
-    name: "سمایه",
-    monthly: 0,
-    monthly_confidence: 67.79368191908013,
-    weekly: 1,
-    weekly_confidence: 92.07387696172569,
-  },
-  "66210395067138534": {
-    name: "شتولی",
-    monthly: 1,
-    monthly_confidence: 85.75581960915176,
-    weekly: 1,
-    weekly_confidence: 96.20672602734564,
-  },
-  "41379697187196382": {
-    name: "وشهر",
-    monthly: 1,
-    monthly_confidence: 72.62906422064292,
-    weekly: 0,
-    weekly_confidence: 91.60764135992342,
-  },
-  47125023640770480: {
-    name: "صنم",
-    monthly: 0,
-    monthly_confidence: 79.35560585266799,
-    weekly: 1,
-    weekly_confidence: 96.72735819363344,
-  },
-  "50002340308486819": {
-    name: "تاپکیش",
-    monthly: 1,
-    monthly_confidence: 73.54163939471854,
-    weekly: 1,
-    weekly_confidence: 73.2049174705219,
-  },
-  "11432067920374603": {
-    name: "دسینا",
-    monthly: 0,
-    monthly_confidence: 80.61699266969342,
-    weekly: 1,
-    weekly_confidence: 72.28691454994203,
-  },
-  "25180702353416009": {
-    name: "زدشت",
-    monthly: 1,
-    monthly_confidence: 81.49543055646403,
-    weekly: 1,
-    weekly_confidence: 98.50712111714097,
-  },
-  26316376625263940: {
-    name: "پی پاد",
-    monthly: 1,
-    monthly_confidence: 74.7840493547896,
-    weekly: 0,
-    weekly_confidence: 86.89633086686685,
-  },
-  "41974758296041288": {
-    name: "سخوز",
-    monthly: 1,
-    monthly_confidence: 91.29278129781005,
-    weekly: 0,
-    weekly_confidence: 84.2732398256736,
-  },
-  "44891482026867833": {
-    name: "خساپا",
-    monthly: 0,
-    monthly_confidence: 85.7349150568962,
-    weekly: 0,
-    weekly_confidence: 66.22737206092265,
-  },
-  "26259366519412975": {
-    name: "زشگزا",
-    monthly: 0,
-    monthly_confidence: 97.46321638523649,
-    weekly: 1,
-    weekly_confidence: 89.14528587259588,
-  },
-  35425587644337450: {
-    name: "فملی",
-    monthly: 1,
-    monthly_confidence: 82.11356979715691,
-    weekly: 1,
-    weekly_confidence: 82.69893914416458,
-  },
-  "39751275523025334": {
-    name: "اتکای",
-    monthly: 1,
-    monthly_confidence: 71.41918310968903,
-    weekly: 0,
-    weekly_confidence: 72.64731948831879,
-  },
-  19954896371640204: {
-    name: "وزمین",
-    monthly: 0,
-    monthly_confidence: 97.77668857087576,
-    weekly: 1,
-    weekly_confidence: 87.64770147959196,
-  },
-  "43291783149314349": {
-    name: "وسرمد",
-    monthly: 1,
-    monthly_confidence: 83.57789590777298,
-    weekly: 1,
-    weekly_confidence: 83.70170612197907,
-  },
-  "60162288821230099": {
-    name: "تماوند",
-    monthly: 0,
-    monthly_confidence: 67.32527784442587,
-    weekly: 1,
-    weekly_confidence: 68.89341338429342,
-  },
-  "47996917271187218": {
-    name: "وکار",
-    monthly: 1,
-    monthly_confidence: 70.95015426430396,
-    weekly: 1,
-    weekly_confidence: 65.87093492512109,
-  },
-  "10024128313803797": {
-    name: "زگلدشت",
-    monthly: 1,
-    monthly_confidence: 96.13689136766605,
-    weekly: 1,
-    weekly_confidence: 93.13957009450753,
-  },
-  5054819322815158: {
-    name: "زمگسا",
-    monthly: 1,
-    monthly_confidence: 94.07489350284357,
-    weekly: 1,
-    weekly_confidence: 70.10026365217308,
-  },
-  "63084741752814852": {
-    name: "دشیری",
-    monthly: 1,
-    monthly_confidence: 84.33097930569201,
-    weekly: 0,
-    weekly_confidence: 74.48437733152016,
-  },
-  "27922860956133067": {
-    name: "مبین",
-    monthly: 1,
-    monthly_confidence: 92.04304924033758,
-    weekly: 1,
-    weekly_confidence: 91.58404895211399,
-  },
-  69090868458637360: {
-    name: "دیران",
-    monthly: 0,
-    monthly_confidence: 67.94053780004252,
-    weekly: 1,
-    weekly_confidence: 66.08657890240606,
-  },
-  3846143218462419: {
-    name: "افران",
-    monthly: 0,
-    monthly_confidence: 98.40287853762868,
-    weekly: 1,
-    weekly_confidence: 75.51013155061611,
-  },
-  "29316948750916349": {
-    name: "پلوله",
-    monthly: 0,
-    monthly_confidence: 78.28658905793134,
-    weekly: 1,
-    weekly_confidence: 83.35454765291448,
-  },
-  "49353447565507376": {
-    name: "کاذر",
-    monthly: 1,
-    monthly_confidence: 66.70749257163617,
-    weekly: 1,
-    weekly_confidence: 74.12127385719913,
-  },
-  "53145304508578701": {
-    name: "تمشک",
-    monthly: 1,
-    monthly_confidence: 65.8873823380055,
-    weekly: 1,
-    weekly_confidence: 68.98093342196412,
-  },
-  4733285133017464: {
-    name: "فخاس",
-    monthly: 1,
-    monthly_confidence: 95.37257584520182,
-    weekly: 1,
-    weekly_confidence: 76.93797717360675,
-  },
-  6433335428452486: {
-    name: "خعمرا",
-    monthly: 1,
-    monthly_confidence: 95.43049296200653,
-    weekly: 1,
-    weekly_confidence: 69.90840867778954,
-  },
-  "34581754264880199": {
-    name: "درسا",
-    monthly: 1,
-    monthly_confidence: 70.49103824165553,
-    weekly: 1,
-    weekly_confidence: 97.80163223200934,
-  },
-  "44986797317463049": {
-    name: "وثنو",
-    monthly: 0,
-    monthly_confidence: 67.90226949796715,
-    weekly: 1,
-    weekly_confidence: 94.69132093597993,
-  },
-  5564768007356822: {
-    name: "حریل",
-    monthly: 1,
-    monthly_confidence: 90.0898956900906,
-    weekly: 1,
-    weekly_confidence: 88.94886890342933,
-  },
-  "53449700212786324": {
-    name: "مارون",
-    monthly: 1,
-    monthly_confidence: 79.54451511427403,
-    weekly: 0,
-    weekly_confidence: 73.88692344180541,
-  },
-  "59342912854668427": {
-    name: "فنفت",
-    monthly: 1,
-    monthly_confidence: 94.79095171666951,
-    weekly: 0,
-    weekly_confidence: 70.00560216794149,
-  },
-  4758266259250794: {
-    name: "خپویش",
-    monthly: 0,
-    monthly_confidence: 96.76211697889546,
-    weekly: 1,
-    weekly_confidence: 86.48840860316044,
-  },
-  "71666521540545716": {
-    name: "غبهار",
-    monthly: 1,
-    monthly_confidence: 85.47627652304499,
-    weekly: 0,
-    weekly_confidence: 98.18468712226712,
-  },
-  "71945594172117613": {
-    name: "ارزش مسکن",
-    monthly: 1,
-    monthly_confidence: 70.6267661727358,
-    weekly: 1,
-    weekly_confidence: 91.55602002393955,
-  },
-  "34890845654517313": {
-    name: "ساربیل",
-    monthly: 1,
-    monthly_confidence: 89.587744466499,
-    weekly: 1,
-    weekly_confidence: 87.76042266748887,
-  },
-  "42470251469508137": {
-    name: "غناب",
-    monthly: 1,
-    monthly_confidence: 80.47356280380947,
-    weekly: 1,
-    weekly_confidence: 98.77820294276165,
-  },
-  "14916489896692147": {
-    name: "زملارد",
-    monthly: 0,
-    monthly_confidence: 88.14709083440681,
-    weekly: 1,
-    weekly_confidence: 97.98698855014311,
-  },
-  37828981835497620: {
-    name: "پتروآگاه",
-    monthly: 1,
-    monthly_confidence: 89.814419602082,
-    weekly: 1,
-    weekly_confidence: 77.93835245623313,
-  },
-  "18007109712724189": {
-    name: "آوا",
-    monthly: 1,
-    monthly_confidence: 65.85661455910457,
-    weekly: 0,
-    weekly_confidence: 88.70039629484539,
-  },
-  "24254843881948059": {
-    name: "چکاوه",
-    monthly: 1,
-    monthly_confidence: 69.48812702236128,
-    weekly: 1,
-    weekly_confidence: 84.03593235521075,
-  },
-  "52846735736632974": {
-    name: "صنهال",
-    monthly: 0,
-    monthly_confidence: 81.46525232227118,
-    weekly: 1,
-    weekly_confidence: 68.09747755892346,
-  },
-  "66424163876658304": {
-    name: "ودانا",
-    monthly: 1,
-    monthly_confidence: 89.18578477210315,
-    weekly: 1,
-    weekly_confidence: 96.65552941352419,
-  },
-  "24212636157410845": {
-    name: "وآرین",
-    monthly: 1,
-    monthly_confidence: 90.78419692059867,
-    weekly: 1,
-    weekly_confidence: 92.66430680867853,
-  },
-  "24662567615903665": {
-    name: "وسنا",
-    monthly: 1,
-    monthly_confidence: 91.40140917536232,
-    weekly: 0,
-    weekly_confidence: 87.18990795282579,
-  },
-  "56006915451245411": {
-    name: "لخانه",
-    monthly: 0,
-    monthly_confidence: 92.65476709249975,
-    weekly: 1,
-    weekly_confidence: 92.63815663667181,
-  },
-  17800036702302776: {
-    name: "ثاخت",
-    monthly: 0,
-    monthly_confidence: 82.78879665310275,
-    weekly: 1,
-    weekly_confidence: 79.5746117299208,
-  },
-  20453828618330936: {
-    name: "بنیرو",
-    monthly: 1,
-    monthly_confidence: 75.25153479653217,
-    weekly: 0,
-    weekly_confidence: 96.88497405841137,
-  },
-  "28033133021443774": {
-    name: "خفنر",
-    monthly: 0,
-    monthly_confidence: 68.1116190502565,
-    weekly: 0,
-    weekly_confidence: 75.07573388459967,
-  },
-  "35424116338766901": {
-    name: "حفارس",
-    monthly: 1,
-    monthly_confidence: 84.98019582748859,
-    weekly: 0,
-    weekly_confidence: 75.68908063350752,
-  },
-  "10411249540376641": {
-    name: "ناما",
-    monthly: 1,
-    monthly_confidence: 84.26343536052845,
-    weekly: 1,
-    weekly_confidence: 82.44162933450988,
-  },
-  "19348717261145458": {
-    name: "وهامون",
-    monthly: 0,
-    monthly_confidence: 68.0110603244867,
-    weekly: 0,
-    weekly_confidence: 97.75774111854312,
-  },
-  "19310456400689867": {
-    name: "خبازرس",
-    monthly: 1,
-    monthly_confidence: 66.46722317775878,
-    weekly: 0,
-    weekly_confidence: 87.64200201240446,
-  },
-  "56375665074210467": {
-    name: "فسوژ",
-    monthly: 1,
-    monthly_confidence: 81.6766816115464,
-    weekly: 1,
-    weekly_confidence: 85.6732911438512,
-  },
-  "65883838195688438": {
-    name: "خودرو",
-    monthly: 1,
-    monthly_confidence: 92.89103018239784,
-    weekly: 0,
-    weekly_confidence: 71.3386427583194,
-  },
-  6757220448540984: {
-    name: "سشمال",
-    monthly: 1,
-    monthly_confidence: 78.63004932837387,
-    weekly: 1,
-    weekly_confidence: 85.21656427039727,
-  },
-  46348559193224090: {
-    name: "فولاد",
-    monthly: 1,
-    monthly_confidence: 91.38996638938181,
-    weekly: 0,
-    weekly_confidence: 90.95923043549074,
-  },
-  971068957336171: {
-    name: "گارانتی",
-    monthly: 1,
-    monthly_confidence: 93.10430309411284,
-    weekly: 1,
-    weekly_confidence: 93.98589022943159,
-  },
-  52232388263291380: {
-    name: "وامید",
-    monthly: 0,
-    monthly_confidence: 68.11224394573519,
-    weekly: 0,
-    weekly_confidence: 68.28235378378838,
-  },
-  "67030488744129337": {
-    name: "قپیرا",
-    monthly: 1,
-    monthly_confidence: 90.64844990100167,
-    weekly: 0,
-    weekly_confidence: 65.27671971887617,
-  },
-  13666407494621646: {
-    name: "فراز",
-    monthly: 0,
-    monthly_confidence: 96.74296776533855,
-    weekly: 1,
-    weekly_confidence: 79.53874246860957,
-  },
-  "40505767672724777": {
-    name: "رانفور",
-    monthly: 1,
-    monthly_confidence: 95.09408930888564,
-    weekly: 1,
-    weekly_confidence: 69.64162880760205,
-  },
-  "60610861509165508": {
-    name: "حکشتی",
-    monthly: 1,
-    monthly_confidence: 72.67695927443387,
-    weekly: 1,
-    weekly_confidence: 87.09947801288492,
-  },
-  19257295292088310: {
-    name: "خکمک",
-    monthly: 0,
-    monthly_confidence: 83.78433311345125,
-    weekly: 1,
-    weekly_confidence: 71.68491493208847,
-  },
-  "24651394045981418": {
-    name: "تاراز",
-    monthly: 1,
-    monthly_confidence: 89.90468834953768,
-    weekly: 1,
-    weekly_confidence: 73.25352799895657,
-  },
-  "64619251116188373": {
-    name: "بپیوند",
-    monthly: 1,
-    monthly_confidence: 94.39656572720743,
-    weekly: 1,
-    weekly_confidence: 70.97636930546008,
-  },
+    "22086876724551482": {
+        "name": "بموتو",
+        "monthly": 1,
+        "monthly_confidence": 65.11313613142762,
+        "weekly": 0,
+        "weekly_confidence": 85.51014164029284
+    },
+    "47333458678352378": {
+        "name": "وخاور",
+        "monthly": 1,
+        "monthly_confidence": 67.03303028778492,
+        "weekly": 1,
+        "weekly_confidence": 92.30970019187241
+    },
+    "69817338460284329": {
+        "name": "فروژ",
+        "monthly": 0,
+        "monthly_confidence": 94.72229633742714,
+        "weekly": 1,
+        "weekly_confidence": 97.37977476907625
+    },
+    "23353689102956991": {
+        "name": "دکوثر",
+        "monthly": 0,
+        "monthly_confidence": 79.30232452612708,
+        "weekly": 0,
+        "weekly_confidence": 82.13780884282077
+    },
+    "40553302624764543": {
+        "name": "وکغدیر",
+        "monthly": 0,
+        "monthly_confidence": 78.12441641974206,
+        "weekly": 0,
+        "weekly_confidence": 65.97725274033088
+    },
+    "20865316761157979": {
+        "name": "فاراک",
+        "monthly": 0,
+        "monthly_confidence": 79.68969153705356,
+        "weekly": 1,
+        "weekly_confidence": 92.78993941424918
+    },
+    "44967158778304588": {
+        "name": "قثابت",
+        "monthly": 1,
+        "monthly_confidence": 71.38158591863005,
+        "weekly": 1,
+        "weekly_confidence": 71.09207947088392
+    },
+    "57086055330734195": {
+        "name": "کرازی",
+        "monthly": 1,
+        "monthly_confidence": 94.84010820000852,
+        "weekly": 1,
+        "weekly_confidence": 78.09502869410193
+    },
+    "6043384171800349": {
+        "name": "ثشرق",
+        "monthly": 1,
+        "monthly_confidence": 65.75601554105616,
+        "weekly": 0,
+        "weekly_confidence": 95.84752331733449
+    },
+    "11622051128546106": {
+        "name": "شپاکسا",
+        "monthly": 0,
+        "monthly_confidence": 90.76884670935159,
+        "weekly": 1,
+        "weekly_confidence": 87.79275258484691
+    },
+    "42696242981550091": {
+        "name": "کصدف",
+        "monthly": 1,
+        "monthly_confidence": 93.85050381456723,
+        "weekly": 1,
+        "weekly_confidence": 82.62389252768081
+    },
+    "12746730665870442": {
+        "name": "بهپاک",
+        "monthly": 0,
+        "monthly_confidence": 82.00417420321018,
+        "weekly": 1,
+        "weekly_confidence": 73.33753966543478
+    },
+    "32357363984168442": {
+        "name": "جم",
+        "monthly": 1,
+        "monthly_confidence": 89.41421920841466,
+        "weekly": 1,
+        "weekly_confidence": 65.31680354874545
+    },
+    "63917421733088077": {
+        "name": "وتجارت",
+        "monthly": 1,
+        "monthly_confidence": 89.62996440342874,
+        "weekly": 1,
+        "weekly_confidence": 92.67119451371896
+    },
+    "45895339414786358": {
+        "name": "خرینگ",
+        "monthly": 1,
+        "monthly_confidence": 72.88425049132371,
+        "weekly": 1,
+        "weekly_confidence": 75.5896926399973
+    },
+    "46830341954511303": {
+        "name": "وآیند",
+        "monthly": 1,
+        "monthly_confidence": 75.69511410118976,
+        "weekly": 1,
+        "weekly_confidence": 84.08069083023088
+    },
+    "25286509736208688": {
+        "name": "فلامی",
+        "monthly": 1,
+        "monthly_confidence": 79.47498236741673,
+        "weekly": 1,
+        "weekly_confidence": 93.9305055471305
+    },
+    "67522512921942106": {
+        "name": "پادا",
+        "monthly": 1,
+        "monthly_confidence": 68.94529636683018,
+        "weekly": 0,
+        "weekly_confidence": 90.596842836691
+    },
+    "70541934393301867": {
+        "name": "سلام",
+        "monthly": 1,
+        "monthly_confidence": 78.78186615767483,
+        "weekly": 0,
+        "weekly_confidence": 85.62101826272345
+    },
+    "16056283141617755": {
+        "name": "کارین",
+        "monthly": 0,
+        "monthly_confidence": 70.0545890165811,
+        "weekly": 0,
+        "weekly_confidence": 88.52131496806996
+    },
+    "59217041815333317": {
+        "name": "خکار",
+        "monthly": 0,
+        "monthly_confidence": 81.12709720212128,
+        "weekly": 0,
+        "weekly_confidence": 97.2015300388486
+    },
+    "60523145697836739": {
+        "name": "بورس",
+        "monthly": 0,
+        "monthly_confidence": 78.86910124188233,
+        "weekly": 1,
+        "weekly_confidence": 85.64642015286499
+    },
+    "32525655729432562": {
+        "name": "سبهان",
+        "monthly": 1,
+        "monthly_confidence": 82.23913903967708,
+        "weekly": 1,
+        "weekly_confidence": 75.74959089615162
+    },
+    "33406621820337161": {
+        "name": "دجابر",
+        "monthly": 0,
+        "monthly_confidence": 68.65219350254114,
+        "weekly": 1,
+        "weekly_confidence": 76.56641184688385
+    },
+    "65249046611427924": {
+        "name": "فردا",
+        "monthly": 0,
+        "monthly_confidence": 66.45402615567052,
+        "weekly": 0,
+        "weekly_confidence": 66.08810104153872
+    },
+    "69171897374421261": {
+        "name": "فن افزار",
+        "monthly": 0,
+        "monthly_confidence": 78.81408188051448,
+        "weekly": 0,
+        "weekly_confidence": 88.35340044988807
+    },
+    "45174198424472334": {
+        "name": "ولساپا",
+        "monthly": 0,
+        "monthly_confidence": 93.70167282797388,
+        "weekly": 1,
+        "weekly_confidence": 84.14310800488765
+    },
+    "56820995669577571": {
+        "name": "قلرست",
+        "monthly": 1,
+        "monthly_confidence": 68.27278705261969,
+        "weekly": 1,
+        "weekly_confidence": 82.19639499922495
+    },
+    "1358190916156744": {
+        "name": "وآذر",
+        "monthly": 1,
+        "monthly_confidence": 66.84331825127514,
+        "weekly": 0,
+        "weekly_confidence": 72.671234867652
+    },
+    "23936607891892333": {
+        "name": "چافست",
+        "monthly": 1,
+        "monthly_confidence": 91.78258445485307,
+        "weekly": 1,
+        "weekly_confidence": 92.53801595494166
+    },
+    "34856765062083074": {
+        "name": "بازده",
+        "monthly": 1,
+        "monthly_confidence": 71.3559054333156,
+        "weekly": 1,
+        "weekly_confidence": 73.8044654634593
+    },
+    "35964395659427029": {
+        "name": "قشکر",
+        "monthly": 1,
+        "monthly_confidence": 74.13423870553643,
+        "weekly": 0,
+        "weekly_confidence": 77.53146985444337
+    },
+    "44625249840480397": {
+        "name": "حآسا",
+        "monthly": 0,
+        "monthly_confidence": 76.61137350944104,
+        "weekly": 1,
+        "weekly_confidence": 73.21554467882393
+    },
+    "9761381741308262": {
+        "name": "وشمال",
+        "monthly": 1,
+        "monthly_confidence": 79.72528080024777,
+        "weekly": 1,
+        "weekly_confidence": 93.65587475239967
+    },
+    "10795723506538053": {
+        "name": "فیروزا",
+        "monthly": 0,
+        "monthly_confidence": 80.15801590119354,
+        "weekly": 0,
+        "weekly_confidence": 79.25522634647685
+    },
+    "33254899395816171": {
+        "name": "زر",
+        "monthly": 0,
+        "monthly_confidence": 94.72317607690158,
+        "weekly": 0,
+        "weekly_confidence": 80.75926074787051
+    },
+    "30282299500988269": {
+        "name": "آکورد",
+        "monthly": 1,
+        "monthly_confidence": 88.10509815410498,
+        "weekly": 0,
+        "weekly_confidence": 91.89789131072584
+    },
+    "47041908051542008": {
+        "name": "هم وزن",
+        "monthly": 1,
+        "monthly_confidence": 78.14123658723354,
+        "weekly": 1,
+        "weekly_confidence": 96.12210488939968
+    },
+    "43023243844297350": {
+        "name": "چنوپا",
+        "monthly": 1,
+        "monthly_confidence": 96.44708570705752,
+        "weekly": 1,
+        "weekly_confidence": 65.52531399447118
+    },
+    "71510396252618330": {
+        "name": "دبالک",
+        "monthly": 0,
+        "monthly_confidence": 92.37421044931908,
+        "weekly": 0,
+        "weekly_confidence": 81.08728887701038
+    },
+    "57300230097485720": {
+        "name": "غگیلا",
+        "monthly": 1,
+        "monthly_confidence": 96.90464935793769,
+        "weekly": 1,
+        "weekly_confidence": 81.9596092173863
+    },
+    "14800142337291217": {
+        "name": "فولای",
+        "monthly": 1,
+        "monthly_confidence": 78.68876002153499,
+        "weekly": 1,
+        "weekly_confidence": 95.52640937078186
+    },
+    "43062880954780884": {
+        "name": "تپمپی",
+        "monthly": 1,
+        "monthly_confidence": 89.25969578180069,
+        "weekly": 1,
+        "weekly_confidence": 93.00720394283825
+    },
+    "18004480270695404": {
+        "name": "فمراد",
+        "monthly": 1,
+        "monthly_confidence": 93.7249796847192,
+        "weekly": 0,
+        "weekly_confidence": 97.01557601335425
+    },
+    "22941065011246116": {
+        "name": "کپرور",
+        "monthly": 1,
+        "monthly_confidence": 91.9075815767982,
+        "weekly": 1,
+        "weekly_confidence": 83.7593325137499
+    },
+    "28854105556435129": {
+        "name": "ثزاگرس",
+        "monthly": 0,
+        "monthly_confidence": 92.9782822187274,
+        "weekly": 1,
+        "weekly_confidence": 67.95171056991249
+    },
+    "51017863148152520": {
+        "name": "فرود",
+        "monthly": 1,
+        "monthly_confidence": 78.2810269373501,
+        "weekly": 1,
+        "weekly_confidence": 74.51598105910067
+    },
+    "23441366113375722": {
+        "name": "پارسان",
+        "monthly": 1,
+        "monthly_confidence": 79.36404973402588,
+        "weekly": 1,
+        "weekly_confidence": 87.72994347543269
+    },
+    "70270965300262393": {
+        "name": "البرز",
+        "monthly": 0,
+        "monthly_confidence": 96.93830282976742,
+        "weekly": 1,
+        "weekly_confidence": 81.35789808759904
+    },
+    "70474983732269112": {
+        "name": "دپارس",
+        "monthly": 1,
+        "monthly_confidence": 82.67252505676507,
+        "weekly": 1,
+        "weekly_confidence": 75.64360823610355
+    },
+    "35158826900216508": {
+        "name": "غاذر",
+        "monthly": 1,
+        "monthly_confidence": 77.71180070007964,
+        "weekly": 0,
+        "weekly_confidence": 68.34998739980473
+    },
+    "20562694899904339": {
+        "name": "شپدیس",
+        "monthly": 1,
+        "monthly_confidence": 77.02332224855738,
+        "weekly": 0,
+        "weekly_confidence": 92.50972070291323
+    },
+    "4470657233334072": {
+        "name": "سخاش",
+        "monthly": 1,
+        "monthly_confidence": 87.73044931421535,
+        "weekly": 1,
+        "weekly_confidence": 71.74098774955431
+    },
+    "14230681955555738": {
+        "name": "آرام",
+        "monthly": 0,
+        "monthly_confidence": 88.65586478872403,
+        "weekly": 0,
+        "weekly_confidence": 90.41797703829131
+    },
+    "19367527798307032": {
+        "name": "فالوم",
+        "monthly": 1,
+        "monthly_confidence": 91.77883483197213,
+        "weekly": 1,
+        "weekly_confidence": 98.11266313180444
+    },
+    "49399017998386087": {
+        "name": "فبیرا",
+        "monthly": 1,
+        "monthly_confidence": 67.92841049672845,
+        "weekly": 1,
+        "weekly_confidence": 86.6347829190863
+    },
+    "9698674686691945": {
+        "name": "کپارس",
+        "monthly": 1,
+        "monthly_confidence": 90.20515796414777,
+        "weekly": 1,
+        "weekly_confidence": 65.87023011086173
+    },
+    "45608932669358493": {
+        "name": "کایتا",
+        "monthly": 0,
+        "monthly_confidence": 69.66120571430825,
+        "weekly": 0,
+        "weekly_confidence": 87.50137911813083
+    },
+    "4267564158935326": {
+        "name": "قیستو",
+        "monthly": 0,
+        "monthly_confidence": 89.57558459797143,
+        "weekly": 1,
+        "weekly_confidence": 90.83483523587387
+    },
+    "25001509088465005": {
+        "name": "کساوه",
+        "monthly": 1,
+        "monthly_confidence": 94.69917751836586,
+        "weekly": 1,
+        "weekly_confidence": 94.2169342620776
+    },
+    "51294484197536070": {
+        "name": "غشوکو",
+        "monthly": 0,
+        "monthly_confidence": 78.83873360493487,
+        "weekly": 0,
+        "weekly_confidence": 70.93967326558221
+    },
+    "5317427172344706": {
+        "name": "هجرت",
+        "monthly": 1,
+        "monthly_confidence": 66.73930423478808,
+        "weekly": 0,
+        "weekly_confidence": 71.8760041486495
+    },
+    "71483646978964608": {
+        "name": "ذوب",
+        "monthly": 1,
+        "monthly_confidence": 72.55517172951097,
+        "weekly": 0,
+        "weekly_confidence": 71.91251085716658
+    },
+    "32845891587040106": {
+        "name": "ثنوسا",
+        "monthly": 1,
+        "monthly_confidence": 81.12217683387358,
+        "weekly": 1,
+        "weekly_confidence": 93.60038212974554
+    },
+    "70595828753641750": {
+        "name": "پارند",
+        "monthly": 1,
+        "monthly_confidence": 69.21819841547315,
+        "weekly": 1,
+        "weekly_confidence": 69.4432916922567
+    },
+    "15949743338644220": {
+        "name": "ساروم",
+        "monthly": 0,
+        "monthly_confidence": 82.59119486001163,
+        "weekly": 1,
+        "weekly_confidence": 88.58465395758707
+    },
+    "41781090739318251": {
+        "name": "تلیسه",
+        "monthly": 1,
+        "monthly_confidence": 74.07612276164554,
+        "weekly": 1,
+        "weekly_confidence": 85.59166268753566
+    },
+    "66599109405217136": {
+        "name": "گکوثر",
+        "monthly": 1,
+        "monthly_confidence": 73.62130072680918,
+        "weekly": 1,
+        "weekly_confidence": 87.28532827087543
+    },
+    "318005355896147": {
+        "name": "فسا",
+        "monthly": 0,
+        "monthly_confidence": 83.28105555877346,
+        "weekly": 0,
+        "weekly_confidence": 96.92270542053058
+    },
+    "12874072841236826": {
+        "name": "فسازان",
+        "monthly": 1,
+        "monthly_confidence": 76.21208933898758,
+        "weekly": 1,
+        "weekly_confidence": 84.96133357828778
+    },
+    "63888998422355039": {
+        "name": "نوآور",
+        "monthly": 1,
+        "monthly_confidence": 96.35132100799453,
+        "weekly": 1,
+        "weekly_confidence": 75.33921051308288
+    },
+    "41302553376174581": {
+        "name": "فجر",
+        "monthly": 0,
+        "monthly_confidence": 77.39258115886938,
+        "weekly": 1,
+        "weekly_confidence": 91.36654024202622
+    },
+    "49129081625829210": {
+        "name": "نشار",
+        "monthly": 1,
+        "monthly_confidence": 89.06865351598645,
+        "weekly": 1,
+        "weekly_confidence": 90.89802549809602
+    },
+    "21096748051392414": {
+        "name": "سغدیر",
+        "monthly": 1,
+        "monthly_confidence": 79.62973729733496,
+        "weekly": 0,
+        "weekly_confidence": 93.75404796708278
+    },
+    "45991797190214892": {
+        "name": "وآفر",
+        "monthly": 1,
+        "monthly_confidence": 74.36656743601772,
+        "weekly": 0,
+        "weekly_confidence": 97.81550911162458
+    },
+    "56324206651661881": {
+        "name": "فنورد",
+        "monthly": 1,
+        "monthly_confidence": 92.87572020636549,
+        "weekly": 0,
+        "weekly_confidence": 97.46914675483238
+    },
+    "7628308021169118": {
+        "name": "بکهنوج",
+        "monthly": 0,
+        "monthly_confidence": 75.20760864020187,
+        "weekly": 0,
+        "weekly_confidence": 72.87626718010635
+    },
+    "28291104595448527": {
+        "name": "کزغال",
+        "monthly": 0,
+        "monthly_confidence": 97.64783559521304,
+        "weekly": 1,
+        "weekly_confidence": 81.21488234870294
+    },
+    "1301069819790264": {
+        "name": "تجلی",
+        "monthly": 1,
+        "monthly_confidence": 85.33476087273624,
+        "weekly": 1,
+        "weekly_confidence": 81.79374022450597
+    },
+    "3493306453706327": {
+        "name": "شوینده",
+        "monthly": 1,
+        "monthly_confidence": 79.49527261979335,
+        "weekly": 1,
+        "weekly_confidence": 76.22151304507659
+    },
+    "3722699128879020": {
+        "name": "حتاید",
+        "monthly": 1,
+        "monthly_confidence": 89.50230108607879,
+        "weekly": 1,
+        "weekly_confidence": 66.29007807141329
+    },
+    "5516102131364383": {
+        "name": "غمینو",
+        "monthly": 1,
+        "monthly_confidence": 70.3102196795693,
+        "weekly": 1,
+        "weekly_confidence": 68.12571111280184
+    },
+    "5920901446678689": {
+        "name": "وتعاون",
+        "monthly": 1,
+        "monthly_confidence": 78.86032652357336,
+        "weekly": 1,
+        "weekly_confidence": 74.55843851157702
+    },
+    "6131290133202745": {
+        "name": "غمهرا",
+        "monthly": 0,
+        "monthly_confidence": 89.59745392319641,
+        "weekly": 0,
+        "weekly_confidence": 70.31927138385207
+    },
+    "7300125658580126": {
+        "name": "زکشت",
+        "monthly": 0,
+        "monthly_confidence": 76.30878350603466,
+        "weekly": 1,
+        "weekly_confidence": 74.78635856867331
+    },
+    "7745894403636165": {
+        "name": "شپنا",
+        "monthly": 0,
+        "monthly_confidence": 79.56270698265757,
+        "weekly": 1,
+        "weekly_confidence": 73.460666555697
+    },
+    "9141577977527107": {
+        "name": "وایرا",
+        "monthly": 1,
+        "monthly_confidence": 83.85341459789667,
+        "weekly": 1,
+        "weekly_confidence": 77.11151517067354
+    },
+    "9536587154100457": {
+        "name": "وپاسار",
+        "monthly": 0,
+        "monthly_confidence": 96.05369462303999,
+        "weekly": 1,
+        "weekly_confidence": 65.20574232682536
+    },
+    "10120557300120078": {
+        "name": "پسهند",
+        "monthly": 0,
+        "monthly_confidence": 65.83479141692487,
+        "weekly": 0,
+        "weekly_confidence": 70.2246827516079
+    },
+    "11427939669935844": {
+        "name": "اطلس",
+        "monthly": 1,
+        "monthly_confidence": 90.50982084350458,
+        "weekly": 1,
+        "weekly_confidence": 94.69405904822624
+    },
+    "12390706505809150": {
+        "name": "گوهر",
+        "monthly": 1,
+        "monthly_confidence": 77.889479683529,
+        "weekly": 0,
+        "weekly_confidence": 74.99882181025663
+    },
+    "12752224677923341": {
+        "name": "خریخت",
+        "monthly": 1,
+        "monthly_confidence": 71.98841165449795,
+        "weekly": 1,
+        "weekly_confidence": 73.24472629417691
+    },
+    "12965822877128721": {
+        "name": "ثقزوی",
+        "monthly": 0,
+        "monthly_confidence": 75.54433909923345,
+        "weekly": 1,
+        "weekly_confidence": 88.75053324235733
+    },
+    "13243992182070788": {
+        "name": "درهآور",
+        "monthly": 0,
+        "monthly_confidence": 88.61853694467315,
+        "weekly": 1,
+        "weekly_confidence": 86.6609415622441
+    },
+    "13281937213456378": {
+        "name": "حسیر",
+        "monthly": 0,
+        "monthly_confidence": 80.60990910716649,
+        "weekly": 0,
+        "weekly_confidence": 86.53586634693487
+    },
+    "14061767679814842": {
+        "name": "ولقمانح",
+        "monthly": 1,
+        "monthly_confidence": 89.85158897336744,
+        "weekly": 1,
+        "weekly_confidence": 75.26235213713218
+    },
+    "14312030900097668": {
+        "name": "غگلپا",
+        "monthly": 0,
+        "monthly_confidence": 82.5120935306473,
+        "weekly": 1,
+        "weekly_confidence": 92.7865675244288
+    },
+    "15090491830692116": {
+        "name": "پارتین",
+        "monthly": 0,
+        "monthly_confidence": 66.05040689007943,
+        "weekly": 0,
+        "weekly_confidence": 70.39745915766666
+    },
+    "15726796686853780": {
+        "name": "ثعمرا",
+        "monthly": 1,
+        "monthly_confidence": 88.89297656065479,
+        "weekly": 1,
+        "weekly_confidence": 74.71860351657627
+    },
+    "16553062355259729": {
+        "name": "بمیلا",
+        "monthly": 0,
+        "monthly_confidence": 89.93252486678387,
+        "weekly": 1,
+        "weekly_confidence": 76.22805390539858
+    },
+    "18027801615184692": {
+        "name": "کچاد",
+        "monthly": 1,
+        "monthly_confidence": 82.81680947050597,
+        "weekly": 1,
+        "weekly_confidence": 91.78326025043316
+    },
+    "18401147983387689": {
+        "name": "غپینو",
+        "monthly": 1,
+        "monthly_confidence": 69.4389792513404,
+        "weekly": 0,
+        "weekly_confidence": 70.40495984099677
+    },
+    "18919451747622263": {
+        "name": "ویسرو",
+        "monthly": 1,
+        "monthly_confidence": 72.79503551407952,
+        "weekly": 1,
+        "weekly_confidence": 95.23380013641246
+    },
+    "20560887114747719": {
+        "name": "کسرام",
+        "monthly": 1,
+        "monthly_confidence": 96.60833667044987,
+        "weekly": 1,
+        "weekly_confidence": 84.95557808642108
+    },
+    "20926459161497908": {
+        "name": "ثتران",
+        "monthly": 0,
+        "monthly_confidence": 80.97752930755823,
+        "weekly": 1,
+        "weekly_confidence": 95.11641444761503
+    },
+    "22255783119783047": {
+        "name": "درازک",
+        "monthly": 0,
+        "monthly_confidence": 68.10095175718956,
+        "weekly": 1,
+        "weekly_confidence": 66.58021051171382
+    },
+    "22811176775480091": {
+        "name": "اخابر",
+        "monthly": 1,
+        "monthly_confidence": 98.07302743465752,
+        "weekly": 0,
+        "weekly_confidence": 89.70784053659895
+    },
+    "22903901709044823": {
+        "name": "ختراک",
+        "monthly": 1,
+        "monthly_confidence": 75.5498049460021,
+        "weekly": 1,
+        "weekly_confidence": 82.2873284004112
+    },
+    "22956708386610464": {
+        "name": "خودکفا",
+        "monthly": 1,
+        "monthly_confidence": 80.94719983888925,
+        "weekly": 0,
+        "weekly_confidence": 78.74147128811411
+    },
+    "23269285154135003": {
+        "name": "جوین",
+        "monthly": 1,
+        "monthly_confidence": 92.1592082859318,
+        "weekly": 0,
+        "weekly_confidence": 82.38490447933712
+    },
+    "27096851668435724": {
+        "name": "جم پیلن",
+        "monthly": 0,
+        "monthly_confidence": 80.00945555748713,
+        "weekly": 0,
+        "weekly_confidence": 68.87065441068081
+    },
+    "27218386411183410": {
+        "name": "سدور",
+        "monthly": 0,
+        "monthly_confidence": 95.20321203242788,
+        "weekly": 0,
+        "weekly_confidence": 67.63508095649219
+    },
+    "27299841173245405": {
+        "name": "داراب",
+        "monthly": 1,
+        "monthly_confidence": 91.24567841473973,
+        "weekly": 0,
+        "weekly_confidence": 84.49030694665166
+    },
+    "28788598290160782": {
+        "name": "الماس",
+        "monthly": 1,
+        "monthly_confidence": 81.30139215848175,
+        "weekly": 0,
+        "weekly_confidence": 97.08096982918941
+    },
+    "28845264556937486": {
+        "name": "شپلی",
+        "monthly": 1,
+        "monthly_confidence": 85.55157475825027,
+        "weekly": 0,
+        "weekly_confidence": 73.15805591091706
+    },
+    "29122854902865456": {
+        "name": "کسعدی",
+        "monthly": 1,
+        "monthly_confidence": 92.99014374493612,
+        "weekly": 1,
+        "weekly_confidence": 70.21201081348003
+    },
+    "30852391633490755": {
+        "name": "ثفارس",
+        "monthly": 0,
+        "monthly_confidence": 97.50796470744297,
+        "weekly": 1,
+        "weekly_confidence": 65.70324284309582
+    },
+    "31188566503248753": {
+        "name": "نیلی",
+        "monthly": 0,
+        "monthly_confidence": 85.94076991089126,
+        "weekly": 1,
+        "weekly_confidence": 85.45087213098971
+    },
+    "31248540252187559": {
+        "name": "مروارید",
+        "monthly": 1,
+        "monthly_confidence": 70.63811205883289,
+        "weekly": 1,
+        "weekly_confidence": 72.47226610154136
+    },
+    "31366347648583654": {
+        "name": "ارمغان",
+        "monthly": 0,
+        "monthly_confidence": 98.42917172763127,
+        "weekly": 1,
+        "weekly_confidence": 78.05542696376739
+    },
+    "31791737198597563": {
+        "name": "غشان",
+        "monthly": 1,
+        "monthly_confidence": 94.92970664461306,
+        "weekly": 1,
+        "weekly_confidence": 80.82200408440771
+    },
+    "33293588228706998": {
+        "name": "وپارس",
+        "monthly": 1,
+        "monthly_confidence": 65.44091811680427,
+        "weekly": 1,
+        "weekly_confidence": 66.14489057101467
+    },
+    "34032872653290886": {
+        "name": "غپاک",
+        "monthly": 1,
+        "monthly_confidence": 87.93789487362041,
+        "weekly": 1,
+        "weekly_confidence": 80.86773637687456
+    },
+    "34718633636164421": {
+        "name": "کمند",
+        "monthly": 1,
+        "monthly_confidence": 69.61440861362505,
+        "weekly": 1,
+        "weekly_confidence": 81.15172496621496
+    },
+    "35669480110084448": {
+        "name": "سپاها",
+        "monthly": 0,
+        "monthly_confidence": 97.13982568455356,
+        "weekly": 0,
+        "weekly_confidence": 74.31365356204506
+    },
+    "36671655475498480": {
+        "name": "قشرین",
+        "monthly": 1,
+        "monthly_confidence": 78.31695886330188,
+        "weekly": 0,
+        "weekly_confidence": 87.67000453686512
+    },
+    "37222720235819361": {
+        "name": "بذر",
+        "monthly": 1,
+        "monthly_confidence": 92.3009550232214,
+        "weekly": 0,
+        "weekly_confidence": 76.02568503299712
+    },
+    "39453972158399542": {
+        "name": "سپاس",
+        "monthly": 1,
+        "monthly_confidence": 88.54307793822092,
+        "weekly": 0,
+        "weekly_confidence": 76.46152960816815
+    },
+    "40025799067544201": {
+        "name": "شرنگی",
+        "monthly": 1,
+        "monthly_confidence": 68.5157352638182,
+        "weekly": 1,
+        "weekly_confidence": 71.00045137014345
+    },
+    "40650252484299134": {
+        "name": "ثاژن",
+        "monthly": 1,
+        "monthly_confidence": 77.50094496238079,
+        "weekly": 0,
+        "weekly_confidence": 98.92419060698484
+    },
+    "41858326436945277": {
+        "name": "ختراکح",
+        "monthly": 1,
+        "monthly_confidence": 94.59043027012616,
+        "weekly": 1,
+        "weekly_confidence": 71.9252313510547
+    },
+    "42670427020727409": {
+        "name": "کاج",
+        "monthly": 1,
+        "monthly_confidence": 84.90791596415167,
+        "weekly": 1,
+        "weekly_confidence": 91.75399910061293
+    },
+    "43342306308122676": {
+        "name": "قمرو",
+        "monthly": 0,
+        "monthly_confidence": 67.99862099322527,
+        "weekly": 0,
+        "weekly_confidence": 97.15322368280468
+    },
+    "43545527030854340": {
+        "name": "کویر",
+        "monthly": 1,
+        "monthly_confidence": 77.78698089926722,
+        "weekly": 0,
+        "weekly_confidence": 74.47124516404533
+    },
+    "43552974795606067": {
+        "name": "خراسان",
+        "monthly": 1,
+        "monthly_confidence": 98.70677055321129,
+        "weekly": 1,
+        "weekly_confidence": 91.8501130760502
+    },
+    "44153164692325703": {
+        "name": "شگل",
+        "monthly": 0,
+        "monthly_confidence": 96.29061676554439,
+        "weekly": 1,
+        "weekly_confidence": 90.52735678614258
+    },
+    "44549439964296944": {
+        "name": "کالا",
+        "monthly": 1,
+        "monthly_confidence": 95.03251145421694,
+        "weekly": 0,
+        "weekly_confidence": 79.39535706252904
+    },
+    "44818950263583523": {
+        "name": "دی",
+        "monthly": 0,
+        "monthly_confidence": 85.50888488818477,
+        "weekly": 1,
+        "weekly_confidence": 93.24459758232432
+    },
+    "45392752356003555": {
+        "name": "صبا",
+        "monthly": 1,
+        "monthly_confidence": 87.08562380049266,
+        "weekly": 1,
+        "weekly_confidence": 98.39069793262786
+    },
+    "45519261544951819": {
+        "name": "سپید",
+        "monthly": 1,
+        "monthly_confidence": 96.57456113359402,
+        "weekly": 0,
+        "weekly_confidence": 90.54033200055895
+    },
+    "49502666250908008": {
+        "name": "افق",
+        "monthly": 0,
+        "monthly_confidence": 73.82702538899778,
+        "weekly": 0,
+        "weekly_confidence": 96.8922561751843
+    },
+    "49641108336531623": {
+        "name": "انرژی",
+        "monthly": 1,
+        "monthly_confidence": 97.609758369572,
+        "weekly": 1,
+        "weekly_confidence": 75.66774195864765
+    },
+    "50587892784913370": {
+        "name": "حشکوه",
+        "monthly": 1,
+        "monthly_confidence": 81.87326189297586,
+        "weekly": 1,
+        "weekly_confidence": 92.8879979251921
+    },
+    "50652985928800943": {
+        "name": "غیوان",
+        "monthly": 0,
+        "monthly_confidence": 85.06347540514254,
+        "weekly": 1,
+        "weekly_confidence": 72.49829974252461
+    },
+    "52792903131341205": {
+        "name": "افرا",
+        "monthly": 1,
+        "monthly_confidence": 90.848556876597,
+        "weekly": 1,
+        "weekly_confidence": 83.09107335387122
+    },
+    "55201604487356053": {
+        "name": "فن آوا",
+        "monthly": 1,
+        "monthly_confidence": 78.38632423016465,
+        "weekly": 1,
+        "weekly_confidence": 80.22705479906718
+    },
+    "57722642338781674": {
+        "name": "پلاسک",
+        "monthly": 1,
+        "monthly_confidence": 97.11478083598803,
+        "weekly": 1,
+        "weekly_confidence": 91.23296628755725
+    },
+    "60289595205403229": {
+        "name": "بهیر",
+        "monthly": 0,
+        "monthly_confidence": 82.79835995756065,
+        "weekly": 1,
+        "weekly_confidence": 83.5195725150896
+    },
+    "60783654574662426": {
+        "name": "وهنر",
+        "monthly": 1,
+        "monthly_confidence": 82.64833668368165,
+        "weekly": 1,
+        "weekly_confidence": 65.57213517429368
+    },
+    "62107151670661969": {
+        "name": "بکابل",
+        "monthly": 1,
+        "monthly_confidence": 66.22291018022925,
+        "weekly": 0,
+        "weekly_confidence": 96.5213231266363
+    },
+    "15494954332657697": {
+        "name": "همای",
+        "monthly": 1,
+        "monthly_confidence": 91.27095497191102,
+        "weekly": 1,
+        "weekly_confidence": 89.25449452746939
+    },
+    "51459202425114449": {
+        "name": "تابا",
+        "monthly": 0,
+        "monthly_confidence": 85.0693232748598,
+        "weekly": 0,
+        "weekly_confidence": 98.35751939050132
+    },
+    "53686258677793038": {
+        "name": "وارس",
+        "monthly": 1,
+        "monthly_confidence": 90.01247132100035,
+        "weekly": 1,
+        "weekly_confidence": 78.97501918482496
+    },
+    "59470107928175959": {
+        "name": "گنگین",
+        "monthly": 0,
+        "monthly_confidence": 89.33559501886354,
+        "weekly": 1,
+        "weekly_confidence": 83.4066471614465
+    },
+    "18599703143458101": {
+        "name": "امید",
+        "monthly": 1,
+        "monthly_confidence": 83.19821469597531,
+        "weekly": 1,
+        "weekly_confidence": 81.41289940345226
+    },
+    "58810336532668771": {
+        "name": "کایزد",
+        "monthly": 1,
+        "monthly_confidence": 79.67390068969425,
+        "weekly": 1,
+        "weekly_confidence": 87.33311259276869
+    },
+    "40611478183231802": {
+        "name": "شدوص",
+        "monthly": 1,
+        "monthly_confidence": 65.49521351639159,
+        "weekly": 0,
+        "weekly_confidence": 87.502607154504
+    },
+    "70883594945615893": {
+        "name": "سآبیک",
+        "monthly": 0,
+        "monthly_confidence": 85.06711208375354,
+        "weekly": 1,
+        "weekly_confidence": 84.62552471737004
+    },
+    "20966291817819448": {
+        "name": "فسدید",
+        "monthly": 1,
+        "monthly_confidence": 72.78867859137668,
+        "weekly": 1,
+        "weekly_confidence": 77.82287099993934
+    },
+    "27952969918967492": {
+        "name": "رکیش",
+        "monthly": 0,
+        "monthly_confidence": 86.26838343450005,
+        "weekly": 0,
+        "weekly_confidence": 70.62647064164334
+    },
+    "50100062518826135": {
+        "name": "دامین",
+        "monthly": 1,
+        "monthly_confidence": 91.18223437828958,
+        "weekly": 1,
+        "weekly_confidence": 96.26719294175452
+    },
+    "17939384202383793": {
+        "name": "ثغرب",
+        "monthly": 1,
+        "monthly_confidence": 68.84421120785608,
+        "weekly": 1,
+        "weekly_confidence": 87.9546741790436
+    },
+    "24785665268004766": {
+        "name": "وپویا",
+        "monthly": 0,
+        "monthly_confidence": 98.9678329951775,
+        "weekly": 1,
+        "weekly_confidence": 77.54287573304416
+    },
+    "30974710508383145": {
+        "name": "شسینا",
+        "monthly": 1,
+        "monthly_confidence": 92.34766306337437,
+        "weekly": 1,
+        "weekly_confidence": 92.24234558986913
+    },
+    "58514988269776425": {
+        "name": "گنج",
+        "monthly": 0,
+        "monthly_confidence": 78.94915294854765,
+        "weekly": 0,
+        "weekly_confidence": 73.16250457023321
+    },
+    "71068313834275501": {
+        "name": "بگیلان",
+        "monthly": 1,
+        "monthly_confidence": 83.49377862640993,
+        "weekly": 1,
+        "weekly_confidence": 79.62125539606515
+    },
+    "28328710198554144": {
+        "name": "وبوعلی",
+        "monthly": 0,
+        "monthly_confidence": 73.78212732170039,
+        "weekly": 1,
+        "weekly_confidence": 77.72191980300977
+    },
+    "61664227282090067": {
+        "name": "سلار",
+        "monthly": 1,
+        "monthly_confidence": 76.08195752361752,
+        "weekly": 1,
+        "weekly_confidence": 67.6550566567072
+    },
+    "12030217243155821": {
+        "name": "کوثرح",
+        "monthly": 0,
+        "monthly_confidence": 92.3645066108612,
+        "weekly": 1,
+        "weekly_confidence": 72.94224839737721
+    },
+    "62845384302495432": {
+        "name": "هیوا",
+        "monthly": 1,
+        "monthly_confidence": 93.24006736746196,
+        "weekly": 1,
+        "weekly_confidence": 73.3139529672735
+    },
+    "37073830945037165": {
+        "name": "آفاق",
+        "monthly": 1,
+        "monthly_confidence": 74.90196978386128,
+        "weekly": 1,
+        "weekly_confidence": 95.86600933948343
+    },
+    "49627523909849331": {
+        "name": "کفرآور",
+        "monthly": 1,
+        "monthly_confidence": 93.04242994697957,
+        "weekly": 0,
+        "weekly_confidence": 87.95851651727678
+    },
+    "38294891095078093": {
+        "name": "فکمندح",
+        "monthly": 1,
+        "monthly_confidence": 91.85194713201942,
+        "weekly": 1,
+        "weekly_confidence": 91.5674124640616
+    },
+    "22259718159702272": {
+        "name": "استقلال",
+        "monthly": 1,
+        "monthly_confidence": 94.02264938298832,
+        "weekly": 0,
+        "weekly_confidence": 83.21685908828015
+    },
+    "43443105991896600": {
+        "name": "ارزش",
+        "monthly": 1,
+        "monthly_confidence": 94.02060628415916,
+        "weekly": 1,
+        "weekly_confidence": 84.03401622393142
+    },
+    "60633055620418060": {
+        "name": "فلات",
+        "monthly": 1,
+        "monthly_confidence": 66.0920737842594,
+        "weekly": 0,
+        "weekly_confidence": 94.97832463266815
+    },
+    "18733719742989734": {
+        "name": "میدکوح",
+        "monthly": 1,
+        "monthly_confidence": 72.40592007068602,
+        "weekly": 1,
+        "weekly_confidence": 75.32690152774343
+    },
+    "54419429862704331": {
+        "name": "فروس",
+        "monthly": 0,
+        "monthly_confidence": 96.93911412263205,
+        "weekly": 1,
+        "weekly_confidence": 90.68428080770161
+    },
+    "64341992373049080": {
+        "name": "سدبیر",
+        "monthly": 1,
+        "monthly_confidence": 83.48740712387547,
+        "weekly": 0,
+        "weekly_confidence": 87.34540137108189
+    },
+    "26780282166315918": {
+        "name": "ثبات",
+        "monthly": 1,
+        "monthly_confidence": 94.84025898972338,
+        "weekly": 1,
+        "weekly_confidence": 78.03550072355984
+    },
+    "37204371816016200": {
+        "name": "وصندوق",
+        "monthly": 1,
+        "monthly_confidence": 73.68663585766467,
+        "weekly": 1,
+        "weekly_confidence": 87.7124208236557
+    },
+    "42387718866026650": {
+        "name": "غبشهر",
+        "monthly": 0,
+        "monthly_confidence": 80.71573680440966,
+        "weekly": 1,
+        "weekly_confidence": 65.58041033128987
+    },
+    "46982154647719707": {
+        "name": "وصنا",
+        "monthly": 1,
+        "monthly_confidence": 90.85435454748954,
+        "weekly": 0,
+        "weekly_confidence": 81.71699210489182
+    },
+    "62235397452612911": {
+        "name": "دارا یکم",
+        "monthly": 0,
+        "monthly_confidence": 69.60011582449795,
+        "weekly": 1,
+        "weekly_confidence": 79.83758861100613
+    },
+    "831325835570803": {
+        "name": "ثنام",
+        "monthly": 1,
+        "monthly_confidence": 85.76543060637168,
+        "weekly": 0,
+        "weekly_confidence": 66.31900017243551
+    },
+    "17933573078185644": {
+        "name": "آینده",
+        "monthly": 1,
+        "monthly_confidence": 94.5707921165869,
+        "weekly": 0,
+        "weekly_confidence": 89.6480930565345
+    },
+    "44052047028305231": {
+        "name": "پشاهن",
+        "monthly": 1,
+        "monthly_confidence": 98.33505412740651,
+        "weekly": 0,
+        "weekly_confidence": 69.76391815527573
+    },
+    "35515916857426389": {
+        "name": "قتربت",
+        "monthly": 1,
+        "monthly_confidence": 68.13581578274888,
+        "weekly": 1,
+        "weekly_confidence": 65.521110357474
+    },
+    "7183333492448248": {
+        "name": "وپخش",
+        "monthly": 1,
+        "monthly_confidence": 95.38548733700912,
+        "weekly": 1,
+        "weekly_confidence": 73.67422961295895
+    },
+    "12777578088653944": {
+        "name": "وحکمت",
+        "monthly": 1,
+        "monthly_confidence": 65.96132741425339,
+        "weekly": 1,
+        "weekly_confidence": 77.92809272125432
+    },
+    "41286608288791633": {
+        "name": "وبازار",
+        "monthly": 1,
+        "monthly_confidence": 73.61410115009339,
+        "weekly": 1,
+        "weekly_confidence": 89.78341928315686
+    },
+    "10171945867136336": {
+        "name": "سیتا",
+        "monthly": 0,
+        "monthly_confidence": 73.6011719864905,
+        "weekly": 1,
+        "weekly_confidence": 79.94160646455853
+    },
+    "16673205196919832": {
+        "name": "شفارا",
+        "monthly": 1,
+        "monthly_confidence": 77.1016650075141,
+        "weekly": 0,
+        "weekly_confidence": 95.77211544182772
+    },
+    "18346219759153870": {
+        "name": "شصفها",
+        "monthly": 1,
+        "monthly_confidence": 85.30302571003351,
+        "weekly": 1,
+        "weekly_confidence": 70.84812851766969
+    },
+    "31024260997481994": {
+        "name": "غگرجی",
+        "monthly": 1,
+        "monthly_confidence": 70.8326741417547,
+        "weekly": 1,
+        "weekly_confidence": 77.35598243599118
+    },
+    "33603212156438463": {
+        "name": "دشیمی",
+        "monthly": 1,
+        "monthly_confidence": 71.10940964722889,
+        "weekly": 1,
+        "weekly_confidence": 88.93113607515991
+    },
+    "35346078651339725": {
+        "name": "کارامح",
+        "monthly": 0,
+        "monthly_confidence": 90.12444846836671,
+        "weekly": 0,
+        "weekly_confidence": 68.1770794895177
+    },
+    "25357135030606405": {
+        "name": "تنوین",
+        "monthly": 1,
+        "monthly_confidence": 68.59023237246655,
+        "weekly": 1,
+        "weekly_confidence": 65.97939746996232
+    },
+    "34557241988629814": {
+        "name": "برکت",
+        "monthly": 1,
+        "monthly_confidence": 66.21169257489157,
+        "weekly": 0,
+        "weekly_confidence": 90.07028065000333
+    },
+    "7457232989848872": {
+        "name": "خمحور",
+        "monthly": 1,
+        "monthly_confidence": 85.55655413061908,
+        "weekly": 1,
+        "weekly_confidence": 72.39919260588934
+    },
+    "49163985123560149": {
+        "name": "شفاراح",
+        "monthly": 1,
+        "monthly_confidence": 72.3267257702052,
+        "weekly": 1,
+        "weekly_confidence": 75.7060616752872
+    },
+    "42599305106713939": {
+        "name": "زکوثر",
+        "monthly": 1,
+        "monthly_confidence": 79.99454378232213,
+        "weekly": 1,
+        "weekly_confidence": 79.54214396575084
+    },
+    "48753732042176709": {
+        "name": "شبریز",
+        "monthly": 1,
+        "monthly_confidence": 72.45790431602198,
+        "weekly": 1,
+        "weekly_confidence": 87.76142026235098
+    },
+    "39610074039667804": {
+        "name": "قرن",
+        "monthly": 1,
+        "monthly_confidence": 85.62935232898568,
+        "weekly": 0,
+        "weekly_confidence": 89.12913141112455
+    },
+    "5987841496184505": {
+        "name": "شگویا",
+        "monthly": 0,
+        "monthly_confidence": 70.75947926849335,
+        "weekly": 1,
+        "weekly_confidence": 67.94381754623463
+    },
+    "34641719089573667": {
+        "name": "دتماد",
+        "monthly": 0,
+        "monthly_confidence": 78.85570163504902,
+        "weekly": 1,
+        "weekly_confidence": 95.42762689828572
+    },
+    "66830065858417081": {
+        "name": "ولانا",
+        "monthly": 0,
+        "monthly_confidence": 88.68168773440506,
+        "weekly": 1,
+        "weekly_confidence": 96.42094572281817
+    },
+    "30650426998863332": {
+        "name": "لبوتان",
+        "monthly": 0,
+        "monthly_confidence": 96.3575792600822,
+        "weekly": 0,
+        "weekly_confidence": 82.48401336865133
+    },
+    "2400322364771558": {
+        "name": "شستا",
+        "monthly": 1,
+        "monthly_confidence": 65.87916465798845,
+        "weekly": 1,
+        "weekly_confidence": 83.27296357794751
+    },
+    "22427604495160869": {
+        "name": "تمحرکه",
+        "monthly": 1,
+        "monthly_confidence": 95.14057802935321,
+        "weekly": 1,
+        "weekly_confidence": 75.19866526264276
+    },
+    "45452221088910484": {
+        "name": "عقیق",
+        "monthly": 0,
+        "monthly_confidence": 69.7989533020972,
+        "weekly": 1,
+        "weekly_confidence": 88.29914869644871
+    },
+    "65414507129586385": {
+        "name": "لخزر",
+        "monthly": 1,
+        "monthly_confidence": 91.62621445988538,
+        "weekly": 0,
+        "weekly_confidence": 86.79913810850694
+    },
+    "50117925085549635": {
+        "name": "خلیبل",
+        "monthly": 1,
+        "monthly_confidence": 84.73268529610567,
+        "weekly": 1,
+        "weekly_confidence": 96.44968475806144
+    },
+    "54277068923045214": {
+        "name": "فسرب",
+        "monthly": 0,
+        "monthly_confidence": 81.29484241749034,
+        "weekly": 0,
+        "weekly_confidence": 91.81702474920345
+    },
+    "18883380772506226": {
+        "name": "ثرود",
+        "monthly": 0,
+        "monthly_confidence": 67.04556979266766,
+        "weekly": 1,
+        "weekly_confidence": 67.95863622055757
+    },
+    "48010225447410247": {
+        "name": "وبانک",
+        "monthly": 1,
+        "monthly_confidence": 87.26784951843366,
+        "weekly": 1,
+        "weekly_confidence": 66.50587303274008
+    },
+    "56344907495802692": {
+        "name": "فاخر",
+        "monthly": 1,
+        "monthly_confidence": 88.93143098476311,
+        "weekly": 0,
+        "weekly_confidence": 76.14018471654454
+    },
+    "71076372178147339": {
+        "name": "داریک",
+        "monthly": 1,
+        "monthly_confidence": 68.72836582240319,
+        "weekly": 1,
+        "weekly_confidence": 70.01952321501903
+    },
+    "5305844922895340": {
+        "name": "داوه",
+        "monthly": 1,
+        "monthly_confidence": 90.8613476343208,
+        "weekly": 1,
+        "weekly_confidence": 92.82768746184526
+    },
+    "8977369674477111": {
+        "name": "کطبس",
+        "monthly": 1,
+        "monthly_confidence": 85.9210721599306,
+        "weekly": 1,
+        "weekly_confidence": 90.26846047980818
+    },
+    "40411537531154482": {
+        "name": "قصفها",
+        "monthly": 0,
+        "monthly_confidence": 92.75099005555947,
+        "weekly": 0,
+        "weekly_confidence": 79.89765962393693
+    },
+    "60350996279289099": {
+        "name": "کاوه",
+        "monthly": 0,
+        "monthly_confidence": 80.96675170465672,
+        "weekly": 0,
+        "weekly_confidence": 78.39006568002848
+    },
+    "23086515493897579": {
+        "name": "ولغدر",
+        "monthly": 1,
+        "monthly_confidence": 85.04025835076206,
+        "weekly": 1,
+        "weekly_confidence": 98.63086287944029
+    },
+    "7503669593172728": {
+        "name": "ثاصفا",
+        "monthly": 0,
+        "monthly_confidence": 98.56779017367981,
+        "weekly": 0,
+        "weekly_confidence": 75.3228508237751
+    },
+    "15521712617204216": {
+        "name": "سفارس",
+        "monthly": 1,
+        "monthly_confidence": 67.78299976123532,
+        "weekly": 1,
+        "weekly_confidence": 95.34768493643115
+    },
+    "39884565732277052": {
+        "name": "کیمیاتک",
+        "monthly": 1,
+        "monthly_confidence": 69.36942605976486,
+        "weekly": 1,
+        "weekly_confidence": 68.34310158097482
+    },
+    "48287670503317419": {
+        "name": "ولبهمن",
+        "monthly": 1,
+        "monthly_confidence": 83.00367289280575,
+        "weekly": 0,
+        "weekly_confidence": 92.52187340017478
+    },
+    "23374429962331387": {
+        "name": "کتوسعه",
+        "monthly": 1,
+        "monthly_confidence": 84.65082627957419,
+        "weekly": 1,
+        "weekly_confidence": 85.27482784879189
+    },
+    "42075223783409640": {
+        "name": "خاذین",
+        "monthly": 0,
+        "monthly_confidence": 92.89266683230733,
+        "weekly": 0,
+        "weekly_confidence": 89.33705226744506
+    },
+    "22839330962768817": {
+        "name": "آتیمس",
+        "monthly": 1,
+        "monthly_confidence": 71.01738606357193,
+        "weekly": 1,
+        "weekly_confidence": 78.68075020741908
+    },
+    "29747059672582491": {
+        "name": "سهرمز",
+        "monthly": 0,
+        "monthly_confidence": 72.8030357317061,
+        "weekly": 0,
+        "weekly_confidence": 72.82809970022979
+    },
+    "41625340598198551": {
+        "name": "بساما",
+        "monthly": 0,
+        "monthly_confidence": 94.18130528039758,
+        "weekly": 1,
+        "weekly_confidence": 84.71279185159214
+    },
+    "30215634246748564": {
+        "name": "انار",
+        "monthly": 1,
+        "monthly_confidence": 89.44299527909432,
+        "weekly": 1,
+        "weekly_confidence": 67.53329663985184
+    },
+    "30231789123900526": {
+        "name": "نمرینو",
+        "monthly": 1,
+        "monthly_confidence": 78.95806835909161,
+        "weekly": 1,
+        "weekly_confidence": 98.09912882413231
+    },
+    "2254054929817435": {
+        "name": "غدام",
+        "monthly": 1,
+        "monthly_confidence": 65.96195501515598,
+        "weekly": 0,
+        "weekly_confidence": 84.81151785535101
+    },
+    "19298748452450329": {
+        "name": "تایرا",
+        "monthly": 1,
+        "monthly_confidence": 76.50284633534079,
+        "weekly": 1,
+        "weekly_confidence": 93.8765811403715
+    },
+    "32469128621155736": {
+        "name": "مثقال",
+        "monthly": 1,
+        "monthly_confidence": 92.77530246316881,
+        "weekly": 1,
+        "weekly_confidence": 83.40033054198412
+    },
+    "66456062140680461": {
+        "name": "ثامان",
+        "monthly": 1,
+        "monthly_confidence": 84.13069055547547,
+        "weekly": 0,
+        "weekly_confidence": 93.23793379708609
+    },
+    "33144542989832366": {
+        "name": "زرفام",
+        "monthly": 0,
+        "monthly_confidence": 82.37733269369059,
+        "weekly": 0,
+        "weekly_confidence": 68.43940049930572
+    },
+    "55959112038778737": {
+        "name": "سخواف",
+        "monthly": 0,
+        "monthly_confidence": 97.41039635020971,
+        "weekly": 0,
+        "weekly_confidence": 70.28979451890392
+    },
+    "42049553761321495": {
+        "name": "کورز",
+        "monthly": 1,
+        "monthly_confidence": 90.17962271893093,
+        "weekly": 1,
+        "weekly_confidence": 78.06368251305778
+    },
+    "45284811973404357": {
+        "name": "یارا",
+        "monthly": 1,
+        "monthly_confidence": 73.7064120946555,
+        "weekly": 0,
+        "weekly_confidence": 67.93696788901627
+    },
+    "48990026850202503": {
+        "name": "خگستر",
+        "monthly": 1,
+        "monthly_confidence": 66.62436461760358,
+        "weekly": 1,
+        "weekly_confidence": 97.45222600968548
+    },
+    "65122215875355555": {
+        "name": "شفن",
+        "monthly": 1,
+        "monthly_confidence": 96.76828494433093,
+        "weekly": 1,
+        "weekly_confidence": 74.48022385298272
+    },
+    "67170215467608124": {
+        "name": "زنگان",
+        "monthly": 0,
+        "monthly_confidence": 74.06203798379627,
+        "weekly": 1,
+        "weekly_confidence": 78.85999034392225
+    },
+    "40808043719554948": {
+        "name": "فولاژ",
+        "monthly": 1,
+        "monthly_confidence": 74.75543740443806,
+        "weekly": 0,
+        "weekly_confidence": 75.4823579486027
+    },
+    "63965059137798192": {
+        "name": "فنرژی",
+        "monthly": 1,
+        "monthly_confidence": 77.64606863446566,
+        "weekly": 1,
+        "weekly_confidence": 91.68436793743656
+    },
+    "22002589755112021": {
+        "name": "رماس",
+        "monthly": 0,
+        "monthly_confidence": 96.36363053191354,
+        "weekly": 0,
+        "weekly_confidence": 85.36826412335145
+    },
+    "50139638026536387": {
+        "name": "زرین",
+        "monthly": 0,
+        "monthly_confidence": 75.62034728573084,
+        "weekly": 1,
+        "weekly_confidence": 84.031740653034
+    },
+    "59461185672081215": {
+        "name": "غمایه",
+        "monthly": 1,
+        "monthly_confidence": 98.10110111450439,
+        "weekly": 1,
+        "weekly_confidence": 72.102887539753
+    },
+    "47756003257788498": {
+        "name": "حگهر",
+        "monthly": 1,
+        "monthly_confidence": 97.81257719230398,
+        "weekly": 0,
+        "weekly_confidence": 67.68462524134591
+    },
+    "47232550823972469": {
+        "name": "وتوکا",
+        "monthly": 0,
+        "monthly_confidence": 66.36345647290051,
+        "weekly": 1,
+        "weekly_confidence": 94.34077129240289
+    },
+    "5599691633622269": {
+        "name": "بخاور",
+        "monthly": 1,
+        "monthly_confidence": 66.32898223586133,
+        "weekly": 1,
+        "weekly_confidence": 83.10751511690333
+    },
+    "14744445176220774": {
+        "name": "ثبهساز",
+        "monthly": 1,
+        "monthly_confidence": 72.78938106732701,
+        "weekly": 0,
+        "weekly_confidence": 69.4725520931664
+    },
+    "490987973229371": {
+        "name": "آکام",
+        "monthly": 1,
+        "monthly_confidence": 74.13034690306695,
+        "weekly": 1,
+        "weekly_confidence": 98.38167934078716
+    },
+    "62346804681275278": {
+        "name": "کگاز",
+        "monthly": 1,
+        "monthly_confidence": 84.37951122222651,
+        "weekly": 1,
+        "weekly_confidence": 83.42502330373999
+    },
+    "19040514831923530": {
+        "name": "نوری",
+        "monthly": 1,
+        "monthly_confidence": 86.09802807937248,
+        "weekly": 0,
+        "weekly_confidence": 94.37421030360207
+    },
+    "28147934478934110": {
+        "name": "فغدیر",
+        "monthly": 1,
+        "monthly_confidence": 65.63819666676001,
+        "weekly": 0,
+        "weekly_confidence": 70.24161842266533
+    },
+    "23214828924506640": {
+        "name": "پکرمان",
+        "monthly": 1,
+        "monthly_confidence": 89.87301319602872,
+        "weekly": 1,
+        "weekly_confidence": 67.13059844338926
+    },
+    "34721884030854211": {
+        "name": "سفاسی",
+        "monthly": 1,
+        "monthly_confidence": 80.43153770468358,
+        "weekly": 1,
+        "weekly_confidence": 74.67398570166448
+    },
+    "66252526996639483": {
+        "name": "چنوپاح",
+        "monthly": 1,
+        "monthly_confidence": 66.55032881023692,
+        "weekly": 1,
+        "weekly_confidence": 66.47828496560136
+    },
+    "26547785441834730": {
+        "name": "زشریف",
+        "monthly": 0,
+        "monthly_confidence": 84.3211535149823,
+        "weekly": 1,
+        "weekly_confidence": 68.20251618337451
+    },
+    "67213778593531096": {
+        "name": "وامیر",
+        "monthly": 1,
+        "monthly_confidence": 91.67237322910307,
+        "weekly": 1,
+        "weekly_confidence": 78.439734181462
+    },
+    "17059960254855208": {
+        "name": "غبهنوش",
+        "monthly": 1,
+        "monthly_confidence": 96.54163209578502,
+        "weekly": 0,
+        "weekly_confidence": 85.6605539524058
+    },
+    "48287767791629523": {
+        "name": "رشد",
+        "monthly": 1,
+        "monthly_confidence": 89.93842579929739,
+        "weekly": 1,
+        "weekly_confidence": 91.67917342197656
+    },
+    "68941822863885255": {
+        "name": "رافزا",
+        "monthly": 1,
+        "monthly_confidence": 66.76207323986299,
+        "weekly": 1,
+        "weekly_confidence": 91.16429012274367
+    },
+    "31039212000825988": {
+        "name": "آوند",
+        "monthly": 1,
+        "monthly_confidence": 75.31532537393389,
+        "weekly": 0,
+        "weekly_confidence": 83.05165895434567
+    },
+    "55308018877404137": {
+        "name": "سام",
+        "monthly": 1,
+        "monthly_confidence": 92.08888471157601,
+        "weekly": 1,
+        "weekly_confidence": 87.70044502141181
+    },
+    "63704201144621295": {
+        "name": "حبندر",
+        "monthly": 1,
+        "monthly_confidence": 89.6600243035665,
+        "weekly": 0,
+        "weekly_confidence": 73.28640955593744
+    },
+    "4395741730355818": {
+        "name": "استارز",
+        "monthly": 1,
+        "monthly_confidence": 80.66363126918162,
+        "weekly": 1,
+        "weekly_confidence": 69.76297904860573
+    },
+    "48261930411425125": {
+        "name": "بمولد",
+        "monthly": 0,
+        "monthly_confidence": 73.25907915057462,
+        "weekly": 1,
+        "weekly_confidence": 91.3628967967313
+    },
+    "71523986304961239": {
+        "name": "قشیر",
+        "monthly": 1,
+        "monthly_confidence": 74.42768451592887,
+        "weekly": 1,
+        "weekly_confidence": 89.69294612014347
+    },
+    "32347247706508046": {
+        "name": "ساوه",
+        "monthly": 1,
+        "monthly_confidence": 72.43838897378551,
+        "weekly": 0,
+        "weekly_confidence": 73.23183631673389
+    },
+    "4369934250728330": {
+        "name": "غزر",
+        "monthly": 1,
+        "monthly_confidence": 97.73038315714808,
+        "weekly": 0,
+        "weekly_confidence": 96.42744151649632
+    },
+    "37089148943784077": {
+        "name": "خبنیان",
+        "monthly": 0,
+        "monthly_confidence": 79.31270610703014,
+        "weekly": 0,
+        "weekly_confidence": 86.5444837137581
+    },
+    "62221150547292335": {
+        "name": "خموتورح",
+        "monthly": 0,
+        "monthly_confidence": 91.54278731257759,
+        "weekly": 1,
+        "weekly_confidence": 77.07930580000401
+    },
+    "2855515398698068": {
+        "name": "نمرینوح",
+        "monthly": 0,
+        "monthly_confidence": 86.30406443834401,
+        "weekly": 1,
+        "weekly_confidence": 89.05667470821297
+    },
+    "62708526880913292": {
+        "name": "ساحل",
+        "monthly": 0,
+        "monthly_confidence": 74.30788758660563,
+        "weekly": 1,
+        "weekly_confidence": 81.29045389178398
+    },
+    "63315013743060811": {
+        "name": "ثنور",
+        "monthly": 1,
+        "monthly_confidence": 71.18446265793925,
+        "weekly": 1,
+        "weekly_confidence": 73.95982336866945
+    },
+    "29758477602878557": {
+        "name": "تیپیکو",
+        "monthly": 1,
+        "monthly_confidence": 78.92818936102127,
+        "weekly": 1,
+        "weekly_confidence": 75.84345930618137
+    },
+    "23293437377896568": {
+        "name": "تاصیکو",
+        "monthly": 1,
+        "monthly_confidence": 85.4799807293354,
+        "weekly": 0,
+        "weekly_confidence": 82.48426369997748
+    },
+    "64973252728260903": {
+        "name": "وکبهمن",
+        "monthly": 0,
+        "monthly_confidence": 70.28525522600988,
+        "weekly": 0,
+        "weekly_confidence": 82.51981321365942
+    },
+    "69904617508102874": {
+        "name": "کارام",
+        "monthly": 1,
+        "monthly_confidence": 75.4324577396461,
+        "weekly": 0,
+        "weekly_confidence": 78.11752173033156
+    },
+    "14079693677610396": {
+        "name": "اسیاتک",
+        "monthly": 1,
+        "monthly_confidence": 69.85323833243606,
+        "weekly": 1,
+        "weekly_confidence": 75.41889398088111
+    },
+    "18568733593280948": {
+        "name": "ثامید",
+        "monthly": 0,
+        "monthly_confidence": 90.24976315387886,
+        "weekly": 0,
+        "weekly_confidence": 74.30539646013139
+    },
+    "26882843763780650": {
+        "name": "باران",
+        "monthly": 1,
+        "monthly_confidence": 88.42727379768932,
+        "weekly": 0,
+        "weekly_confidence": 87.87646275236374
+    },
+    "4942127026063388": {
+        "name": "کاما",
+        "monthly": 1,
+        "monthly_confidence": 74.15376702179157,
+        "weekly": 1,
+        "weekly_confidence": 97.86140860376433
+    },
+    "7681671915916933": {
+        "name": "جهش",
+        "monthly": 0,
+        "monthly_confidence": 77.60370181017865,
+        "weekly": 1,
+        "weekly_confidence": 97.37145267175988
+    },
+    "22424135367941584": {
+        "name": "فافق",
+        "monthly": 1,
+        "monthly_confidence": 90.21003510628235,
+        "weekly": 1,
+        "weekly_confidence": 80.55844857280898
+    },
+    "62558705479545830": {
+        "name": "سایرا",
+        "monthly": 0,
+        "monthly_confidence": 98.02918990952658,
+        "weekly": 1,
+        "weekly_confidence": 77.72413689219574
+    },
+    "66682662312253625": {
+        "name": "آساس",
+        "monthly": 1,
+        "monthly_confidence": 94.64316162563846,
+        "weekly": 1,
+        "weekly_confidence": 66.49425421987381
+    },
+    "35445515321658835": {
+        "name": "فماک",
+        "monthly": 1,
+        "monthly_confidence": 78.05017247095547,
+        "weekly": 1,
+        "weekly_confidence": 78.68553848827
+    },
+    "70309338813767186": {
+        "name": "فکمند",
+        "monthly": 1,
+        "monthly_confidence": 98.1920786371365,
+        "weekly": 1,
+        "weekly_confidence": 73.88561157718969
+    },
+    "7920014658832193": {
+        "name": "وگردش",
+        "monthly": 0,
+        "monthly_confidence": 84.51679236766215,
+        "weekly": 0,
+        "weekly_confidence": 70.26623255374761
+    },
+    "18865325633315847": {
+        "name": "خاتم",
+        "monthly": 1,
+        "monthly_confidence": 88.40348234074752,
+        "weekly": 1,
+        "weekly_confidence": 91.83902146341879
+    },
+    "38547060135156069": {
+        "name": "فاذر",
+        "monthly": 1,
+        "monthly_confidence": 85.37823187851345,
+        "weekly": 0,
+        "weekly_confidence": 89.90664105226922
+    },
+    "44846320603450383": {
+        "name": "فروسیل",
+        "monthly": 1,
+        "monthly_confidence": 95.77344642314527,
+        "weekly": 1,
+        "weekly_confidence": 70.83013557642592
+    },
+    "39807886630843041": {
+        "name": "بمپنا",
+        "monthly": 0,
+        "monthly_confidence": 65.00762862425987,
+        "weekly": 0,
+        "weekly_confidence": 72.26167792840427
+    },
+    "48818952524587858": {
+        "name": "پرتو",
+        "monthly": 1,
+        "monthly_confidence": 91.39019453477856,
+        "weekly": 1,
+        "weekly_confidence": 85.68873637367967
+    },
+    "62786156501584862": {
+        "name": "پاکشو",
+        "monthly": 1,
+        "monthly_confidence": 71.21076121561138,
+        "weekly": 1,
+        "weekly_confidence": 81.07186573700594
+    },
+    "68517032834363488": {
+        "name": "شبصیر",
+        "monthly": 0,
+        "monthly_confidence": 70.53418439930257,
+        "weekly": 1,
+        "weekly_confidence": 80.65118261429025
+    },
+    "22260326095996531": {
+        "name": "حتوکا",
+        "monthly": 1,
+        "monthly_confidence": 73.69828158107966,
+        "weekly": 1,
+        "weekly_confidence": 90.39633420607984
+    },
+    "27797446447955609": {
+        "name": "نخل",
+        "monthly": 0,
+        "monthly_confidence": 83.16212279138854,
+        "weekly": 0,
+        "weekly_confidence": 68.51544081919792
+    },
+    "29882244560576007": {
+        "name": "بزاگرس",
+        "monthly": 0,
+        "monthly_confidence": 66.93821805127614,
+        "weekly": 1,
+        "weekly_confidence": 87.62100872857266
+    },
+    "46700660505281786": {
+        "name": "طلا",
+        "monthly": 0,
+        "monthly_confidence": 78.35383818151568,
+        "weekly": 1,
+        "weekly_confidence": 77.73361311615925
+    },
+    "31959715133485440": {
+        "name": "ولقمان",
+        "monthly": 1,
+        "monthly_confidence": 85.87707229483053,
+        "weekly": 1,
+        "weekly_confidence": 81.60567154618585
+    },
+    "3050342257199174": {
+        "name": "قنقش",
+        "monthly": 1,
+        "monthly_confidence": 86.64357066209165,
+        "weekly": 0,
+        "weekly_confidence": 97.76673166407843
+    },
+    "66295665969375744": {
+        "name": "سبجنو",
+        "monthly": 1,
+        "monthly_confidence": 80.18611992930366,
+        "weekly": 1,
+        "weekly_confidence": 98.55881721489955
+    },
+    "60887982279284651": {
+        "name": "ثجنوب",
+        "monthly": 1,
+        "monthly_confidence": 92.3465355938365,
+        "weekly": 1,
+        "weekly_confidence": 74.454131583871
+    },
+    "71290297158948749": {
+        "name": "زقیام",
+        "monthly": 1,
+        "monthly_confidence": 96.83726934373634,
+        "weekly": 1,
+        "weekly_confidence": 85.28313865613613
+    },
+    "6847536925606808": {
+        "name": "ومعلم",
+        "monthly": 0,
+        "monthly_confidence": 95.76296444975884,
+        "weekly": 1,
+        "weekly_confidence": 81.83575175082152
+    },
+    "28230238564334914": {
+        "name": "قجام",
+        "monthly": 1,
+        "monthly_confidence": 84.6285214674271,
+        "weekly": 1,
+        "weekly_confidence": 82.12237356657891
+    },
+    "7483280423474368": {
+        "name": "خاهن",
+        "monthly": 1,
+        "monthly_confidence": 86.39534145300817,
+        "weekly": 1,
+        "weekly_confidence": 71.35746091797101
+    },
+    "18303237082155264": {
+        "name": "دفرا",
+        "monthly": 1,
+        "monthly_confidence": 69.82581176604016,
+        "weekly": 1,
+        "weekly_confidence": 84.89391090640201
+    },
+    "22087269603540841": {
+        "name": "وپست",
+        "monthly": 0,
+        "monthly_confidence": 85.44273061248529,
+        "weekly": 0,
+        "weekly_confidence": 98.64332604071224
+    },
+    "26543014712914772": {
+        "name": "میهن",
+        "monthly": 1,
+        "monthly_confidence": 69.78727269850636,
+        "weekly": 0,
+        "weekly_confidence": 90.42628491169253
+    },
+    "35700344742885862": {
+        "name": "کگل",
+        "monthly": 1,
+        "monthly_confidence": 65.98270829514375,
+        "weekly": 1,
+        "weekly_confidence": 88.31741122818056
+    },
+    "7235435095059069": {
+        "name": "پکویر",
+        "monthly": 1,
+        "monthly_confidence": 81.21069664214276,
+        "weekly": 0,
+        "weekly_confidence": 92.47484957975013
+    },
+    "25211433301660888": {
+        "name": "خپارس",
+        "monthly": 1,
+        "monthly_confidence": 81.85850164654377,
+        "weekly": 0,
+        "weekly_confidence": 83.03491353976297
+    },
+    "69143674941561637": {
+        "name": "پترول",
+        "monthly": 1,
+        "monthly_confidence": 90.84466206838805,
+        "weekly": 0,
+        "weekly_confidence": 98.49538415161378
+    },
+    "2434703913394836": {
+        "name": "غدشت",
+        "monthly": 0,
+        "monthly_confidence": 77.27407589040459,
+        "weekly": 1,
+        "weekly_confidence": 82.7566016674934
+    },
+    "20652241232631918": {
+        "name": "نیان",
+        "monthly": 1,
+        "monthly_confidence": 91.11477589554961,
+        "weekly": 1,
+        "weekly_confidence": 77.31266986960814
+    },
+    "37614886280396031": {
+        "name": "وساپا",
+        "monthly": 0,
+        "monthly_confidence": 77.44765917458393,
+        "weekly": 0,
+        "weekly_confidence": 71.29547481747055
+    },
+    "36773155987365094": {
+        "name": "اعتلا",
+        "monthly": 1,
+        "monthly_confidence": 81.22177880522604,
+        "weekly": 0,
+        "weekly_confidence": 81.5686625903115
+    },
+    "30507152381699953": {
+        "name": "ثجوان",
+        "monthly": 1,
+        "monthly_confidence": 70.99548994348721,
+        "weekly": 1,
+        "weekly_confidence": 98.84995253287083
+    },
+    "11403770140000603": {
+        "name": "ولملت",
+        "monthly": 1,
+        "monthly_confidence": 71.67165247733737,
+        "weekly": 0,
+        "weekly_confidence": 86.99129106492181
+    },
+    "38555056423456635": {
+        "name": "شتوکا",
+        "monthly": 0,
+        "monthly_confidence": 77.7289511570428,
+        "weekly": 1,
+        "weekly_confidence": 93.58126239906618
+    },
+    "50341528161302545": {
+        "name": "کمنگنز",
+        "monthly": 1,
+        "monthly_confidence": 85.93182368951678,
+        "weekly": 0,
+        "weekly_confidence": 88.13531442531055
+    },
+    "25387056990464790": {
+        "name": "وتوکاح",
+        "monthly": 1,
+        "monthly_confidence": 82.42507087941456,
+        "weekly": 1,
+        "weekly_confidence": 97.34617193691838
+    },
+    "30443839313522574": {
+        "name": "حرهشا",
+        "monthly": 1,
+        "monthly_confidence": 77.77098801852698,
+        "weekly": 0,
+        "weekly_confidence": 94.79014260710225
+    },
+    "15472396110662150": {
+        "name": "سکرما",
+        "monthly": 1,
+        "monthly_confidence": 76.8360505650527,
+        "weekly": 1,
+        "weekly_confidence": 73.62368322125457
+    },
+    "52455922800537930": {
+        "name": "تکنار",
+        "monthly": 1,
+        "monthly_confidence": 77.54113099866872,
+        "weekly": 1,
+        "weekly_confidence": 82.2519632434452
+    },
+    "37389789764168256": {
+        "name": "توریل",
+        "monthly": 1,
+        "monthly_confidence": 90.92331397987114,
+        "weekly": 1,
+        "weekly_confidence": 91.80482015424592
+    },
+    "41284516796232939": {
+        "name": "سهگمت",
+        "monthly": 1,
+        "monthly_confidence": 67.86942225361052,
+        "weekly": 1,
+        "weekly_confidence": 71.41910855710539
+    },
+    "62177651435283872": {
+        "name": "شکلر",
+        "monthly": 0,
+        "monthly_confidence": 74.05480299537432,
+        "weekly": 1,
+        "weekly_confidence": 96.57311737064353
+    },
+    "23049019886587905": {
+        "name": "خفولا",
+        "monthly": 1,
+        "monthly_confidence": 78.47558364446846,
+        "weekly": 1,
+        "weekly_confidence": 97.27699629588813
+    },
+    "67206358287598044": {
+        "name": "کهمدا",
+        "monthly": 1,
+        "monthly_confidence": 70.18044831977664,
+        "weekly": 1,
+        "weekly_confidence": 68.52009731056278
+    },
+    "3863538898378476": {
+        "name": "ثمسکن",
+        "monthly": 0,
+        "monthly_confidence": 65.00125488899872,
+        "weekly": 1,
+        "weekly_confidence": 65.48906974444286
+    },
+    "54482686501491508": {
+        "name": "زبینا",
+        "monthly": 1,
+        "monthly_confidence": 75.6096769592602,
+        "weekly": 1,
+        "weekly_confidence": 88.98332301973389
+    },
+    "47702059190622416": {
+        "name": "ثتوسا",
+        "monthly": 0,
+        "monthly_confidence": 96.25037134491237,
+        "weekly": 1,
+        "weekly_confidence": 92.94545160482303
+    },
+    "50368344235826302": {
+        "name": "لازما",
+        "monthly": 1,
+        "monthly_confidence": 75.36713169789441,
+        "weekly": 0,
+        "weekly_confidence": 96.57321869639085
+    },
+    "54676885047867737": {
+        "name": "وتوشه",
+        "monthly": 0,
+        "monthly_confidence": 66.94471543811393,
+        "weekly": 1,
+        "weekly_confidence": 65.72938953005625
+    },
+    "6116572045021585": {
+        "name": "شجم",
+        "monthly": 0,
+        "monthly_confidence": 98.93041318592924,
+        "weekly": 1,
+        "weekly_confidence": 88.57535384269673
+    },
+    "61265100181977543": {
+        "name": "مانی",
+        "monthly": 1,
+        "monthly_confidence": 85.73190075171757,
+        "weekly": 1,
+        "weekly_confidence": 80.26783101101535
+    },
+    "114312662654155": {
+        "name": "وسپهر",
+        "monthly": 1,
+        "monthly_confidence": 89.08573532373578,
+        "weekly": 1,
+        "weekly_confidence": 97.73657148670827
+    },
+    "11773403764702778": {
+        "name": "وبیمه",
+        "monthly": 0,
+        "monthly_confidence": 71.26606160285245,
+        "weekly": 1,
+        "weekly_confidence": 85.89193589777679
+    },
+    "56550776668133562": {
+        "name": "دفارا",
+        "monthly": 0,
+        "monthly_confidence": 72.7882232172073,
+        "weekly": 0,
+        "weekly_confidence": 90.53220946287765
+    },
+    "57875847776839336": {
+        "name": "فنوال",
+        "monthly": 1,
+        "monthly_confidence": 73.39679019962819,
+        "weekly": 1,
+        "weekly_confidence": 76.99565641709772
+    },
+    "22382156782768756": {
+        "name": "بکام",
+        "monthly": 1,
+        "monthly_confidence": 85.47168364995724,
+        "weekly": 1,
+        "weekly_confidence": 82.02770379227616
+    },
+    "28957320033282870": {
+        "name": "چکاپا",
+        "monthly": 1,
+        "monthly_confidence": 66.07797871611723,
+        "weekly": 0,
+        "weekly_confidence": 84.92874731395605
+    },
+    "44296315953738727": {
+        "name": "فاهواز",
+        "monthly": 1,
+        "monthly_confidence": 90.94545418634537,
+        "weekly": 0,
+        "weekly_confidence": 75.67141161677169
+    },
+    "57639364758870873": {
+        "name": "کپشیر",
+        "monthly": 0,
+        "monthly_confidence": 85.78655982185583,
+        "weekly": 0,
+        "weekly_confidence": 72.32815158675326
+    },
+    "12387472624849835": {
+        "name": "داسوه",
+        "monthly": 0,
+        "monthly_confidence": 83.29666826922016,
+        "weekly": 0,
+        "weekly_confidence": 88.45113009876322
+    },
+    "25244329144808274": {
+        "name": "فارس",
+        "monthly": 1,
+        "monthly_confidence": 96.04949378332923,
+        "weekly": 1,
+        "weekly_confidence": 81.20445518205217
+    },
+    "38084304113529336": {
+        "name": "خدیزل",
+        "monthly": 1,
+        "monthly_confidence": 78.4395827941405,
+        "weekly": 1,
+        "weekly_confidence": 84.49533749128047
+    },
+    "45507655586782998": {
+        "name": "فجهان",
+        "monthly": 1,
+        "monthly_confidence": 72.76625068682348,
+        "weekly": 1,
+        "weekly_confidence": 83.2795310872523
+    },
+    "17232252152159494": {
+        "name": "آواپارس",
+        "monthly": 1,
+        "monthly_confidence": 83.50878551089963,
+        "weekly": 1,
+        "weekly_confidence": 96.4225839584038
+    },
+    "53204330224889981": {
+        "name": "تبرک",
+        "monthly": 1,
+        "monthly_confidence": 94.90558811673957,
+        "weekly": 1,
+        "weekly_confidence": 90.87638739151397
+    },
+    "6506179926371994": {
+        "name": "آریان",
+        "monthly": 0,
+        "monthly_confidence": 68.49181304668747,
+        "weekly": 0,
+        "weekly_confidence": 75.29528066089325
+    },
+    "35948133957468680": {
+        "name": "سرچشمه",
+        "monthly": 1,
+        "monthly_confidence": 77.35368243237203,
+        "weekly": 0,
+        "weekly_confidence": 68.04988458774704
+    },
+    "36899214178084525": {
+        "name": "شفا",
+        "monthly": 1,
+        "monthly_confidence": 87.4182645043355,
+        "weekly": 1,
+        "weekly_confidence": 76.80572324794075
+    },
+    "23837844039713715": {
+        "name": "کفرا",
+        "monthly": 1,
+        "monthly_confidence": 92.49442378094291,
+        "weekly": 1,
+        "weekly_confidence": 73.57657816193533
+    },
+    "53113471126689455": {
+        "name": "چکارن",
+        "monthly": 1,
+        "monthly_confidence": 80.55349522875912,
+        "weekly": 1,
+        "weekly_confidence": 89.99048186339006
+    },
+    "34673681828119297": {
+        "name": "فاما",
+        "monthly": 1,
+        "monthly_confidence": 70.10707005118515,
+        "weekly": 1,
+        "weekly_confidence": 87.18206186141086
+    },
+    "43966385447049549": {
+        "name": "ودی",
+        "monthly": 1,
+        "monthly_confidence": 96.90825594881888,
+        "weekly": 1,
+        "weekly_confidence": 96.15391330757289
+    },
+    "62603302940123327": {
+        "name": "ونیرو",
+        "monthly": 1,
+        "monthly_confidence": 84.77917481988212,
+        "weekly": 1,
+        "weekly_confidence": 77.67200310932243
+    },
+    "655060129740445": {
+        "name": "اپال",
+        "monthly": 1,
+        "monthly_confidence": 90.00474804569855,
+        "weekly": 0,
+        "weekly_confidence": 86.85369086087204
+    },
+    "35366681030756042": {
+        "name": "شبندر",
+        "monthly": 1,
+        "monthly_confidence": 80.6588863753698,
+        "weekly": 1,
+        "weekly_confidence": 70.48038240865908
+    },
+    "50503654866742146": {
+        "name": "هامرز",
+        "monthly": 1,
+        "monthly_confidence": 71.10911223669454,
+        "weekly": 1,
+        "weekly_confidence": 95.48802120638906
+    },
+    "7505990056227818": {
+        "name": "ممسنی",
+        "monthly": 1,
+        "monthly_confidence": 84.6665898234245,
+        "weekly": 1,
+        "weekly_confidence": 72.13605365460091
+    },
+    "45050389997905274": {
+        "name": "وسینا",
+        "monthly": 0,
+        "monthly_confidence": 70.41075793052865,
+        "weekly": 1,
+        "weekly_confidence": 70.71818222347456
+    },
+    "29590002988360984": {
+        "name": "سپیدار",
+        "monthly": 0,
+        "monthly_confidence": 97.22524102689438,
+        "weekly": 0,
+        "weekly_confidence": 73.51257999344242
+    },
+    "27405735172634593": {
+        "name": "اتکام",
+        "monthly": 1,
+        "monthly_confidence": 86.17003222989416,
+        "weekly": 1,
+        "weekly_confidence": 91.54700136716984
+    },
+    "45728383369147894": {
+        "name": "امین یکم",
+        "monthly": 1,
+        "monthly_confidence": 79.81762218262348,
+        "weekly": 1,
+        "weekly_confidence": 74.36693819080193
+    },
+    "68488673556087148": {
+        "name": "فپنتا",
+        "monthly": 1,
+        "monthly_confidence": 85.39411146711086,
+        "weekly": 1,
+        "weekly_confidence": 85.35378307765012
+    },
+    "70391097626818082": {
+        "name": "گشان",
+        "monthly": 0,
+        "monthly_confidence": 75.77135752992177,
+        "weekly": 0,
+        "weekly_confidence": 71.61118800599795
+    },
+    "28672095850798501": {
+        "name": "غسالم",
+        "monthly": 1,
+        "monthly_confidence": 76.34875868129046,
+        "weekly": 0,
+        "weekly_confidence": 72.95853973481339
+    },
+    "52382684379473036": {
+        "name": "دکپسول",
+        "monthly": 1,
+        "monthly_confidence": 91.10943100071482,
+        "weekly": 0,
+        "weekly_confidence": 73.09059484251333
+    },
+    "22490169030401337": {
+        "name": "وآوا",
+        "monthly": 1,
+        "monthly_confidence": 66.04860365679174,
+        "weekly": 1,
+        "weekly_confidence": 76.28482105712149
+    },
+    "1625149423498289": {
+        "name": "حسینا",
+        "monthly": 1,
+        "monthly_confidence": 79.89788275303147,
+        "weekly": 1,
+        "weekly_confidence": 76.21215039093914
+    },
+    "22560050433388046": {
+        "name": "تاپیکو",
+        "monthly": 1,
+        "monthly_confidence": 67.47540112440711,
+        "weekly": 1,
+        "weekly_confidence": 66.31466044021792
+    },
+    "18063426072758458": {
+        "name": "وبهمن",
+        "monthly": 1,
+        "monthly_confidence": 74.78646741391289,
+        "weekly": 0,
+        "weekly_confidence": 89.9365008730998
+    },
+    "21077182490095731": {
+        "name": "درین",
+        "monthly": 1,
+        "monthly_confidence": 68.81432485867333,
+        "weekly": 1,
+        "weekly_confidence": 68.33635235945155
+    },
+    "917857106093847": {
+        "name": "حپارسا",
+        "monthly": 1,
+        "monthly_confidence": 83.8430122187137,
+        "weekly": 1,
+        "weekly_confidence": 95.8411964102136
+    },
+    "5128151910501174": {
+        "name": "وحافظ",
+        "monthly": 0,
+        "monthly_confidence": 85.83813408872756,
+        "weekly": 1,
+        "weekly_confidence": 83.06990094964382
+    },
+    "2589887561569709": {
+        "name": "خزامیا",
+        "monthly": 1,
+        "monthly_confidence": 74.37681579685014,
+        "weekly": 1,
+        "weekly_confidence": 95.56730513097794
+    },
+    "49674915481184052": {
+        "name": "جهرم",
+        "monthly": 1,
+        "monthly_confidence": 92.64244491658769,
+        "weekly": 1,
+        "weekly_confidence": 88.8595445129184
+    },
+    "204092872752957": {
+        "name": "شصدف",
+        "monthly": 0,
+        "monthly_confidence": 83.75201963924812,
+        "weekly": 1,
+        "weekly_confidence": 86.05775887559345
+    },
+    "61469668095573716": {
+        "name": "ولکار",
+        "monthly": 0,
+        "monthly_confidence": 76.31166101220677,
+        "weekly": 1,
+        "weekly_confidence": 66.32399834032924
+    },
+    "32678431934327184": {
+        "name": "کلوند",
+        "monthly": 1,
+        "monthly_confidence": 88.43042504771599,
+        "weekly": 1,
+        "weekly_confidence": 67.71726733765053
+    },
+    "44665761767777759": {
+        "name": "گکیش",
+        "monthly": 1,
+        "monthly_confidence": 69.22446172457832,
+        "weekly": 1,
+        "weekly_confidence": 89.38131553045659
+    },
+    "67690708346979840": {
+        "name": "کماسه",
+        "monthly": 1,
+        "monthly_confidence": 74.92495017133619,
+        "weekly": 1,
+        "weekly_confidence": 86.58441925043802
+    },
+    "36844527173896115": {
+        "name": "زفجر",
+        "monthly": 0,
+        "monthly_confidence": 77.75285477871508,
+        "weekly": 1,
+        "weekly_confidence": 81.68408912208606
+    },
+    "36235343945196457": {
+        "name": "وفردا",
+        "monthly": 0,
+        "monthly_confidence": 70.15290300860282,
+        "weekly": 0,
+        "weekly_confidence": 77.35254290491517
+    },
+    "46178280540110577": {
+        "name": "بفجر",
+        "monthly": 1,
+        "monthly_confidence": 65.73082813672882,
+        "weekly": 1,
+        "weekly_confidence": 92.50174676799348
+    },
+    "11964419322927535": {
+        "name": "سرود",
+        "monthly": 1,
+        "monthly_confidence": 89.21481237340174,
+        "weekly": 0,
+        "weekly_confidence": 74.0862071124813
+    },
+    "12913156843322499": {
+        "name": "نهال",
+        "monthly": 0,
+        "monthly_confidence": 78.76011465922203,
+        "weekly": 1,
+        "weekly_confidence": 67.6001529824721
+    },
+    "38437201078089290": {
+        "name": "کرماشا",
+        "monthly": 0,
+        "monthly_confidence": 74.68531617518427,
+        "weekly": 1,
+        "weekly_confidence": 95.09938349794098
+    },
+    "70498485598181604": {
+        "name": "هرمز",
+        "monthly": 1,
+        "monthly_confidence": 78.09149365568933,
+        "weekly": 1,
+        "weekly_confidence": 69.96125879456622
+    },
+    "40262275031537922": {
+        "name": "دروز",
+        "monthly": 0,
+        "monthly_confidence": 83.42258036304685,
+        "weekly": 0,
+        "weekly_confidence": 89.8282176742824
+    },
+    "13227300125161435": {
+        "name": "سصوفی",
+        "monthly": 1,
+        "monthly_confidence": 69.12714597166641,
+        "weekly": 1,
+        "weekly_confidence": 85.92230593593054
+    },
+    "15374483986949695": {
+        "name": "دهدشت",
+        "monthly": 1,
+        "monthly_confidence": 84.55705477253467,
+        "weekly": 1,
+        "weekly_confidence": 94.64716814853342
+    },
+    "41935584690956944": {
+        "name": "پتایر",
+        "monthly": 0,
+        "monthly_confidence": 74.36864042702436,
+        "weekly": 1,
+        "weekly_confidence": 74.4380224859285
+    },
+    "778253364357513": {
+        "name": "وبملت",
+        "monthly": 1,
+        "monthly_confidence": 76.02269510640431,
+        "weekly": 1,
+        "weekly_confidence": 97.35275967647702
+    },
+    "19828734979381742": {
+        "name": "آلا",
+        "monthly": 0,
+        "monthly_confidence": 92.78915660487365,
+        "weekly": 1,
+        "weekly_confidence": 93.65151830596064
+    },
+    "43267179898797137": {
+        "name": "پاداش",
+        "monthly": 1,
+        "monthly_confidence": 84.92041916930502,
+        "weekly": 1,
+        "weekly_confidence": 81.70851162869484
+    },
+    "15259343650667588": {
+        "name": "قزوین",
+        "monthly": 1,
+        "monthly_confidence": 92.95138055142009,
+        "weekly": 0,
+        "weekly_confidence": 80.28142739569638
+    },
+    "70289374539527245": {
+        "name": "ختوقا",
+        "monthly": 0,
+        "monthly_confidence": 73.75085460401272,
+        "weekly": 1,
+        "weekly_confidence": 79.21591033476852
+    },
+    "17269972595370241": {
+        "name": "وآتوس",
+        "monthly": 0,
+        "monthly_confidence": 79.08001563381846,
+        "weekly": 1,
+        "weekly_confidence": 68.0952761874219
+    },
+    "65576885779918210": {
+        "name": "مدیر",
+        "monthly": 1,
+        "monthly_confidence": 72.71076133128165,
+        "weekly": 1,
+        "weekly_confidence": 71.77258779718063
+    },
+    "55070742656326885": {
+        "name": "پایا",
+        "monthly": 0,
+        "monthly_confidence": 78.96744376447589,
+        "weekly": 1,
+        "weekly_confidence": 67.5024322052966
+    },
+    "4216536645718658": {
+        "name": "برلیان",
+        "monthly": 0,
+        "monthly_confidence": 78.72559651937011,
+        "weekly": 1,
+        "weekly_confidence": 91.9451217361715
+    },
+    "41796741644273824": {
+        "name": "وملی",
+        "monthly": 1,
+        "monthly_confidence": 74.66887756044875,
+        "weekly": 1,
+        "weekly_confidence": 74.91563851966393
+    },
+    "63481599728522324": {
+        "name": "ثشاهد",
+        "monthly": 1,
+        "monthly_confidence": 84.76211810129385,
+        "weekly": 0,
+        "weekly_confidence": 82.71382125855489
+    },
+    "53647874954005806": {
+        "name": "واحصا",
+        "monthly": 1,
+        "monthly_confidence": 80.19872093565232,
+        "weekly": 1,
+        "weekly_confidence": 70.48404375602479
+    },
+    "16405556680571453": {
+        "name": "کخاک",
+        "monthly": 0,
+        "monthly_confidence": 77.87117612881092,
+        "weekly": 1,
+        "weekly_confidence": 72.93049769744847
+    },
+    "56429431740318486": {
+        "name": "شلرد",
+        "monthly": 1,
+        "monthly_confidence": 65.81337353878305,
+        "weekly": 0,
+        "weekly_confidence": 76.76219041640206
+    },
+    "17834623106317041": {
+        "name": "خنصیر",
+        "monthly": 1,
+        "monthly_confidence": 90.51099875523596,
+        "weekly": 1,
+        "weekly_confidence": 78.37624529327302
+    },
+    "3149396562827132": {
+        "name": "وایران",
+        "monthly": 1,
+        "monthly_confidence": 79.84087753615123,
+        "weekly": 1,
+        "weekly_confidence": 79.20949271188418
+    },
+    "4686607974846832": {
+        "name": "سفارود",
+        "monthly": 1,
+        "monthly_confidence": 74.9472296610638,
+        "weekly": 1,
+        "weekly_confidence": 71.6250998377552
+    },
+    "9098178887955847": {
+        "name": "شهر",
+        "monthly": 1,
+        "monthly_confidence": 93.89583902004573,
+        "weekly": 1,
+        "weekly_confidence": 94.46336006741949
+    },
+    "61332057061846617": {
+        "name": "دابور",
+        "monthly": 1,
+        "monthly_confidence": 85.70906546145598,
+        "weekly": 1,
+        "weekly_confidence": 98.10752752537807
+    },
+    "64216772923447100": {
+        "name": "شتاب",
+        "monthly": 1,
+        "monthly_confidence": 82.94942452654895,
+        "weekly": 1,
+        "weekly_confidence": 85.14467773691472
+    },
+    "30447901674051381": {
+        "name": "ومدیر",
+        "monthly": 0,
+        "monthly_confidence": 77.85884824558748,
+        "weekly": 1,
+        "weekly_confidence": 65.03193465179694
+    },
+    "7395271748414592": {
+        "name": "وخارزم",
+        "monthly": 1,
+        "monthly_confidence": 79.62770176161277,
+        "weekly": 0,
+        "weekly_confidence": 93.23075864111863
+    },
+    "47797676603278665": {
+        "name": "بازرگام",
+        "monthly": 1,
+        "monthly_confidence": 80.336813760292,
+        "weekly": 1,
+        "weekly_confidence": 78.50611486914967
+    },
+    "4563413583000719": {
+        "name": "ساراب",
+        "monthly": 1,
+        "monthly_confidence": 93.20847620473148,
+        "weekly": 1,
+        "weekly_confidence": 95.47263608494322
+    },
+    "28325731560106431": {
+        "name": "کساپا",
+        "monthly": 1,
+        "monthly_confidence": 79.64887044451902,
+        "weekly": 1,
+        "weekly_confidence": 84.27566499153197
+    },
+    "35163287528816137": {
+        "name": "اعتبار",
+        "monthly": 1,
+        "monthly_confidence": 94.71432122350453,
+        "weekly": 0,
+        "weekly_confidence": 80.7438415353768
+    },
+    "47563321799863211": {
+        "name": "بتهران",
+        "monthly": 1,
+        "monthly_confidence": 88.07097557153554,
+        "weekly": 0,
+        "weekly_confidence": 69.48390280306003
+    },
+    "56130915871324783": {
+        "name": "وآتوسح",
+        "monthly": 1,
+        "monthly_confidence": 72.03074785249532,
+        "weekly": 1,
+        "weekly_confidence": 91.22173623547846
+    },
+    "41227201752535311": {
+        "name": "سفار",
+        "monthly": 1,
+        "monthly_confidence": 83.4504410609884,
+        "weekly": 1,
+        "weekly_confidence": 89.50116117346609
+    },
+    "45205530868811305": {
+        "name": "صایند",
+        "monthly": 1,
+        "monthly_confidence": 93.7519570682394,
+        "weekly": 1,
+        "weekly_confidence": 73.06968541264351
+    },
+    "54509759694064219": {
+        "name": "تپکو",
+        "monthly": 1,
+        "monthly_confidence": 72.76103916785308,
+        "weekly": 1,
+        "weekly_confidence": 90.42339860310406
+    },
+    "14073782708315535": {
+        "name": "شنفت",
+        "monthly": 0,
+        "monthly_confidence": 85.26559906387587,
+        "weekly": 1,
+        "weekly_confidence": 80.96688837524597
+    },
+    "43283802997035462": {
+        "name": "وسبحان",
+        "monthly": 1,
+        "monthly_confidence": 78.74859593967678,
+        "weekly": 0,
+        "weekly_confidence": 94.1760371257179
+    },
+    "54263829393913132": {
+        "name": "کمینا",
+        "monthly": 1,
+        "monthly_confidence": 72.5538663461193,
+        "weekly": 1,
+        "weekly_confidence": 93.38999971773424
+    },
+    "15962072736526551": {
+        "name": "کاریز",
+        "monthly": 1,
+        "monthly_confidence": 93.4609367611985,
+        "weekly": 1,
+        "weekly_confidence": 75.80452324295673
+    },
+    "37281199178613855": {
+        "name": "سیدکو",
+        "monthly": 1,
+        "monthly_confidence": 79.01006030610016,
+        "weekly": 1,
+        "weekly_confidence": 74.5927170709659
+    },
+    "64942549055019553": {
+        "name": "سرو",
+        "monthly": 0,
+        "monthly_confidence": 77.54535943034709,
+        "weekly": 1,
+        "weekly_confidence": 96.04899964967623
+    },
+    "29860265627578401": {
+        "name": "ما",
+        "monthly": 1,
+        "monthly_confidence": 69.90376619197107,
+        "weekly": 1,
+        "weekly_confidence": 73.56502911542961
+    },
+    "66142616039907394": {
+        "name": "دماوند",
+        "monthly": 0,
+        "monthly_confidence": 79.60824022319652,
+        "weekly": 0,
+        "weekly_confidence": 68.17093766268542
+    },
+    "25631699615003698": {
+        "name": "کهرام",
+        "monthly": 1,
+        "monthly_confidence": 91.11526077683884,
+        "weekly": 1,
+        "weekly_confidence": 71.81878494956125
+    },
+    "6110133418282108": {
+        "name": "پارس",
+        "monthly": 1,
+        "monthly_confidence": 71.00369033456397,
+        "weekly": 1,
+        "weekly_confidence": 83.43530509240216
+    },
+    "24644999329120295": {
+        "name": "وملل",
+        "monthly": 1,
+        "monthly_confidence": 82.71530615932176,
+        "weekly": 0,
+        "weekly_confidence": 80.05705699280611
+    },
+    "37661500521100963": {
+        "name": "آبادا",
+        "monthly": 0,
+        "monthly_confidence": 95.76424865595264,
+        "weekly": 1,
+        "weekly_confidence": 71.45897892901311
+    },
+    "4159532151694984": {
+        "name": "فبستم",
+        "monthly": 0,
+        "monthly_confidence": 75.8296274195879,
+        "weekly": 1,
+        "weekly_confidence": 97.98717173703828
+    },
+    "16777570760181431": {
+        "name": "کازرو",
+        "monthly": 1,
+        "monthly_confidence": 71.73186281375725,
+        "weekly": 0,
+        "weekly_confidence": 83.38841515330792
+    },
+    "35178706978554988": {
+        "name": "شپاس",
+        "monthly": 0,
+        "monthly_confidence": 78.50788201732375,
+        "weekly": 0,
+        "weekly_confidence": 78.71393212819474
+    },
+    "50185721305191887": {
+        "name": "ختور",
+        "monthly": 1,
+        "monthly_confidence": 91.09357608478311,
+        "weekly": 1,
+        "weekly_confidence": 82.06850778439707
+    },
+    "62258804563636993": {
+        "name": "تکشا",
+        "monthly": 1,
+        "monthly_confidence": 94.54108349752595,
+        "weekly": 1,
+        "weekly_confidence": 96.8294807412588
+    },
+    "43622578471330344": {
+        "name": "دسبحا",
+        "monthly": 1,
+        "monthly_confidence": 72.88981172871108,
+        "weekly": 1,
+        "weekly_confidence": 96.92149504113206
+    },
+    "48511238766369097": {
+        "name": "دانا",
+        "monthly": 1,
+        "monthly_confidence": 91.40368287560806,
+        "weekly": 1,
+        "weekly_confidence": 87.31415579741112
+    },
+    "34144395039913458": {
+        "name": "عیار",
+        "monthly": 1,
+        "monthly_confidence": 67.40403384628414,
+        "weekly": 1,
+        "weekly_confidence": 66.44343793326208
+    },
+    "63580313877463104": {
+        "name": "پاسا",
+        "monthly": 1,
+        "monthly_confidence": 74.60997333941373,
+        "weekly": 1,
+        "weekly_confidence": 85.83492897757039
+    },
+    "36592972482259020": {
+        "name": "آسام",
+        "monthly": 1,
+        "monthly_confidence": 84.37749209227897,
+        "weekly": 1,
+        "weekly_confidence": 97.47592221211757
+    },
+    "38713440086361985": {
+        "name": "ثهام",
+        "monthly": 1,
+        "monthly_confidence": 82.11598997027498,
+        "weekly": 1,
+        "weekly_confidence": 95.35085050122187
+    },
+    "62952165421099192": {
+        "name": "بالبر",
+        "monthly": 1,
+        "monthly_confidence": 87.51454538690233,
+        "weekly": 0,
+        "weekly_confidence": 70.20496536110494
+    },
+    "20411759370751096": {
+        "name": "کنور",
+        "monthly": 1,
+        "monthly_confidence": 80.65794458582371,
+        "weekly": 1,
+        "weekly_confidence": 97.60743901353906
+    },
+    "22275596386264204": {
+        "name": "کوثر",
+        "monthly": 1,
+        "monthly_confidence": 95.92288619422851,
+        "weekly": 1,
+        "weekly_confidence": 81.01662969515449
+    },
+    "43951910415124966": {
+        "name": "وگستر",
+        "monthly": 0,
+        "monthly_confidence": 87.64119054492365,
+        "weekly": 1,
+        "weekly_confidence": 76.54276480287302
+    },
+    "48623320733330408": {
+        "name": "فلوله",
+        "monthly": 1,
+        "monthly_confidence": 86.91470497011558,
+        "weekly": 1,
+        "weekly_confidence": 70.62108849077778
+    },
+    "49188729526980541": {
+        "name": "شسپا",
+        "monthly": 0,
+        "monthly_confidence": 88.01607896099232,
+        "weekly": 1,
+        "weekly_confidence": 90.09581317123751
+    },
+    "28551661889797217": {
+        "name": "زیتون",
+        "monthly": 0,
+        "monthly_confidence": 84.79262119006316,
+        "weekly": 1,
+        "weekly_confidence": 71.78879803133592
+    },
+    "59848307608894801": {
+        "name": "گپارس",
+        "monthly": 1,
+        "monthly_confidence": 69.25065728218698,
+        "weekly": 0,
+        "weekly_confidence": 77.62059757010952
+    },
+    "66021783818850713": {
+        "name": "فافزا",
+        "monthly": 1,
+        "monthly_confidence": 66.67542195641602,
+        "weekly": 1,
+        "weekly_confidence": 75.4530553020216
+    },
+    "28253678449273505": {
+        "name": "حخزر",
+        "monthly": 1,
+        "monthly_confidence": 97.0190767015396,
+        "weekly": 1,
+        "weekly_confidence": 92.6861399242539
+    },
+    "45641540066710190": {
+        "name": "لکما",
+        "monthly": 0,
+        "monthly_confidence": 79.59079013974474,
+        "weekly": 1,
+        "weekly_confidence": 96.12773901787695
+    },
+    "16369313804633525": {
+        "name": "حپترو",
+        "monthly": 1,
+        "monthly_confidence": 67.40563408978394,
+        "weekly": 0,
+        "weekly_confidence": 66.33932972952263
+    },
+    "793710053482057": {
+        "name": "لپیام",
+        "monthly": 1,
+        "monthly_confidence": 96.1781878416927,
+        "weekly": 0,
+        "weekly_confidence": 96.55218949750167
+    },
+    "1438514795814416": {
+        "name": "یاقوت",
+        "monthly": 1,
+        "monthly_confidence": 86.54187805376488,
+        "weekly": 0,
+        "weekly_confidence": 80.52441022404288
+    },
+    "55862580907068610": {
+        "name": "شملی",
+        "monthly": 1,
+        "monthly_confidence": 86.7254902093013,
+        "weekly": 1,
+        "weekly_confidence": 78.37727400588159
+    },
+    "33629260529503413": {
+        "name": "بجهرم",
+        "monthly": 0,
+        "monthly_confidence": 97.6644967244584,
+        "weekly": 1,
+        "weekly_confidence": 86.20752459489069
+    },
+    "10236455588057352": {
+        "name": "انتخاب",
+        "monthly": 0,
+        "monthly_confidence": 76.25342862986273,
+        "weekly": 1,
+        "weekly_confidence": 66.30014816427493
+    },
+    "24085906177899789": {
+        "name": "کترام",
+        "monthly": 1,
+        "monthly_confidence": 80.1144475523237,
+        "weekly": 1,
+        "weekly_confidence": 81.32153983594652
+    },
+    "56591881518499520": {
+        "name": "وسین",
+        "monthly": 1,
+        "monthly_confidence": 67.54109024500995,
+        "weekly": 1,
+        "weekly_confidence": 75.93076939126534
+    },
+    "54369290104873523": {
+        "name": "بتک",
+        "monthly": 1,
+        "monthly_confidence": 86.21686310564732,
+        "weekly": 1,
+        "weekly_confidence": 93.46595222184193
+    },
+    "1822787329898392": {
+        "name": "کلر",
+        "monthly": 1,
+        "monthly_confidence": 76.78723318577316,
+        "weekly": 1,
+        "weekly_confidence": 71.71383007675172
+    },
+    "4614779520007780": {
+        "name": "کسرا",
+        "monthly": 1,
+        "monthly_confidence": 89.22794927867729,
+        "weekly": 0,
+        "weekly_confidence": 72.80138642712758
+    },
+    "3173544097113770": {
+        "name": "شستان",
+        "monthly": 1,
+        "monthly_confidence": 73.4742031638221,
+        "weekly": 1,
+        "weekly_confidence": 77.01331114664625
+    },
+    "35796086458096255": {
+        "name": "شیران",
+        "monthly": 1,
+        "monthly_confidence": 74.42894710896344,
+        "weekly": 1,
+        "weekly_confidence": 91.64488314873827
+    },
+    "20487994977117557": {
+        "name": "غشهد",
+        "monthly": 1,
+        "monthly_confidence": 65.90541729190674,
+        "weekly": 0,
+        "weekly_confidence": 91.42799577059
+    },
+    "50426013665901691": {
+        "name": "حآساح",
+        "monthly": 1,
+        "monthly_confidence": 80.02702658504263,
+        "weekly": 1,
+        "weekly_confidence": 77.73210247407813
+    },
+    "58180284328186631": {
+        "name": "خفناور",
+        "monthly": 1,
+        "monthly_confidence": 92.56718050668391,
+        "weekly": 0,
+        "weekly_confidence": 91.9009498132555
+    },
+    "41048299027409941": {
+        "name": "رتاپ",
+        "monthly": 1,
+        "monthly_confidence": 66.28096644114548,
+        "weekly": 0,
+        "weekly_confidence": 73.3582904813396
+    },
+    "32257753560585502": {
+        "name": "کحافظ",
+        "monthly": 1,
+        "monthly_confidence": 85.60623038355122,
+        "weekly": 1,
+        "weekly_confidence": 67.20320939484235
+    },
+    "38568786927478796": {
+        "name": "شیراز",
+        "monthly": 1,
+        "monthly_confidence": 73.46889065844701,
+        "weekly": 1,
+        "weekly_confidence": 72.18224955621125
+    },
+    "65004959184388996": {
+        "name": "فایرا",
+        "monthly": 1,
+        "monthly_confidence": 95.90230278442804,
+        "weekly": 1,
+        "weekly_confidence": 83.16266218456218
+    },
+    "70934270174405743": {
+        "name": "شخارک",
+        "monthly": 0,
+        "monthly_confidence": 71.21106503529985,
+        "weekly": 1,
+        "weekly_confidence": 88.74874824901796
+    },
+    "31049085025064185": {
+        "name": "شتهران",
+        "monthly": 1,
+        "monthly_confidence": 94.60649451363858,
+        "weekly": 1,
+        "weekly_confidence": 91.29421069310713
+    },
+    "3407806799514469": {
+        "name": "شاروم",
+        "monthly": 1,
+        "monthly_confidence": 69.89564812414336,
+        "weekly": 1,
+        "weekly_confidence": 90.14635481425977
+    },
+    "35331248532537562": {
+        "name": "اردستان",
+        "monthly": 1,
+        "monthly_confidence": 88.64960354931763,
+        "weekly": 1,
+        "weekly_confidence": 86.41149727838983
+    },
+    "46741025610365786": {
+        "name": "سمگا",
+        "monthly": 0,
+        "monthly_confidence": 73.58109030246182,
+        "weekly": 1,
+        "weekly_confidence": 90.68807123832168
+    },
+    "49270349234092953": {
+        "name": "خاور",
+        "monthly": 0,
+        "monthly_confidence": 69.41018605619233,
+        "weekly": 1,
+        "weekly_confidence": 67.00108856798239
+    },
+    "64699417405634265": {
+        "name": "نطرین",
+        "monthly": 1,
+        "monthly_confidence": 67.87779661539966,
+        "weekly": 1,
+        "weekly_confidence": 71.60842110854288
+    },
+    "8175784894140974": {
+        "name": "فزر",
+        "monthly": 0,
+        "monthly_confidence": 84.72806085219159,
+        "weekly": 0,
+        "weekly_confidence": 76.22945037609072
+    },
+    "71672399601682259": {
+        "name": "ثروتم",
+        "monthly": 0,
+        "monthly_confidence": 67.58650693334448,
+        "weekly": 0,
+        "weekly_confidence": 75.4287806158348
+    },
+    "3492952121304423": {
+        "name": "غدیس",
+        "monthly": 0,
+        "monthly_confidence": 75.79039598334614,
+        "weekly": 0,
+        "weekly_confidence": 75.54423223065358
+    },
+    "14617104402836487": {
+        "name": "سیلام",
+        "monthly": 0,
+        "monthly_confidence": 98.6365558220598,
+        "weekly": 1,
+        "weekly_confidence": 90.82090602912527
+    },
+    "33808206014018431": {
+        "name": "سمازن",
+        "monthly": 1,
+        "monthly_confidence": 65.98497657840174,
+        "weekly": 1,
+        "weekly_confidence": 97.61564068076649
+    },
+    "4247709727327181": {
+        "name": "مفاخر",
+        "monthly": 1,
+        "monthly_confidence": 79.4503460871872,
+        "weekly": 0,
+        "weekly_confidence": 71.57855389437884
+    },
+    "30719054967088301": {
+        "name": "تکمبا",
+        "monthly": 0,
+        "monthly_confidence": 95.74149068397368,
+        "weekly": 0,
+        "weekly_confidence": 73.59867852985761
+    },
+    "43781018754867729": {
+        "name": "شفارس",
+        "monthly": 1,
+        "monthly_confidence": 97.00621354027447,
+        "weekly": 1,
+        "weekly_confidence": 83.95567574052924
+    },
+    "8646067353086740": {
+        "name": "بالاس",
+        "monthly": 0,
+        "monthly_confidence": 89.86414087677416,
+        "weekly": 1,
+        "weekly_confidence": 95.28151553694703
+    },
+    "31569200988534548": {
+        "name": "لبخند",
+        "monthly": 0,
+        "monthly_confidence": 81.87599794173501,
+        "weekly": 0,
+        "weekly_confidence": 79.45147203056685
+    },
+    "48970598895465763": {
+        "name": "پویا",
+        "monthly": 1,
+        "monthly_confidence": 85.5770942981877,
+        "weekly": 1,
+        "weekly_confidence": 94.90987062163481
+    },
+    "10055255678920880": {
+        "name": "وملت",
+        "monthly": 0,
+        "monthly_confidence": 86.76161669489613,
+        "weekly": 0,
+        "weekly_confidence": 72.97413801724355
+    },
+    "12901875871456398": {
+        "name": "ولراز",
+        "monthly": 1,
+        "monthly_confidence": 73.1996131128578,
+        "weekly": 0,
+        "weekly_confidence": 75.3473572704552
+    },
+    "66721204145017523": {
+        "name": "ثمین",
+        "monthly": 1,
+        "monthly_confidence": 69.04978310618192,
+        "weekly": 1,
+        "weekly_confidence": 71.55183708649822
+    },
+    "9987529074833218": {
+        "name": "آبین",
+        "monthly": 0,
+        "monthly_confidence": 83.31481182229962,
+        "weekly": 1,
+        "weekly_confidence": 70.50287479235786
+    },
+    "13235547361447092": {
+        "name": "زاگرس",
+        "monthly": 1,
+        "monthly_confidence": 86.91410587145745,
+        "weekly": 1,
+        "weekly_confidence": 95.84522384480913
+    },
+    "16959429956899455": {
+        "name": "شاملا",
+        "monthly": 1,
+        "monthly_confidence": 98.61524125857117,
+        "weekly": 1,
+        "weekly_confidence": 77.39005398540196
+    },
+    "41713045190742691": {
+        "name": "وسدید",
+        "monthly": 1,
+        "monthly_confidence": 67.72317977869326,
+        "weekly": 1,
+        "weekly_confidence": 95.77431147655149
+    },
+    "15282093177363578": {
+        "name": "شساخت",
+        "monthly": 1,
+        "monthly_confidence": 79.20563509037213,
+        "weekly": 1,
+        "weekly_confidence": 73.03785058311367
+    },
+    "16567465928886309": {
+        "name": "درازی",
+        "monthly": 1,
+        "monthly_confidence": 86.12090225181028,
+        "weekly": 1,
+        "weekly_confidence": 68.97956431847416
+    },
+    "52220424531578944": {
+        "name": "سغرب",
+        "monthly": 1,
+        "monthly_confidence": 83.57247336975486,
+        "weekly": 1,
+        "weekly_confidence": 70.87555078424577
+    },
+    "25336820825905643": {
+        "name": "ونیکی",
+        "monthly": 0,
+        "monthly_confidence": 88.06694747503123,
+        "weekly": 0,
+        "weekly_confidence": 67.06639436977206
+    },
+    "28374437855144739": {
+        "name": "آلتون",
+        "monthly": 0,
+        "monthly_confidence": 67.25341008973176,
+        "weekly": 1,
+        "weekly_confidence": 95.12959518384325
+    },
+    "63915926161403347": {
+        "name": "خشرق",
+        "monthly": 0,
+        "monthly_confidence": 94.9616867434799,
+        "weekly": 0,
+        "weekly_confidence": 98.15126033764854
+    },
+    "30703140537034664": {
+        "name": "کگهر",
+        "monthly": 1,
+        "monthly_confidence": 85.90559111725425,
+        "weekly": 1,
+        "weekly_confidence": 68.15308086951285
+    },
+    "10145129193828624": {
+        "name": "نگین",
+        "monthly": 1,
+        "monthly_confidence": 91.89519128218741,
+        "weekly": 1,
+        "weekly_confidence": 74.70103962718329
+    },
+    "37284308569715577": {
+        "name": "فسبزوار",
+        "monthly": 0,
+        "monthly_confidence": 69.7803373270331,
+        "weekly": 1,
+        "weekly_confidence": 85.11262721153213
+    },
+    "37842793167868642": {
+        "name": "غویتا",
+        "monthly": 1,
+        "monthly_confidence": 67.40506639047727,
+        "weekly": 0,
+        "weekly_confidence": 65.27646540903957
+    },
+    "59266699437480384": {
+        "name": "ارفع",
+        "monthly": 0,
+        "monthly_confidence": 72.75258487905086,
+        "weekly": 0,
+        "weekly_confidence": 78.37675514549706
+    },
+    "13611044044646901": {
+        "name": "ملت",
+        "monthly": 0,
+        "monthly_confidence": 66.72338521927165,
+        "weekly": 1,
+        "weekly_confidence": 85.39078499983597
+    },
+    "51617145873056483": {
+        "name": "شتران",
+        "monthly": 1,
+        "monthly_confidence": 89.03311610064729,
+        "weekly": 1,
+        "weekly_confidence": 94.67892563142058
+    },
+    "63499217872110599": {
+        "name": "کقزوی",
+        "monthly": 1,
+        "monthly_confidence": 79.81585213153782,
+        "weekly": 0,
+        "weekly_confidence": 71.85135790209527
+    },
+    "64298008532791199": {
+        "name": "ساینا",
+        "monthly": 0,
+        "monthly_confidence": 98.66988795874303,
+        "weekly": 0,
+        "weekly_confidence": 93.0077573209024
+    },
+    "27148572013604038": {
+        "name": "وفتخار",
+        "monthly": 0,
+        "monthly_confidence": 77.40655018737715,
+        "weekly": 0,
+        "weekly_confidence": 71.33879583792154
+    },
+    "47841327496247362": {
+        "name": "واعتبار",
+        "monthly": 1,
+        "monthly_confidence": 81.46291610799602,
+        "weekly": 1,
+        "weekly_confidence": 81.1208889122325
+    },
+    "29247915161590165": {
+        "name": "دلقما",
+        "monthly": 0,
+        "monthly_confidence": 71.22102476367787,
+        "weekly": 1,
+        "weekly_confidence": 84.47045713395852
+    },
+    "57761388729898548": {
+        "name": "اوصتا",
+        "monthly": 1,
+        "monthly_confidence": 76.1563347175908,
+        "weekly": 0,
+        "weekly_confidence": 73.9466411917366
+    },
+    "27308217070238237": {
+        "name": "شکربن",
+        "monthly": 1,
+        "monthly_confidence": 84.46130317331331,
+        "weekly": 0,
+        "weekly_confidence": 85.30873509372034
+    },
+    "33527290777160784": {
+        "name": "رابین",
+        "monthly": 1,
+        "monthly_confidence": 91.07022435717921,
+        "weekly": 0,
+        "weekly_confidence": 83.70909472558957
+    },
+    "36282416082320053": {
+        "name": "والماس",
+        "monthly": 1,
+        "monthly_confidence": 93.54185450924912,
+        "weekly": 0,
+        "weekly_confidence": 92.1006869344852
+    },
+    "55979741213594029": {
+        "name": "کباده",
+        "monthly": 1,
+        "monthly_confidence": 95.73179955043443,
+        "weekly": 1,
+        "weekly_confidence": 88.95691403364923
+    },
+    "60451823714332895": {
+        "name": "دالبر",
+        "monthly": 1,
+        "monthly_confidence": 71.4278051008823,
+        "weekly": 1,
+        "weekly_confidence": 80.20116519115874
+    },
+    "59866041653103343": {
+        "name": "نوین",
+        "monthly": 1,
+        "monthly_confidence": 89.5132125928431,
+        "weekly": 1,
+        "weekly_confidence": 91.20690991509562
+    },
+    "1185549032856396": {
+        "name": "عبهمن",
+        "monthly": 1,
+        "monthly_confidence": 71.07324571514592,
+        "weekly": 1,
+        "weekly_confidence": 93.50907192992602
+    },
+    "33887145736684266": {
+        "name": "آگاس",
+        "monthly": 0,
+        "monthly_confidence": 70.57570263899048,
+        "weekly": 1,
+        "weekly_confidence": 84.83854263791957
+    },
+    "45062188442385800": {
+        "name": "تفیرو",
+        "monthly": 0,
+        "monthly_confidence": 85.92580818605919,
+        "weekly": 0,
+        "weekly_confidence": 78.40944576713918
+    },
+    "4626686276232042": {
+        "name": "نفیس",
+        "monthly": 1,
+        "monthly_confidence": 68.9240028225705,
+        "weekly": 1,
+        "weekly_confidence": 85.28423133734702
+    },
+    "33410001534682920": {
+        "name": "رفاه",
+        "monthly": 1,
+        "monthly_confidence": 70.89214789597072,
+        "weekly": 1,
+        "weekly_confidence": 69.22973194959023
+    },
+    "38179358042686391": {
+        "name": "سامان",
+        "monthly": 1,
+        "monthly_confidence": 92.6193480215087,
+        "weekly": 1,
+        "weekly_confidence": 91.80292805645331
+    },
+    "57005100184766878": {
+        "name": "شساختح",
+        "monthly": 1,
+        "monthly_confidence": 67.66184098478595,
+        "weekly": 1,
+        "weekly_confidence": 82.46207706755435
+    },
+    "15039949673085566": {
+        "name": "پردیس",
+        "monthly": 1,
+        "monthly_confidence": 84.90709763948017,
+        "weekly": 0,
+        "weekly_confidence": 65.17928329685002
+    },
+    "54493234408301135": {
+        "name": "بنو",
+        "monthly": 1,
+        "monthly_confidence": 67.92457908622508,
+        "weekly": 1,
+        "weekly_confidence": 89.35984736092685
+    },
+    "25215182208950217": {
+        "name": "وهور",
+        "monthly": 1,
+        "monthly_confidence": 75.10975813017536,
+        "weekly": 0,
+        "weekly_confidence": 82.89559656920066
+    },
+    "31879190587976736": {
+        "name": "خوساز",
+        "monthly": 0,
+        "monthly_confidence": 67.17461912794819,
+        "weekly": 1,
+        "weekly_confidence": 83.11603126542187
+    },
+    "51200575796028449": {
+        "name": "سحرخیز",
+        "monthly": 1,
+        "monthly_confidence": 69.02870516221842,
+        "weekly": 0,
+        "weekly_confidence": 73.90693350795596
+    },
+    "31913287805282551": {
+        "name": "سیناد",
+        "monthly": 1,
+        "monthly_confidence": 76.86432600081248,
+        "weekly": 1,
+        "weekly_confidence": 81.35154783956028
+    },
+    "62404730109947970": {
+        "name": "غکورش",
+        "monthly": 1,
+        "monthly_confidence": 67.56752910242382,
+        "weekly": 1,
+        "weekly_confidence": 86.62709511784738
+    },
+    "17284166795866794": {
+        "name": "واحیا",
+        "monthly": 1,
+        "monthly_confidence": 74.90882192742403,
+        "weekly": 1,
+        "weekly_confidence": 71.02240751411198
+    },
+    "30765727085936322": {
+        "name": "فجام",
+        "monthly": 1,
+        "monthly_confidence": 80.56974030416727,
+        "weekly": 1,
+        "weekly_confidence": 74.89555025420603
+    },
+    "25514780181345713": {
+        "name": "وساخت",
+        "monthly": 0,
+        "monthly_confidence": 89.69472751412451,
+        "weekly": 1,
+        "weekly_confidence": 80.46394651684211
+    },
+    "67988012428906654": {
+        "name": "دارو",
+        "monthly": 1,
+        "monthly_confidence": 83.40195518209687,
+        "weekly": 1,
+        "weekly_confidence": 71.41688704383158
+    },
+    "55127657985997520": {
+        "name": "آریا",
+        "monthly": 1,
+        "monthly_confidence": 81.86976986824229,
+        "weekly": 1,
+        "weekly_confidence": 86.11568850254183
+    },
+    "35543935713999309": {
+        "name": "تاتمس",
+        "monthly": 1,
+        "monthly_confidence": 70.9128239631662,
+        "weekly": 1,
+        "weekly_confidence": 68.90186242903528
+    },
+    "17226661368470120": {
+        "name": "سپر",
+        "monthly": 1,
+        "monthly_confidence": 91.70340514117119,
+        "weekly": 1,
+        "weekly_confidence": 95.65461057860894
+    },
+    "7385624172574740": {
+        "name": "ورنا",
+        "monthly": 1,
+        "monthly_confidence": 70.37120599653417,
+        "weekly": 0,
+        "weekly_confidence": 75.38776874936127
+    },
+    "23600798892801694": {
+        "name": "قچار",
+        "monthly": 1,
+        "monthly_confidence": 67.09227682437496,
+        "weekly": 1,
+        "weekly_confidence": 89.91680943568844
+    },
+    "49953653111442595": {
+        "name": "کیسون",
+        "monthly": 1,
+        "monthly_confidence": 79.61795088396364,
+        "weekly": 1,
+        "weekly_confidence": 97.7129622020874
+    },
+    "63380098535169030": {
+        "name": "قنیشا",
+        "monthly": 1,
+        "monthly_confidence": 73.15152206670636,
+        "weekly": 1,
+        "weekly_confidence": 65.41520745717274
+    },
+    "3542690854557886": {
+        "name": "کیا",
+        "monthly": 0,
+        "monthly_confidence": 78.23710694681017,
+        "weekly": 1,
+        "weekly_confidence": 68.63506984727566
+    },
+    "3955332316338258": {
+        "name": "وطوبی",
+        "monthly": 1,
+        "monthly_confidence": 85.54369374133374,
+        "weekly": 0,
+        "weekly_confidence": 85.72912265398813
+    },
+    "21426277483799140": {
+        "name": "غنیلی",
+        "monthly": 0,
+        "monthly_confidence": 76.4855107458669,
+        "weekly": 1,
+        "weekly_confidence": 91.3041109311364
+    },
+    "23843877872814145": {
+        "name": "وامین",
+        "monthly": 1,
+        "monthly_confidence": 76.70824671808204,
+        "weekly": 0,
+        "weekly_confidence": 70.06116794113836
+    },
+    "63935385130969014": {
+        "name": "کصدفح",
+        "monthly": 0,
+        "monthly_confidence": 95.7419342550958,
+        "weekly": 1,
+        "weekly_confidence": 87.2151384284163
+    },
+    "51106317433079213": {
+        "name": "آسیا",
+        "monthly": 0,
+        "monthly_confidence": 86.44835341129235,
+        "weekly": 1,
+        "weekly_confidence": 97.34010315323705
+    },
+    "59921975187856916": {
+        "name": "غشاذر",
+        "monthly": 1,
+        "monthly_confidence": 95.06128866685927,
+        "weekly": 0,
+        "weekly_confidence": 92.87911707302597
+    },
+    "62575434414985179": {
+        "name": "اوج",
+        "monthly": 1,
+        "monthly_confidence": 87.3192685435132,
+        "weekly": 1,
+        "weekly_confidence": 75.39592678541824
+    },
+    "33854964748757477": {
+        "name": "رنیک",
+        "monthly": 0,
+        "monthly_confidence": 86.4413339995323,
+        "weekly": 0,
+        "weekly_confidence": 88.32021553128233
+    },
+    "60094778616664092": {
+        "name": "وسپهرح",
+        "monthly": 0,
+        "monthly_confidence": 73.83239325762416,
+        "weekly": 1,
+        "weekly_confidence": 89.28223494358143
+    },
+    "19060410060488876": {
+        "name": "طلوع",
+        "monthly": 1,
+        "monthly_confidence": 74.207165430277,
+        "weekly": 1,
+        "weekly_confidence": 90.5694494331293
+    },
+    "32112121249636248": {
+        "name": "ثنا",
+        "monthly": 1,
+        "monthly_confidence": 83.72673346765481,
+        "weekly": 1,
+        "weekly_confidence": 91.5297422124886
+    },
+    "55373808401388162": {
+        "name": "فتوسا",
+        "monthly": 1,
+        "monthly_confidence": 94.21705142330818,
+        "weekly": 0,
+        "weekly_confidence": 72.21686352614023
+    },
+    "66315581735594751": {
+        "name": "توسن",
+        "monthly": 1,
+        "monthly_confidence": 83.0613772023843,
+        "weekly": 0,
+        "weekly_confidence": 79.90799127709786
+    },
+    "70219663893822560": {
+        "name": "بکاب",
+        "monthly": 1,
+        "monthly_confidence": 69.16642729636817,
+        "weekly": 1,
+        "weekly_confidence": 84.03291764494915
+    },
+    "7711282667602555": {
+        "name": "شاراک",
+        "monthly": 1,
+        "monthly_confidence": 70.89882881769316,
+        "weekly": 1,
+        "weekly_confidence": 74.27512468926942
+    },
+    "47101579271117172": {
+        "name": "گنجینه",
+        "monthly": 0,
+        "monthly_confidence": 88.19182783830996,
+        "weekly": 0,
+        "weekly_confidence": 83.52109199312397
+    },
+    "69847139870135237": {
+        "name": "اوان",
+        "monthly": 0,
+        "monthly_confidence": 71.59785771050818,
+        "weekly": 1,
+        "weekly_confidence": 77.60831136499161
+    },
+    "22299894048845903": {
+        "name": "غگل",
+        "monthly": 1,
+        "monthly_confidence": 84.49022354759693,
+        "weekly": 1,
+        "weekly_confidence": 93.12144713158553
+    },
+    "66127247173352975": {
+        "name": "تشتاد",
+        "monthly": 1,
+        "monthly_confidence": 71.30832416916539,
+        "weekly": 1,
+        "weekly_confidence": 77.56582481393046
+    },
+    "69472361926040823": {
+        "name": "ویسا",
+        "monthly": 1,
+        "monthly_confidence": 73.34558430661707,
+        "weekly": 1,
+        "weekly_confidence": 81.31558504749303
+    },
+    "17528249960294496": {
+        "name": "وتوسم",
+        "monthly": 0,
+        "monthly_confidence": 81.54980869817457,
+        "weekly": 1,
+        "weekly_confidence": 90.55007540683896
+    },
+    "58789178087946067": {
+        "name": "داریوش",
+        "monthly": 1,
+        "monthly_confidence": 96.56197634757737,
+        "weekly": 1,
+        "weekly_confidence": 74.68398156691754
+    },
+    "17914401175772326": {
+        "name": "اهرم",
+        "monthly": 0,
+        "monthly_confidence": 67.8887727869726,
+        "weekly": 0,
+        "weekly_confidence": 96.78754437259754
+    },
+    "38738476064699383": {
+        "name": "آرمان",
+        "monthly": 1,
+        "monthly_confidence": 93.99761560494473,
+        "weekly": 1,
+        "weekly_confidence": 81.71171777645691
+    },
+    "59612098290740355": {
+        "name": "آباد",
+        "monthly": 1,
+        "monthly_confidence": 84.81941636616826,
+        "weekly": 1,
+        "weekly_confidence": 93.24183548294864
+    },
+    "39436183727126211": {
+        "name": "خمحرکه",
+        "monthly": 1,
+        "monthly_confidence": 80.87197999323855,
+        "weekly": 0,
+        "weekly_confidence": 86.73225001518821
+    },
+    "58602432837130018": {
+        "name": "شکف",
+        "monthly": 1,
+        "monthly_confidence": 74.26133635075415,
+        "weekly": 1,
+        "weekly_confidence": 80.62717865282241
+    },
+    "12490072956930435": {
+        "name": "مدیریت",
+        "monthly": 1,
+        "monthly_confidence": 93.7248627902519,
+        "weekly": 0,
+        "weekly_confidence": 98.62740903067622
+    },
+    "16422980660132735": {
+        "name": "لطیف",
+        "monthly": 1,
+        "monthly_confidence": 82.6124647465662,
+        "weekly": 1,
+        "weekly_confidence": 69.78514755690527
+    },
+    "43256212620530446": {
+        "name": "کبافق",
+        "monthly": 1,
+        "monthly_confidence": 72.3760818463401,
+        "weekly": 0,
+        "weekly_confidence": 85.27337874803355
+    },
+    "3839324986781871": {
+        "name": "تپسی",
+        "monthly": 0,
+        "monthly_confidence": 74.14466217911882,
+        "weekly": 1,
+        "weekly_confidence": 65.91112646845524
+    },
+    "12329519546621752": {
+        "name": "چدن",
+        "monthly": 0,
+        "monthly_confidence": 73.36259021564342,
+        "weekly": 0,
+        "weekly_confidence": 84.89276445779423
+    },
+    "69067576215760005": {
+        "name": "کاریس",
+        "monthly": 0,
+        "monthly_confidence": 98.84469820696766,
+        "weekly": 1,
+        "weekly_confidence": 81.31593309349599
+    },
+    "4384288570322406": {
+        "name": "دلر",
+        "monthly": 0,
+        "monthly_confidence": 84.01623990983548,
+        "weekly": 0,
+        "weekly_confidence": 85.8465925909949
+    },
+    "29974853866926823": {
+        "name": "فروی",
+        "monthly": 1,
+        "monthly_confidence": 95.31358935399611,
+        "weekly": 1,
+        "weekly_confidence": 68.98882433292437
+    },
+    "38356837895042988": {
+        "name": "ضمان",
+        "monthly": 0,
+        "monthly_confidence": 84.86130462394192,
+        "weekly": 1,
+        "weekly_confidence": 93.9205734367259
+    },
+    "62977319271289925": {
+        "name": "کی بی سی",
+        "monthly": 1,
+        "monthly_confidence": 67.74167787534428,
+        "weekly": 1,
+        "weekly_confidence": 80.80517088130878
+    },
+    "48241092863917835": {
+        "name": "ولپارس",
+        "monthly": 0,
+        "monthly_confidence": 72.65448790076825,
+        "weekly": 1,
+        "weekly_confidence": 72.5156061206937
+    },
+    "71744682148776880": {
+        "name": "ولصنم",
+        "monthly": 0,
+        "monthly_confidence": 84.10350439797479,
+        "weekly": 1,
+        "weekly_confidence": 96.20041507834881
+    },
+    "10568944722570445": {
+        "name": "سصفها",
+        "monthly": 0,
+        "monthly_confidence": 78.51511263765286,
+        "weekly": 1,
+        "weekly_confidence": 69.23622145915976
+    },
+    "48619517949257749": {
+        "name": "غنوش",
+        "monthly": 1,
+        "monthly_confidence": 85.34449715221703,
+        "weekly": 1,
+        "weekly_confidence": 82.34839311987798
+    },
+    "65266756318187150": {
+        "name": "بکامح",
+        "monthly": 0,
+        "monthly_confidence": 73.7324233120971,
+        "weekly": 1,
+        "weekly_confidence": 83.99047308650435
+    },
+    "37631109616997982": {
+        "name": "قشهد",
+        "monthly": 1,
+        "monthly_confidence": 85.90874077401102,
+        "weekly": 0,
+        "weekly_confidence": 97.92048333252795
+    },
+    "11285885633824855": {
+        "name": "دریا",
+        "monthly": 0,
+        "monthly_confidence": 73.50867824032508,
+        "weekly": 0,
+        "weekly_confidence": 94.60069428045337
+    },
+    "33420285433308219": {
+        "name": "زپارس",
+        "monthly": 0,
+        "monthly_confidence": 81.71665426052282,
+        "weekly": 0,
+        "weekly_confidence": 88.19997438751774
+    },
+    "8915450910866216": {
+        "name": "دزهراوی",
+        "monthly": 1,
+        "monthly_confidence": 83.2364629493707,
+        "weekly": 1,
+        "weekly_confidence": 78.8199251159507
+    },
+    "15917865009187760": {
+        "name": "مادیرا",
+        "monthly": 1,
+        "monthly_confidence": 68.03594466603047,
+        "weekly": 0,
+        "weekly_confidence": 78.63161550621058
+    },
+    "14957056743925737": {
+        "name": "خلنت",
+        "monthly": 0,
+        "monthly_confidence": 78.45650286072038,
+        "weekly": 1,
+        "weekly_confidence": 89.35925722316586
+    },
+    "28251956446987982": {
+        "name": "شمواد",
+        "monthly": 1,
+        "monthly_confidence": 80.59901572647746,
+        "weekly": 1,
+        "weekly_confidence": 69.5139025976239
+    },
+    "23891830829322971": {
+        "name": "بایکا",
+        "monthly": 1,
+        "monthly_confidence": 85.00864600663121,
+        "weekly": 0,
+        "weekly_confidence": 93.12015138676854
+    },
+    "17330546482145553": {
+        "name": "خمهر",
+        "monthly": 0,
+        "monthly_confidence": 98.92055038895123,
+        "weekly": 1,
+        "weekly_confidence": 78.77416501976104
+    },
+    "28864540805361867": {
+        "name": "فخوز",
+        "monthly": 1,
+        "monthly_confidence": 92.54081280950146,
+        "weekly": 0,
+        "weekly_confidence": 77.69031579638823
+    },
+    "65999092673039059": {
+        "name": "مداران",
+        "monthly": 1,
+        "monthly_confidence": 82.04605735095046,
+        "weekly": 0,
+        "weekly_confidence": 94.63666194558044
+    },
+    "408934423224097": {
+        "name": "فرآور",
+        "monthly": 0,
+        "monthly_confidence": 97.75926815662248,
+        "weekly": 0,
+        "weekly_confidence": 79.30078736863786
+    },
+    "20024911381434086": {
+        "name": "دکیمی",
+        "monthly": 1,
+        "monthly_confidence": 89.39214935727261,
+        "weekly": 0,
+        "weekly_confidence": 88.64694595059748
+    },
+    "33783140337377394": {
+        "name": "خچرخش",
+        "monthly": 0,
+        "monthly_confidence": 78.81016087295608,
+        "weekly": 1,
+        "weekly_confidence": 78.22916698117031
+    },
+    "53334304751609770": {
+        "name": "حگردش",
+        "monthly": 0,
+        "monthly_confidence": 65.83355290348561,
+        "weekly": 0,
+        "weekly_confidence": 68.52820273057992
+    },
+    "58873907630765023": {
+        "name": "امین",
+        "monthly": 1,
+        "monthly_confidence": 70.72095280543823,
+        "weekly": 0,
+        "weekly_confidence": 88.59719050293683
+    },
+    "66701874099226162": {
+        "name": "فاسمین",
+        "monthly": 0,
+        "monthly_confidence": 69.77606032483355,
+        "weekly": 1,
+        "weekly_confidence": 71.89728017979866
+    },
+    "59839275647597021": {
+        "name": "وثوق",
+        "monthly": 1,
+        "monthly_confidence": 98.82822728197092,
+        "weekly": 1,
+        "weekly_confidence": 66.57688524771065
+    },
+    "17617474823279712": {
+        "name": "آ س پ",
+        "monthly": 1,
+        "monthly_confidence": 89.14882837307209,
+        "weekly": 1,
+        "weekly_confidence": 95.81287611077207
+    },
+    "22276798221643766": {
+        "name": "تفارس",
+        "monthly": 1,
+        "monthly_confidence": 78.08676165128756,
+        "weekly": 0,
+        "weekly_confidence": 65.03471580049316
+    },
+    "69454539056549106": {
+        "name": "بشهاب",
+        "monthly": 1,
+        "monthly_confidence": 70.21346607454447,
+        "weekly": 0,
+        "weekly_confidence": 80.88057753389403
+    },
+    "14231831499205396": {
+        "name": "سنیر",
+        "monthly": 1,
+        "monthly_confidence": 71.20418571266931,
+        "weekly": 1,
+        "weekly_confidence": 92.0528749739624
+    },
+    "47348197320716810": {
+        "name": "دسانکو",
+        "monthly": 0,
+        "monthly_confidence": 65.32239766576411,
+        "weekly": 1,
+        "weekly_confidence": 79.60608365629126
+    },
+    "48457557221009333": {
+        "name": "وتوسکا",
+        "monthly": 1,
+        "monthly_confidence": 71.308968117349,
+        "weekly": 1,
+        "weekly_confidence": 94.72416873524739
+    },
+    "71758511001096824": {
+        "name": "غصینو",
+        "monthly": 0,
+        "monthly_confidence": 86.23744442767989,
+        "weekly": 1,
+        "weekly_confidence": 73.87952215834302
+    },
+    "26014913469567886": {
+        "name": "وغدیر",
+        "monthly": 0,
+        "monthly_confidence": 87.08068734067547,
+        "weekly": 1,
+        "weekly_confidence": 65.37756694099295
+    },
+    "53419976284977130": {
+        "name": "تصمیم",
+        "monthly": 0,
+        "monthly_confidence": 88.27700001281322,
+        "weekly": 1,
+        "weekly_confidence": 73.2704866874064
+    },
+    "1241998328504490": {
+        "name": "نشان",
+        "monthly": 1,
+        "monthly_confidence": 66.7948951798993,
+        "weekly": 0,
+        "weekly_confidence": 69.30881123844254
+    },
+    "44850033148208596": {
+        "name": "غچین",
+        "monthly": 1,
+        "monthly_confidence": 98.52877408712003,
+        "weekly": 1,
+        "weekly_confidence": 68.34691157549886
+    },
+    "51971068201094874": {
+        "name": "بپاس",
+        "monthly": 1,
+        "monthly_confidence": 88.42304260108016,
+        "weekly": 1,
+        "weekly_confidence": 85.56528819849252
+    },
+    "41927452991671109": {
+        "name": "توان",
+        "monthly": 0,
+        "monthly_confidence": 86.87215328216635,
+        "weekly": 1,
+        "weekly_confidence": 76.71115186451863
+    },
+    "58852293795036597": {
+        "name": "ویستا",
+        "monthly": 1,
+        "monthly_confidence": 70.46428036135548,
+        "weekly": 1,
+        "weekly_confidence": 96.59830323397314
+    },
+    "16693610252404739": {
+        "name": "ثالوند",
+        "monthly": 0,
+        "monthly_confidence": 69.32788436824048,
+        "weekly": 1,
+        "weekly_confidence": 80.36258534382225
+    },
+    "24303422207378456": {
+        "name": "غالبر",
+        "monthly": 1,
+        "monthly_confidence": 66.5924460567462,
+        "weekly": 1,
+        "weekly_confidence": 70.73246165030935
+    },
+    "32821908911812078": {
+        "name": "خزر",
+        "monthly": 1,
+        "monthly_confidence": 90.01239172341866,
+        "weekly": 1,
+        "weekly_confidence": 71.68447110997514
+    },
+    "72044846109864381": {
+        "name": "پارتا",
+        "monthly": 1,
+        "monthly_confidence": 89.76330866923578,
+        "weekly": 1,
+        "weekly_confidence": 66.87460958282863
+    },
+    "15124889255100138": {
+        "name": "رویش",
+        "monthly": 0,
+        "monthly_confidence": 88.00946947679888,
+        "weekly": 0,
+        "weekly_confidence": 69.23718205264383
+    },
+    "2318736941376687": {
+        "name": "خصدرا",
+        "monthly": 1,
+        "monthly_confidence": 78.45718821233766,
+        "weekly": 1,
+        "weekly_confidence": 65.36568365667259
+    },
+    "12638840758449459": {
+        "name": "پخش",
+        "monthly": 1,
+        "monthly_confidence": 72.18967767905927,
+        "weekly": 1,
+        "weekly_confidence": 83.95262849937632
+    },
+    "53251602435454519": {
+        "name": "کیان",
+        "monthly": 0,
+        "monthly_confidence": 68.8400061827246,
+        "weekly": 1,
+        "weekly_confidence": 96.9401338466437
+    },
+    "55289848471625247": {
+        "name": "پرسپولیس",
+        "monthly": 1,
+        "monthly_confidence": 95.19270273046726,
+        "weekly": 1,
+        "weekly_confidence": 82.8068451340232
+    },
+    "55897939403232751": {
+        "name": "لسرما",
+        "monthly": 0,
+        "monthly_confidence": 93.87612008191454,
+        "weekly": 1,
+        "weekly_confidence": 91.83973348169076
+    },
+    "56798822689379375": {
+        "name": "حاریا",
+        "monthly": 0,
+        "monthly_confidence": 67.77722896731767,
+        "weekly": 1,
+        "weekly_confidence": 74.4365112091939
+    },
+    "57551382352708199": {
+        "name": "غگز",
+        "monthly": 0,
+        "monthly_confidence": 98.35706008669592,
+        "weekly": 0,
+        "weekly_confidence": 90.00165615122367
+    },
+    "57944184894703821": {
+        "name": "والبر",
+        "monthly": 1,
+        "monthly_confidence": 67.94791166052661,
+        "weekly": 1,
+        "weekly_confidence": 87.79449889666733
+    },
+    "58035444268544991": {
+        "name": "سمتاز",
+        "monthly": 0,
+        "monthly_confidence": 73.8845377960156,
+        "weekly": 1,
+        "weekly_confidence": 71.51989154034011
+    },
+    "58931793851445922": {
+        "name": "ومعادن",
+        "monthly": 1,
+        "monthly_confidence": 87.74152639078169,
+        "weekly": 0,
+        "weekly_confidence": 78.66036418841209
+    },
+    "59142194115401696": {
+        "name": "لوتوس",
+        "monthly": 1,
+        "monthly_confidence": 65.44197794061597,
+        "weekly": 1,
+        "weekly_confidence": 88.82269023590588
+    },
+    "59486059679335017": {
+        "name": "وپترو",
+        "monthly": 1,
+        "monthly_confidence": 66.2872044342713,
+        "weekly": 0,
+        "weekly_confidence": 71.46887192933544
+    },
+    "59607545337891226": {
+        "name": "پرداخت",
+        "monthly": 1,
+        "monthly_confidence": 78.02879222262456,
+        "weekly": 0,
+        "weekly_confidence": 91.38471825480542
+    },
+    "59800986739603675": {
+        "name": "شسم",
+        "monthly": 1,
+        "monthly_confidence": 71.91501630085547,
+        "weekly": 1,
+        "weekly_confidence": 77.54566106152836
+    },
+    "61978776664766359": {
+        "name": "غپونه",
+        "monthly": 0,
+        "monthly_confidence": 77.75884232032146,
+        "weekly": 0,
+        "weekly_confidence": 66.6652230737007
+    },
+    "62012736978844991": {
+        "name": "دارا",
+        "monthly": 1,
+        "monthly_confidence": 71.13575853835617,
+        "weekly": 1,
+        "weekly_confidence": 92.76645049774862
+    },
+    "64155926828410021": {
+        "name": "ساذری",
+        "monthly": 0,
+        "monthly_confidence": 78.6883982871983,
+        "weekly": 0,
+        "weekly_confidence": 93.77338709068879
+    },
+    "64485827086284311": {
+        "name": "فجوش",
+        "monthly": 1,
+        "monthly_confidence": 65.44754376033673,
+        "weekly": 1,
+        "weekly_confidence": 98.20215047434792
+    },
+    "65490886290565185": {
+        "name": "شزنگ",
+        "monthly": 1,
+        "monthly_confidence": 65.80785192614717,
+        "weekly": 1,
+        "weekly_confidence": 72.1096236824017
+    },
+    "65671173927025645": {
+        "name": "کتوکا",
+        "monthly": 1,
+        "monthly_confidence": 80.0026732659087,
+        "weekly": 1,
+        "weekly_confidence": 78.51519661282339
+    },
+    "66036975502302203": {
+        "name": "فیروزه",
+        "monthly": 0,
+        "monthly_confidence": 66.79967221423725,
+        "weekly": 1,
+        "weekly_confidence": 85.56020597977181
+    },
+    "66450490505950110": {
+        "name": "ددام",
+        "monthly": 1,
+        "monthly_confidence": 76.79901670700707,
+        "weekly": 1,
+        "weekly_confidence": 76.54239982031766
+    },
+    "66726992874614788": {
+        "name": "دتوزیع",
+        "monthly": 1,
+        "monthly_confidence": 65.41445109833074,
+        "weekly": 0,
+        "weekly_confidence": 81.40783395553824
+    },
+    "67327029014085707": {
+        "name": "سخزر",
+        "monthly": 1,
+        "monthly_confidence": 74.83355261660859,
+        "weekly": 1,
+        "weekly_confidence": 81.81342468558688
+    },
+    "68117765376081366": {
+        "name": "وتوس",
+        "monthly": 1,
+        "monthly_confidence": 86.08841786826541,
+        "weekly": 0,
+        "weekly_confidence": 74.50208696553773
+    },
+    "68203878405672734": {
+        "name": "صنوین",
+        "monthly": 1,
+        "monthly_confidence": 90.55656937151608,
+        "weekly": 1,
+        "weekly_confidence": 95.88996032417654
+    },
+    "69540585676934415": {
+        "name": "ددانا",
+        "monthly": 1,
+        "monthly_confidence": 88.7175921740133,
+        "weekly": 1,
+        "weekly_confidence": 82.56155715804013
+    },
+    "70698996132397388": {
+        "name": "دیبا",
+        "monthly": 1,
+        "monthly_confidence": 68.99109703260854,
+        "weekly": 1,
+        "weekly_confidence": 76.65518476332205
+    },
+    "71843282162462661": {
+        "name": "کارا",
+        "monthly": 0,
+        "monthly_confidence": 66.9798193034935,
+        "weekly": 1,
+        "weekly_confidence": 79.00782501442865
+    },
+    "71957984642204570": {
+        "name": "شپترو",
+        "monthly": 1,
+        "monthly_confidence": 87.13670503117466,
+        "weekly": 1,
+        "weekly_confidence": 84.12731832136652
+    },
+    "2161110547458064": {
+        "name": "سپیدما",
+        "monthly": 1,
+        "monthly_confidence": 89.87530143561392,
+        "weekly": 0,
+        "weekly_confidence": 66.14769852135058
+    },
+    "18093681647131179": {
+        "name": "دتولید",
+        "monthly": 1,
+        "monthly_confidence": 85.0374644050165,
+        "weekly": 0,
+        "weekly_confidence": 74.13028592859763
+    },
+    "63363116407864462": {
+        "name": "لابسا",
+        "monthly": 1,
+        "monthly_confidence": 98.42205649572612,
+        "weekly": 0,
+        "weekly_confidence": 82.0680655393986
+    },
+    "63830424809501048": {
+        "name": "اپرداز",
+        "monthly": 0,
+        "monthly_confidence": 82.48357892116796,
+        "weekly": 0,
+        "weekly_confidence": 93.42800137348596
+    },
+    "47302318535715632": {
+        "name": "ونوین",
+        "monthly": 0,
+        "monthly_confidence": 96.84411281533181,
+        "weekly": 1,
+        "weekly_confidence": 89.43171165316583
+    },
+    "10114441830266109": {
+        "name": "گدنا",
+        "monthly": 1,
+        "monthly_confidence": 83.09746622969243,
+        "weekly": 0,
+        "weekly_confidence": 67.48457169294511
+    },
+    "28431095903407567": {
+        "name": "کاسپین",
+        "monthly": 1,
+        "monthly_confidence": 98.08042056481332,
+        "weekly": 1,
+        "weekly_confidence": 74.81043633246172
+    },
+    "57309221039930244": {
+        "name": "وصنعت",
+        "monthly": 0,
+        "monthly_confidence": 81.57500298215416,
+        "weekly": 0,
+        "weekly_confidence": 74.7735632482086
+    },
+    "13937270451301973": {
+        "name": "وبشهر",
+        "monthly": 1,
+        "monthly_confidence": 78.60435915518305,
+        "weekly": 1,
+        "weekly_confidence": 79.67608582975168
+    },
+    "24079409192818584": {
+        "name": "پدرخش",
+        "monthly": 1,
+        "monthly_confidence": 94.76266687835434,
+        "weekly": 1,
+        "weekly_confidence": 98.26710039654279
+    },
+    "5187018329202415": {
+        "name": "لپارس",
+        "monthly": 1,
+        "monthly_confidence": 77.52542397807404,
+        "weekly": 1,
+        "weekly_confidence": 91.55465090565615
+    },
+    "9481703061634967": {
+        "name": "پارسیان",
+        "monthly": 0,
+        "monthly_confidence": 96.95132585203208,
+        "weekly": 0,
+        "weekly_confidence": 86.39481323594462
+    },
+    "10831074117626896": {
+        "name": "قاروم",
+        "monthly": 1,
+        "monthly_confidence": 94.98246814358443,
+        "weekly": 1,
+        "weekly_confidence": 86.80550010276193
+    },
+    "28450080638096732": {
+        "name": "سیمرغ",
+        "monthly": 1,
+        "monthly_confidence": 75.27248626494242,
+        "weekly": 1,
+        "weekly_confidence": 65.69753310060746
+    },
+    "68909035712962732": {
+        "name": "ثباغ",
+        "monthly": 1,
+        "monthly_confidence": 74.36193005622712,
+        "weekly": 0,
+        "weekly_confidence": 86.56883394422191
+    },
+    "61506294208022391": {
+        "name": "غشصفا",
+        "monthly": 0,
+        "monthly_confidence": 73.33846542082324,
+        "weekly": 1,
+        "weekly_confidence": 71.48314082123859
+    },
+    "4528607775462304": {
+        "name": "سفانو",
+        "monthly": 1,
+        "monthly_confidence": 90.2152485636788,
+        "weekly": 1,
+        "weekly_confidence": 88.52084089709757
+    },
+    "5427792638736934": {
+        "name": "زفکا",
+        "monthly": 1,
+        "monthly_confidence": 77.42747293200146,
+        "weekly": 1,
+        "weekly_confidence": 95.77258357693975
+    },
+    "11258722998911897": {
+        "name": "وسکاب",
+        "monthly": 0,
+        "monthly_confidence": 83.51690061684194,
+        "weekly": 1,
+        "weekly_confidence": 79.98636006125454
+    },
+    "30582275818828857": {
+        "name": "ناب",
+        "monthly": 1,
+        "monthly_confidence": 77.46975947923276,
+        "weekly": 0,
+        "weekly_confidence": 70.90883641636432
+    },
+    "57273529732791251": {
+        "name": "خموتور",
+        "monthly": 0,
+        "monthly_confidence": 75.75515989093581,
+        "weekly": 1,
+        "weekly_confidence": 96.26019831886066
+    },
+    "60079434631497942": {
+        "name": "ورازی",
+        "monthly": 0,
+        "monthly_confidence": 65.5889892115411,
+        "weekly": 0,
+        "weekly_confidence": 73.81019056246086
+    },
+    "71856634742001725": {
+        "name": "سپ",
+        "monthly": 0,
+        "monthly_confidence": 71.61357446897104,
+        "weekly": 0,
+        "weekly_confidence": 93.88578983405618
+    },
+    "65321970913593427": {
+        "name": "سکرد",
+        "monthly": 1,
+        "monthly_confidence": 82.75828810279387,
+        "weekly": 0,
+        "weekly_confidence": 83.1036401478611
+    },
+    "43362635835198978": {
+        "name": "های وب",
+        "monthly": 0,
+        "monthly_confidence": 82.14218215452632,
+        "weekly": 0,
+        "weekly_confidence": 90.54941002462212
+    },
+    "4507558419857064": {
+        "name": "زماهان",
+        "monthly": 1,
+        "monthly_confidence": 83.5813330481268,
+        "weekly": 1,
+        "weekly_confidence": 89.94093770700734
+    },
+    "22950683624908253": {
+        "name": "نتوس",
+        "monthly": 1,
+        "monthly_confidence": 81.16230292478402,
+        "weekly": 1,
+        "weekly_confidence": 94.36241168857762
+    },
+    "46752599569017089": {
+        "name": "بترانس",
+        "monthly": 0,
+        "monthly_confidence": 76.06255572381878,
+        "weekly": 1,
+        "weekly_confidence": 88.6171835579919
+    },
+    "60247433951600827": {
+        "name": "شاوان",
+        "monthly": 0,
+        "monthly_confidence": 73.17840322495911,
+        "weekly": 1,
+        "weekly_confidence": 66.12267620106307
+    },
+    "69446612239102459": {
+        "name": "شکام",
+        "monthly": 1,
+        "monthly_confidence": 71.96095912595337,
+        "weekly": 1,
+        "weekly_confidence": 80.6074106674023
+    },
+    "36995197800118822": {
+        "name": "سنوین",
+        "monthly": 0,
+        "monthly_confidence": 84.66176447782061,
+        "weekly": 0,
+        "weekly_confidence": 85.36965833140736
+    },
+    "9925324137489171": {
+        "name": "دتولیدح",
+        "monthly": 1,
+        "monthly_confidence": 83.54638886914967,
+        "weekly": 1,
+        "weekly_confidence": 66.29386208547947
+    },
+    "25559236668122210": {
+        "name": "کهربا",
+        "monthly": 1,
+        "monthly_confidence": 77.49203440067149,
+        "weekly": 1,
+        "weekly_confidence": 94.17035850006847
+    },
+    "57600064931636077": {
+        "name": "وجامی",
+        "monthly": 1,
+        "monthly_confidence": 87.17879133132557,
+        "weekly": 0,
+        "weekly_confidence": 78.91246926112257
+    },
+    "65018804181564924": {
+        "name": "گوهران",
+        "monthly": 1,
+        "monthly_confidence": 98.09481713144979,
+        "weekly": 0,
+        "weekly_confidence": 82.32557052663792
+    },
+    "3623921205367364": {
+        "name": "کدما",
+        "monthly": 1,
+        "monthly_confidence": 67.30722015342924,
+        "weekly": 1,
+        "weekly_confidence": 81.7422251175942
+    },
+    "50094941173290382": {
+        "name": "اکسیژن",
+        "monthly": 1,
+        "monthly_confidence": 65.50506296774469,
+        "weekly": 1,
+        "weekly_confidence": 80.59526305378463
+    },
+    "47026464823464687": {
+        "name": "ومهان",
+        "monthly": 1,
+        "monthly_confidence": 84.14531533446683,
+        "weekly": 0,
+        "weekly_confidence": 80.71963113298722
+    },
+    "44013656953678055": {
+        "name": "شرانل",
+        "monthly": 0,
+        "monthly_confidence": 84.28734095802807,
+        "weekly": 1,
+        "weekly_confidence": 87.28728682154905
+    },
+    "64843936383937546": {
+        "name": "غگلستا",
+        "monthly": 1,
+        "monthly_confidence": 78.78040016475121,
+        "weekly": 1,
+        "weekly_confidence": 68.33375511091147
+    },
+    "14398278072324784": {
+        "name": "قهکمت",
+        "monthly": 1,
+        "monthly_confidence": 75.54120476534617,
+        "weekly": 1,
+        "weekly_confidence": 69.4387947965228
+    },
+    "66818022341772870": {
+        "name": "اعتماد",
+        "monthly": 1,
+        "monthly_confidence": 89.09388667316817,
+        "weekly": 1,
+        "weekly_confidence": 75.10132366222652
+    },
+    "43716452378323683": {
+        "name": "فزرین",
+        "monthly": 0,
+        "monthly_confidence": 73.66151603908935,
+        "weekly": 1,
+        "weekly_confidence": 71.56382587472919
+    },
+    "47377315952751604": {
+        "name": "بسویچ",
+        "monthly": 0,
+        "monthly_confidence": 91.20439959251563,
+        "weekly": 1,
+        "weekly_confidence": 93.29062584310248
+    },
+    "50792786683910016": {
+        "name": "کرمان",
+        "monthly": 1,
+        "monthly_confidence": 76.1622231285194,
+        "weekly": 0,
+        "weekly_confidence": 68.31860037823235
+    },
+    "27668158733246204": {
+        "name": "سپرمی",
+        "monthly": 1,
+        "monthly_confidence": 96.51292921551405,
+        "weekly": 1,
+        "weekly_confidence": 83.5386462567956
+    },
+    "15930821245168534": {
+        "name": "سکارون",
+        "monthly": 1,
+        "monthly_confidence": 94.53553651367807,
+        "weekly": 1,
+        "weekly_confidence": 75.28362347061737
+    },
+    "16040900750729921": {
+        "name": "کامیاب",
+        "monthly": 0,
+        "monthly_confidence": 73.98642118941511,
+        "weekly": 1,
+        "weekly_confidence": 69.08363648220322
+    },
+    "24869832924911721": {
+        "name": "آسامید",
+        "monthly": 1,
+        "monthly_confidence": 83.36552199601817,
+        "weekly": 1,
+        "weekly_confidence": 83.38839480953628
+    },
+    "26997316501080743": {
+        "name": "سشرق",
+        "monthly": 1,
+        "monthly_confidence": 91.28512724379988,
+        "weekly": 1,
+        "weekly_confidence": 80.23776622232177
+    },
+    "21772258644715569": {
+        "name": "شغدیر",
+        "monthly": 1,
+        "monthly_confidence": 96.71715519203043,
+        "weekly": 0,
+        "weekly_confidence": 97.69900509617152
+    },
+    "56574323121551263": {
+        "name": "شکبیر",
+        "monthly": 1,
+        "monthly_confidence": 81.32696802258975,
+        "weekly": 1,
+        "weekly_confidence": 77.01213907433471
+    },
+    "32784604551756178": {
+        "name": "پیزد",
+        "monthly": 0,
+        "monthly_confidence": 83.49558290097582,
+        "weekly": 0,
+        "weekly_confidence": 84.48592732552231
+    },
+    "33541897671561960": {
+        "name": "واتی",
+        "monthly": 1,
+        "monthly_confidence": 82.68445152073708,
+        "weekly": 1,
+        "weekly_confidence": 80.75194102900609
+    },
+    "10654052153538617": {
+        "name": "کابگن",
+        "monthly": 1,
+        "monthly_confidence": 98.43587464056569,
+        "weekly": 1,
+        "weekly_confidence": 90.14291352728549
+    },
+    "66772024744156373": {
+        "name": "فباهنر",
+        "monthly": 1,
+        "monthly_confidence": 94.7936599278214,
+        "weekly": 1,
+        "weekly_confidence": 91.16442959851594
+    },
+    "68635710163497089": {
+        "name": "همراه",
+        "monthly": 1,
+        "monthly_confidence": 85.95525526119219,
+        "weekly": 1,
+        "weekly_confidence": 89.339401846306
+    },
+    "611986653700161": {
+        "name": "سبزوا",
+        "monthly": 1,
+        "monthly_confidence": 78.99487387744976,
+        "weekly": 1,
+        "weekly_confidence": 85.45954099044359
+    },
+    "8725363201030474": {
+        "name": "فگستر",
+        "monthly": 1,
+        "monthly_confidence": 80.39963804362884,
+        "weekly": 1,
+        "weekly_confidence": 87.58474219979895
+    },
+    "33611155027418901": {
+        "name": "غشهداب",
+        "monthly": 1,
+        "monthly_confidence": 81.8323669464281,
+        "weekly": 1,
+        "weekly_confidence": 72.95610860360246
+    },
+    "45518744711972166": {
+        "name": "غپآذر",
+        "monthly": 1,
+        "monthly_confidence": 75.65229143497405,
+        "weekly": 0,
+        "weekly_confidence": 78.59605133255728
+    },
+    "59598536122397373": {
+        "name": "سخند",
+        "monthly": 1,
+        "monthly_confidence": 97.63078598095542,
+        "weekly": 0,
+        "weekly_confidence": 94.06203892429811
+    },
+    "6478064539164167": {
+        "name": "ریشمک",
+        "monthly": 1,
+        "monthly_confidence": 70.84825834969985,
+        "weekly": 1,
+        "weekly_confidence": 76.49540848162927
+    },
+    "22667016906590506": {
+        "name": "شبهرن",
+        "monthly": 0,
+        "monthly_confidence": 80.28592349127919,
+        "weekly": 1,
+        "weekly_confidence": 84.06277602902098
+    },
+    "65023851436340574": {
+        "name": "کاردان",
+        "monthly": 0,
+        "monthly_confidence": 91.10864968404424,
+        "weekly": 1,
+        "weekly_confidence": 77.21727569795766
+    },
+    "15451317146134956": {
+        "name": "افق ملت",
+        "monthly": 1,
+        "monthly_confidence": 87.93750388348865,
+        "weekly": 1,
+        "weekly_confidence": 77.56084967816352
+    },
+    "21432551703060846": {
+        "name": "حآفرین",
+        "monthly": 1,
+        "monthly_confidence": 93.96665412854954,
+        "weekly": 0,
+        "weekly_confidence": 65.1165754381635
+    },
+    "22308305646551497": {
+        "name": "تپولا",
+        "monthly": 1,
+        "monthly_confidence": 66.13705456932867,
+        "weekly": 1,
+        "weekly_confidence": 88.5698929435855
+    },
+    "50247622569476338": {
+        "name": "بوعلی",
+        "monthly": 0,
+        "monthly_confidence": 93.81267755096277,
+        "weekly": 0,
+        "weekly_confidence": 65.50248731510227
+    },
+    "57728534324022361": {
+        "name": "گنجین",
+        "monthly": 1,
+        "monthly_confidence": 95.91229359250224,
+        "weekly": 1,
+        "weekly_confidence": 77.80017034332519
+    },
+    "10843114830116591": {
+        "name": "نبروج",
+        "monthly": 1,
+        "monthly_confidence": 78.39438527883678,
+        "weekly": 1,
+        "weekly_confidence": 70.29192051928332
+    },
+    "64463015242763957": {
+        "name": "صباح",
+        "monthly": 0,
+        "monthly_confidence": 78.57788218247488,
+        "weekly": 1,
+        "weekly_confidence": 96.39369576319464
+    },
+    "8977441217024425": {
+        "name": "فسپا",
+        "monthly": 1,
+        "monthly_confidence": 77.69534459464546,
+        "weekly": 1,
+        "weekly_confidence": 82.69710377163968
+    },
+    "58741071099161284": {
+        "name": "فرابورس",
+        "monthly": 1,
+        "monthly_confidence": 91.7795025967731,
+        "weekly": 1,
+        "weekly_confidence": 88.99562960880324
+    },
+    "11129387075131725": {
+        "name": "تملت",
+        "monthly": 1,
+        "monthly_confidence": 91.23097603629367,
+        "weekly": 1,
+        "weekly_confidence": 95.97035278584835
+    },
+    "12303918642491681": {
+        "name": "زنجان",
+        "monthly": 0,
+        "monthly_confidence": 75.70435448402712,
+        "weekly": 1,
+        "weekly_confidence": 91.50568658802936
+    },
+    "67675656072510693": {
+        "name": "پالایش",
+        "monthly": 0,
+        "monthly_confidence": 90.18400115646021,
+        "weekly": 1,
+        "weekly_confidence": 91.49177212138143
+    },
+    "49054891736433700": {
+        "name": "دعبید",
+        "monthly": 0,
+        "monthly_confidence": 97.69775283005674,
+        "weekly": 1,
+        "weekly_confidence": 73.84512645992417
+    },
+    "61102694810476197": {
+        "name": "شپارس",
+        "monthly": 0,
+        "monthly_confidence": 94.74019618021535,
+        "weekly": 0,
+        "weekly_confidence": 80.13747273559468
+    },
+    "5866848234665627": {
+        "name": "دسبحان",
+        "monthly": 1,
+        "monthly_confidence": 75.94261127554573,
+        "weekly": 1,
+        "weekly_confidence": 79.84063646927697
+    },
+    "61298636307861167": {
+        "name": "وبرق",
+        "monthly": 1,
+        "monthly_confidence": 66.10344506797988,
+        "weekly": 1,
+        "weekly_confidence": 74.09336482241405
+    },
+    "31078457170311964": {
+        "name": "ولشرق",
+        "monthly": 0,
+        "monthly_confidence": 67.90453390110606,
+        "weekly": 1,
+        "weekly_confidence": 87.59179604900991
+    },
+    "3654864906585643": {
+        "name": "تکنو",
+        "monthly": 1,
+        "monthly_confidence": 68.83062912593188,
+        "weekly": 1,
+        "weekly_confidence": 87.99336874295157
+    },
+    "27000326841257664": {
+        "name": "سدشت",
+        "monthly": 1,
+        "monthly_confidence": 89.92962662922895,
+        "weekly": 1,
+        "weekly_confidence": 69.93157401492479
+    },
+    "55254206302462116": {
+        "name": "آپ",
+        "monthly": 0,
+        "monthly_confidence": 86.86029216434035,
+        "weekly": 1,
+        "weekly_confidence": 67.52684224441917
+    },
+    "34540569618314880": {
+        "name": "قاسم",
+        "monthly": 1,
+        "monthly_confidence": 84.54268342496583,
+        "weekly": 0,
+        "weekly_confidence": 95.11925064835896
+    },
+    "42690477960659940": {
+        "name": "کشرق",
+        "monthly": 0,
+        "monthly_confidence": 75.45847110167558,
+        "weekly": 1,
+        "weekly_confidence": 89.55091524080203
+    },
+    "47749661205825616": {
+        "name": "سیستم",
+        "monthly": 0,
+        "monthly_confidence": 98.24625834741131,
+        "weekly": 0,
+        "weekly_confidence": 77.94472100425973
+    },
+    "33441514568901717": {
+        "name": "میدکو",
+        "monthly": 0,
+        "monthly_confidence": 98.33766610803495,
+        "weekly": 0,
+        "weekly_confidence": 72.97426920358878
+    },
+    "43913530989262989": {
+        "name": "سمایه",
+        "monthly": 0,
+        "monthly_confidence": 67.85012953335067,
+        "weekly": 0,
+        "weekly_confidence": 82.66629624552088
+    },
+    "66210395067138534": {
+        "name": "شتولی",
+        "monthly": 0,
+        "monthly_confidence": 92.43118376639968,
+        "weekly": 1,
+        "weekly_confidence": 86.03467323406024
+    },
+    "41379697187196382": {
+        "name": "وشهر",
+        "monthly": 1,
+        "monthly_confidence": 92.75704432006894,
+        "weekly": 0,
+        "weekly_confidence": 67.14966938782328
+    },
+    "47125023640770480": {
+        "name": "صنم",
+        "monthly": 1,
+        "monthly_confidence": 66.0621230698301,
+        "weekly": 1,
+        "weekly_confidence": 93.99720786430902
+    },
+    "50002340308486819": {
+        "name": "تاپکیش",
+        "monthly": 0,
+        "monthly_confidence": 85.74894613855896,
+        "weekly": 0,
+        "weekly_confidence": 83.01137052434856
+    },
+    "11432067920374603": {
+        "name": "دسینا",
+        "monthly": 1,
+        "monthly_confidence": 72.95285396895524,
+        "weekly": 0,
+        "weekly_confidence": 76.04134860827776
+    },
+    "25180702353416009": {
+        "name": "زدشت",
+        "monthly": 0,
+        "monthly_confidence": 80.9370638728214,
+        "weekly": 1,
+        "weekly_confidence": 74.39303953104009
+    },
+    "26316376625263940": {
+        "name": "پی پاد",
+        "monthly": 1,
+        "monthly_confidence": 88.15523125308344,
+        "weekly": 1,
+        "weekly_confidence": 77.83303068736772
+    },
+    "41974758296041288": {
+        "name": "سخوز",
+        "monthly": 0,
+        "monthly_confidence": 65.88341969421992,
+        "weekly": 1,
+        "weekly_confidence": 87.05041250141757
+    },
+    "44891482026867833": {
+        "name": "خساپا",
+        "monthly": 0,
+        "monthly_confidence": 77.94510816452895,
+        "weekly": 1,
+        "weekly_confidence": 84.86858244226482
+    },
+    "26259366519412975": {
+        "name": "زشگزا",
+        "monthly": 1,
+        "monthly_confidence": 74.93425101040637,
+        "weekly": 0,
+        "weekly_confidence": 77.15103069828196
+    },
+    "35425587644337450": {
+        "name": "فملی",
+        "monthly": 1,
+        "monthly_confidence": 78.47812573181288,
+        "weekly": 0,
+        "weekly_confidence": 71.76306874669395
+    },
+    "39751275523025334": {
+        "name": "اتکای",
+        "monthly": 0,
+        "monthly_confidence": 69.61875086936574,
+        "weekly": 1,
+        "weekly_confidence": 65.82736532740755
+    },
+    "19954896371640204": {
+        "name": "وزمین",
+        "monthly": 1,
+        "monthly_confidence": 78.37613505903232,
+        "weekly": 1,
+        "weekly_confidence": 70.46697209028889
+    },
+    "43291783149314349": {
+        "name": "وسرمد",
+        "monthly": 1,
+        "monthly_confidence": 70.81160990123185,
+        "weekly": 0,
+        "weekly_confidence": 68.38216317715474
+    },
+    "60162288821230099": {
+        "name": "تماوند",
+        "monthly": 1,
+        "monthly_confidence": 89.94305408824496,
+        "weekly": 1,
+        "weekly_confidence": 74.53583964504652
+    },
+    "47996917271187218": {
+        "name": "وکار",
+        "monthly": 1,
+        "monthly_confidence": 88.71759954085269,
+        "weekly": 1,
+        "weekly_confidence": 86.91978428975705
+    },
+    "10024128313803797": {
+        "name": "زگلدشت",
+        "monthly": 1,
+        "monthly_confidence": 94.43950417502515,
+        "weekly": 1,
+        "weekly_confidence": 66.57304673581501
+    },
+    "5054819322815158": {
+        "name": "زمگسا",
+        "monthly": 1,
+        "monthly_confidence": 79.25571055311221,
+        "weekly": 1,
+        "weekly_confidence": 76.83093228991447
+    },
+    "63084741752814852": {
+        "name": "دشیری",
+        "monthly": 1,
+        "monthly_confidence": 92.19196090936092,
+        "weekly": 0,
+        "weekly_confidence": 81.25249911817777
+    },
+    "27922860956133067": {
+        "name": "مبین",
+        "monthly": 0,
+        "monthly_confidence": 74.65046207828225,
+        "weekly": 0,
+        "weekly_confidence": 85.88196463137781
+    },
+    "69090868458637360": {
+        "name": "دیران",
+        "monthly": 1,
+        "monthly_confidence": 72.56794729512572,
+        "weekly": 1,
+        "weekly_confidence": 90.70991978725858
+    },
+    "3846143218462419": {
+        "name": "افران",
+        "monthly": 1,
+        "monthly_confidence": 97.60435713222115,
+        "weekly": 0,
+        "weekly_confidence": 80.79917834709491
+    },
+    "29316948750916349": {
+        "name": "پلوله",
+        "monthly": 0,
+        "monthly_confidence": 73.03222431877415,
+        "weekly": 1,
+        "weekly_confidence": 78.3108111056484
+    },
+    "49353447565507376": {
+        "name": "کاذر",
+        "monthly": 0,
+        "monthly_confidence": 75.05974563953845,
+        "weekly": 1,
+        "weekly_confidence": 91.43929438684695
+    },
+    "53145304508578701": {
+        "name": "تمشک",
+        "monthly": 1,
+        "monthly_confidence": 95.23842000638784,
+        "weekly": 1,
+        "weekly_confidence": 70.03703965901484
+    },
+    "4733285133017464": {
+        "name": "فخاس",
+        "monthly": 1,
+        "monthly_confidence": 93.58600745479347,
+        "weekly": 1,
+        "weekly_confidence": 76.38691573195473
+    },
+    "6433335428452486": {
+        "name": "خعمرا",
+        "monthly": 1,
+        "monthly_confidence": 77.26585695497062,
+        "weekly": 0,
+        "weekly_confidence": 66.9627748498456
+    },
+    "34581754264880199": {
+        "name": "درسا",
+        "monthly": 1,
+        "monthly_confidence": 81.51581910326597,
+        "weekly": 1,
+        "weekly_confidence": 84.05245809369704
+    },
+    "44986797317463049": {
+        "name": "وثنو",
+        "monthly": 1,
+        "monthly_confidence": 83.58932173990944,
+        "weekly": 0,
+        "weekly_confidence": 65.68121785356277
+    },
+    "5564768007356822": {
+        "name": "حریل",
+        "monthly": 0,
+        "monthly_confidence": 67.8018161715171,
+        "weekly": 1,
+        "weekly_confidence": 78.61794832262649
+    },
+    "53449700212786324": {
+        "name": "مارون",
+        "monthly": 0,
+        "monthly_confidence": 68.66450336257624,
+        "weekly": 1,
+        "weekly_confidence": 95.8792609024062
+    },
+    "59342912854668427": {
+        "name": "فنفت",
+        "monthly": 0,
+        "monthly_confidence": 86.29031874880452,
+        "weekly": 0,
+        "weekly_confidence": 90.1126163846513
+    },
+    "4758266259250794": {
+        "name": "خپویش",
+        "monthly": 1,
+        "monthly_confidence": 98.64941572165257,
+        "weekly": 1,
+        "weekly_confidence": 65.8448001004585
+    },
+    "71666521540545716": {
+        "name": "غبهار",
+        "monthly": 0,
+        "monthly_confidence": 73.96411751836514,
+        "weekly": 1,
+        "weekly_confidence": 81.5174262478306
+    },
+    "71945594172117613": {
+        "name": "ارزش مسکن",
+        "monthly": 0,
+        "monthly_confidence": 86.41565627403668,
+        "weekly": 1,
+        "weekly_confidence": 81.06328355721868
+    },
+    "34890845654517313": {
+        "name": "ساربیل",
+        "monthly": 1,
+        "monthly_confidence": 92.84445107969086,
+        "weekly": 1,
+        "weekly_confidence": 74.00627934123513
+    },
+    "42470251469508137": {
+        "name": "غناب",
+        "monthly": 0,
+        "monthly_confidence": 86.41029832727243,
+        "weekly": 0,
+        "weekly_confidence": 71.32730765681917
+    },
+    "14916489896692147": {
+        "name": "زملارد",
+        "monthly": 1,
+        "monthly_confidence": 93.18212372051151,
+        "weekly": 0,
+        "weekly_confidence": 83.35682701660839
+    },
+    "37828981835497620": {
+        "name": "پتروآگاه",
+        "monthly": 1,
+        "monthly_confidence": 82.42105153807009,
+        "weekly": 1,
+        "weekly_confidence": 66.26766894238138
+    },
+    "18007109712724189": {
+        "name": "آوا",
+        "monthly": 0,
+        "monthly_confidence": 72.01187226014622,
+        "weekly": 1,
+        "weekly_confidence": 88.73969295232523
+    },
+    "24254843881948059": {
+        "name": "چکاوه",
+        "monthly": 1,
+        "monthly_confidence": 98.06721171797611,
+        "weekly": 0,
+        "weekly_confidence": 93.42897476247079
+    },
+    "52846735736632974": {
+        "name": "صنهال",
+        "monthly": 1,
+        "monthly_confidence": 66.79136549828537,
+        "weekly": 1,
+        "weekly_confidence": 77.55047394251086
+    },
+    "66424163876658304": {
+        "name": "ودانا",
+        "monthly": 1,
+        "monthly_confidence": 79.98542072299568,
+        "weekly": 1,
+        "weekly_confidence": 68.21176327840769
+    },
+    "24212636157410845": {
+        "name": "وآرین",
+        "monthly": 1,
+        "monthly_confidence": 76.4115627208083,
+        "weekly": 0,
+        "weekly_confidence": 69.08311226814314
+    },
+    "24662567615903665": {
+        "name": "وسنا",
+        "monthly": 1,
+        "monthly_confidence": 93.04867699093597,
+        "weekly": 1,
+        "weekly_confidence": 67.12580617391917
+    },
+    "56006915451245411": {
+        "name": "لخانه",
+        "monthly": 1,
+        "monthly_confidence": 72.5096493833976,
+        "weekly": 1,
+        "weekly_confidence": 86.56895475372767
+    },
+    "17800036702302776": {
+        "name": "ثاخت",
+        "monthly": 0,
+        "monthly_confidence": 87.6967358632499,
+        "weekly": 1,
+        "weekly_confidence": 94.10111421940664
+    },
+    "20453828618330936": {
+        "name": "بنیرو",
+        "monthly": 0,
+        "monthly_confidence": 88.22888533381985,
+        "weekly": 1,
+        "weekly_confidence": 91.73772127539557
+    },
+    "28033133021443774": {
+        "name": "خفنر",
+        "monthly": 1,
+        "monthly_confidence": 82.86399624184162,
+        "weekly": 1,
+        "weekly_confidence": 85.53599162299513
+    },
+    "35424116338766901": {
+        "name": "حفارس",
+        "monthly": 0,
+        "monthly_confidence": 93.88652508751792,
+        "weekly": 0,
+        "weekly_confidence": 68.83370709372807
+    },
+    "10411249540376641": {
+        "name": "ناما",
+        "monthly": 1,
+        "monthly_confidence": 82.03675033307921,
+        "weekly": 0,
+        "weekly_confidence": 91.08685612884392
+    },
+    "19348717261145458": {
+        "name": "وهامون",
+        "monthly": 1,
+        "monthly_confidence": 71.58667604490971,
+        "weekly": 1,
+        "weekly_confidence": 95.01692004530888
+    },
+    "19310456400689867": {
+        "name": "خبازرس",
+        "monthly": 1,
+        "monthly_confidence": 73.83848426043593,
+        "weekly": 1,
+        "weekly_confidence": 68.07993849348114
+    },
+    "56375665074210467": {
+        "name": "فسوژ",
+        "monthly": 1,
+        "monthly_confidence": 78.215887105434,
+        "weekly": 1,
+        "weekly_confidence": 80.38183341863274
+    },
+    "65883838195688438": {
+        "name": "خودرو",
+        "monthly": 0,
+        "monthly_confidence": 93.68243427070429,
+        "weekly": 1,
+        "weekly_confidence": 97.85046383091725
+    },
+    "6757220448540984": {
+        "name": "سشمال",
+        "monthly": 1,
+        "monthly_confidence": 94.33376633231667,
+        "weekly": 1,
+        "weekly_confidence": 91.40323458164751
+    },
+    "46348559193224090": {
+        "name": "فولاد",
+        "monthly": 0,
+        "monthly_confidence": 77.47590276523792,
+        "weekly": 1,
+        "weekly_confidence": 77.42206587934598
+    },
+    "971068957336171": {
+        "name": "گارانتی",
+        "monthly": 1,
+        "monthly_confidence": 65.77870260792346,
+        "weekly": 1,
+        "weekly_confidence": 97.88595236120608
+    },
+    "52232388263291380": {
+        "name": "وامید",
+        "monthly": 1,
+        "monthly_confidence": 70.54291458066983,
+        "weekly": 1,
+        "weekly_confidence": 77.26475770853958
+    },
+    "67030488744129337": {
+        "name": "قپیرا",
+        "monthly": 0,
+        "monthly_confidence": 84.86375265851126,
+        "weekly": 1,
+        "weekly_confidence": 92.08279776884008
+    },
+    "13666407494621646": {
+        "name": "فراز",
+        "monthly": 1,
+        "monthly_confidence": 79.47530948665309,
+        "weekly": 1,
+        "weekly_confidence": 86.86267787577557
+    },
+    "40505767672724777": {
+        "name": "رانفور",
+        "monthly": 0,
+        "monthly_confidence": 72.19683665361204,
+        "weekly": 0,
+        "weekly_confidence": 86.99374440142924
+    },
+    "60610861509165508": {
+        "name": "حکشتی",
+        "monthly": 0,
+        "monthly_confidence": 88.70422817036791,
+        "weekly": 1,
+        "weekly_confidence": 66.3097702082745
+    },
+    "19257295292088310": {
+        "name": "خکمک",
+        "monthly": 1,
+        "monthly_confidence": 95.46618496803218,
+        "weekly": 1,
+        "weekly_confidence": 70.92959852740596
+    },
+    "24651394045981418": {
+        "name": "تاراز",
+        "monthly": 1,
+        "monthly_confidence": 67.69052325273461,
+        "weekly": 1,
+        "weekly_confidence": 72.85826001885243
+    },
+    "64619251116188373": {
+        "name": "بپیوند",
+        "monthly": 1,
+        "monthly_confidence": 76.61799649134319,
+        "weekly": 1,
+        "weekly_confidence": 97.31759368160202
+    }
 };
 const oscillator = {
   "22086876724551482": {
