@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { weeklyData } from "./predictData.js";
 import Loading from "../assets/loading.gif";
+import PredictSearch from "./predictSearch.jsx";
 
 function WeeklyPredict() {
   const [loading, setLoading] = useState(true);
+  const [thisTable, setThisTable] = useState(weeklyData);
 
   useEffect(() => {
     setTimeout(() => {
@@ -13,9 +15,11 @@ function WeeklyPredict() {
 
   return (
     <div>
+      <PredictSearch type={0} setter={setThisTable} />
       <div id="fundamentalHelp" style={{ textAlign: "right", padding: "5px" }}>
         <p>
-          در این قسمت روند قیمت سهم تا یک هفته بعد، نسبت به قیمت امروز بیان شده است.
+          در این قسمت روند قیمت سهم تا یک هفته بعد، نسبت به قیمت امروز بیان شده
+          است.
         </p>
       </div>
       <div className="tablesContainer">
@@ -30,7 +34,7 @@ function WeeklyPredict() {
           </thead>
           <tbody>
             {!loading ? (
-              weeklyData.map((item, index) => (
+              thisTable.map((item, index) => (
                 <tr key={index}>
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
                   <td style={{ fontWeight: "bold" }}>{item.name}</td>

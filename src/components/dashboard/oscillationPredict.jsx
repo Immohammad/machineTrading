@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { oscillationData } from "./predictData.js";
 import Loading from "../assets/loading.gif";
+import PredictSearch from "./predictSearch.jsx";
 
 function OscillationPredict() {
   const [loading, setLoading] = useState(true);
+  const [thisTable, setThisTable] = useState(oscillationData);
 
   useEffect(() => {
     setTimeout(() => {
@@ -12,6 +14,7 @@ function OscillationPredict() {
   }, []);
   return (
     <div>
+      <PredictSearch type={2} setter={setThisTable} />
       <div id="fundamentalHelp" style={{ textAlign: "right", padding: "5px" }}>
         <p>
           سهام با نوسان مثبت در طول هفتۀ آتی سقف 5 درصد نسبت به قیمت امروز را
@@ -33,7 +36,7 @@ function OscillationPredict() {
           </thead>
           <tbody>
             {!loading ? (
-              oscillationData.map((item, index) => (
+              thisTable.map((item, index) => (
                 <tr key={index}>
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
                   <td style={{ fontWeight: "bold" }}>{item.name}</td>

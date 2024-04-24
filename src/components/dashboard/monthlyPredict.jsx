@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { monthlyData } from "./predictData.js";
 import Loading from "../assets/loading.gif";
+import PredictSearch from "./predictSearch.jsx";
 
 function MonthlyPredict() {
   const [loading, setLoading] = useState(true);
+  const [thisTable, setThisTable] = useState(monthlyData);
 
   useEffect(() => {
     setTimeout(() => {
@@ -13,9 +15,11 @@ function MonthlyPredict() {
 
   return (
     <div>
+      <PredictSearch type={1} setter={setThisTable} />
       <div id="fundamentalHelp" style={{ textAlign: "right", padding: "5px" }}>
         <p>
-          در این قسمت روند قیمت سهم تا یک ماه بعد، نسبت به قیمت امروز بیان شده است.
+          در این قسمت روند قیمت سهم تا یک ماه بعد، نسبت به قیمت امروز بیان شده
+          است.
         </p>
       </div>
       <div className="tablesContainer">
@@ -30,7 +34,7 @@ function MonthlyPredict() {
           </thead>
           <tbody>
             {!loading ? (
-              monthlyData.map((item, index) => (
+              thisTable.map((item, index) => (
                 <tr key={index}>
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
                   <td style={{ fontWeight: "bold" }}>{item.name}</td>
