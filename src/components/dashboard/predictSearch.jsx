@@ -54,7 +54,7 @@ function PredictSearch(props) {
 
       <button onClick={handleFilter}>جستجو</button>
       <button onClick={handleReset}>همه نمادها</button>
-      <p style={{display:'inline', margin:'20px'}}>تاریخ پیش‌بینی: 1403/02/05</p>
+      <p style={{display:'inline', margin:'20px'}}>تاریخ پیش‌بینی: 1403/02/08</p>
     </div>
   );
 }
