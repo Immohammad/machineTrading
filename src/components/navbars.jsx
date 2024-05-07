@@ -96,9 +96,9 @@ const Navbars = () => {
         >
           <span style={{ margin: "20px" }}>پیش‌بینی هفتگی بازار  </span>
           شاخص کل:
-          <span style={{ margin: "20px", color:'green' }}> صعودی (68%)</span>
+          <span style={{ margin: "20px", color:'red' }}> نزولی (60%)</span>
           <span>|</span> شاخص هم‌وزن:
-          <span style={{ margin: "20px" , color:'green'}}> صعودی (90%)</span>
+          <span style={{ margin: "20px" , color:'red'}}> نزولی (81%)</span>
         </div>
       </Navbar.Collapse>
     </Navbar>

@@ -44,7 +44,7 @@ function OscillationPredict() {
                     {item.label == 2
                       ? "مثبت"
                       : item.label == 1
-                      ? "رنج"
+                      ? "خنثی"
                       : "منفی"}
                   </td>
                   <td>{item.confidence.toFixed(1)}</td>

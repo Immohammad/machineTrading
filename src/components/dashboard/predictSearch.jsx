@@ -16,7 +16,7 @@ function PredictSearch(props) {
     } else
       filtered = oscillationData.filter((item) => item.name.includes(search));
     if (isStock.length == 0) {
-      toast("سهامی با این نام وجود ندارد.");
+      toast("سهامی با این نام وجود ندارد یا فعلا در دسترس نیست.");
     } else if (filtered.length == 0) {
       toast("این سهم در این تاریخ احتمال خوبی برای پیش‌بینی ندارد.");
     } else props.setter(filtered);
@@ -54,7 +54,7 @@ function PredictSearch(props) {
 
       <button onClick={handleFilter}>جستجو</button>
       <button onClick={handleReset}>همه نمادها</button>
-      <p style={{display:'inline', margin:'20px'}}>تاریخ پیش‌بینی: 1403/02/08</p>
+      <p style={{display:'inline', margin:'20px'}}>تاریخ پیش‌بینی: 1403/02/17</p>
     </div>
   );
 }

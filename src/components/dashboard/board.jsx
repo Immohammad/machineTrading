@@ -7,7 +7,6 @@ import { DatePicker } from "zaman";
 import loading from "../assets/loading.gif";
 import { toast } from "react-toastify";
 import BoardFilter from "./boardFilter.jsx";
-// import { data as dataStatic } from "./tabloData";
 // import DatePicker from 'react-datepicker'
 // import 'react-datepicker/dist/react-datepicker.css'
 // import { DatePicker } from "@kasraghoreyshi/datepicker";
@@ -121,6 +120,10 @@ function Tablo() {
       {/* <DatePicker onChange={(event) =>console.log(event.value)}/> */}
       <p style={{ display: "inline", fontWeight: "bold", backgroundColor:'white', padding:'10px', borderRadius:'5px' }}>تاریخ امتیازدهی: {showDate}</p>
       {/* <DatePicker
+      round="x4"
+      direction="ltr"
+      weekends={[6,5]}
+      disabledDays={disabledDays}
         onChange={(event) => {
           console.log(moment(event.value).format("jYYYY-jMM-jDD"));
           handleDate(event);

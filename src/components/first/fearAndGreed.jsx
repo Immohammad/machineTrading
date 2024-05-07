@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Chart } from "react-google-charts";
+import axios from "axios";
+import BASE_URL from "../variables.js";
 
 function getData() {
   return [
     ["Label", "Value"],
-    ["شاخص ترس و طمع", 16],
+    ["شاخص ترس و طمع", 0],
   ];
 }
 
@@ -15,21 +17,35 @@ const options = {
   redTo: 100,
   yellowFrom: 60,
   yellowTo: 80,
-  minorTicks: 4,
+  minorTicks: 2,
 };
 
 function FearAndGreed() {
   const [data, setData] = useState(getData);
 
-  //   useEffect(() => {
-  //     const id = setInterval(() => {
-  //       setData(getData());
-  //     }, 3000);
+  // useEffect(() => {
+  //   const id = setInterval(() => {
+  //     setData(getData());
+  //   }, 3000);
 
-  //     return () => {
-  //       clearInterval(id);
-  //     };
-  //   });
+  //   return () => {
+  //     clearInterval(id);
+  //   };
+  // });
+  useEffect(() => {
+    axios
+      .get(`${BASE_URL}/api/fearngreed/getTotal?date=1403-02-12`)
+      .then((response) => {
+        // console.log(parseInt(response.data.total));
+        setData([
+          ["Label", "Value"],
+          ["شاخص ترس و طمع", parseInt(response.data.total)],
+        ]);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
 
   return (
     <div style={{ marginRight: "auto", marginLeft: "auto" }}>

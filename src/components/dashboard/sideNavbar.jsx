@@ -63,20 +63,19 @@ function SideNavbar() {
 
           <NavLink
             exact
+            to="/dashboard/didehban"
+            className={(navData) => (navData.isActive ? "activeClicked" : "")}
+          >
+            <CDBSidebarMenuItem icon="eye">دیده‌بان</CDBSidebarMenuItem>
+          </NavLink>
+
+          <NavLink
+            exact
             to="/dashboard/technical"
             // className={(navData) => (navData.isActive ? "activeClicked" : "")}
             className="disabled-item"
           >
             <CDBSidebarMenuItem icon="ruler">تکنیکال</CDBSidebarMenuItem>
-          </NavLink>
-
-          <NavLink
-            exact
-            to="/dashboard/fundamental"
-            // className={(navData) => (navData.isActive ? "activeClicked" : "")}
-            className="disabled-item"
-          >
-            <CDBSidebarMenuItem icon="star">سهام من</CDBSidebarMenuItem>
           </NavLink>
 
           <NavLink

@@ -17,8 +17,9 @@
 :root {
   --ourBlue: #334456;
   --ourRed: #e31228;
-  --ourGreen: #8cc73c;
+  --ourGreen: #00755e;
 }
+/* --ourGreen: #8cc73c; */
 
 .App {
   text-align: center;
@@ -432,10 +433,6 @@ h2 {
   width: 100%;
 }
 
-/* #formLogin input[type="submit"]{
-  text-align: center;
-} */
-
 #formLogin input,
 #formLogin select {
   border-radius: 15px;
@@ -470,13 +467,10 @@ input[type="password"] {
 }
 
 #profileSidebar {
-  /* background-color: var(--ourGreen); */
   height: 90vh;
   overflow: scroll initial;
   position: fixed;
-  /*Fixes the position */
   top: 95px;
-  /* Height of the navbar */
   right: 0;
 }
 
@@ -520,10 +514,6 @@ input[type="password"] {
   border-collapse: collapse;
   border-radius: 8px;
 }
-
-/* #dashboardProfile td {
-  border: 1px solid black
-} */
 
 .servicesDashboard {
   display: grid;
@@ -633,7 +623,7 @@ tr:nth-child(even) {
   font-size: larger;
 }
 .predictButtonActive {
-  color: white !important; 
+  color: white !important;
   background-color: var(--ourBlue) !important;
 }
 /* *******************end of predict********************** */
@@ -702,5 +692,66 @@ tr:nth-child(even) {
   margin-left: auto;
 }
 /* *******************end of fundamental********************** */
+
+/* *******************idehban********************** */
+.list-container {
+   /* position: relative; */
+  /*float: right;
+  background-color: white; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+.list {
+  list-style-type: none;
+  position: absolute;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 250px;
+  text-align: right;
+  max-height: 200px;
+  overflow-y: auto;
+  border: solid 1px gray;
+  border-top: none;
+  border-bottom: none;
+}
+.list li{
+  padding: 5px;
+  border-bottom: solid 1px black;
+}
+.list li:hover {
+  cursor: pointer;
+}
+#detailsPage {
+  text-align: right;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+#detailsPage > div {
+  text-align: right;
+}
+#detailsPage h2 {
+  margin: 20px;
+}
+#detailsPage .tablesContainer {
+  height: fit-content;
+}
+
+#detailsPagePredict {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 700px) {
+  #detailsPagePredict {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+/* *******************end of didehban********************** */
 
 /* *******************end of dashboard********************** */

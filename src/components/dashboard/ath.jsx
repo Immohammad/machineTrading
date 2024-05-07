@@ -34,7 +34,7 @@ function Ath() {
           localStorage.removeItem("token");
           toast("به دلیل گذشت زمان باید دوباره وارد حساب خود شوید.");
           setTimeout(() => {
-            window.location = "/";
+            window.location = "/login";
           }, 1000);
         } else {
           toast("مشکلی پیش آمد");
@@ -144,9 +144,9 @@ function Ath() {
                     item.to_ath >= 100
                       ? { color: "#0B6623" }
                       : item.to_ath >= 50
-                      ? { color: "#8cc73c" }
+                      ? { color: "#0066b2" }
                       : item.to_ath >= 0
-                      ? { color: "#87CEEB" }
+                      ? { color: "#8cc73c" }
                       : { color: "red" }
                   }
                 >

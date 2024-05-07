@@ -38,7 +38,13 @@ function MonthlyPredict() {
                 <tr key={index}>
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
                   <td style={{ fontWeight: "bold" }}>{item.name}</td>
-                  <td>{item.monthly == 1 ? "صعودی" : "نزولی"}</td>
+                  <td>
+                    {item.monthly == 2
+                      ? "صعودی"
+                      : item.monthly == 1
+                      ? "رنج"
+                      : "نزولی"}
+                  </td>
                   <td>{item.monthly_confidence.toFixed(1)}</td>
                 </tr>
               ))
