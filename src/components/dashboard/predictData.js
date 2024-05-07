@@ -519,7 +519,6 @@ export const monthlyData = Object.entries(weeklyMonthly)
 
 export const oscillationData = Object.entries(oscillator)
   .map(([key, value], index) => ({ ...value, index: index + 1 }))
-  .filter((item) => item.confidence >= 45)
   .sort((a, b) => b.confidence - a.confidence);
 
 // .filter((item) => item.confidence >= 50)

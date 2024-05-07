@@ -84,8 +84,8 @@ function StockDetails() {
         },
       })
       .then((response) => {
-        setReports(response.data.stocks);
-        console.log(response.data);
+        setReports(response.data.stocks.filter((item) => item.symbol === stockName));
+        // console.log(response.data);
       })
       .catch((error) => {
         toast("مشکلی در بنیادی پیش آمد");

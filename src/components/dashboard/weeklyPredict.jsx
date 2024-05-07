@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import { weeklyData } from "./predictData.js";
 import Loading from "../assets/loading.gif";
 import PredictSearch from "./predictSearch.jsx";
-import { useNavigate } from "react-router-dom";
 
 function WeeklyPredict() {
-  const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
   const [thisTable, setThisTable] = useState(weeklyData);
 
@@ -40,10 +38,10 @@ function WeeklyPredict() {
                 <tr key={index}>
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
                   <td
-                    style={{ fontWeight: "bold" }}
-                    // onClick={() => {
-                    //   navigate(`/dashboard/didehban/${item.name}`);
-                    // }}
+                    style={{ fontWeight: "bold", cursor:'pointer' }}
+                    onClick={() => {
+                      window.open(`/dashboard/didehban/${item.name}`, "_blank");
+                    }}
                   >
                     {item.name}
                   </td>

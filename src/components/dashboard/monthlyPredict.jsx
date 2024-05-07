@@ -37,7 +37,14 @@ function MonthlyPredict() {
               thisTable.map((item, index) => (
                 <tr key={index}>
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
-                  <td style={{ fontWeight: "bold" }}>{item.name}</td>
+                  <td
+                    style={{ fontWeight: "bold", cursor: "pointer" }}
+                    onClick={() => {
+                      window.open(`/dashboard/didehban/${item.name}`, "_blank");
+                    }}
+                  >
+                    {item.name}
+                  </td>
                   <td>
                     {item.monthly == 2
                       ? "صعودی"

@@ -49,7 +49,7 @@ function FundamentalFilter(props) {
 
     axios
       .get(
-        `${BASE_URL}/api/cp/getpaginated?nameArg=${stockName}&categoryArg=["${industry}"]&importanceArg=[${importance}]&isAuditedArg=${audited}`,
+        `${BASE_URL}/api/cp/getpaginated?categoryArg=["خودرو و ساخت قطعات"]`,
         {
           headers: {
             authorization: token,
@@ -141,6 +141,7 @@ function FundamentalFilter(props) {
             onChange={(event) => setIndustry(event.target.value)}
             style={{ width: "300px" }}
           >
+            <option value={`""`}>...</option>
             {allIndustries &&
               allIndustries.map((option, index) => (
                 <option key={index} value={option}>
