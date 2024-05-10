@@ -11,7 +11,14 @@ import {
   faCircleXmark,
   faDownload,
 } from "@fortawesome/free-solid-svg-icons";
-import { weeklyData, monthlyData, oscillationData } from "./predictData.js";
+import {
+  weeklyData,
+  monthlyData,
+  oscillationData,
+  weeklyAlan,
+  monthlyAlan,
+  oscillationAlan,
+} from "./predictData.js";
 
 function StockDetails() {
   const { stockName } = useParams();
@@ -23,15 +30,19 @@ function StockDetails() {
   const token = localStorage.getItem("token");
   // predict
   const [enablePredict, setEnablePredict] = useState(
-    weeklyData.filter((item) => item.name === stockName).length == 0
+    weeklyAlan.filter((item) => item.name == stockName).length == 0
       ? false
       : true
   );
-  const [weeklyMonthly, setWeeklyMonthly] = useState(
-    weeklyData.filter((item) => item.name === stockName)
+
+  const [weekly, setWeekly] = useState(
+    weeklyAlan.filter((item) => item.name == stockName)
+  );
+  const [monthly, setMonthly] = useState(
+    monthlyAlan.filter((item) => item.name == stockName)
   );
   const [oscillation, setOscillation] = useState(
-    oscillationData.filter((item) => item.name === stockName)
+    oscillationAlan.filter((item) => item.name == stockName)
   );
   //
   useEffect(() => {
@@ -40,12 +51,13 @@ function StockDetails() {
     setReports();
     //
     setEnablePredict(
-      weeklyData.filter((item) => item.name === stockName).length == 0
+      weeklyAlan.filter((item) => item.name === stockName).length == 0
         ? false
         : true
     );
-    setWeeklyMonthly(weeklyData.filter((item) => item.name === stockName));
-    setOscillation(oscillationData.filter((item) => item.name === stockName));
+    setWeekly(weeklyAlan.filter((item) => item.name === stockName));
+    setMonthly(monthlyAlan.filter((item) => item.name === stockName));
+    setOscillation(oscillationAlan.filter((item) => item.name === stockName));
     //
     axios
       .get(`${BASE_URL}/api/ath/getAll?nameArg=${stockName}`, {
@@ -84,7 +96,9 @@ function StockDetails() {
         },
       })
       .then((response) => {
-        setReports(response.data.stocks.filter((item) => item.symbol === stockName));
+        setReports(
+          response.data.stocks.filter((item) => item.symbol === stockName)
+        );
         // console.log(response.data);
       })
       .catch((error) => {
@@ -166,13 +180,13 @@ function StockDetails() {
                   <tbody>
                     <tr>
                       <td>
-                        {weeklyMonthly[0].weekly == 2
+                        {weekly[0].label == 2
                           ? "صعودی"
-                          : weeklyMonthly[0].weekly == 1
+                          : weekly[0].label == 1
                           ? "رنج"
                           : "نزولی"}
                       </td>
-                      <td>{weeklyMonthly[0].weekly_confidence.toFixed(1)}</td>
+                      <td>{weekly[0].confidence.toFixed(1)}</td>
                     </tr>
                   </tbody>
                 </table>
@@ -199,13 +213,13 @@ function StockDetails() {
                   <tbody>
                     <tr>
                       <td>
-                        {weeklyMonthly[0].monthly == 2
+                        {monthly[0].label == 2
                           ? "صعودی"
-                          : weeklyMonthly[0].monthly == 1
+                          : monthly[0].label == 1
                           ? "رنج"
                           : "نزولی"}
                       </td>
-                      <td>{weeklyMonthly[0].monthly_confidence.toFixed(1)}</td>
+                      <td>{monthly[0].confidence.toFixed(1)}</td>
                     </tr>
                   </tbody>
                 </table>

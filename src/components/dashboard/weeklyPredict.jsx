@@ -9,16 +9,40 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 function WeeklyPredict() {
-  const [loading, setLoading] = useState(true);
-  const [thisTable, setThisTable] = useState(weeklyData);
+  const [thisTable, setThisTable] = useState();
   const [thisTableTest, setThisTableTest] = useState(weeklyTestData);
+  const [loading, setLoading] = useState(true);
 
   const [showPopup, setShowPopup] = useState(false);
   const token = localStorage.getItem("token");
+
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000);
+    axios
+      .get(`${BASE_URL}/api/predict/weeklyPredict`, {
+        headers: {
+          authorization: token,
+        },
+      })
+      .then((response) => {
+        setThisTable(response.data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        toast("مشکلی پیش آمد");
+      });
+    axios
+      .get(`${BASE_URL}/api/predict/weeklyPredictObserve`, {
+        headers: {
+          authorization: token,
+        },
+      })
+      .then((response) => {
+        setThisTableTest(response.data);
+        // setLoading(false);
+      })
+      .catch((error) => {
+        toast("مشکلی پیش آمد");
+      });
   }, []);
 
   return (
@@ -41,7 +65,7 @@ function WeeklyPredict() {
               padding: "10px",
             }}
           >
-            صحت‌سنجی پیش‌بینی تاریخ ... از امروز
+            صحت‌سنجی پیش‌بینی تاریخ 1403/02/11 از امروز
           </p>
           <div className="tablesContainer" style={{ marginTop: "50px" }}>
             <table className="commonTable" id="predictTable">
@@ -55,33 +79,34 @@ function WeeklyPredict() {
                 </tr>
               </thead>
               <tbody>
-                {thisTableTest.map((item, index) => (
-                  <tr key={index}>
-                    <td style={{ fontWeight: "bold" }}>{index + 1}</td>
-                    <td style={{ fontWeight: "bold", cursor: "pointer" }}>
-                      {item.name}
-                    </td>
-                    <td>
-                      {item.weekly == 2
-                        ? "صعودی"
-                        : item.weekly == 1
-                        ? "رنج"
-                        : "نزولی"}
-                    </td>
-                    <td>{item.weekly_confidence.toFixed(1)}</td>
-                    <td
-                      style={{
-                        color: `${item.weekly_success ? "green" : "red"}`,
-                      }}
-                    >
-                      {item.weekly_success ? (
-                        <FontAwesomeIcon icon={faCheck} />
-                      ) : (
-                        <FontAwesomeIcon icon={faXmark} />
-                      )}
-                    </td>
-                  </tr>
-                ))}
+                {thisTableTest &&
+                  thisTableTest.map((item, index) => (
+                    <tr key={index}>
+                      <td style={{ fontWeight: "bold" }}>{index + 1}</td>
+                      <td style={{ fontWeight: "bold", cursor: "pointer" }}>
+                        {item.name}
+                      </td>
+                      <td>
+                        {item.label == 2
+                          ? "صعودی"
+                          : item.label == 1
+                          ? "رنج"
+                          : "نزولی"}
+                      </td>
+                      <td>{item.confidence.toFixed(1)}</td>
+                      <td
+                        style={{
+                          color: `${item.success ? "green" : "red"}`,
+                        }}
+                      >
+                        {item.success ? (
+                          <FontAwesomeIcon icon={faCheck} />
+                        ) : (
+                          <FontAwesomeIcon icon={faXmark} />
+                        )}
+                      </td>
+                    </tr>
+                  ))}
               </tbody>
             </table>
           </div>
@@ -116,7 +141,7 @@ function WeeklyPredict() {
             </tr>
           </thead>
           <tbody>
-            {!loading ? (
+            {thisTable ? (
               thisTable.map((item, index) => (
                 <tr key={index}>
                   <td style={{ fontWeight: "bold" }}>{index + 1}</td>
@@ -129,13 +154,13 @@ function WeeklyPredict() {
                     {item.name}
                   </td>
                   <td>
-                    {item.weekly == 2
+                    {item.label == 2
                       ? "صعودی"
-                      : item.weekly == 1
+                      : item.label == 1
                       ? "رنج"
                       : "نزولی"}
                   </td>
-                  <td>{item.weekly_confidence.toFixed(1)}</td>
+                  <td>{item.confidence.toFixed(1)}</td>
                 </tr>
               ))
             ) : (

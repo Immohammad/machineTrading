@@ -1054,3 +1054,1195 @@ export const monthlyTestData = Object.entries(weeklyMonthlyTest)
 export const oscillationTestData = Object.entries(oscillatorTest)
   .map(([key, value], index) => ({ ...value, index: index + 1 }))
   .sort((a, b) => b.confidence - a.confidence);
+
+  export const oscillationAlan=[
+    {
+        "name": "شرنگی",
+        "confidence": 69.66572114527226,
+        "label": 2
+    },
+    {
+        "name": "زماهان",
+        "confidence": 68.10820300678412,
+        "label": 0
+    },
+    {
+        "name": "کیا",
+        "confidence": 67.99045296857754,
+        "label": 2
+    },
+    {
+        "name": "نگین",
+        "confidence": 67.31553155779838,
+        "label": 1
+    },
+    {
+        "name": "شفارا",
+        "confidence": 66.09037436296542,
+        "label": 2
+    },
+    {
+        "name": "قنقش",
+        "confidence": 65.07151624461015,
+        "label": 1
+    },
+    {
+        "name": "دامین",
+        "confidence": 64.77240933875242,
+        "label": 0
+    },
+    {
+        "name": "ثتوسا",
+        "confidence": 64.74597730288903,
+        "label": 1
+    },
+    {
+        "name": "ثزاگرس",
+        "confidence": 64.38506444295248,
+        "label": 1
+    },
+    {
+        "name": "فگستر",
+        "confidence": 63.892107651631036,
+        "label": 0
+    },
+    {
+        "name": "قاروم",
+        "confidence": 63.404968818525475,
+        "label": 1
+    },
+    {
+        "name": "پارسان",
+        "confidence": 62.93349519073964,
+        "label": 1
+    },
+    {
+        "name": "صنوین",
+        "confidence": 61.35465375532706,
+        "label": 1
+    },
+    {
+        "name": "شستا",
+        "confidence": 60.12307609990239,
+        "label": 1
+    },
+    {
+        "name": "وجامی",
+        "confidence": 59.71287642916043,
+        "label": 0
+    },
+    {
+        "name": "شدوص",
+        "confidence": 58.381996720035865,
+        "label": 2
+    },
+    {
+        "name": "جم پیلن",
+        "confidence": 57.76075403342645,
+        "label": 1
+    },
+    {
+        "name": "شکبیر",
+        "confidence": 56.93669309193889,
+        "label": 1
+    },
+    {
+        "name": "اتکام",
+        "confidence": 56.405357710768776,
+        "label": 2
+    },
+    {
+        "name": "سفاسی",
+        "confidence": 56.36095229545608,
+        "label": 2
+    },
+    {
+        "name": "تکنار",
+        "confidence": 55.582002071291214,
+        "label": 1
+    },
+    {
+        "name": "سیمرغ",
+        "confidence": 54.802457951940596,
+        "label": 1
+    },
+    {
+        "name": "عقیق",
+        "confidence": 54.332542682687446,
+        "label": 2
+    },
+    {
+        "name": "فسدید",
+        "confidence": 53.799819232026735,
+        "label": 1
+    },
+    {
+        "name": "وپترو",
+        "confidence": 53.11218175639708,
+        "label": 1
+    },
+    {
+        "name": "شرانل",
+        "confidence": 52.79623101577163,
+        "label": 1
+    },
+    {
+        "name": "سمتاز",
+        "confidence": 52.35021938135226,
+        "label": 1
+    },
+    {
+        "name": "پادا",
+        "confidence": 52.14047012527784,
+        "label": 1
+    },
+    {
+        "name": "سفارس",
+        "confidence": 52.123648701173565,
+        "label": 1
+    },
+    {
+        "name": "کفپارس",
+        "confidence": 51.972040379544104,
+        "label": 0
+    },
+    {
+        "name": "دکپسول",
+        "confidence": 51.45832904254396,
+        "label": 2
+    },
+    {
+        "name": "سکارون",
+        "confidence": 51.452848548938825,
+        "label": 2
+    },
+    {
+        "name": "لطیف",
+        "confidence": 51.389905107859526,
+        "label": 1
+    },
+    {
+        "name": "فکمند",
+        "confidence": 50.87516257977113,
+        "label": 1
+    },
+    {
+        "name": "وصنا",
+        "confidence": 50.770156198771055,
+        "label": 0
+    },
+    {
+        "name": "دتماد",
+        "confidence": 50.568092344825466,
+        "label": 1
+    },
+    {
+        "name": "سپرمی",
+        "confidence": 50.5219113809367,
+        "label": 1
+    },
+    {
+        "name": "حسیر",
+        "confidence": 50.49845539120336,
+        "label": 2
+    },
+    {
+        "name": "کرمان",
+        "confidence": 49.46266751637062,
+        "label": 0
+    },
+    {
+        "name": "داسوه",
+        "confidence": 49.20398479847548,
+        "label": 2
+    },
+    {
+        "name": "واعتبار",
+        "confidence": 48.91940760612488,
+        "label": 0
+    },
+    {
+        "name": "بذر",
+        "confidence": 48.8397352412343,
+        "label": 1
+    },
+    {
+        "name": "ساوه",
+        "confidence": 48.665317996715494,
+        "label": 1
+    },
+    {
+        "name": "کمند",
+        "confidence": 48.45430680647648,
+        "label": 1
+    },
+    {
+        "name": "غبهار",
+        "confidence": 48.10812064185739,
+        "label": 2
+    },
+    {
+        "name": "وتوس",
+        "confidence": 47.969160106281436,
+        "label": 0
+    },
+    {
+        "name": "حفارس",
+        "confidence": 47.716043038790424,
+        "label": 0
+    },
+    {
+        "name": "ختوقا",
+        "confidence": 47.4660391194125,
+        "label": 0
+    },
+    {
+        "name": "وبملت",
+        "confidence": 47.15636968081818,
+        "label": 1
+    },
+    {
+        "name": "گارانتی",
+        "confidence": 45.81963271608498,
+        "label": 1
+    },
+    {
+        "name": "خصدرا",
+        "confidence": 45.7941240115712,
+        "label": 2
+    },
+    {
+        "name": "وپارس",
+        "confidence": 45.78881895292822,
+        "label": 1
+    },
+    {
+        "name": "لپیام",
+        "confidence": 45.720156048983334,
+        "label": 1
+    },
+    {
+        "name": "نوین",
+        "confidence": 45.640799114666876,
+        "label": 0
+    },
+    {
+        "name": "غبهنوش",
+        "confidence": 45.26943787653,
+        "label": 1
+    },
+    {
+        "name": "کماسه",
+        "confidence": 45.18953549880535,
+        "label": 1
+    },
+    {
+        "name": "دپارس",
+        "confidence": 45.15090518395106,
+        "label": 1
+    },
+    {
+        "name": "نیلی",
+        "confidence": 45.04005154199355,
+        "label": 1
+    },
+    {
+        "name": "شپدیس",
+        "confidence": 44.579248488011466,
+        "label": 1
+    },
+    {
+        "name": "کسرام",
+        "confidence": 44.396224454573044,
+        "label": 1
+    },
+    {
+        "name": "هامرز",
+        "confidence": 43.70872329916262,
+        "label": 1
+    },
+    {
+        "name": "خزامیا",
+        "confidence": 43.62417464107274,
+        "label": 0
+    },
+    {
+        "name": "آتیمس",
+        "confidence": 42.839337161680064,
+        "label": 1
+    },
+    {
+        "name": "خاتم",
+        "confidence": 42.58384248921648,
+        "label": 1
+    },
+    {
+        "name": "تاتمس",
+        "confidence": 42.51407884707053,
+        "label": 1
+    },
+    {
+        "name": "مارون",
+        "confidence": 42.315857941160594,
+        "label": 1
+    },
+    {
+        "name": "بتک",
+        "confidence": 42.05717961927875,
+        "label": 1
+    },
+    {
+        "name": "موج",
+        "confidence": 40.923863000407195,
+        "label": 2
+    },
+    {
+        "name": "سصفها",
+        "confidence": 40.40652607325465,
+        "label": 2
+    },
+    {
+        "name": "شزنگ",
+        "confidence": 40.00823927695552,
+        "label": 1
+    },
+    {
+        "name": "پارسیان",
+        "confidence": 39.35250791058837,
+        "label": 2
+    },
+    {
+        "name": "تکشا",
+        "confidence": 38.32953202178081,
+        "label": 1
+    },
+    {
+        "name": "ثروتم",
+        "confidence": 38.12865319241149,
+        "label": 1
+    },
+    {
+        "name": "کاردان",
+        "confidence": 37.063042611815035,
+        "label": 2
+    },
+    {
+        "name": "پسهند",
+        "confidence": 36.762792691215864,
+        "label": 1
+    },
+    {
+        "name": "وبصادر",
+        "confidence": 36.690966759901485,
+        "label": 0
+    },
+    {
+        "name": "چخزر",
+        "confidence": 36.66148798642681,
+        "label": 1
+    },
+    {
+        "name": "الماس",
+        "confidence": 36.27747469395399,
+        "label": 1
+    },
+    {
+        "name": "یارا",
+        "confidence": 35.943100486948005,
+        "label": 1
+    }
+]
+export const weeklyAlan=[
+  {
+      "name": "سفارس",
+      "confidence": 94.10854578018188,
+      "label": 1
+  },
+  {
+      "name": "غبهنوش",
+      "confidence": 92.75725483894348,
+      "label": 1
+  },
+  {
+      "name": "یارا",
+      "confidence": 90.74680209159851,
+      "label": 1
+  },
+  {
+      "name": "تکنار",
+      "confidence": 89.43523168563843,
+      "label": 1
+  },
+  {
+      "name": "سمتاز",
+      "confidence": 89.35631513595581,
+      "label": 1
+  },
+  {
+      "name": "شکبیر",
+      "confidence": 86.10320091247559,
+      "label": 1
+  },
+  {
+      "name": "بتک",
+      "confidence": 84.82698798179626,
+      "label": 1
+  },
+  {
+      "name": "شرنگی",
+      "confidence": 84.57843661308289,
+      "label": 1
+  },
+  {
+      "name": "نیلی",
+      "confidence": 83.70146751403809,
+      "label": 1
+  },
+  {
+      "name": "ساوه",
+      "confidence": 83.27265977859497,
+      "label": 1
+  },
+  {
+      "name": "کمند",
+      "confidence": 82.77742266654968,
+      "label": 1
+  },
+  {
+      "name": "شرانل",
+      "confidence": 81.80705904960632,
+      "label": 1
+  },
+  {
+      "name": "جم پیلن",
+      "confidence": 81.19890093803406,
+      "label": 1
+  },
+  {
+      "name": "وپترو",
+      "confidence": 80.52610158920288,
+      "label": 1
+  },
+  {
+      "name": "هامرز",
+      "confidence": 80.27799129486084,
+      "label": 1
+  },
+  {
+      "name": "فکمند",
+      "confidence": 78.82789969444275,
+      "label": 1
+  },
+  {
+      "name": "دپارس",
+      "confidence": 78.43793630599976,
+      "label": 1
+  },
+  {
+      "name": "گارانتی",
+      "confidence": 78.08811664581299,
+      "label": 1
+  },
+  {
+      "name": "پارسان",
+      "confidence": 76.48326754570007,
+      "label": 1
+  },
+  {
+      "name": "تاتمس",
+      "confidence": 74.52149391174316,
+      "label": 1
+  },
+  {
+      "name": "وتوس",
+      "confidence": 74.47658181190491,
+      "label": 1
+  },
+  {
+      "name": "پسهند",
+      "confidence": 73.34783673286438,
+      "label": 1
+  },
+  {
+      "name": "غبهار",
+      "confidence": 73.08153510093689,
+      "label": 1
+  },
+  {
+      "name": "الماس",
+      "confidence": 72.92348742485046,
+      "label": 1
+  },
+  {
+      "name": "وصنا",
+      "confidence": 72.08061814308167,
+      "label": 1
+  },
+  {
+      "name": "ثروتم",
+      "confidence": 72.0353364944458,
+      "label": 1
+  },
+  {
+      "name": "خاتم",
+      "confidence": 71.97185754776001,
+      "label": 1
+  },
+  {
+      "name": "داسوه",
+      "confidence": 71.28828763961792,
+      "label": 1
+  },
+  {
+      "name": "مارون",
+      "confidence": 70.94163298606873,
+      "label": 1
+  },
+  {
+      "name": "پادا",
+      "confidence": 70.46831250190735,
+      "label": 1
+  },
+  {
+      "name": "ثزاگرس",
+      "confidence": 70.13932466506958,
+      "label": 1
+  },
+  {
+      "name": "شستا",
+      "confidence": 69.69725489616394,
+      "label": 1
+  },
+  {
+      "name": "قاروم",
+      "confidence": 67.79229640960693,
+      "label": 1
+  },
+  {
+      "name": "فسدید",
+      "confidence": 67.38263964653015,
+      "label": 1
+  },
+  {
+      "name": "سیمرغ",
+      "confidence": 66.25040173530579,
+      "label": 1
+  },
+  {
+      "name": "حسیر",
+      "confidence": 66.09148979187012,
+      "label": 1
+  },
+  {
+      "name": "کفپارس",
+      "confidence": 65.59599041938782,
+      "label": 1
+  },
+  {
+      "name": "موج",
+      "confidence": 64.962899684906,
+      "label": 1
+  },
+  {
+      "name": "سفاسی",
+      "confidence": 64.54681158065796,
+      "label": 1
+  },
+  {
+      "name": "شفارا",
+      "confidence": 64.48934674263,
+      "label": 2
+  },
+  {
+      "name": "لپیام",
+      "confidence": 63.974058628082275,
+      "label": 1
+  },
+  {
+      "name": "دکپسول",
+      "confidence": 63.2259726524353,
+      "label": 2
+  },
+  {
+      "name": "بذر",
+      "confidence": 63.002949953079224,
+      "label": 1
+  },
+  {
+      "name": "وپارس",
+      "confidence": 61.50211691856384,
+      "label": 1
+  },
+  {
+      "name": "ختوقا",
+      "confidence": 61.05019450187683,
+      "label": 1
+  },
+  {
+      "name": "لطیف",
+      "confidence": 60.31202673912048,
+      "label": 1
+  },
+  {
+      "name": "صنوین",
+      "confidence": 60.04762649536133,
+      "label": 1
+  },
+  {
+      "name": "سپرمی",
+      "confidence": 59.740883111953735,
+      "label": 1
+  },
+  {
+      "name": "وبصادر",
+      "confidence": 59.441643953323364,
+      "label": 1
+  },
+  {
+      "name": "فگستر",
+      "confidence": 59.25687551498413,
+      "label": 1
+  },
+  {
+      "name": "دامین",
+      "confidence": 58.821433782577515,
+      "label": 1
+  },
+  {
+      "name": "کسرام",
+      "confidence": 58.44467878341675,
+      "label": 2
+  },
+  {
+      "name": "وبملت",
+      "confidence": 57.584720849990845,
+      "label": 1
+  },
+  {
+      "name": "چخزر",
+      "confidence": 57.08693861961365,
+      "label": 1
+  },
+  {
+      "name": "خزامیا",
+      "confidence": 56.6897988319397,
+      "label": 1
+  },
+  {
+      "name": "خصدرا",
+      "confidence": 56.471580266952515,
+      "label": 1
+  },
+  {
+      "name": "سکارون",
+      "confidence": 56.33166432380676,
+      "label": 2
+  },
+  {
+      "name": "وجامی",
+      "confidence": 56.040626764297485,
+      "label": 1
+  },
+  {
+      "name": "واعتبار",
+      "confidence": 55.761611461639404,
+      "label": 2
+  },
+  {
+      "name": "تکشا",
+      "confidence": 54.97024059295654,
+      "label": 1
+  },
+  {
+      "name": "عقیق",
+      "confidence": 53.919267654418945,
+      "label": 2
+  },
+  {
+      "name": "نوین",
+      "confidence": 52.71214246749878,
+      "label": 1
+  },
+  {
+      "name": "ثتوسا",
+      "confidence": 52.5104820728302,
+      "label": 0
+  },
+  {
+      "name": "شپدیس",
+      "confidence": 52.40470767021179,
+      "label": 2
+  },
+  {
+      "name": "حفارس",
+      "confidence": 51.133936643600464,
+      "label": 1
+  },
+  {
+      "name": "کاردان",
+      "confidence": 50.10154843330383,
+      "label": 1
+  },
+  {
+      "name": "شزنگ",
+      "confidence": 48.96497428417206,
+      "label": 2
+  },
+  {
+      "name": "کرمان",
+      "confidence": 48.807355761528015,
+      "label": 1
+  },
+  {
+      "name": "پارسیان",
+      "confidence": 48.5998272895813,
+      "label": 1
+  },
+  {
+      "name": "قنقش",
+      "confidence": 48.10863733291626,
+      "label": 1
+  },
+  {
+      "name": "کماسه",
+      "confidence": 48.019570112228394,
+      "label": 2
+  },
+  {
+      "name": "دتماد",
+      "confidence": 47.79114127159119,
+      "label": 1
+  },
+  {
+      "name": "نگین",
+      "confidence": 46.78490459918976,
+      "label": 0
+  },
+  {
+      "name": "اتکام",
+      "confidence": 46.461474895477295,
+      "label": 1
+  },
+  {
+      "name": "سصفها",
+      "confidence": 46.28234803676605,
+      "label": 1
+  },
+  {
+      "name": "آتیمس",
+      "confidence": 44.73806917667389,
+      "label": 1
+  },
+  {
+      "name": "شدوص",
+      "confidence": 44.580256938934326,
+      "label": 1
+  },
+  {
+      "name": "زماهان",
+      "confidence": 40.95720052719116,
+      "label": 0
+  },
+  {
+      "name": "کیا",
+      "confidence": 38.63501846790314,
+      "label": 1
+  }
+]
+export const monthlyAlan=[
+  {
+      "name": "قاروم",
+      "confidence": 99.96592998504639,
+      "label": 1
+  },
+  {
+      "name": "عقیق",
+      "confidence": 99.96507167816162,
+      "label": 1
+  },
+  {
+      "name": "تکنار",
+      "confidence": 99.9563992023468,
+      "label": 1
+  },
+  {
+      "name": "چخزر",
+      "confidence": 99.95115995407104,
+      "label": 1
+  },
+  {
+      "name": "فسدید",
+      "confidence": 99.94314312934875,
+      "label": 1
+  },
+  {
+      "name": "لپیام",
+      "confidence": 99.93873834609985,
+      "label": 1
+  },
+  {
+      "name": "مارون",
+      "confidence": 99.9312162399292,
+      "label": 1
+  },
+  {
+      "name": "غبهنوش",
+      "confidence": 99.92586970329285,
+      "label": 1
+  },
+  {
+      "name": "تاتمس",
+      "confidence": 99.92550015449524,
+      "label": 1
+  },
+  {
+      "name": "الماس",
+      "confidence": 99.9127209186554,
+      "label": 1
+  },
+  {
+      "name": "کمند",
+      "confidence": 99.910968542099,
+      "label": 1
+  },
+  {
+      "name": "شکبیر",
+      "confidence": 99.87567663192749,
+      "label": 1
+  },
+  {
+      "name": "شزنگ",
+      "confidence": 99.84700083732605,
+      "label": 1
+  },
+  {
+      "name": "سپرمی",
+      "confidence": 99.84394907951355,
+      "label": 1
+  },
+  {
+      "name": "پادا",
+      "confidence": 99.82118606567383,
+      "label": 1
+  },
+  {
+      "name": "هامرز",
+      "confidence": 99.75987076759338,
+      "label": 1
+  },
+  {
+      "name": "شپدیس",
+      "confidence": 99.73951578140259,
+      "label": 1
+  },
+  {
+      "name": "دتماد",
+      "confidence": 99.72957968711853,
+      "label": 1
+  },
+  {
+      "name": "پارسان",
+      "confidence": 99.7005045413971,
+      "label": 1
+  },
+  {
+      "name": "نیلی",
+      "confidence": 99.60427284240723,
+      "label": 1
+  },
+  {
+      "name": "حفارس",
+      "confidence": 99.60067868232727,
+      "label": 1
+  },
+  {
+      "name": "کرمان",
+      "confidence": 99.59999322891235,
+      "label": 1
+  },
+  {
+      "name": "تکشا",
+      "confidence": 99.56939220428467,
+      "label": 1
+  },
+  {
+      "name": "سفاسی",
+      "confidence": 99.51855540275574,
+      "label": 1
+  },
+  {
+      "name": "حسیر",
+      "confidence": 99.51785802841187,
+      "label": 1
+  },
+  {
+      "name": "دپارس",
+      "confidence": 99.45515990257263,
+      "label": 1
+  },
+  {
+      "name": "نوین",
+      "confidence": 99.45511221885681,
+      "label": 1
+  },
+  {
+      "name": "وبصادر",
+      "confidence": 99.39538836479187,
+      "label": 1
+  },
+  {
+      "name": "کماسه",
+      "confidence": 99.37445521354675,
+      "label": 1
+  },
+  {
+      "name": "خصدرا",
+      "confidence": 99.35626983642578,
+      "label": 1
+  },
+  {
+      "name": "داسوه",
+      "confidence": 99.32681918144226,
+      "label": 1
+  },
+  {
+      "name": "شستا",
+      "confidence": 99.10757541656494,
+      "label": 1
+  },
+  {
+      "name": "کفپارس",
+      "confidence": 99.0054726600647,
+      "label": 1
+  },
+  {
+      "name": "لطیف",
+      "confidence": 98.7368643283844,
+      "label": 1
+  },
+  {
+      "name": "قنقش",
+      "confidence": 98.65021705627441,
+      "label": 1
+  },
+  {
+      "name": "بتک",
+      "confidence": 98.65012764930725,
+      "label": 1
+  },
+  {
+      "name": "وپارس",
+      "confidence": 98.64296913146973,
+      "label": 1
+  },
+  {
+      "name": "ختوقا",
+      "confidence": 98.52650761604309,
+      "label": 1
+  },
+  {
+      "name": "سمتاز",
+      "confidence": 98.4683096408844,
+      "label": 1
+  },
+  {
+      "name": "وبملت",
+      "confidence": 98.39872121810913,
+      "label": 1
+  },
+  {
+      "name": "یارا",
+      "confidence": 98.32004308700562,
+      "label": 1
+  },
+  {
+      "name": "نگین",
+      "confidence": 98.14576506614685,
+      "label": 1
+  },
+  {
+      "name": "سیمرغ",
+      "confidence": 98.1033205986023,
+      "label": 1
+  },
+  {
+      "name": "اتکام",
+      "confidence": 97.91862368583679,
+      "label": 1
+  },
+  {
+      "name": "سفارس",
+      "confidence": 97.50186204910278,
+      "label": 1
+  },
+  {
+      "name": "دکپسول",
+      "confidence": 96.78327441215515,
+      "label": 1
+  },
+  {
+      "name": "گارانتی",
+      "confidence": 96.62971496582031,
+      "label": 1
+  },
+  {
+      "name": "خاتم",
+      "confidence": 96.34295701980591,
+      "label": 1
+  },
+  {
+      "name": "وتوس",
+      "confidence": 96.27445340156555,
+      "label": 1
+  },
+  {
+      "name": "سصفها",
+      "confidence": 96.22287154197693,
+      "label": 1
+  },
+  {
+      "name": "غبهار",
+      "confidence": 96.123206615448,
+      "label": 1
+  },
+  {
+      "name": "شرانل",
+      "confidence": 96.11942172050476,
+      "label": 1
+  },
+  {
+      "name": "وصنا",
+      "confidence": 95.96859216690063,
+      "label": 1
+  },
+  {
+      "name": "خزامیا",
+      "confidence": 95.91467380523682,
+      "label": 1
+  },
+  {
+      "name": "آتیمس",
+      "confidence": 95.77648043632507,
+      "label": 1
+  },
+  {
+      "name": "شدوص",
+      "confidence": 95.15740871429443,
+      "label": 1
+  },
+  {
+      "name": "فگستر",
+      "confidence": 94.89369988441467,
+      "label": 1
+  },
+  {
+      "name": "پارسیان",
+      "confidence": 94.42288875579834,
+      "label": 1
+  },
+  {
+      "name": "پسهند",
+      "confidence": 94.17626857757568,
+      "label": 1
+  },
+  {
+      "name": "سکارون",
+      "confidence": 94.16480660438538,
+      "label": 1
+  },
+  {
+      "name": "موج",
+      "confidence": 94.03892755508423,
+      "label": 1
+  },
+  {
+      "name": "ثزاگرس",
+      "confidence": 92.1298086643219,
+      "label": 1
+  },
+  {
+      "name": "شفارا",
+      "confidence": 87.18785047531128,
+      "label": 1
+  },
+  {
+      "name": "شرنگی",
+      "confidence": 86.30649447441101,
+      "label": 1
+  },
+  {
+      "name": "بذر",
+      "confidence": 83.92839431762695,
+      "label": 1
+  },
+  {
+      "name": "ثروتم",
+      "confidence": 82.08305835723877,
+      "label": 1
+  },
+  {
+      "name": "ثتوسا",
+      "confidence": 79.90626096725464,
+      "label": 1
+  },
+  {
+      "name": "وپترو",
+      "confidence": 78.54956388473511,
+      "label": 1
+  },
+  {
+      "name": "فکمند",
+      "confidence": 77.16866135597229,
+      "label": 1
+  },
+  {
+      "name": "زماهان",
+      "confidence": 75.83284974098206,
+      "label": 0
+  },
+  {
+      "name": "جم پیلن",
+      "confidence": 71.47042751312256,
+      "label": 1
+  },
+  {
+      "name": "کسرام",
+      "confidence": 69.40249800682068,
+      "label": 1
+  },
+  {
+      "name": "واعتبار",
+      "confidence": 67.95060634613037,
+      "label": 1
+  },
+  {
+      "name": "کاردان",
+      "confidence": 61.994218826293945,
+      "label": 1
+  },
+  {
+      "name": "وجامی",
+      "confidence": 61.98038458824158,
+      "label": 1
+  },
+  {
+      "name": "کیا",
+      "confidence": 59.26252603530884,
+      "label": 0
+  },
+  {
+      "name": "صنوین",
+      "confidence": 56.021976470947266,
+      "label": 1
+  },
+  {
+      "name": "دامین",
+      "confidence": 55.96463680267334,
+      "label": 1
+  },
+  {
+      "name": "ساوه",
+      "confidence": 55.73141574859619,
+      "label": 1
+  }
+]

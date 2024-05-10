@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { weeklyData, monthlyData, oscillationData } from "./predictData.js";
+import {
+  weeklyData,
+  monthlyData,
+  oscillationData,
+  weeklyAlan,
+  monthlyAlan,
+  oscillationAlan,
+} from "./predictData.js";
 import { toast } from "react-toastify";
 
 function PredictSearch(props) {
@@ -8,13 +15,13 @@ function PredictSearch(props) {
 
   const handleFilter = (event) => {
     let filtered;
-    const isStock = weeklyData.filter((item) => item.name.includes(search));
+    const isStock = weeklyAlan.filter((item) => item.name.includes(search));
     if (props.type == 0) {
-      filtered = weeklyData.filter((item) => item.name.includes(search));
+      filtered = weeklyAlan.filter((item) => item.name.includes(search));
     } else if (props.type == 1) {
-      filtered = monthlyData.filter((item) => item.name.includes(search));
+      filtered = monthlyAlan.filter((item) => item.name.includes(search));
     } else
-      filtered = oscillationData.filter((item) => item.name.includes(search));
+      filtered = oscillationAlan.filter((item) => item.name.includes(search));
     if (isStock.length == 0) {
       toast("سهامی با این نام وجود ندارد یا فعلا در دسترس نیست.");
     } else if (filtered.length == 0) {
@@ -24,10 +31,10 @@ function PredictSearch(props) {
 
   const handleReset = () => {
     if (props.type == 0) {
-      props.setter(weeklyData);
+      props.setter(weeklyAlan);
     } else if (props.type == 1) {
-      props.setter(monthlyData);
-    } else props.setter(oscillationData);
+      props.setter(monthlyAlan);
+    } else props.setter(oscillationAlan);
   };
 
   return (
@@ -54,7 +61,7 @@ function PredictSearch(props) {
 
       <button onClick={handleFilter}>جستجو</button>
       <button onClick={handleReset}>همه نمادها</button>
-      <p style={{display:'inline', margin:'20px'}}>تاریخ پیش‌بینی: 1403/02/17</p>
+      {/* <p style={{display:'inline', margin:'20px'}}>تاریخ پیش‌بینی: 1403/02/17</p> */}
     </div>
   );
 }
