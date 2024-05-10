@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link, useNavigate, NavLink, useLocation } from "react-router-dom";
 import logo from "./assets/photo_2022-10-19_23-47-29.jpg";
 import Container from "react-bootstrap/Container";
+import axios from "axios";
+import BASE_URL from "./variables.js";
 
 const Navbars = () => {
-  // const navigate = useNavigate();
+  const [indexes, setIndexes] = useState();
   const location = useLocation();
+
+  useEffect(() => {
+    axios
+      .get(`${BASE_URL}/api/predict/overall`)
+      .then((response) => {
+        setIndexes(response.data);
+        console.log(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
   return (
     <Navbar sticky="top" expand="sm" collapseOnSelect className="navbarFont">
       <Navbar.Brand>
@@ -84,22 +99,61 @@ const Navbars = () => {
           </Nav.Link>
         </Nav>
         {/* <div style={{ margin: "20px", border: "2px solid green", borderRadius: "8px", padding: "5px" }}> */}
-        <div
-          style={{
-            margin: "15px",
-            // border: "solid 2px green",
-            backgroundColor:'white',
-            color:'#334456',
-            borderRadius: "8px",
-            padding: "5px",
-          }}
-        >
-          <span style={{ margin: "20px" }}>پیش‌بینی هفتگی بازار  </span>
-          شاخص کل:
-          <span style={{ margin: "20px", color:'red' }}> نزولی (60%)</span>
-          <span>|</span> شاخص هم‌وزن:
-          <span style={{ margin: "20px" , color:'red'}}> نزولی (81%)</span>
-        </div>
+        {indexes && (
+          <div
+            style={{
+              margin: "15px",
+              backgroundColor: "white",
+              color: "#334456",
+              borderRadius: "8px",
+              padding: "5px",
+            }}
+          >
+            <span style={{ margin: "20px" }}>پیش‌بینی هفتگی بازار </span>
+            شاخص کل:
+            <span
+              style={{
+                margin: "20px",
+                color: `${
+                  indexes["کل بورس"]["weekly"]["label"] == 2
+                    ? "green"
+                    : indexes["کل بورس"]["weekly"]["label"] == 1
+                    ? "gray"
+                    : "red"
+                }`,
+              }}
+            >
+              {" "}
+              {indexes["کل بورس"]["weekly"]["label"] == 2
+                ? "صعودی"
+                : indexes["کل بورس"]["weekly"]["label"] == 1
+                ? "رنج"
+                : "نزولی"}{" "}
+              (%{indexes["کل بورس"]["weekly"]["confidence"].toFixed(0)})
+            </span>
+            <span>|</span> شاخص هم‌وزن:
+            <span
+              style={{
+                margin: "20px",
+                color: `${
+                  indexes["کل هم وزن"]["weekly"]["label"] == 2
+                    ? "green"
+                    : indexes["کل هم وزن"]["weekly"]["label"] == 1
+                    ? "gray"
+                    : "red"
+                }`,
+              }}
+            >
+              {" "}
+              {indexes["کل هم وزن"]["weekly"]["label"] == 2
+                ? "صعودی"
+                : indexes["کل هم وزن"]["weekly"]["label"] == 1
+                ? "رنج"
+                : "نزولی"}{" "}
+              (%{indexes["کل هم وزن"]["weekly"]["confidence"].toFixed(0)})
+            </span>
+          </div>
+        )}
       </Navbar.Collapse>
     </Navbar>
   );
