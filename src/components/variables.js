@@ -1,4 +1,4 @@
-const BASE_URL = 'http://45.129.36.165:3000';
+const BASE_URL = 'https://machinetrading.ir/api';
 
 export default BASE_URL;
 //export { API_KEY, MAX_RESULTS };
