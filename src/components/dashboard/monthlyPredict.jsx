@@ -10,7 +10,7 @@ import { faXmark, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 function MonthlyPredict() {
   const [thisTable, setThisTable] = useState();
-  const [thisTableTest, setThisTableTest] = useState(monthlyTestData);
+  const [thisTableTest, setThisTableTest] = useState();
   const [loading, setLoading] = useState(true);
 
   const [showPopup, setShowPopup] = useState(false);
@@ -38,7 +38,6 @@ function MonthlyPredict() {
       })
       .then((response) => {
         setThisTableTest(response.data);
-        // setLoading(false);
       })
       .catch((error) => {
         toast("مشکلی پیش آمد");
@@ -47,7 +46,7 @@ function MonthlyPredict() {
 
   return (
     <div style={{ position: "relative" }}>
-      {/* {showPopup && (
+      {showPopup && (
         <div
           className="overlay"
           style={{ top: "auto", bottom: "0", position: "absolute" }}
@@ -111,7 +110,7 @@ function MonthlyPredict() {
             </table>
           </div>
         </div>
-      )} */}
+      )}
       <PredictSearch type={1} setter={setThisTable} />
       <div id="fundamentalHelp" style={{ textAlign: "right", padding: "5px" }}>
         <p>

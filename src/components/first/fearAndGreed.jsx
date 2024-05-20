@@ -34,7 +34,7 @@ function FearAndGreed() {
   // });
   useEffect(() => {
     axios
-      .get(`${BASE_URL}/api/fearngreed/getTotal?date=1403-02-12`)
+      .get(`${BASE_URL}/api/fearngreed/getTotal`)
       .then((response) => {
         // console.log(parseInt(response.data.total));
         setData([

@@ -10,7 +10,7 @@ import { faXmark, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 function WeeklyPredict() {
   const [thisTable, setThisTable] = useState();
-  const [thisTableTest, setThisTableTest] = useState(weeklyTestData);
+  const [thisTableTest, setThisTableTest] = useState();
   const [loading, setLoading] = useState(true);
 
   const [showPopup, setShowPopup] = useState(false);
@@ -38,7 +38,6 @@ function WeeklyPredict() {
       })
       .then((response) => {
         setThisTableTest(response.data);
-        // setLoading(false);
       })
       .catch((error) => {
         toast("مشکلی پیش آمد");

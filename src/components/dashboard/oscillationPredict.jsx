@@ -10,7 +10,7 @@ import { faXmark, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 function OscillationPredict() {
   const [thisTable, setThisTable] = useState();
-  const [thisTableTest, setThisTableTest] = useState(oscillationTestData);
+  const [thisTableTest, setThisTableTest] = useState();
   const [loading, setLoading] = useState(true);
 
   const [showPopup, setShowPopup] = useState(false);
@@ -39,7 +39,6 @@ function OscillationPredict() {
       })
       .then((response) => {
         setThisTableTest(response.data);
-        // setLoading(false);
       })
       .catch((error) => {
         toast("مشکلی پیش آمد");
@@ -48,7 +47,7 @@ function OscillationPredict() {
 
   return (
     <div style={{ position: "relative" }}>
-      {/* {showPopup && (
+      {showPopup && (
         <div
           className="overlay"
           style={{ top: "auto", bottom: "0", position: "absolute" }}
@@ -112,7 +111,7 @@ function OscillationPredict() {
             </table>
           </div>
         </div>
-      )} */}
+      )}
       <PredictSearch type={2} setter={setThisTable} />
       <div id="fundamentalHelp" style={{ textAlign: "right", padding: "5px" }}>
         <p>
